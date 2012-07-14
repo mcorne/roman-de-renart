@@ -1,0 +1,66 @@
+<!--
+    Roman de Renart
+
+    HTML template of a blog message where an episode is stored
+
+    @author    Michel Corne <mcorne@yahoo.com>
+    @copyright 2012 Michel Corne
+    @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
+    @link      http://roman-de-renart.blogspot.com/
+-->
+
+<!--
+  Roman de Renart
+  %s
+
+  Generated %s
+
+  @copyright %d Michel Corne
+  @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
+-->
+%s
+<div class="rdr-content">
+  <table>
+
+    <tr class="rdr-top">
+      <td class="rdr-left"><div class="rdr-previous"><a %s>Épisode précédent</a></div></td>
+      <td></td>
+      <td class="rdr-right"><div class="rdr-next"><a %s>Épisode suivant</a></div></td>
+    </tr>
+
+    <tr class="rdr-first">
+      <td class="rdr-left">
+        <a href="%s"><img src="%s" /></a>
+        %s%s
+      </td>
+
+      <td></td>
+
+      <td class="rdr-right notranslate">
+        <img src="%s" />
+        %s%s
+      </td>
+    </tr>
+
+    <tr class="rdr-middle">
+      <td class="rdr-left">%s</td>
+      <td class="rdr-number">%s</td>
+      <td class="rdr-right notranslate">%s</td>
+    </tr>
+
+    <tr class="rdr-last">
+      <td class="rdr-left">%s</td>
+      <td></td>
+      <td class="rdr-right notranslate">%s</td>
+    </tr>
+
+    <tr class="rdr-bottom">
+      <td class="rdr-left"><div class="rdr-previous"><a %s>Épisode précédent</a></div></td>
+      <td></td>
+      <td class="rdr-right"><div class="rdr-next"><a %s>Épisode suivant</a></div></td>
+    </tr>
+
+  </table>
+</div>
+
+%s

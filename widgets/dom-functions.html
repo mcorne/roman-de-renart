@@ -1,0 +1,89 @@
+<!--
+    Roman de Renart
+
+    DOM specific functionswidget
+
+    @author    Michel Corne
+    @copyright 2012 Michel Corne
+    @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
+-->
+
+<script type="text/javascript">
+
+var sbBrowserLang;
+
+function displayElt(id)
+{
+    var 
+    element;
+    
+    if (element = getElement(id)) {
+        element.style.display = element.tagName.toLowerCase() == 'div'? 'block' : 'inline';
+    }    
+}
+
+function displayORhideElt(id)
+{
+    var 
+    element;
+    
+    if (element = getElement(id)) {
+        if (element.style.display == 'none') {
+            element.style.display = element.tagName.toLowerCase() == 'div'? 'block' : 'inline';
+        } else {
+            element.style.display = 'none';
+        }
+    }    
+}
+
+function getElement(id, doc)
+{
+    // gets an element by its ID
+    // id: the element ID or (assumed to be) the element object itself (passthru)
+    // doc: the document, defaults to the current document
+    // returns the element object
+    doc || (doc = document);
+    return typeof id == 'string'? doc.getElementById(id) : id;
+}
+
+function getSelectValue(id)
+{
+    // gets the value of the select option currently selected
+    // id: the select ID or the select object itself
+    // returns the value of the selected option
+    // note: select.value is not relialable with IE for values including digits 
+    // as they are not returned correctly!
+    var element;
+    
+    return (element = getElement(id))? element.options[element.selectedIndex].value : null;
+}
+
+function hideElt(id)
+{
+    var 
+    element;
+    
+    if (element = getElement(id)) {
+        element.style.display = 'none';
+    }    
+}
+
+function setSelectValue(id, selected)
+{
+    var 
+    i,
+    element;
+       
+    if (element = getElement(id)) {
+        
+        for (i = 0; i < element.options.length; i++) {
+            if (element.options[i].value == selected) {
+                // this is the selected option, sets the select element
+                element.options[i].selected = true;
+                break;
+            }
+        }
+    }
+}
+
+</script>

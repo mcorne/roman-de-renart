@@ -1,0 +1,128 @@
+<!--
+    Roman de Renart
+
+    Javascript main functions widget
+
+    @author    Michel Corne
+    @copyright 2012 Michel Corne
+    @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
+-->
+
+<script type="text/javascript">
+
+function calcAvancement() 
+{
+    var 
+    moy_cible = 200,
+    maintenant = new Date(),
+    debut = new Date(),
+    fin = new Date(),
+    total = document.getElementById('mc_total').innerHTML,
+    fait = document.getElementById('mc_fait').innerHTML,
+    a_faire = total - fait,
+    par_semaine,
+    par_mois,
+    annees,
+    mois,
+    retard_a_200_par_mois,
+    duree_en_jour,
+    a_faire_a_200_par_mois;
+
+    debut.setUTCFullYear(
+        document.getElementById('mc_annee_debut').innerHTML,
+        document.getElementById('mc_mois_debut').innerHTML-1, 
+        document.getElementById('mc_jour_debut').innerHTML);
+
+    duree_en_jour = (maintenant.getTime() - debut.getTime()) / 1000 / 3600 / 24;
+    
+    par_semaine = fait / duree_en_jour * 7;
+    par_mois = fait / duree_en_jour * 365.25 / 12;
+    
+    a_faire_a_200_par_mois = moy_cible * 12 / 365.25 * duree_en_jour;
+    retard_a_200_par_mois = a_faire_a_200_par_mois - fait;
+
+    fin.setTime(maintenant.getTime() + a_faire / par_semaine*7*24*3600*1000);
+    annees = (fin.getTime() - debut.getTime())/1000/3600/24/365.25;
+    mois = annees * 12;
+
+    document.getElementById('mc_annee_fin').innerHTML = fin.getFullYear();
+    document.getElementById('mc_mois_fin').innerHTML = fin.getMonth() + 1;
+    document.getElementById('mc_jour_fin').innerHTML = fin.getDate();
+    document.getElementById('mc_annees').innerHTML = Math.round(annees);
+    // document.getElementById('mc_mois').innerHTML = Math.round(annees * 12);
+    
+    // document.getElementById('mc_a_faire').innerHTML = a_faire;
+    document.getElementById('mc_ratio').innerHTML = Math.round(fait / total * 100);
+    // document.getElementById('mc_par_semaine').innerHTML = Math.round(par_semaine);
+    document.getElementById('mc_par_mois').innerHTML = Math.round(par_mois);
+    
+    document.getElementById('mc_retard_a_200_par_mois').innerHTML = (retard_a_200_par_mois <= 0? '+' : '-') + Math.abs(Math.round(retard_a_200_par_mois));
+}
+
+function displayNotes()
+{
+    setcookie('rdr-display-notes', 'yes');
+    hideElt('rdr-display-notes'); 
+    displayElt('rdr-hide-notes'); 
+    displayElt('rdr-notes-content');
+}
+
+function forceNotesDisplay()
+{
+    hideElt('rdr-notes-title-links'); 
+    displayElt('rdr-notes-content');
+}
+
+function hideNotes()
+{
+    setcookie('rdr-display-notes', '');
+    hideElt('rdr-hide-notes'); 
+    displayElt('rdr-display-notes'); 
+    hideElt('rdr-notes-content');
+}
+
+function setMessageDate(date)
+{
+    var element;
+    
+    (element = getElement('Blog1')) &&
+    (element = element.getElementsByTagName('div')[0]) &&
+    (element = element.getElementsByTagName('div')[0]) &&
+    (element = element.getElementsByTagName('h2')[0]) &&
+    (element = element.getElementsByTagName('span')[0]) &&
+    (element.innerHTML = date);
+}
+
+function setNotes()
+{
+    if (getcookie('rdr-display-notes')) {
+        displayNotes();
+    } else {
+        hideNotes();
+    }
+}
+
+function setSelectedEpisode()
+{
+    var lastEpisode = getElement('rdr-last-episode').value;
+    
+    setSelectValue('rdr-episode', location.pathname == '/'? lastEpisode : location.pathname);
+}
+
+function setTranslationInProgress()
+{
+	var 
+	cookie,
+	date = getElement('rdr-translation-in-progress-date').value;
+	
+	if (date) {
+		setMessageDate(date);
+	    forceNotesDisplay();		
+	}
+}
+
+setNotes();
+setSelectedEpisode();
+setTranslationInProgress();
+
+</script>

@@ -1,0 +1,222 @@
+<!--
+    Roman de Renart
+
+    Phpjs.org functions and other specific functions widget
+
+    @author    Michel Corne
+    @copyright 2012 Michel Corne
+    @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
+-->
+
+<script type="text/javascript">
+
+function getcookie(name) {
+    // get a cookie
+    return getrawcookie(name, true);
+}
+
+function getrawcookie(name, toUnescape) {
+    // get a raw cookie
+    var 
+    end,
+    start,
+    value = '';
+    
+    if (document.cookie.length > 0) {
+        start = document.cookie.indexOf(name + "=");
+        
+        if (start != -1) {
+            start = start + name.length + 1;
+            end = document.cookie.indexOf(";", start);
+            end == -1 && (end = document.cookie.length);
+            value = document.cookie.substring(start, end);
+            toUnescape && (value = unescape(value));
+            value[0] == '{' && (value = json_decode(value));
+            value == 'undefined'  && (value = '');
+        }
+    }
+    
+    return value;
+}
+
+function json_decode(str_json) { 
+    // Decodes the JSON representation into a PHP value - phpjs.org
+    // adaptation: returns null instead of throwing error
+    var json = this.window.JSON;
+    if (typeof json === 'object' && typeof json.parse === 'function') {
+        return json.parse(str_json);
+    }
+
+    var cx = /[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g;
+    var j;
+    var text = str_json;
+
+    cx.lastIndex = 0;
+    if (cx.test(text)) {
+        text = text.replace(cx, function (a) {
+            return '\\u' + ('0000' + a.charCodeAt(0).toString(16)).slice(-4);
+        });
+    }
+
+    if ((/^[\],:{}\s]*$/).test(text.replace(/\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g, '@').replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g, ']').replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
+
+        j = eval('(' + text + ')');
+
+        return j;
+    }
+
+    // throw new SyntaxError('json_decode');
+    return ''; // fix
+}
+
+function json_encode(mixed_val) { 
+    // Returns the JSON representation of a value - phpjs.org
+    var json = this.window.JSON;
+    if (typeof json === 'object' && typeof json.stringify === 'function') {
+        return json.stringify(mixed_val);
+    }
+
+    var value = mixed_val;
+
+    var quote = function (string) {
+        var escapable = /[\\\"\u0000-\u001f\u007f-\u009f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g;
+        var meta = { 
+            '\b': '\\b',
+            '\t': '\\t',
+            '\n': '\\n',
+            '\f': '\\f',
+            '\r': '\\r',
+            '"': '\\"',
+            '\\': '\\\\'
+        };
+
+        escapable.lastIndex = 0;
+        return escapable.test(string) ? '"' + string.replace(escapable, function (a) {
+            var c = meta[a];
+            return typeof c === 'string' ? c : '\\u' + ('0000' + a.charCodeAt(0).toString(16)).slice(-4);
+        }) + '"' : '"' + string + '"';
+    };
+
+    var str = function (key, holder) {
+        var gap = '';
+        var indent = '    ';
+        var i = 0;
+        var k = ''; 
+        var v = ''; 
+        var length = 0;
+        var mind = gap;
+        var partial = [];
+        var value = holder[key];
+
+        if (value && typeof value === 'object' && typeof value.toJSON === 'function') {
+            value = value.toJSON(key);
+        }
+
+        switch (typeof value) {
+        case 'string':
+            return quote(value);
+
+        case 'number':
+            return isFinite(value) ? String(value) : 'null';
+
+        case 'boolean':
+        case 'null':
+
+            return String(value);
+
+        case 'object':
+            if (!value) {
+                return 'null';
+            }
+
+            gap += indent;
+            partial = [];
+
+            if (Object.prototype.toString.apply(value) === '[object Array]') {
+
+                length = value.length;
+                for (i = 0; i < length; i += 1) {
+                    partial[i] = str(i, value) || 'null';
+                }
+
+                v = partial.length === 0 ? '[]' : gap ? '[\n' + gap + partial.join(',\n' + gap) + '\n' + mind + ']' : '[' + partial.join(',') + ']';
+                gap = mind;
+                return v;
+            }
+
+            for (k in value) {
+                if (Object.hasOwnProperty.call(value, k)) {
+                    v = str(k, value);
+                    if (v) {
+                        partial.push(quote(k) + (gap ? ': ' : ':') + v);
+                    }
+                }
+            }
+
+            v = partial.length === 0 ? '{}' : gap ? '{\n' + gap + partial.join(',\n' + gap) + '\n' + mind + '}' : '{' + partial.join(',') + '}';
+            gap = mind;
+            return v;
+        }
+    };
+
+    return str('', {
+        '': value
+    });
+}
+
+function setcookie(name, value, expires, path, domain, secure) { 
+    // Send a cookie - phpjs.org
+    // escaping/unescaping because encoding/decoding does not handle UTF8 well!
+
+    // return this.setrawcookie(name, encodeURIComponent(value), expires, path, domain, secure);
+    return this.setrawcookie(name, value, expires, path, domain, secure, true); // fix
+}
+
+function setrawcookie(name, value, expires, path, domain, secure, toEscape) {
+    // Send a cookie with no url encoding of the value - adapted from phpjs.org
+    // name: the name of the cookie
+    // value: the value of the cookie
+    // expires: the expire date, default to 10 years, set to 1 (remove cookie) if the value is empty
+    // path: the path, defaults to "/"
+    // domain: the domain
+    // secure: ...
+    // toEscape: the value must be "escaped"
+    
+    // fix
+    var date = new Date;
+    expires || (expires = time() + 10*365*3600);
+    path || (path = '/');
+    typeof value == 'string' || typeof value == 'number' || typeof value == 'boolean' || (value = json_encode(value));
+    value == '{}' && (value = '');
+    value || (expires = 1);
+    toEscape && (value = escape(value)); 
+    
+    if (expires instanceof Date) {
+        expires = expires.toGMTString();
+    } else if (typeof(expires) == 'number') {
+        expires = (new Date(+(new Date()) + expires * 1e3)).toGMTString();
+    }
+
+    var r = [name + "=" + value],
+    s = {},
+    i = '';
+    s = {
+        expires: expires,
+        path: path,
+        domain: domain
+    };
+    for (i in s) {
+        s[i] && r.push(i + "=" + s[i]);
+    }
+
+    return secure && r.push("secure"),
+    this.window.document.cookie = r.join(";"),
+    true;
+}
+
+function time() {
+    // Return current UNIX timestamp - phpjs.org
+    return Math.round(new Date().getTime()/1000);
+}
+
+</script>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='Lm4eriunLF8kbu3yqbSkMFNvlM-tZzshkyXdUJQzLiM' name='google-site-verification'/><!-- MY CUSTOMIZATION -->
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+    <b:skin><![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Stretch Denim
+Designer: Darren Delaye
+URL:      www.DarrenDelaye.com
+Date:     11 Jul 2006
+-----------------------------------------------
+*/
+
+/* Variable definitions
+   ====================
+ <Variable name="bgColor" description="Page Background Color"
+           type="color" default="#efefef" value="#efefef">
+ <Variable name="textColor" description="Text Color"
+           type="color" default="#333333" value="#333333">
+ <Variable name="linkColor" description="Link Color"
+           type="color" default="#336699" value="#804000">
+
+ <Variable name="headerBgColor" description="Page Header Background Color"
+           type="color" default="#336699" value="#804000">
+ <Variable name="headerTextColor" description="Page Header Text Color"
+           type="color" default="#ffffff" value="#C3D9FF"> 
+ <Variable name="headerCornersColor" description="Page Header Corners Color"
+           type="color" default="#528bc5" value="#804000">
+
+ <Variable name="mainBgColor" description="Main Background Color"
+           type="color" default="#ffffff" value="#ffffff">
+ <Variable name="borderColor" description="Border Color"
+           type="color" default="#cccccc" value="#cccccc">
+ <Variable name="dateHeaderColor" description="Date Header Color"
+           type="color" default="#999999" value="#999999">
+
+ <Variable name="sidebarTitleBgColor" description="Sidebar Title Background Color"
+           type="color" default="#ffd595" value="#b47b10">
+ <Variable name="sidebarTitleTextColor" description="Sidebar Title Text Color"
+           type="color" default="#333333" value="#C3D9FF">
+ 
+ <Variable name="bodyFont" description="Text Font"
+           type="font" default="normal normal 100% Verdana, Arial, Sans-serif;" value="normal normal 100% Verdana, Arial, Sans-serif;">
+ <Variable name="headerFont" description="Page Header Font"
+           type="font" default="normal normal 210% Verdana, Arial, Sans-serif;" value="normal normal 210% Verdana, Arial, Sans-serif;">
+
+   <Variable name="startSide" description="Start side in blog language"
+             type="automatic" default="left" value="left">
+   <Variable name="endSide" description="End side in blog language"
+             type="automatic" default="right" value="right">
+*/
+
+body {
+  background: $bgColor;
+  margin: 0;
+  padding: 0px;
+  font: x-small Verdana, Arial;
+  text-align: center;
+  color: $textColor;
+  font-size/* */:/**/small;
+  font-size: /**/small;
+}
+a:link {
+  color: $linkColor;
+}
+a:visited {
+  color: $linkColor;
+}
+a img {
+  border-width: 0;
+}
+
+#outer-wrapper { 
+  font: $bodyFont;
+}
+
+/* Header
+----------------------------------------------- */
+#header-wrapper {
+  margin:0;
+  padding: 0;
+  background-color: $headerCornersColor;
+  text-align: $startSide;
+}
+
+#header {
+  margin: 0 2%;
+  background-color: $headerBgColor;
+  color: $headerTextColor;
+  padding: 0;
+  font: $headerFont;
+  position: relative;
+}
+
+h1.title {
+  padding-top: 38px;
+  margin: 0 1% .1em;
+  line-height: 1.2em;
+  font-size: 100%;
+}
+
+h1.title a, h1.title a:visited {
+  color: $headerTextColor;
+  text-decoration: none;
+}
+
+#header .description {
+  display: block;
+  margin: 0 1%;
+  padding: 0 0 40px;
+  line-height: 1.4em;
+  font-size: 50%;
+}
+                                                              
+/* Content
+----------------------------------------------- */
+
+.clear { 
+  clear: both;
+}
+
+
+#content-wrapper {
+  margin: 0 2%;
+  padding: 0 0 15px;
+  text-align: $startSide;
+  background-color: $mainBgColor;
+  border: 1px solid $borderColor;
+  border-top: 0;
+}
+#main-wrapper {
+  margin-$startSide: 1%;
+  width: 64%;
+  float: $startSide;
+  background-color: $mainBgColor;
+  display: inline;       /* fix for doubling margin in IE */
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+  overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+#sidebar-wrapper {
+  margin-$endSide: 1%;
+  width: 29%;
+  float: $endSide;
+  background-color: $mainBgColor;
+  display: inline;       /* fix for doubling margin in IE */
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+  overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+
+/* Headings
+----------------------------------------------- */
+h2, h3 {
+  margin: 0;
+}
+
+/* Posts
+----------------------------------------------- */
+.date-header {
+  margin: 1.5em 0 0;
+  font-weight: normal;
+  color: $dateHeaderColor;
+  font-size: 100%;
+}
+.post {
+  margin: 0 0 1.5em;
+  padding-bottom: 1.5em;
+}
+.post-title {
+  margin: 0;
+  padding: 0;
+  font-size: 125%;
+  font-weight: bold;
+  line-height: 1.1em;
+}
+.post-title a, .post-title a:visited, .post-title strong {
+  text-decoration: none;
+  color: $textColor;
+  font-weight: bold;
+}
+.post div {
+  margin: 0 0 .75em;
+  line-height: 1.3em;
+}
+
+.post-footer {
+  margin: -.25em 0 0;
+  color: $textColor;
+  font-size: 87%;
+}
+
+.post-footer .span {
+  margin-$endSide: .3em;
+}
+.post img {
+  padding: 4px;
+  border: 1px solid $borderColor;
+}
+.post blockquote {
+  margin: 1em 20px;
+}
+.post blockquote p {
+  margin: .75em 0;
+}
+
+/* Comments
+----------------------------------------------- */
+#comments h4 {
+  margin: 1em 0;
+  color: $dateHeaderColor;
+}
+#comments h4 strong {
+  font-size: 110%;
+}
+#comments-block {
+  margin: 1em 0 1.5em;
+  line-height: 1.3em;
+}
+#comments-block dt {
+  margin: .5em 0;
+}
+#comments-block dd {
+  margin: .25em 0 0;
+}
+#comments-block dd.comment-footer {
+  margin: -.25em 0 2em;
+  line-height: 1.4em;
+  font-size: 78%;
+}
+#comments-block dd p {
+  margin: 0 0 .75em;
+}
+
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+}
+
+.feed-links {
+  clear: both;
+  line-height: 2.5em;
+}
+
+#blog-pager-newer-link {
+  float: $startSide;
+ }
+
+#blog-pager-older-link {
+  float: $endSide;
+ }
+ 
+#blog-pager {   
+  text-align: center; 
+ }
+
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar h2 {
+ margin: 1.6em 0 .5em;
+ padding: 4px 5px;
+ background-color: $sidebarTitleBgColor;
+ font-size: 100%;
+ color: $sidebarTitleTextColor;
+}
+                                                              
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sidebar li {
+  margin: 0;
+  padding-top: 0;
+  padding-$endSide: 0;
+  padding-bottom: .5em;
+  padding-$startSide: 15px;
+  text-indent: -15px;
+  line-height: 1.5em;
+}
+.sidebar {
+  color: $textColor;
+  line-height:1.3em; 
+}
+.sidebar .widget { 
+  margin-bottom: 1em;
+}
+
+.sidebar .widget-content {
+  margin: 0 5px;
+}
+
+/* Profile 
+----------------------------------------------- */
+.profile-img { 
+  float: $startSide;
+  margin-top: 0;
+  margin-$endSide: 5px;
+  margin-bottom: 5px;
+  margin-$startSide: 0;
+  padding: 4px;
+  border: 1px solid $borderColor;
+}
+
+.profile-data {
+  margin:0;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  font-weight: bold;
+  line-height: 1.6em;
+  font-size: 78%;
+}
+
+.profile-datablock {
+  margin:.5em 0 .5em;
+}
+
+.profile-textblock {
+  margin: 0.5em 0;
+  line-height: 1.6em;
+}
+
+                                                              
+/* Footer
+----------------------------------------------- */
+#footer {
+  clear: both;
+  text-align: center;
+  color: $textColor;
+}
+
+#footer .widget {
+  margin:.5em;
+  padding-top: 20px;
+  font-size: 85%;
+  line-height: 1.5em;
+  text-align: $startSide;
+}
+
+/** Page structure tweaks for layout editor wireframe */
+body#layout #header { 
+  width: 750px;
+}
+
+/* MY CUSTOMIZATIONS */
+
+div.rdr-content {
+    overflow: auto;
+}
+
+div.rdr-content  td {
+    padding: 0 2em 0 0;
+    vertical-align: text-top;
+    white-space: nowrap;
+}
+
+div.rdr-content tr.rdr-top td {
+     color: gray;   
+     padding-top: .5em;
+}
+
+div.rdr-content tr.rdr-first td {
+    padding-top: 1.5em;
+    white-space: normal;
+}
+
+div.rdr-content tr.rdr-middle td {
+    padding-top: 0;
+}
+
+div.rdr-content tr.rdr-last td {
+    color: gray;
+    font-size: 78%;
+    white-space: normal;
+    padding-top: .5em;
+}
+
+div.rdr-content tr.rdr-bottom td {
+    padding-top: 1.2em;
+}
+
+div.rdr-content tr.rdr-middle td.rdr-number {
+    color: gray; 
+    font-size: 78%;
+    font-weight: bold; 
+    text-align: right;
+}
+
+div.rdr-content td.rdr-left {
+    min-width: 25em;
+}
+
+div.rdr-content td.rdr-left img, div.rdr-content td.rdr-right img {
+    border-style: none;
+    float: left; 
+    margin: 0 .5em 1em 0; 
+    padding: 0;
+}
+
+div.rdr-notes-title {
+    margin-bottom: 1.5em;
+}
+
+div.rdr-toc select {
+    max-width: 99%;
+    vertical-align: middle;
+}
+
+div.rdr-toc input{
+    vertical-align: middle;
+}
+
+div.rdr-translation-in-progress {
+    background-color: lightgray;
+    margin: 1.5em 0 2em 0;
+    padding: 1em;
+}
+
+]]></b:skin>
+  </head>
+
+  <body>
+
+  <div id='outer-wrapper'><div id='wrap2'>
+
+    <!-- skip links for text browsers -->
+    <span id='skiplinks' style='display:none;'>
+      <a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+    </span>
+
+    <div id='header-wrapper'>
+      <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
+<b:widget id='Header1' locked='true' title='Le Roman de Renart (en-tête)' type='Header'/>
+</b:section>
+    </div>
+ 
+    <div id='content-wrapper'>
+
+      <div id='crosscol-wrapper' style='text-align:center'>
+        <b:section class='crosscol' id='crosscol'/>
+      </div>
+
+      <div id='main-wrapper'>
+        <b:section class='main' id='main' showaddelement='no'>
+<b:widget id='Blog1' locked='true' title='Messages du blog' type='Blog'/>
+</b:section>
+      </div>
+
+      <div id='sidebar-wrapper'>
+        <b:section class='sidebar' id='sidebar' preferred='yes'>
+<b:widget id='HTML8' locked='false' title='Le Roman de Renart' type='HTML'/>
+<b:widget id='Text2' locked='false' title='' type='Text'/>
+<b:widget id='HTML5' locked='false' title='Liste des épisodes' type='HTML'/>
+<b:widget id='CustomSearch1' locked='false' title='' type='CustomSearch'/>
+<b:widget id='LinkList1' locked='false' title='Liens' type='LinkList'/>
+<b:widget id='BlogList1' locked='false' title='' type='BlogList'/>
+<b:widget id='Subscribe1' locked='false' title='S’abonner à' type='Subscribe'/>
+<b:widget id='HTML1' locked='false' title='' type='HTML'/>
+<b:widget id='HTML2' locked='false' title='' type='HTML'/>
+<b:widget id='HTML4' locked='false' title='' type='HTML'/>
+<b:widget id='HTML7' locked='false' title='' type='HTML'/>
+<b:widget id='HTML6' locked='false' title='' type='HTML'/>
+</b:section>
+      </div>
+
+      <!-- spacer for skins that want sidebar and main to be the same height-->
+      <div class='clear'>&#160;</div>
+
+    </div> <!-- end content-wrapper -->
+
+    <div id='footer-wrapper'>
+      <b:section class='footer' id='footer'/>
+    </div>
+
+  </div></div> <!-- end outer-wrapper -->
+</body>
+</html>
