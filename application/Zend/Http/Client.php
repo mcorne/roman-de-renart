@@ -101,7 +101,7 @@ class Zend_Http_Client
      */
     const ENC_URLENCODED = 'application/x-www-form-urlencoded';
     const ENC_FORMDATA   = 'multipart/form-data';
-    
+
     /**
      * Value types for Body key/value pairs
      */
@@ -117,7 +117,7 @@ class Zend_Http_Client
         'maxredirects'    => 5,
         'strictredirects' => false,
         'useragent'       => 'Zend_Http_Client',
-        'timeout'         => 10,
+        'timeout'         => 60, // TODO: quick fix, restore 10
         'adapter'         => 'Zend_Http_Client_Adapter_Socket',
         'httpversion'     => self::HTTP_1,
         'keepalive'       => false,
@@ -207,14 +207,14 @@ class Zend_Http_Client
      * @var array
      */
     protected $files = array();
-    
+
     /**
      * Ordered list of keys from key/value pair data to include in body
-     * 
+     *
      * An associative array, where each element is of the format:
      *   '<field name>' => VTYPE_SCALAR | VTYPE_FILE
-     * 
-     * @var array 
+     *
+     * @var array
      */
     protected $body_field_order = array();
 
@@ -759,7 +759,7 @@ class Zend_Http_Client
             'ctype'    => $ctype,
             'data'     => $data
         );
-        
+
         $this->body_field_order[$formname] = self::VTYPE_FILE;
 
         return $this;
@@ -855,7 +855,7 @@ class Zend_Http_Client
         $this->files         = array();
         $this->raw_post_data = null;
         $this->enctype       = null;
-        
+
         if($clearAll) {
             $this->headers = array();
             $this->last_request = null;
@@ -1111,7 +1111,7 @@ class Zend_Http_Client
                 // Avoid problems with buggy servers that add whitespace at the
                 // end of some headers (See ZF-11283)
                 $location = trim($location);
-                
+
                 // Check whether we send the exact same request again, or drop the parameters
                 // and send a GET request
                 if ($response->getStatus() == 303 ||
@@ -1290,7 +1290,7 @@ class Zend_Http_Client
                     // Encode body as multipart/form-data
                     $boundary = '---ZENDHTTPCLIENT-' . md5(microtime());
                     $this->setHeaders(self::CONTENT_TYPE, self::ENC_FORMDATA . "; boundary={$boundary}");
-                    
+
                     // Encode all files and POST vars in the order they were given
                     foreach ($this->body_field_order as $fieldName=>$fieldType) {
                         switch ($fieldType) {
