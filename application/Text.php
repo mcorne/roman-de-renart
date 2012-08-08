@@ -255,8 +255,9 @@ class Text
     {
         setlocale(LC_TIME, 'fr_FR', 'fra');
         $format = stripos(PHP_OS, 'win') !== false ? '%A %#d %B %Y' : '%A %e %B %Y';
+        $date = strftime($format);
 
-        return strftime($format);
+        return mb_convert_encoding($date, 'UTF-8');
     }
 
     /**

@@ -22,6 +22,7 @@ $help =
 -n number,...   Optional comma separated list of numbers of episodes.
                 By default, all episodes are updated.
                 Mandatory in logged off mode, only one number allowed.
+                999 is the number of the episode being translated.
 -p password     Blogger account Password.
 -t              Update table of contents.
 -u name         Blogger user/email/login name.
