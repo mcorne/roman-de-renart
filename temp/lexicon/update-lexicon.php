@@ -1,4 +1,18 @@
 <?php
+function get_combined_words($lexicon)
+{
+    $words = array();
+
+    foreach($lexicon as $entry) {
+        if (strpos($entry['original'], '/') !== false) {
+            $original = mb_strtolower($entry['original'], 'UTF-8'); // TODO: to finish
+            $words[$original][] = $entry['translation'];
+        }
+    }
+
+    return $words;
+}
+
 function index_words($lexicon)
 {
     $words = array();
@@ -10,21 +24,7 @@ function index_words($lexicon)
         }
     }
 
-    $indexed = array();
-
-    foreach($words as $original => $translations) {
-        $translations = array_count_values($translations);
-        arsort($translations);
-        $translations = array_keys($translations);
-
-        $indexed[$original]['translation'] = current($translations);
-
-        if (count($translations) != 1) {
-            $indexed[$original]['translations'] = implode(', ', $translations);
-        }
-    }
-
-    return $indexed;
+    return $words;
 }
 
 function parse_lexicon($lexicon) {
@@ -58,6 +58,25 @@ function parse_lexicon($lexicon) {
     return $parsed;
 }
 
+function set_translations($words)
+{
+    $indexed = array();
+
+    foreach($words as $original => $translations) {
+        $translations = array_count_values($translations);
+        arsort($translations);
+        $translations = array_keys($translations);
+
+        $indexed[$original]['translation'] = current($translations);
+
+        if (count($translations) != 1) {
+            $indexed[$original]['translations'] = implode(', ', $translations);
+        }
+    }
+
+    return $indexed;
+}
+
 function update_lexicon($lexicon, $words)
 {
     $updated = array();
@@ -86,6 +105,7 @@ $lexicon = file($filename, FILE_IGNORE_NEW_LINES);
 // $lexicon = array_slice($lexicon, 0, 1000); // TODO: remove
 $lexicon = parse_lexicon($lexicon);
 $words = index_words($lexicon);
+$words = set_translations($words);
 $lexicon = update_lexicon($lexicon, $words);
 
 rename($filename, basename($filename, '.txt') . '.' . time() .  '.txt');
