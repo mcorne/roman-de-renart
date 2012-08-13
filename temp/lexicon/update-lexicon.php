@@ -39,15 +39,11 @@ function get_combined_words($words)
     return $combined_words;
 }
 
-function index_words($lexicon, $end_of_translation_index)
+function index_words($lexicon)
 {
     $words = array();
 
     foreach($lexicon as $index => $entry) {
-        if ($index == $end_of_translation_index) {
-            break;
-        }
-
         if (isset($entry['translation'])) {
             $original = $entry['original_lower_case'];
             $words[$original][] = $entry['translation'];
@@ -76,15 +72,8 @@ function is_combined_word($combined_word, $lexicon, $index)
 
 function parse_lexicon($lexicon) {
     $parsed = array();
-    $end_of_translation_tag = '_END_';
-    $end_of_translation_index = false;
 
     foreach($lexicon as $index => $line) {
-        if ($end_of_translation_index === false and strpos($line, $end_of_translation_tag) !== false) {
-            $end_of_translation_index = $index;
-            $line = str_replace($end_of_translation_tag, '', $line);
-        }
-
         $values = explode(';', $line);
 
         if (count($values) > 3) {
@@ -93,25 +82,25 @@ function parse_lexicon($lexicon) {
 
         $original = trim($values[0]);
 
-        if ($end_of_translation_index !== false) {
-            // this word has not been translated yet, removes the "combined word" if any
-            list($original) = explode('/', $original);
+        if (isset($values[1])) {
+            // there is a (un)confirmed translation
+            $translation = trim($values[1]);
+
+            if (! empty($translation) and $translation[0] != '?') {
+                // this is a confirmed translation
+                $parsed[$index]['translation'] = $translation;
+
+            } else {
+                // this is an unconfirmed translation, discards the "combined word" if any
+                list($original) = explode('/', $original);
+            }
         }
 
         $parsed[$index]['original'] = $original;
-        $parsed[$index]['original_lower_case'] = mb_strtolower($parsed[$index]['original'], 'UTF-8');
-
-
-        if ($end_of_translation_index === false and ! empty($values[1])) {
-            $parsed[$index]['translation'] = trim($values[1]);
-        }
+        $parsed[$index]['original_lower_case'] = mb_strtolower($original, 'UTF-8');
     }
 
-    if ($end_of_translation_index === false) {
-        die("$end_of_translation_tag of translation tag is missing");
-    }
-
-    return array($parsed, $end_of_translation_index);
+    return $parsed;
 }
 
 function search_combined_word($combined_words, $lexicon, $index)
@@ -139,7 +128,7 @@ function set_combined_word($combined_word, $lexicon, $index)
     return $lexicon;
 }
 
-function set_combined_words($lexicon, $combined_words, $end_of_translation_index)
+function set_combined_words($lexicon, $combined_words)
 {
     foreach(array_keys($lexicon) as $index) {
         $original = $lexicon[$index]['original_lower_case'];
@@ -148,7 +137,7 @@ function set_combined_words($lexicon, $combined_words, $end_of_translation_index
             $combined_word = search_combined_word($combined_words[$original], $lexicon, $index);
 
             if ($combined_word !== false) {
-                if ($index < $end_of_translation_index) {
+                if (isset($lexicon[$index]['translation'])) {
                     die(sprintf('you must fix combined word %s manually line %s', $combined_word['string'], $index + 1));
                 }
 
@@ -187,7 +176,7 @@ function update_lexicon($lexicon, $words)
         $original = $entry['original_lower_case'];
 
         if (! isset($entry['translation']) and isset($words[$original])) {
-            $entry['translation'] = $words[$original]['translation'];
+            $entry['translation'] = '? ' .  $words[$original]['translation'];
         }
 
         if (isset($words[$original]['translations'])) {
@@ -205,11 +194,11 @@ function update_lexicon($lexicon, $words)
 $filename = 'lexicon.txt';
 $lexicon = file($filename, FILE_IGNORE_NEW_LINES);
 // $lexicon = array_slice($lexicon, 0, 1000); // TODO: remove
-list($lexicon, $end_of_translation_index) = parse_lexicon($lexicon);
-$words = index_words($lexicon, $end_of_translation_index);
+$lexicon = parse_lexicon($lexicon);
+$words = index_words($lexicon);
 $words = set_translations($words);
 $combined_words = get_combined_words($words);
-$lexicon = set_combined_words($lexicon, $combined_words, $end_of_translation_index);
+$lexicon = set_combined_words($lexicon, $combined_words);
 $lexicon = update_lexicon($lexicon, $words);
 list($translation_count, $total, $ratio) = calculate_stats($lexicon);
 
