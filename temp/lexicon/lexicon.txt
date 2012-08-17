@@ -550,7 +550,7 @@ Adam                 ; Adam
 aprivoisoient        ; s'apprivoisaient
 Entre                ; entre                ; entre, ensemble
 les                  ; les                  ; les, celles de, leur
-autre                ; autres               ; autres, autre
+autres               ; autres
 en                   ; en                   ; en, dans
 issi                 ; sortit
 Le                   ; le                   ; le, lui
@@ -6162,7 +6162,7 @@ et                   ; ? et
 les                  ; ? les                ; les, celles de, leur
 barbiaus
 Et                   ; ? et
-autres
+autres               ; ? autres
 poissons
 bons                 ; ? bons
 et                   ; ? et
@@ -13734,7 +13734,7 @@ Et                   ; ? et
 si                   ; ? puis               ; puis, alors, si, ainsi, très, tant, donc, vraiment, ainsi que
 est                  ; ? est
 des                  ; ? au sujet de        ; au sujet de, dès, des
-autres
+autres               ; ? autres
 mout                 ; ? très              ; très, beaucoup, plus, fort, tout, longtemps
 mendres
 Et                   ; ? et
@@ -19363,8 +19363,8 @@ haut
 Mes                  ; ? mais               ; mais, désormais, pourtant, mes
 ce                   ; ? ce                 ; ce, ça, cela, lui, il, ceci
 nule                 ; ? aucune
-riens                ; ? rien               ; rien, chose, quelque chose
-ne                   ; ? ne                 ; ne, ni, et
+riens/riens_ne_li_vaut ; ? ne lui sert à rien
+ne/riens_ne_li_vaut  ; ? _EMPTY_
 li/riens_ne_li_vaut  ; ? _EMPTY_
 vaut/riens_ne_li_vaut ; ? _EMPTY_
 Que                  ; ? que                ; que, car, alors que, pour que, quoi, à cause de
@@ -19571,7 +19571,7 @@ grant                ; ? grand              ; grand, grande, bon
 donmage              ; ? dommage
 Que                  ; ? que                ; que, car, alors que, pour que, quoi, à cause de
 des                  ; ? au sujet de        ; au sujet de, dès, des
-autres
+autres               ; ? autres
 avrez
 assez                ; ? suffisamment       ; suffisamment, fort
 Mes                  ; ? mais               ; mais, désormais, pourtant, mes
@@ -21371,7 +21371,7 @@ est                  ; ? est
 Fox                  ; ? fou
 fet                  ; ? fait               ; fait, faits
 li                   ; ? lui                ; lui, le, la, les, il, ils
-autres
+autres               ; ? autres
 il                   ; ? il                 ; il, ils
 se                   ; ? si                 ; si, se, ainsi
 faint
@@ -23211,8 +23211,8 @@ faint
 Mes                  ; ? mais               ; mais, désormais, pourtant, mes
 tout                 ; ? tout
 ice
-riens                ; ? rien               ; rien, chose, quelque chose
-ne                   ; ? ne                 ; ne, ni, et
+riens/riens_ne_li_vaut ; ? ne lui sert à rien
+ne/riens_ne_li_vaut  ; ? _EMPTY_
 li/riens_ne_li_vaut  ; ? _EMPTY_
 vaut/riens_ne_li_vaut ; ? _EMPTY_
 Car                  ; ? car
@@ -26445,7 +26445,7 @@ Ouil
 je                   ; ? je
 l'ai                 ; ? l'ai
 tout                 ; ? tout
-espïé.
+espïé
 Li                   ; ? lui                ; lui, le, la, les, il, ils
 blé
 estoient
@@ -26674,7 +26674,7 @@ Dites                ; ? dites
 quel                 ; ? quelle
 saveur
 g'i
-feré.
+feré                ; ? ferai
 A/a_tant             ; ? là-dessus         ; là-dessus, sur ce, jusque là
 tant/a_tant          ; ? _EMPTY_
 li                   ; ? lui                ; lui, le, la, les, il, ils
@@ -30112,7 +30112,7 @@ le                   ; ? le                 ; le, lui
 col                  ; ? échine            ; échine, cou
 Et                   ; ? et
 les                  ; ? les                ; les, celles de, leur
-autres
+autres               ; ? autres
 ont                  ; ? ont
 fet                  ; ? fait               ; fait, faits
 lor                  ; ? leur
@@ -30965,7 +30965,7 @@ trembler
 Et                   ; ? et
 toz                  ; ? tout
 les                  ; ? les                ; les, celles de, leur
-autres
+autres               ; ? autres
 traïtors
 Mau
 gré
@@ -32340,7 +32340,7 @@ l'ainme
 Devant               ; ? au devant          ; au devant, devant
 toz                  ; ? tout
 les                  ; ? les                ; les, celles de, leur
-autres
+autres               ; ? autres
 se                   ; ? si                 ; si, se, ainsi
 clainme              ; ? traite
 Et                   ; ? et
@@ -33248,7 +33248,7 @@ chien                ; ? chien
 et                   ; ? et
 leu                  ; ? loup
 et                   ; ? et
-autres
+autres               ; ? autres
 bestes               ; ? bêtes
 Et                   ; ? et
 toutes               ; ? toutes
@@ -33861,7 +33861,7 @@ s'escrie
 premerainne
 Et                   ; ? et
 les                  ; ? les                ; les, celles de, leur
-autres
+autres               ; ? autres
 a                    ; ? a                  ; a, à, avec, de, est, auprès de, par, devant, à côté de, en
 une                  ; ? une
 alainne
@@ -34092,7 +34092,7 @@ el                   ; ? autre chose        ; autre chose, en le, elle, dans le
 pavement
 Et                   ; ? et
 les                  ; ? les                ; les, celles de, leur
-autres
+autres               ; ? autres
 tot                  ; ? tout
 ensement             ; ? pareillement
 Por                  ; ? pour               ; pour, à cause de, par, vers
@@ -34110,7 +34110,7 @@ chiens
 et                   ; ? et
 leus                 ; ? loup
 et                   ; ? et
-autres
+autres               ; ? autres
 bestes               ; ? bêtes
 L'eve
 lor                  ; ? leur
@@ -34315,7 +34315,7 @@ oï                  ; ? entendu            ; entendu, a entendu
 lor                  ; ? leur
 roi                  ; ? roi
 Isnelement           ; ? vite
-en/en_piez           ; ? sur les pieds
+en/en_piez           ; ? sur ses pattes
 piez/en_piez         ; ? _EMPTY_
 se                   ; ? si                 ; si, se, ainsi
 drece
@@ -34606,7 +34606,7 @@ as                   ; ? avec les           ; avec les, vers les, avez
 denz                 ; ? dents
 si                   ; ? puis               ; puis, alors, si, ainsi, très, tant, donc, vraiment, ainsi que
 grant                ; ? grand              ; grand, grande, bon
-martire.
+martire
 Qui                  ; ? qui                ; qui, celui qui, que
 lors                 ; ? alors
 veïst
@@ -35072,7 +35072,7 @@ l'egrés
 Aprés               ; ? après
 revient
 li                   ; ? lui                ; lui, le, la, les, il, ils
-autres
+autres               ; ? autres
 mes                  ; ? mais               ; mais, désormais, pourtant, mes
 Quant                ; ? quand              ; quand, lorsque
 li                   ; ? lui                ; lui, le, la, les, il, ils
@@ -36210,7 +36210,7 @@ mains
 Lanfroi
 et                   ; ? et
 as                   ; ? avec les           ; avec les, vers les, avez
-autres
+autres               ; ? autres
 vilains
 Tant                 ; ? tant               ; tant, beaucoup, tellement, assez
 a                    ; ? a                  ; a, à, avec, de, est, auprès de, par, devant, à côté de, en
@@ -37898,7 +37898,7 @@ n'i                  ; ? n'y
 aport
 or                   ; ? maintenant         ; maintenant, donc, à présent, mais
 ne                   ; ? ne                 ; ne, ni, et
-argent.
+argent
 Quant                ; ? quand              ; quand, lorsque
 Renart               ; ? Renart
 entent               ; ? entend
@@ -39686,7 +39686,7 @@ bien                 ; ? bien               ; bien, bon, béni
 terminee
 Se                   ; ? si                 ; si, se, ainsi
 dreça
-en/en_piez           ; ? sur les pieds
+en/en_piez           ; ? sur ses pattes
 piez/en_piez         ; ? _EMPTY_
 Ysengrin             ; ? Ysengrin
 Et                   ; ? et
@@ -39733,7 +39733,7 @@ s'avance
 Qui                  ; ? qui                ; qui, celui qui, que
 sor                  ; ? sur
 toz                  ; ? tout
-autres
+autres               ; ? autres
 crie                 ; ? crie
 et                   ; ? et
 tence
@@ -40545,7 +40545,7 @@ greingnor
 que                  ; ? que                ; que, car, alors que, pour que, quoi, à cause de
 il                   ; ? il                 ; il, ils
 ne                   ; ? ne                 ; ne, ni, et
-seut                 ; ? sait
+seut                 ; ? a l'habitude de
 De                   ; ? de                 ; de, sur, avec, du
 jeüner
 le                   ; ? le                 ; le, lui
@@ -40565,7 +40565,7 @@ voit                 ; ? voit
 mout                 ; ? très              ; très, beaucoup, plus, fort, tout, longtemps
 s'en                 ; ? s'en               ; s'en, si on
 esmoie
-En/en_piez           ; ? sur les pieds
+En/en_piez           ; ? sur ses pattes
 piez/en_piez         ; ? _EMPTY_
 se                   ; ? si                 ; si, se, ainsi
 lieve                ; ? lève
@@ -41365,7 +41365,7 @@ Rousiax
 Ce                   ; ? ce                 ; ce, ça, cela, lui, il, ceci
 est                  ; ? est
 des                  ; ? au sujet de        ; au sujet de, dès, des
-autres
+autres               ; ? autres
 li                   ; ? lui                ; lui, le, la, les, il, ils
 plus                 ; ? plus
 biax                 ; ? cher
