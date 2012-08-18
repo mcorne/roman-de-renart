@@ -88,21 +88,8 @@ function calculate_stats($words)
 
     $has_content_changed = write_csv($words_filename, $words);
 
-    echo "$translated_count translated / $word_count words ($ratio %) ";
+    echo "$translated_count / $word_count words ($ratio %) ";
     echo_has_content_changed($has_content_changed);
-}
-
-/**
- * Returns the list of punctuation characters
- *
- * @return array the punctuation characters
- */
-function get_punctuation()
-{
-    $punctuation = str_replace('\\', '', PUNCTUATION);
-    $punctuation = explode('|', $punctuation);
-
-    return array_fill_keys($punctuation, true);
 }
 
 /**
@@ -260,8 +247,8 @@ function set_combined_words($words, $combined_words)
             $combined_word = search_combined_word($combined_words[$original], $words, $index);
 
             if ($combined_word !== false) {
-                if (isset($words[$index]['translated-word'])) {
-                    die(sprintf('you must fix combined word %s manually line %s', $combined_word['string'], $index + 1));
+                if (! empty($words[$index]['translated-word'])) {
+                    die(sprintf('you must fix combined word %s manually line %s', $combined_word['string'], $index + 2));
                 }
 
                 $words = set_combined_word($combined_word, $words, $index);

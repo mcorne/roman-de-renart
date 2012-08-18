@@ -10,6 +10,9 @@
  * @link      http://roman-de-renart.blogspot.com/
  */
 
+define('INDEX_ROWS', 1);
+
+define('MAX_VERSES_TO_TRANSLATE', 30);
 
 // the list of punctuation characters to be used in a preg function pattern
 define('PUNCTUATION', '!|,|\.|:|;|\?|«|»|—|“|”');
@@ -37,7 +40,8 @@ function backup_file($filename)
  */
 function echo_command_title($command_title)
 {
-    echo str_pad($command_title . '...', 30);
+    // echo str_pad($command_title . '...', 30);
+    echo $command_title . ' ... ';
 }
 
 /**
@@ -82,13 +86,83 @@ function get_column_headers($rows)
 }
 
 /**
+ * Returns the number of the last verse to translate
+ *
+ * @param array $verses the verses of the text
+ * @throws Exception
+ * @return int          the verse number
+ */
+function get_number_last_verse_to_translate($verses)
+{
+    $prev_number = null;
+
+    foreach($verses as $number => $verse) {
+        if ($verse['translated-verse'] == '...') {
+            if (is_null($prev_number)) {
+                throw new Exception('there is nothing to translate');
+            }
+
+            return $prev_number;
+        }
+
+        $prev_number = $number;
+    }
+
+    throw new Exception('cannot find last verse to translate (missing "..." marker in translated-verse column');
+}
+
+/**
+ * Returns the list of punctuation characters
+ *
+ * @return array the punctuation characters
+ */
+function get_punctuation()
+{
+    $punctuation = str_replace('\\', '', PUNCTUATION);
+    $punctuation = explode('|', $punctuation);
+
+    return array_fill_keys($punctuation, true);
+}
+
+/**
+ * Indexes an array of rows with one of the keys
+ *
+ * The key is meant to be a column file header.
+ *
+ * @param array  $rows          the array of rows, each row being an associative array,
+ *                              one of the keys must be set to the column name
+ * @param string $column_header the name of the key or column header
+ * @throws Exception
+ * @return array                the associative array of rows
+ */
+function index_rows($rows, $column_header)
+{
+    $indexed_rows = array();
+
+    foreach($rows as $row) {
+        if (! isset($row[$column_header])) {
+            throw new Exception("missing column $column_header");
+        }
+        $index = $row[$column_header];
+
+        if (isset($indexed_rows[$index])) {
+            throw new Exception("index already used: $index");
+        }
+        $indexed_rows[$index] = $row;
+    }
+
+    return $indexed_rows;
+}
+
+/**
  * Reads a CSV file
  *
  * @param string $filename      the file name
+ * @param string $column_header the name of the key or column header to index with, or null for no indexing
  * @return                      the array of rows, each row being an associative array containing the cell values
  *                              with the column headers as keys
  */
-function read_csv($filename)
+function read_csv($filename, $column_header = null)
 {
     $content = read_file($filename);
 
@@ -105,6 +179,10 @@ function read_csv($filename)
         $cells = read_line($line);
         $cells = array_pad($cells, $columns_count, null);
         $rows[] = array_combine($column_headers, $cells);
+    }
+
+    if (isset($column_header)) {
+        $rows = index_rows($rows, $column_header);
     }
 
     return $rows;
@@ -145,6 +223,56 @@ function read_line($line)
     }
 
     return $cells;
+}
+
+/**
+ * Validates the range of verse numbers
+ *
+ * @param array $verses             the verses of the text
+ * @param int   $first_verse_number the number of the first verse
+ * @param int   $last_verse_number  the number of the last verse
+ * @throws Exception
+ * @return array                    the verses within the range
+ */
+function validate_verse_number_range($verses, $first_verse_number, $last_verse_number)
+{
+    if (! isset($verses[$first_verse_number])) {
+        throw new Exception("unknown first verse number $first_verse_number");
+    }
+
+    if (! isset($verses[$last_verse_number])) {
+        throw new Exception("unknown last verse number $last_verse_number");
+    }
+
+    $count = $last_verse_number - $first_verse_number + 1;
+
+    if ($count < 0) {
+        throw new Exception("first verse $first_verse_number greater than last verse $last_verse_number");
+    }
+
+    if ($count == 0) {
+        throw new Exception('there is no verse to process');
+    }
+
+    if ($count > MAX_VERSES_TO_TRANSLATE) {
+        throw new Exception(sprintf("verses range (%s - %s) greater than %s",
+            $first_verse_number, $last_verse_number, MAX_VERSES_TO_TRANSLATE));
+    }
+
+    $offset = $first_verse_number - 1; // offset expected to be equal to verse number - 1
+    $verses = array_slice($verses, $offset, $count, true);
+    $verse = current($verses);
+    if ($verse['verse-number'] != $first_verse_number) {
+        throw new Exception("unexpected first verse {$verse['verse-number']} instead of $first_verse_number");
+    }
+
+    foreach($verses as $number => $verse) {
+        if (! empty($verse['translated-verse'])) {
+            throw new Exception("not expecting translation in verse $number");
+        }
+    }
+
+    return $verses;
 }
 
 /**
