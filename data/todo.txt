@@ -1,3 +1,0 @@
-- update the date of the episode being translated only when there is a change
-- update the number of the last translated verse in the introduction.html wigdet automatically
-- find typos in the translation automatically
