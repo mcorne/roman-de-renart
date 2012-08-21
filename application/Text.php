@@ -17,7 +17,7 @@ class Text
     /**
      * Columns headers of the CSV file containing the text
      *
-     * The order of the columns must be kept in synch with the column headers in data/roman-de-renart.csv.
+     * The order and names of the columns must be kept in synch with the column headers in data/verses.csv.
      *
      * @var array
      */
@@ -413,7 +413,7 @@ class Text
      */
     public function parseFile()
     {
-        $file = '/../data/roman-de-renart.csv';
+        $file = '/../data/verses.csv';
 
         if (! $lines = @file(__DIR__ . $file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES)) {
             throw new Exception("cannot read file: $file");
@@ -567,10 +567,10 @@ class Text
     }
 
     /**
-     * Saves an episode in a blog message
+     * Saves an episode in a blog message (publishes an episode)
      *
      * The episode is also saved in a file.
-     * The blog message is updated only if the HTML content of the episode has changed.
+     * The blog message is published only if the HTML content of the episode has changed.
      *
      * @param string $html    The HTML content of the episode
      * @param array  $episode The episode details
@@ -599,17 +599,17 @@ class Text
             $content = str_replace("\n", ' ', $html);
             $blog->savePost($title, $content, $url, $episode['story-title']);
             $this->writeFile($file, $html);
-            $isUpdated = true;
+            $isPublished = true;
 
         } else {
-            $isUpdated = false;
+            $isPublished = false;
         }
 
-        return $isUpdated;
+        return $isPublished;
     }
 
     /**
-     * Saves the episodes in the blog
+     * Saves the episodes in the blog (publishes the episodes)
      *
      * @param array $htmls    The HTML contents of the episodes
      * @param array $episodes The episodes details
@@ -618,18 +618,18 @@ class Text
      */
     public function saveMessages($htmls, $episodes, Blog $blog)
     {
-        $updatedCount = 0;
+        $publishedCount = 0;
 
         foreach($htmls as $number => $html) {
-            $updatedCount += $this->saveMessage($html, $episodes[$number], $blog, $number);
+            $publishedCount += $this->saveMessage($html, $episodes[$number], $blog, $number);
         }
 
-        if ($updatedCount == 0) {
-            $result = 'No episode has changed, no blog message was updated.';
-        } else if ($updatedCount == 1) {
-            $result = "\n" . 'The episode has changed, the blog message was updated successfully.';
+        if ($publishedCount == 0) {
+            $result = 'No episode has changed, no episode was published.';
+        } else if ($publishedCount == 1) {
+            $result = "\n" . 'The episode has changed, the episode was published successfully.';
         } else {
-            $result = "\n" . "The $updatedCount blog messages were updated successfully.";
+            $result = "\n" . "The $publishedCount episodes were published successfully.";
         }
 
         return $result;

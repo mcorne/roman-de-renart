@@ -4,6 +4,3 @@ Things to do
 - update the date of the episode being translated only when there is a change
 - update the number of the last translated verse in the introduction.html wigdet automatically
 - find typos in the translation automatically
-- rename "roman-de-renart.csv" to "verses.csv" for example
-- rename the "update" command line to "publish" for example
-- change the code of the "update" command line and PHP files to non OO

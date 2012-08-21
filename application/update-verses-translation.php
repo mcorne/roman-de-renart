@@ -60,7 +60,7 @@ function collect_verses_translation($words, $first_verse_number, $last_verse_num
 {
     echo_command_title('updating verses translation');
 
-    $filename = __DIR__ . '/../data/roman-de-renart.csv';
+    $filename = __DIR__ . '/../data/verses.csv';
     $verses = read_csv($filename, 'verse-number');
     $first_verse_number = get_number_first_verse_to_translate($verses);
     $last_verse_number = get_number_last_verse_to_translate($verses);

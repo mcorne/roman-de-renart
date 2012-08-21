@@ -2,7 +2,7 @@
 /**
  * Roman de Renart
  *
- * Command line to update episodes, blog messages, or the table of contents
+ * Command line to publish episodes or update the table of contents
  *
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2012 Michel Corne
@@ -20,26 +20,26 @@ $help =
 'Usage:
 -l              Display the list of episodes.
 -n number,...   Optional comma separated list of numbers of episodes.
-                By default, all episodes are updated.
+                By default, all episodes are processed.
                 Mandatory in logged off mode, only one number allowed.
                 999 is the number of the episode being translated.
 -p password     Blogger account Password.
--t              Update table of contents.
+-t              Update the table of contents.
 -u name         Blogger user/email/login name.
 
 Notes:
-In logged on mode, episodes are created/updated in the data directory.
-In logged off mode, the episode is stored in data/temp.html.
+In logged on mode, the episode HTML is created/updated in the data directory.
+In logged off mode, the episode HTML is stored in data/temp.html.
 
 Examples:
-# update episode(s) in Blogger
-update -u abc -p xyz
+# publish episode(s) in Blogger
+publish -u abc -p xyz
 
-# update episodes 10 and 11 in Blogger
-update -u abc -p xyz -n 10,11
+# publish episodes 10 and 11 in Blogger
+publish -u abc -p xyz -n 10,11
 
-# updates episode 10 in data/temp.html
-update -n 10
+# create/update episode 10 in data/temp.html
+publish -n 10
 ';
 
 try {
@@ -65,7 +65,7 @@ try {
         echo $text->saveTableOfContents($html);
 
     } else if (isset($options['u']) and isset($options['p'])) {
-        // this is the logged on mode, updates one more episodes in Blogger and saves them in local files
+        // this is the logged on mode, publishes one more episodes in Blogger and saves them in local files
         if (isset($options['n'])) {
             $numbers = explode(',', $options['n']);
             $episodes = array_intersect_key($episodes, array_flip($numbers));

@@ -23,7 +23,7 @@ require_once 'common.php';
     $words = read_csv($words_filename);
     $last_translated_verse_number = get_last_verse_number($words);
 
-    $verses = read_csv(__DIR__ . "/../data/roman-de-renart.csv", 'verse-number');
+    $verses = read_csv(__DIR__ . "/../data/verses.csv", 'verse-number');
     $first_verse_number = $last_translated_verse_number + 1;
     $last_verse_number = get_number_last_verse_to_translate($verses);
     $verses_to_translate = validate_verse_number_range($verses, $first_verse_number, $last_verse_number);

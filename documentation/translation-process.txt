@@ -2,8 +2,8 @@ Translation process
 -------------------
 
 
-1. Open "roman-de-renart.csv" in the "data" directory with OpenOffice
----------------------------------------------------------------------
+1. Open "verses.csv" in the "data" directory with OpenOffice
+------------------------------------------------------------
 
 Set the options:
 - charset = UTF-8
@@ -72,11 +72,11 @@ Notes:
 
 - in the "application" directory, run the command line: translate -u
 
-Note: this will add the translation of the verses (those selected as explained in paragraph 2.) to "roman-de-renart.csv".
+Note: this will add the translation of the verses (those selected as explained in paragraph 2.) to "verses.csv".
 
 
-8. Open "roman-de-renart.csv" in the "data" directory with OpenOffice
----------------------------------------------------------------------
+8. Open "verses.csv" in the "data" directory with OpenOffice
+------------------------------------------------------------
 
 As explained in paragraph 1.
 

@@ -6,4 +6,4 @@
 @rem @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
 @rem @link      http://roman-de-renart.blogspot.com/
 
-@php update.php %*
+@php publish.php %*
