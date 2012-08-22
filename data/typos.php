@@ -41,6 +41,7 @@ return array(
     'quoiqu'      => 'quoi qu',     // as in "quoi que" (whatever), http://grammaire.reverso.net/2_1_81_quoique_quoi_que.shtml
     ' Saint'      => ' saint',      // as in " saint Jacques", http://www.saint-jacques.info/orthographe.htm
     'Renard'      => 'Renart',
+    'reconnaitr'  => 'reconnaîtr',  // always with "î"
     'tranché'     => 'tranchée',    // if noun "tranchée"
     'vielle'      => 'vieille',     // if adjective "vieux, vieille" (old)
     'z vous'      => 'z-vous',      // if imperative mood, see http://fr.wikipedia.org/wiki/Trait_d'union#Trait_d.27union_avec_pronom_personnel_ou_d.C3.A9monstratif

@@ -12,7 +12,7 @@
 
 define('INDEX_ROWS', 1);
 
-define('MAX_VERSES_TO_TRANSLATE', 30);
+define('MAX_VERSES_TO_TRANSLATE', 50);
 
 // the list of punctuation characters to be used in a preg function pattern
 define('PUNCTUATION', '!|,|\.|:|;|\?|«|»|—|“|”');

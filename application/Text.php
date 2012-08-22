@@ -563,7 +563,11 @@ class Text
      */
     public function removeGeneratedDate($html)
     {
-        return preg_replace('~^\s*Generated.+?$~m', '', $html);
+        // removes the date in the episode being translated
+        $html = preg_replace('~^ +<input id="rdr-translation-in-progress-date" type="hidden" value=".+?"/>$~m', '', $html);
+        $html = preg_replace('~^\s*Generated.+?$~m', '', $html);
+
+        return $html;
     }
 
     /**
