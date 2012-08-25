@@ -28,6 +28,7 @@ return array(
     'ez la moi'   => 'ez-la-moi',   // as in "passez-la-moi"
     "ez m'en"     => "ez-m'en",     // as in "donnez-m'en"
     'ez moi'      => 'ez-moi',      // as in "donnez-moi"
+    'hermite'     => 'ermite',
     "il l'ont"    => "ils l'ont",
     'leurs'       => 'leur',        // if pronom "leur", http://grammaire.reverso.net/4_2_17_leur_leurs.shtml
     'lui-dit'     => 'lui dit',
