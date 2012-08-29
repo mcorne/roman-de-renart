@@ -26,8 +26,10 @@ return array(
     'est ce don'  => 'est-ce don',  // as in "est-ce donc"
     'Est ce'      => 'Est-ce',
     'ez la moi'   => 'ez-la-moi',   // as in "passez-la-moi"
+    'ez lui'      => 'ez-lui',      // as in "donnez-lui"
     "ez m'en"     => "ez-m'en",     // as in "donnez-m'en"
     'ez moi'      => 'ez-moi',      // as in "donnez-moi"
+    'fait il'     => 'fait-il',
     'hermite'     => 'ermite',
     "il l'ont"    => "ils l'ont",
     'leurs'       => 'leur',        // if pronom "leur", http://grammaire.reverso.net/4_2_17_leur_leurs.shtml
