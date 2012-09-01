@@ -30,6 +30,7 @@ return array(
     "ez m'en"     => "ez-m'en",     // as in "donnez-m'en"
     'ez moi'      => 'ez-moi',      // as in "donnez-moi"
     'fait il'     => 'fait-il',
+    'grand peur'  => 'grand-peur',
     'hermite'     => 'ermite',
     "il l'ont"    => "ils l'ont",
     'leurs'       => 'leur',        // if pronom "leur", http://grammaire.reverso.net/4_2_17_leur_leurs.shtml
@@ -40,11 +41,14 @@ return array(
     'ons nous en' => 'ons-nous-en', // as in "allons-nous-en"
     'pourvoir'    => 'pouvoir',     // if verb "pouvoir" (can)
     'puis,'       => 'puis',        // most cases, see http://www3.sympatico.ca/fol-ecrit/folie12.html
+    'quand [aà]'  => 'quant',       // "quant" as in "en ce qui concerne", "pour ce qui est de"
+    'quant [^aà]' => 'quand',       // "quand" as in "au moment où", "à quel moment"
     "qu'est ce"   => "qu'est-ce",
     'quoiqu'      => 'quoi qu',     // as in "quoi que" (whatever), http://grammaire.reverso.net/2_1_81_quoique_quoi_que.shtml
     ' Saint'      => ' saint',      // as in " saint Jacques", http://www.saint-jacques.info/orthographe.htm
     'Renard'      => 'Renart',
     'reconnaitr'  => 'reconnaîtr',  // always with "î"
+    'traîte'      => 'traître',
     'tranché'     => 'tranchée',    // if noun "tranchée"
     'vielle'      => 'vieille',     // if adjective "vieux, vieille" (old)
     'z vous'      => 'z-vous',      // if imperative mood, see http://fr.wikipedia.org/wiki/Trait_d'union#Trait_d.27union_avec_pronom_personnel_ou_d.C3.A9monstratif
