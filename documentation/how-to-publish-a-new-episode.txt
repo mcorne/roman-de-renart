@@ -68,11 +68,21 @@ Note that this step may be done later.
 6. Publish the episode
 ----------------------
 
-- run the command line: update -u <login> -p <password>
+- run the command line: publish -u <login> -p <password>
 
 
 7. Update the table of contents
 -------------------------------
 
-- run the command line: update -t
+- run the command line: publish -t
 - copy & paste the content of the widget "table-of-contents.html" in the "widgets" directory to the corresponding blog widget
+
+
+8. Update the number of translated verses
+-----------------------------------------
+
+- open the widget "introduction.html" in the "widgets" directory 
+- spot the line containing: <!-- METTRE À JOUR MANUELLEMENT -->
+- update the following line with the number of the last translated verse
+- save and close the widget
+- copy & paste the content of the widget "introduction.html" to the corresponding blog widget

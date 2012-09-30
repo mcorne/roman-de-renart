@@ -59,6 +59,14 @@ to be interpreted as a (French) empty number, and converted to "0".
 - remove the "?" (question mark) in the "not-confirmed" column
 - save and close the file, do not change the CSV format settings and extension
 
+Combined words:
+- combined words should be handled as follows in order to be translated together, for example "par + mi" = "à travers"
+par/par_mi  à travers
+mi/par_mi   _EMPTY_
+- "par" and "mi" are the original words, "par_mi" represents the combined words
+- the first word, "par/par_mi" in this example, only carries the translation, "à travers" in this example
+- the following words, "mi/par_mi" in this example, are flagged with the keyword "_EMPTY_".
+
 Tips:
 - leverage other translations from the "translations" column
 - use the "www.micmap.org/dicfro" dictionaries: Van Daele, Romant de Renart (FHS), Moyen français (DMF), etc...
