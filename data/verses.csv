@@ -731,7 +731,7 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 730	Et la fain li fet sovent guerre ;	et la faim le tiraille en permanence.													
 731	Ne set que fere, si s'esmaie.	Il ne sait quoi faire, il s'inquiète beaucoup.													
 732	Lors s'est couchiez lez .I. haie :	Alors il se couche le long d'une haie													
-733	Ilec atendra aventure.	et attend ici sa fortune.	aventure	fortune											
+733	Ilec atendra aventure.	et va tenter sa chance ici.	atendra aventure	va tenter sa chance											
 734	A tant es vos grant aleüre	Voici qu'arrivent à grande allure													
 735	Marcheanz qui poisson menoient	des marchands qui transportent du poisson;													
 736	Et qui devers la mer venoient.	ils viennent du côté de la mer.													
@@ -748,7 +748,7 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 747	Fu bien loing d'eus pres d'une archie.	est éloigné d'eux d'environ une portée d'arc,													
 748	Quant vit la charrete chargie	quand il voit la charrette chargée													
 749	Des anguilles et des lanproies,	d'anguilles et de lamproies.													
-750	Fichant muçant par mi ces haies	S'enfonçant et se cachant parmi les haies,	Fichant muçant	S'enfonçant et se cachant											
+750	Fichant muçant par mi ces haies	Se précipitant à travers les haies, tout en se cachant,	Fichant muçant par mi ces haies	Se précipitant à travers les haies, tout en se cachant											
 751	Cort au devant por els deçoivre.	il court au devant pour les tromper.													
 752	Ainz ne s'en porent aparçoivre,	Avant qu'ils ne puissent s'en apercevoir,													
 753	Lors s'est couchiez en mi la voie.	il se couche alors au milieu de la route.													
@@ -759,9 +759,9 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 758	Les eulz clot et les denz rechingne,	ferme les yeux, montre les dents en grimaçant,													
 759	Si tenoit s'alaine en prison.	puis retient son souffle.													
 760	Oïstes mes tel traïson ?	Avez-vous déjà entendu parler d'une telle traitrise ?													
-761	Illeques est remés gesanz.	Il reste là étendu.													
-762	A tant es vos les marcheanz,	Et voilà les marchands													
-763	De ce ne se prenoient garde.	qui ne se doutent de rien.													
+761	Illeques est remés gesanz.	Il reste là étendu,													
+762	A tant es vos les marcheanz,	et voici les marchands													
+763	De ce ne se prenoient garde.	qui ne s'en méfient pas.													
 764	Le premier le vit si l'esgarde,	Le premier le voit, l'observe,													
 765	Si apela son compaingnon :	puis interpelle son compagnon :													
 766	« Vez la ou gorpil ou tesson. »	« Regarde là un goupil ou un blaireau. »													
@@ -773,10 +773,10 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 772	Li marcheant d'aler s'esforce	Le marchand court de toutes ses forces,													
 773	Et ses compains venoit aprés.	et son compagnon le suit.													
 774	Quant il furent de Renart pres,	Quand ils sont près de Renart,													
-775	Le gorpil trovent enversé.	il trouve le goupil à la renverse.													
-776	De toutes parz l'ont reversé,	Il le retourne dans tous les sens,													
-777	Pincent le col et puis la coste :	il lui pince le cou, puis les côtes,													
-778	Il n'ont pas peor de tel oste.	il n'ont pas peur d'un tel hôte.													
+775	Le gorpil trovent enversé.	ils trouvent le goupil à la renverse.													
+776	De toutes parz l'ont reversé,	Ils le retournent dans tous les sens,													
+777	Pincent le col et puis la coste :	ils lui pincent le cou, puis les côtes,													
+778	Il n'ont pas peor de tel oste.	ils n'ont pas peur d'un tel hôte.													
 779	Li .I. a dit : « .IIII. sols vaut. »	L'un d'eux dit : « Il vaut quatre sous. »													
 780	Li autre a dit : « Assez plus vaut,	L'autre répond : « Il en vaut bien plus,													
 781	Ainz valt .V. sols a bon marchié.	au contraire il vaut cinq sous et c'est bon marché.													
@@ -7977,64 +7977,64 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 7976	Car trestot li mondes me het.	le monde entier me hait.													
 7977	Or remanez, quar je m'en vois	Restez donc là, je m'en vais maintenant													
 7978	Querre aventure par cel bois. »	chercher aventure par ce bois. »													
-7979	A icest mot de lui se part,	À ces mots, il se sépare de lui,													
+7979	A icest mot de lui se part,	À ces mots, il le quitte													
 7980	Fuiant s'en vet par .I. essart ;	et s'en va en fuyant par un essart.													
 7981	Mout se regarde et se remire,	Puis il se regarde et s'examine entièrement,													
 7982	De joie conmença a rire.	et se met à rire de joie.				x									
-7983	Hors del chemin, lez une haie				99										
-7984	Vit Ysengrin, mout s'en esmaie,														
-7985	Ou il atendoit aventure,														
-7986	Qar fain avoit a desmesure.														
-7987	Lors dist Renart : « Or sui je morz,														
-7988	Qar Ysengrin est cras et gros ;														
-7989	Ysengrin est et gros et cras														
-7990	Et je de fain et megre et las,														
-7991	Mout en ai soufert grant angoisse.														
-7992	Ne cuit que ja mes me connoisse,														
-7993	Fors au parler, ce croi je bien,														
-7994	Me connoistra sor toute rien.														
-7995	G'irai vers lui, a quoi que tort,														
-7996	S'orrai noveles de la corto »														
-7997	Mout pense bien en son corage														
-7998	Que il muera son langage.														
-7999	Ysengrin garde cele part														
-8000	Et voit venir vers lui Renart ;														
-8001	Drece la poue, si se saigne,														
-8002	Ançois que il a lui parviengne,														
-8003	Plus de .C. foiz, si con je cuit ;														
-8004	Tel peor a, poi ne s'en fuit.														
-8005	Quant ce ot fet, lors si s'areste														
-8006	Et dist c'onques ne vit tel beste ;														
-8007	D'estrange terre est venue.														
-8008	Es vos Renart qui le salue :														
-8009	« Godehelpe, fet il, biau sire !														
-8010	Ne savré rien ton reson dire.														
-8011	— Et Diex vos saut, biax doz amis !														
-8012	Dont estes vos ? de quel païs ?														
-8013	Vos n'estes mie nez de France														
-8014	Ne de la nostre connoissance.														
-8015	— Non, ma seignor, mes de Bretaing,														
-8016	Si fou tout perdu mon gaaing,														
-8017	Tout fu cerchié por ma compaing,														
-8018	Ne trovera rien qui m'ensaing.														
-8019	Trestot Franc n'en tot Engleter														
-8020	A vra quis por ma compaing quer.														
-8021	Or vodrai torner por rester,														
-8022	Ne sai mes ou puisse querer.														
-8023	Tant avré moré cest païs														
-8024	Que j'avré ja tout France pris.														
-8025	Mes Paris ira moi ançois,														
-8026	Si avré pris trestout françois.														
-8027	— Et savez vos nisun mestier ?														
-8028	— Ouil, je serai bon jugler,														
-8029	Mes je fot eir rober, batu														
-8030	Et mon vïel me fu tolu.														
-8031	Se je voudra avoir vïel,														
-8032	Je vos diré .I. rotruel,														
-8033	Ou .I. biau lai ou .I. biaus son														
-8034	Por ce vos me semblez preudon ;														
-8035	Je ne menjai .I. jors entiers,														
-8036	Or mengeré mout volentiers.														
+7983	Hors del chemin, lez une haie	À l'extérieur du chemin, à côté d'une haie,			99										
+7984	Vit Ysengrin, mout s'en esmaie,	Renart aperçoit Ysengrin, ce qui l'inquiète beaucoup.													
+7985	Ou il atendoit aventure,	Il est là en train de tenter sa chance													
+7986	Qar fain avoit a desmesure.	car il a extrêmement faim.													
+7987	Lors dist Renart : « Or sui je morz,	Renart se dit alors : « À présent je suis perdu,													
+7988	Qar Ysengrin est cras et gros ;	car Ysengrin est gros, gras,													
+7989	Ysengrin est et gros et cras	grand et fort,	et gros et cras	grand et fort											
+7990	Et je de fain et megre et las,	et moi je suis maigre et épuisé par par la faim,													
+7991	Mout en ai soufert grant angoisse.	qui me fait souffrir un véritable tourment.	grant angoisse	un véritable tourment											
+7992	Ne cuit que ja mes me connoisse,	Mais je ne pense pas qu'il me reconnaisse,													
+7993	Fors au parler, ce croi je bien,	excepté quand je parle, où je crois bien													
+7994	Me connoistra sor toute rien.	qu'il me reconnaitra entre tous.	sor toute rien	entre tous											
+7995	G'irai vers lui, a quoi que tort,	Je vais aller vers lui quoiqu'il arrive,	a quoi que tort	quoiqu'il doive arriver											
+7996	S'orrai noveles de la cort. »	j'entendrai ainsi les nouvelles de la cour »													
+7997	Mout pense bien en son corage	Avec conviction, il se dit en lui-même	Mout pense bien en son corag	Avec conviction, il se dit en lui-même											
+7998	Que il muera son langage.	qu'il va changer sa manière de parler.													
+7999	Ysengrin garde cele part	Ysengrin regarde alors de ce côté,													
+8000	Et voit venir vers lui Renart ;	et voit Renart venir vers lui.													
+8001	Drece la poue, si se saigne,	Il lève la patte, puis se signe,													
+8002	Ançois que il a lui parviengne,	avant que l'autre ne parvienne à lui,													
+8003	Plus de .C. foiz, si con je cuit ;	plus de cent fois, ainsi que je le crois.													
+8004	Tel peor a, poi ne s'en fuit.	Il a une telle peur, peu s'en faut qu'il ne s'enfuit.													
+8005	Quant ce ot fet, lors si s'areste	Après avoir fait cela, il s'arrête													
+8006	Et dist c'onques ne vit tel beste ;	et se dit que jamais il n'a vu de telle bête,													
+8007	D'estrange terre est venue.	qui vient certainement d'une terre étrangère.													
+8008	Es vos Renart qui le salue :	Voici Renart qui le salue :													
+8009	« Godehelpe, fet il, biau sire !	« God helps you, fait il, cher seigneur !	Godehelpe	God helps you											
+8010	Ne savré rien ton reson dire.	je ne saurai rien dire dans ta langue.													
+8011	— Et Diex vos saut, biax doz amis !	— Que Dieu vous garde, très cher amis !													
+8012	Dont estes vos ? de quel païs ?	d'où êtes-vous donc ? de quel pays ?													
+8013	Vos n'estes mie nez de France	Vous ne semblez pas être né en France,													
+8014	Ne de la nostre connoissance.	ni être d'un pays de notre connaissance.													
+8015	— Non, ma seignor, mes de Bretaing,	— Non, ma seigneur, mais de Bretagne,													
+8016	Si fou tout perdu mon gaaing,	moi tellement ignorant, tout perdu mon gain,	Si fou tout perdu mon gaaing	moi tellement ignorant, tout perdu mon gain											
+8017	Tout fu cerchié por ma compaing,	j'ai cherché partout ma compagnon,													
+8018	Ne trovera rien qui m'ensaing.	je ne trouvera personne qui me renseigne.													
+8019	Trestot Franc n'en tot Engleter	Toute la France et toute l'Angleterre													
+8020	Avra quis por ma compaing quer.	j'aura cherché pour trouver ma compagnon.													
+8021	Or vodrai torner por rester,	Je voudrai maintenant retourner pour rester,													
+8022	Ne sai mes ou puisse querer.	je ne sais plus où je puisse chercher.													
+8023	Tant avré moré cest païs	J'aurai tant demeuré dans ce pays													
+8024	Que j'avré ja tout France pris.	que j'aurai bien connu toute la France.													
+8025	Mes Paris ira moi ançois,	Mais avant, moi j'ira à Paris,													
+8026	Si avré pris trestout françois.	puis j'aurai appris tout le français.													
+8027	— Et savez vos nisun mestier ?	— Et, connaissez-vous quand même un métier ?													
+8028	— Ouil, je serai bon jugler,	— Oui, je serai bon jongleur,													
+8029	Mes je fot eir rober, batu	mais hier je m'a fait voler et battu,													
+8030	Et mon vïel me fu tolu.	et me suis fait prendre mon vielle.													
+8031	Se je voudra avoir vïel,	Si je pourra avoir un vielle,													
+8032	Je vos diré .I. rotruel,	je vous dirai un rotruenge,													
+8033	Ou .I. biau lai ou .I. biaus son	ou un beau lai ou un beau chant,													
+8034	Por ce vos me semblez preudon ;	parce que vous me semblez un homme de bien.													
+8035	Je ne menjai .I. jors entiers,	Je n'ai pas mangé un jour entier,													
+8036	Or mengeré mout volentiers.	je mangerai bien volontiers maintenant.													
 8037	— Com as tu non, biax doz amis ?														
 8038	— Je seré pelé Galopins.														
 8039	— Et sez tu dire point novel ?														
@@ -10152,7 +10152,7 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 10151	Qui est et crasse et tendrete.														
 10152	Et vostre filz qui mes n'alete,														
 10153	Qui a en cest an esté nez,														
-10154	A vra, se vos si le volez,														
+10154	Avra, se vos si le volez,														
 10155	A son mengier cel veelet														
 10156	Qui est tendre et est de let :														
 10157	N'avra encor que .vrrr. mois demain.														
