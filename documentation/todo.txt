@@ -3,3 +3,4 @@ Things to do
 
 - update the number of the last translated verse in the introduction.html wigdet automatically
 - find typos in the translation automatically
+- add indentations

@@ -44,4 +44,9 @@ Adding a caption:
 - update the story title if this is a new story
 - change the episode title to the actual episode title
 - select a few lines of the translated episode that relates to the image, copy & paste those lines in place of the "model" lines 
-- change the url within the brackets to the url of the original image on the internet or in picasaweb (see paragraph 2.) 
+
+
+5. Save the image source URL
+----------------------------
+
+- add the image source URL in documentation/image-sources.txt
