@@ -524,8 +524,15 @@ class Text
             throw new Exception("too many verses, line: $lineNumber");
         }
 
+        if (! empty($line['indentation']) and $line['episode-number'] === '') {
+            // adds indentation
+            $indentation = '<span class="rdr-indentation">&nbsp;</span>';
+        } else {
+            $indentation = '';
+        }
+
         // collects original and translated text
-        $episode['original-text'][] = $line['original-verse'];
+        $episode['original-text'][] = $indentation . $line['original-verse'];
         $episode['translated-text'][] = $line['translated-verse'];
 
         if (! empty($line['original-verse-to-confirm']) and ! empty($line['translated-verse-to-confirm'])) {
