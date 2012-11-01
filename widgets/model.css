@@ -377,6 +377,10 @@ div.rdr-content tr.rdr-last td {
     padding-top: .5em;
 }
 
+div.rdr-content span.rdr-indentation {
+   padding-left: 1em;
+}
+
 div.rdr-content tr.rdr-bottom td {
     padding-top: 1.2em;
 }
@@ -422,6 +426,10 @@ div.rdr-translation-in-progress {
   </head>
 
   <body>
+  <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'>
+<b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'/>
+</b:section>
+
 
   <div id='outer-wrapper'><div id='wrap2'>
 
@@ -452,7 +460,6 @@ div.rdr-translation-in-progress {
       <div id='sidebar-wrapper'>
         <b:section class='sidebar' id='sidebar' preferred='yes'>
 <b:widget id='HTML8' locked='false' title='Le Roman de Renart' type='HTML'/>
-<b:widget id='Text2' locked='false' title='' type='Text'/>
 <b:widget id='HTML5' locked='false' title='Liste des épisodes' type='HTML'/>
 <b:widget id='CustomSearch1' locked='false' title='' type='CustomSearch'/>
 <b:widget id='LinkList1' locked='false' title='Liens' type='LinkList'/>
