@@ -104,3 +104,4 @@
 17c-ysengrin-en-colere.jpg                           => http://fr.academic.ru/pictures/frwiki/80/Parc_zoologique_de_Vincennes_20060816_29.jpg
 17d-le-chagrin-d-hersent.jpg                         => http://fc07.deviantart.net/fs38/i/2008/339/4/e/sad_wolf_by_anneke696.jpg
 17e-poncet-le-pretendant.jpg                         => http://i.ebayimg.com/17/!BwQN8RQCWk~$(KGrHqEOKjMEwPKP8FdfBMIHWpK6(g~~_35.JPG
+17f-poncet-marie-hermeline.jpg                       => http://s3.static69.com/m/image-offre/e/d/4/4/ed444b7983a42466b8dcd999a31bf9ed-300x300.gif

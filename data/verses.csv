@@ -8109,7 +8109,7 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 8108	Acointeré vos de la gent.	je vous ferai connaitre de tout le monde.													
 8109	Et se tu vels a moi venir,	Si vous voulez venir avec moi,													
 8110	Je te feré mout chier tenir.	je ferai de vous quelqu'un de très estimé.	Je te feré mout chier tenir	je ferai de vous quelqu'un de très estimé											
-8111	— Foutre merci, dist Galopins ;	— Foutre merci, dit Galopin.													
+8111	— Foutre merci, dist Galopins ;	— Fôtre merci, dit Galopin.	Foutre	Fôtre											
 8112	Je savré bien fere chopins,	je saurai faire de bons tours,	bien fere chopins	faire de bons tours											
 8113	Et si sez bien fez chevalier	et je sais aussi bien fait le chevalier													
 8114	Dont moi sui a cort tenu chier.	pour que moi je suis estimé à la cour.													
@@ -8416,7 +8416,7 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 8415	Cosin germain le tesson fu.	C'est un cousin germain du blaireau.													
 8416	Renart le vit, si s'arestut ;	Renart le voit, et il s'arrête.													
 8417	Sachiez bien les a conneüz,	Sachez bien qu'il les a reconnus													
-8418	Si tost con il les a veüz,	dés qu'il les a repérés.													
+8418	Si tost con il les a veüz,	dès qu'il les a repérés.													
 8419	Ja eüst Poncet espousé,	Elle aurait déjà épousé Poncet													
 8420	Se jougleor eüst trové,	si celui-ci avait trouvé un troubadour.	jougleor	troubadour											
 8421	Mes ele pas tort n'en avoit :	Et elle n'aurait pas eu tort,													
@@ -8499,73 +8499,73 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 8498	Ainz demain nuit l'avré juree. »	qu'avant la nuit prochaine je l'aurai mariée. »													
 8499	Renart respont entre ses dens :	Renart répond entre ses dents :													
 8500	« Tu en seras encor dolens.	« Tu en souffriras encore plus.													
-8501	Encor en charras en tel briche,	Tu tomberas dans en piège tel													
+8501	Encor en charras en tel briche,	Tu tomberas dans un piège tel													
 8502	Nel vodroies par une fliche.	que tu n'en voudrais pas pour une tranche de lard. »				x									
-8503	— Sire jougleres damoisiax,				104			x							
-8504	Ce li a dit sire Poinciax,														
-8505	Se vos as noces volez estre,														
-8506	Dont ne nos faut il que le prestre ;														
-8507	Je vos donré du mien assez,														
-8508	Quant cist aferes ert passez.														
-8509	— Foutre merciz, dist il, biau sir,														
-8510	Je ne vos savra escondir.														
-8511	Je savrai dir chançon d'Ogier														
-8512	Et de Rollant et d'Olivier														
-8513	Et de Challon le ber chanu.														
-8514	— Dont vos est il bien avenu. »														
-8515	Entre ses denz dist li maufez :														
-8516	« Je sui a vos li mal trovez. »														
-8517	A tant se metent a la voie,														
-8518	Renart vïele et fet grant joie,														
-8519	Tant qu'il vindrent a la tesniere,														
-8520	Qui mout estoit large et pleniere.														
-8521	Quant vindrent la, si entra enz,														
-8522	Son chastel vit et il descent.														
-8523	Il n'en volt fere autre semblant,														
-8524	Mes mout en a le cuer dolent ;														
-8525	En son cuer pense, se il vit,														
-8526	Que tiex en plorra qui en rit.														
-8527	Par le païs et par la terre														
-8528	Envoie cil ses amis querre.														
-8529	Tant veïssiez bestes venir,														
-8530	N'en pouissiez conte tenir ;														
-8531	De mout loing si assemblent tuit,														
-8532	Par la vile mainnent grant bruit.														
-8533	Dame Hersent i est venue,														
-8534	Et Ysengrin remest en mue.														
-8535	Novelement lessié l'avoit														
-8536	Por mautalent c'a lui avoit,														
-8537	Et jure sainte Patenostre														
-8538	Que ja mes n'ira lez sa coste.														
-8539	Qu'a l'en d'onme a fere en chambre,														
-8540	Puis que il n'a trestoz ses membres ?														
-8541	Mes voist au bois, si se porchace,														
-8542	Droit est que tot le mont le hace ;														
-8543	A tant s'en est de li tornee.														
-8544	A noces vint bien atornee,														
-8545	Et d'autres une mout grant rote.														
-8546	Renart lor chantoit une note														
-8547	Que il a mout grant joie oïrent.														
-8548	Tybert li chaz et Brun servirent ;														
-8549	Toutes sont plaines les cuisines														
-8550	De cos, de gras et de gelines ;														
-8551	D'autres vitailles i avoit														
-8552	Selonc ce que chascun voloit.														
-8553	Et li jougleres lor chantoit														
-8554	Et a chascun forment plesoit :														
-8555	Onc n'oï nul si grant jenglois														
-8556	Con Renart mainne en son englois.														
-8557	Aprés mengier se departirent														
-8558	Tot maintenant que plus ne firent ;														
-8559	Onc n'i remest ne bons ne maux,														
-8560	For eulz, ne cheveluz ne chauz ;														
-8561	Chascun s'en va a son repere,														
-8562	Renart remest son mestier fere.														
-8563	Dame Hersent o l'espousee														
-8564	S'en est dedenz la chambre entree,														
-8565	Et a Poincet a fet .I. lit														
-8566	Ou cuide mener son delit.					x									
-8567	A une lieue d'iluec ot,							x							
+8503	— Sire jougleres damoisiax,	« Cher maître jongleur, cher damoiseau,	Sire jougleres damoisiax	Cher maître jongleur, cher damoiseau	104			x		Le mariage de Poncet et d'Hermeline	http://roman-de-renart.blogspot.com/2012/11/le-mariage-de-poncet-et-d-hermeline.html	https://lh5.googleusercontent.com/-TVdJwrdLCXE/UJvE3cLQpzI/AAAAAAAAErk/s44A4AgvlmU/s800/17f-poncet-marie-hermeline.jpg	https://picasaweb.google.com/lh/photo/IhBAw-BaD-YdZxQFFq7kvNMTjNZETYmyPJy0liipFm0?feat=directlink		
+8504	Ce li a dit sire Poinciax,	lui dit seigneur Poincet,													
+8505	Se vos as noces volez estre,	si vous acceptez de venir aux noces,													
+8506	Dont ne nos faut il que le prestre ;	il ne nous manquera plus que le prêtre.													
+8507	Je vos donré du mien assez,	Je vous donnerai un bon salaire	Je vos donré du mien assez	Je vous donnerai un bon salaire											
+8508	Quant cist aferes ert passez.	quand tout sera terminé.													
+8509	— Foutre merciz, dist il, biau sir,	— Fôtre merci, dit-il, cher seigneur,													
+8510	Je ne vos savra escondir.	je ne saura vous refuser.													
+8511	Je savrai dir chançon d'Ogier	Je saurai dire des chansons d'Ogier,													
+8512	Et de Rollant et d'Olivier	de Rolland, d'Olivier,													
+8513	Et de Challon le ber chanu.	et du baron Challon le vieux.	Et de Challon le ber chanu	et du baron Challon le vieux											
+8514	— Dont vos est il bien avenu. »	— Vous tombez vraiment à point. »													
+8515	Entre ses denz dist li maufez :	Ce diable de Renart lui répond entre ses dents :													
+8516	« Je sui a vos li mal trovez. »	« Je suis votre malheur tout trouvé. »	Je sui a vos li mal trovez	Je suis votre malheur tout trouvé											
+8517	A tant se metent a la voie,	Sur-ce, ils se mettent en route.													
+8518	Renart vïele et fet grant joie,	Renart joue de la vielle pour leur plus grande joie,													
+8519	Tant qu'il vindrent a la tesniere,	jusqu'à ce qu'ils parviennent à la tanière.													
+8520	Qui mout estoit large et pleniere.	Celle-ci est vaste et bien pourvue.													
+8521	Quant vindrent la, si entra enz,	Aussitôt arrivés, ils entrent dedans.													
+8522	Son chastel vit et il descent.	Renart regarde son château, et descend à l'intérieur.													
+8523	Il n'en volt fere autre semblant,	Il ne veut rien laisser paraître													
+8524	Mes mout en a le cuer dolent ;	mais il a le cœur triste.													
+8525	En son cuer pense, se il vit,	Il se dit en lui-même, qu'aussi vrai qu'il vit,													
+8526	Que tiex en plorra qui en rit.	celui qui rit maintenant va bientôt en pleurer.	Que tiex en plorra qui en rit	celui qui rit maintenant va bientôt en pleurer											
+8527	Par le païs et par la terre	À travers le pays, dans tout le royaume,													
+8528	Envoie cil ses amis querre.	Poncet envoie chercher ses amis.													
+8529	Tant veïssiez bestes venir,	Il vient tellement de bêtes, si vous voyiez ça,													
+8530	N'en pouissiez conte tenir ;	que vous n'auriez pas pu en faire le compte.													
+8531	De mout loing si assemblent tuit,	Elles se rassemblent toutes au loin,													
+8532	Par la vile mainnent grant bruit.	et passent dans le village à grand bruit.													
+8533	Dame Hersent i est venue,	Dame Hersent est venue,													
+8534	Et Ysengrin remest en mue.	mais Ysengrin est resté caché.													
+8535	Novelement lessié l'avoit	Elle l'a quittée récemment													
+8536	Por mautalent c'a lui avoit,	par dépit envers lui,	Por mautalent c'a lui avoit	par dépit envers lui											
+8537	Et jure sainte Patenostre	et jure par le saint chapelet	Et jure sainte Patenostre	et jure par le saint chapelet											
+8538	Que ja mes n'ira lez sa coste.	que plus jamais elle n'ira à ses côtés.													
+8539	Qu'a l'en d'onme a fere en chambre,	Que peut-on faire d'un homme dans une chambre,													
+8540	Puis que il n'a trestoz ses membres ?	s'il n'a pas tous ses membres ?													
+8541	Mes voist au bois, si se porchace,	Qu'il aille donc dans les bois, et se débrouille tout seul.	si se porchace	et se débrouille tout seul											
+8542	Droit est que tot le mont le hace ;	C'est normal que tout le monde le haïsse,													
+8543	A tant s'en est de li tornee.	elle s'en est donc détournée.													
+8544	A noces vint bien atornee,	Elle arrive aux noces bien apprêtée,													
+8545	Et d'autres une mout grant rote.	avec tout un cortège d'autres personnes.	Et d'autres une mout grant rote	avec tout un cortège d'autres personnes											
+8546	Renart lor chantoit une note	Renart leur chante un air													
+8547	Que il a mout grant joie oïrent.	qu'ils écoutent avec beaucoup de plaisir.													
+8548	Tybert li chaz et Brun servirent ;	Tibert le chat et Brun font le service.													
+8549	Toutes sont plaines les cuisines	Les cuisines sont pleines													
+8550	De cos, de gras et de gelines ;	de coqs, de poules, et de viandes grasses.	gras	de viandes grasses											
+8551	D'autres vitailles i avoit	Il y a aussi d'autres victuailles,													
+8552	Selonc ce que chascun voloit.	selon ce que chacun veut.													
+8553	Et li jougleres lor chantoit	Et le jongleur continue de chanter													
+8554	Et a chascun forment plesoit :	pour le plus grand plaisir de chacun.													
+8555	Onc n'oï nul si grant jenglois	Jamais personne n'a entendu d'aussi grand bagou													
+8556	Con Renart mainne en son englois.	que celui de Renart dans son anglais.													
+8557	Aprés mengier se departirent	Après manger, ils se séparent tous													
+8558	Tot maintenant que plus ne firent ;	dés qu'il n'y a plus rien d'autre à faire.	Tot maintenant que plus ne firent	dés qu'il n'y a plus rien à faire											
+8559	Onc n'i remest ne bons ne maux,	Il ne reste alors ni bons, ni mauvais,													
+8560	For eulz, ne cheveluz ne chauz ;	ni chauves, ni chevelus, à part Poncet et les siens.	For eulz	à part Poncet et les siens											
+8561	Chascun s'en va a son repere,	Chacun retourne à son repaire,													
+8562	Renart remest son mestier fere.	Renart reste faire son métier de jongleur.													
+8563	Dame Hersent o l'espousee	Dame Hersent entre avec la mariée													
+8564	S'en est dedenz la chambre entree,	dans la chambre.													
+8565	Et a Poincet a fet .I. lit	Elle fait un lit à Poincet,													
+8566	Ou cuide mener son delit.	où celui-ci espère prendre son plaisir.				x									
+8567	A une lieue d'iluec ot,				105			x							
 8568	Si que Renart mout bien le sot,														
 8569	Une tombe d'une martire														
 8570	Don vos m'avez bien oï dire ;														
