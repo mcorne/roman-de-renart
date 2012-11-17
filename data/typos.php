@@ -23,6 +23,7 @@ return array(
     "d'avantage"  => 'davantage',   // if adverb "davantage", http://grammaire.reverso.net/2_1_31_davantage_davantage.shtml
     'demi '       => 'demi-',       // as in "demi-pied"
     'dés'         => 'dès',         // as in "dès que"
+    'deux là'     => 'deux-là',     // as in "dès que"
     'est ce don'  => 'est-ce don',  // as in "est-ce donc"
     'Est ce'      => 'Est-ce',
     'ez la moi'   => 'ez-la-moi',   // as in "passez-la-moi"
@@ -31,6 +32,7 @@ return array(
     'ez moi'      => 'ez-moi',      // as in "donnez-moi"
     'fait il'     => 'fait-il',
     'grand peur'  => 'grand-peur',
+    'grand allure' => 'grande allure',
     'hermite'     => 'ermite',
     "il l'ont"    => "ils l'ont",
     'leurs'       => 'leur',        // if pronom "leur", http://grammaire.reverso.net/4_2_17_leur_leurs.shtml
@@ -39,7 +41,8 @@ return array(
     'moment là'   => 'moment-là',
     'ons en là'   => 'ons-en là',   // as in "restons-en là"
     'ons nous en' => 'ons-nous-en', // as in "allons-nous-en"
-    'pourvoir'    => 'pouvoir',     // if verb "pouvoir" (can)
+    'Renard'      => 'Renart',
+    'Poincet'     => 'Poncet',
     'puis,'       => 'puis',        // most cases, see http://www3.sympatico.ca/fol-ecrit/folie12.html
     'quand [aà]'  => 'quant',       // "quant" as in "en ce qui concerne", "pour ce qui est de"
     'quant [^aà]' => 'quand',       // "quand" as in "au moment où", "à quel moment"

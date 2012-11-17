@@ -578,6 +578,32 @@ class Text
     }
 
     /**
+     * Saves the HTML content of the copyright
+     *
+     * @param string $html The HTML content of the copyright
+     * @return string      The result of the action to be displayed to the output
+     */
+    public function saveCopyright($html)
+    {
+        $file = 'widgets/copyright.html';
+        $path = __DIR__ . "/../$file";
+        $prevHtml = $this->readFile($path);
+
+        if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
+            $result[] = 'The copyright is already up to date.';
+            $result[] = "No changes were made to $file.";
+
+        } else {
+            $this->writeFile($path, $html);
+            $result[] = 'The copyright was updated successfully.';
+            $result[] = "Please, COPY & PASTE the content of $file";
+            $result[] = 'into the corresponding blog widget.';
+        }
+
+        return implode("\n", $result);
+    }
+
+    /**
      * Saves an episode in a blog message (publishes an episode)
      *
      * The episode is also saved in a file.
@@ -647,32 +673,6 @@ class Text
     }
 
     /**
-     * Saves the HTML content of the table of contents
-     *
-     * @param string $html The HTML content of the table of contents
-     * @return string      The result of the action to be displayed to the output
-     */
-    public function saveTableOfContents($html)
-    {
-        $file = 'widgets/table-of-contents.html';
-        $path = __DIR__ . "/../$file";
-        $prevHtml = file_exists($path)? $this->readFile($path) : null;
-
-        if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
-            $result[] = 'The table of contents is already up to date.';
-            $result[] = "No changes were made to $file.";
-
-        } else {
-            $this->writeFile($path, $html);
-            $result[] = 'The table of contents was updated successfully.';
-            $result[] = "Please, copy & paste the content of $file";
-            $result[] = 'into the corresponding blog widget.';
-        }
-
-        return implode("\n", $result);
-    }
-
-    /**
      * Saves the HTML content of an episode into a temporary file
      *
      * The episode is saved in messages/temp.html that is used for checking changes before commiting them to the blog.
@@ -699,6 +699,34 @@ class Text
     }
 
     /**
+     * Saves the HTML content of a widget
+     *
+     * @param  string $html     The HTML content of the widget
+     * @param  string $basename The file base name
+     * @param  string $widget   The widget name
+     * @return string      The result of the action to be displayed to the output
+     */
+    public function saveWidget($html, $basename, $widget)
+    {
+        $file = "widgets/$basename";
+        $path = __DIR__ . "/../$file";
+        $prevHtml = file_exists($path)? $this->readFile($path) : null;
+
+        if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
+            $result[] = "The $widget is already up to date.";
+            $result[] = "No changes were made to $file.";
+
+        } else {
+            $this->writeFile($path, $html);
+            $result[] = "The $widget was updated successfully.";
+            $result[] = "Please, COPY & PASTE the content of $file";
+            $result[] = 'into the corresponding blog widget.';
+        }
+
+        return implode("\n", $result);
+    }
+
+    /**
      * Sets the title of the episode
      *
      * The title is made of the story title and the episode title.
@@ -709,6 +737,38 @@ class Text
     public function setTitle($episode)
     {
         return sprintf('%s - %s', $episode['story-title'],  $episode['episode-title']);
+    }
+
+    /**
+     * Updates the HTML of the copyright widget with the current year
+     *
+     * The HTML content of the copyright will have to be loaded manually in the corresponding blog widget.
+     *
+     * @param array $episodes  The episodes details
+     * @return string          The copyright
+     */
+    public function updateCopyright($episodes)
+    {
+        $html = $this->readFile(__DIR__ . '/../widgets/copyright.html');
+        $year = date('Y');
+
+        return preg_replace('~<span style="white-space:nowrap">2009-\d+</span>~', "<span style=\"white-space:nowrap\">2009-$year</span>", $html);
+    }
+
+    /**
+     * Updates the HTML of the introduction widget with the number of the last translated verse
+     *
+     * The HTML content of the introduction will have to be loaded manually in the corresponding blog widget.
+     *
+     * @param array $episodes  The episodes details
+     * @return string          The introduction
+     */
+    public function updateIntroduction($episodes)
+    {
+        $html = $this->readFile(__DIR__ . '/../widgets/introduction.html');
+        $lastTranslatedVerseNumber = $episodes[999]['verse-number'] - 1;
+
+        return preg_replace('~<span id="mc_fait">\d+</span>~', "<span id=\"mc_fait\">$lastTranslatedVerseNumber</span>", $html);
     }
 
     /**

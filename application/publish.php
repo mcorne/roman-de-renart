@@ -13,18 +13,24 @@
 require_once 'Blog.php';
 require_once 'Text.php';
 
+define('OPTION_A', '-c -i -t');
+
 /**
  * The command help
  */
 $help =
 'Usage:
+-a              Options: %1$s.
+-c              Update the copyright widget with the current year.
+-i              Update the introduction widget with the number of
+                the last translated verse.
 -l              Display the list of episodes.
 -n number,...   Optional comma separated list of numbers of episodes.
                 By default, all episodes are processed.
                 Mandatory in logged off mode, only one number allowed.
                 999 is the number of the episode being translated.
 -p password     Blogger account Password.
--t              Update the table of contents.
+-t              Update the table of contents widget.
 -u name         Blogger user/email/login name.
 
 Notes:
@@ -43,13 +49,20 @@ publish -n 10
 ';
 
 try {
-    if (! $options = getopt("hln:p:tu:")) {
+    if (! $options = getopt("haciln:p:tu:")) {
         throw new Exception('invalid or missing option(s)');
     }
 
     if (isset($options['h'])) {
         // displays the command usage (help)
-        exit($help);
+        exit(sprintf($help, OPTION_A));
+    }
+
+    if (isset($options['a'])) {
+        // this is the (combined) option A, adds the options
+        preg_match_all('~\w~', (string)OPTION_A, $matches);
+        $options += array_fill_keys($matches[0], false);
+        unset($options['a']);
     }
 
     $text = new Text();
@@ -58,13 +71,10 @@ try {
     if (isset($options['l'])) {
         // displays the list of episodes
         echo $text->listEpisodes($episodes);
+        exit;
+    }
 
-    } else if (isset($options['t'])) {
-        // creates the table of contents
-        $html = $text->makeTableOfContents($episodes);
-        echo $text->saveTableOfContents($html);
-
-    } else if (isset($options['u']) and isset($options['p'])) {
+    if (isset($options['u']) and isset($options['p'])) {
         // this is the logged on mode, publishes one more episodes in Blogger and saves them in local files
         if (isset($options['n'])) {
             $numbers = explode(',', $options['n']);
@@ -73,13 +83,13 @@ try {
 
         $htmls = array_map(array($text, 'makeMessage'), $episodes);
         $blog = new Blog($options['u'], $options['p'], 'Le Roman de Renart');
-        echo $text->saveMessages($htmls, $episodes, $blog);
+        echo "\n" . $text->saveMessages($htmls, $episodes, $blog) . "\n";
 
-    } else if (! isset($options['u']) and ! isset($options['p'])) {
+    } else if (isset($options['u']) or isset($options['p'])) {
+        throw new Exception('missing user name or password');
+
+    } else if (isset($options['n'])) {
         // this is the logged off mode, makes an episode HTML and saves the content in data/temp.html
-        if (empty($options['n'])) {
-            throw new Exception('option -n is mandatory in logged off mode');
-        }
         $number = $options['n'];
 
         if (! isset($episodes[$number])) {
@@ -87,10 +97,26 @@ try {
         }
 
         $html = $text->makeMessage($episodes[$number]);
-        echo $text->saveTempMessage($html, $number);
+        echo "\n" . $text->saveTempMessage($html, $number) . "\n";
 
-    } else {
-        throw new Exception('missing user name or password');
+    }
+
+    if (isset($options['c'])) {
+        // updates the copyright
+        $html = $text->updateCopyright($episodes);
+        echo "\n" . $text->saveWidget($html, 'copyright.html', 'copyright') . "\n";
+    }
+
+    if (isset($options['i'])) {
+        // updates the introduction with the number of the last translated verse
+        $html = $text->updateIntroduction($episodes);
+        echo "\n" . $text->saveWidget($html, 'introduction.html', 'introduction') . "\n";
+    }
+
+    if (isset($options['t'])) {
+        // creates the table of contents
+        $html = $text->makeTableOfContents($episodes);
+        echo "\n" . $text->saveWidget($html, 'table-of-contents.html', 'table of contents') . "\n";
     }
 
 } catch(Exception $e) {
