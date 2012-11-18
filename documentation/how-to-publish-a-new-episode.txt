@@ -41,7 +41,7 @@ The episode information must be updated in the first line of the episode:
 - add the url to the episode image in the "image-src" cell, see below.
 - add the url to the original image in the "image-href" cell, see below.
 - check the section original title in the "section-original-title" cell if this is the first episode of a section in the book (leave blank otherwise)
-- add the section translated title in the "section-translated-title" cell if this is the first episode of a section in the book (leave blank otherwise)
+- check the section translated title in the "section-translated-title" cell if this is the first episode of a section in the book (leave blank otherwise)
 - save and close the file, do not change the CSV format settings and extension
 
 How to find the url's of the episode image:
@@ -59,30 +59,16 @@ How to find the url's of the episode image:
 -----------------------------------------------------
 
 - add the number of the next episode in the "episode-number" cell in the first line of this episode
-- add the letter "x" in the "is-last-verse" cell in the last line of this episode
+- confirm the letter "x" in the "is-last-verse" cell in the last line of this episode
 
 Note that this step may be done later.
-
 
 
 6. Publish the episode
 ----------------------
 
-- run the command line: publish -u <login> -p <password>
-
-
-7. Update the table of contents
--------------------------------
-
-- run the command line: publish -t
-- copy & paste the content of the widget "table-of-contents.html" in the "widgets" directory to the corresponding blog widget
-
-
-8. Update the number of translated verses
------------------------------------------
-
-- open the widget "introduction.html" in the "widgets" directory 
-- spot the line containing: <!-- METTRE À JOUR MANUELLEMENT -->
-- update the following line with the number of the last translated verse
-- save and close the widget
-- copy & paste the content of the widget "introduction.html" to the corresponding blog widget
+- run the command line: publish -u <login> -p <password> -a
+- copy & paste the content of "widgets/introduction.html" to the corresponding blog widget
+- copy & paste the content of "widgets/table-of-contents.html" to the corresponding blog widget
+- copy & paste the content of "widgets/copyright.html" to the corresponding blog widget, 
+  this should only be necessary once every year when publishing the first episode of a year

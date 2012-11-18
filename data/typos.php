@@ -22,6 +22,7 @@ return array(
     'coté'        => 'côté',
     "d'avantage"  => 'davantage',   // if adverb "davantage", http://grammaire.reverso.net/2_1_31_davantage_davantage.shtml
     'demi '       => 'demi-',       // as in "demi-pied"
+    'dépends'     => 'dépens',      // as in "à mes dépens"
     'dés'         => 'dès',         // as in "dès que"
     'deux là'     => 'deux-là',     // as in "dès que"
     'est ce don'  => 'est-ce don',  // as in "est-ce donc"
