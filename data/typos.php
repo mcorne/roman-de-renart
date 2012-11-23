@@ -14,6 +14,7 @@
 return array(
     '?,'          => '?',           // interpolated clause (incise) or comma like, see http://fr.wikipedia.org/wiki/Point_d'interrogation#Usage
     '!,'          => '!',           // interpolated clause (incise) or comma like, see http://fr.wikipedia.org/wiki/Point_d%27exclamation#Typographie
+    'aigue'       => 'aiguë',
     'baill'       => 'bâill',       // if verb "bâiller" (yawn)
     'cela-dit'    => 'cela dit',
     'ce-que'      => 'ce que',      // as in "qu'est-ce que"
@@ -32,12 +33,13 @@ return array(
     "ez m'en"     => "ez-m'en",     // as in "donnez-m'en"
     'ez moi'      => 'ez-moi',      // as in "donnez-moi"
     'fait il'     => 'fait-il',
-    'grand peur'  => 'grand-peur',
+    'grand peur'  => 'grand-peur',  // http://fr.wikipedia.org/wiki/Trait_d'union
     'grand allure' => 'grande allure',
     'hermite'     => 'ermite',
     "il l'ont"    => "ils l'ont",
     'leurs'       => 'leur',        // if pronom "leur", http://grammaire.reverso.net/4_2_17_leur_leurs.shtml
     'lui-dit'     => 'lui dit',
+    '(elle|eux|lui|nous|vous) même' => '$1-même',    // http://www.oodoc.com/t-noms-composes.php
     'mais,'       => 'mais',        // most cases, see http://www3.sympatico.ca/fol-ecrit/folie12.html
     'moment là'   => 'moment-là',
     'ons en là'   => 'ons-en là',   // as in "restons-en là"
@@ -51,6 +53,7 @@ return array(
     'quoiqu'      => 'quoi qu',     // as in "quoi que" (whatever), http://grammaire.reverso.net/2_1_81_quoique_quoi_que.shtml
     ' Saint'      => ' saint',      // as in " saint Jacques", http://www.saint-jacques.info/orthographe.htm
     'Renard'      => 'Renart',
+    'renne'       => 'rêne',
     'reconnaitr'  => 'reconnaîtr',  // always with "î"
     'traîte'      => 'traître',
     'tranché'     => 'tranchée',    // if noun "tranchée"
