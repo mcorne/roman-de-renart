@@ -108,3 +108,4 @@
 17g-poncet-le-blaireau.jpg                           => http://www.littleisobel.com/home/wp-content/uploads/2011/07/badger.jpg
 17h-hermeline-chassee.jpg                            => http://a.imdoc.fr/1/arts-et-creations/dessins/photo/2507117250/156968286c4/dessins-renard-img.png
 18a-hermeline-et-hersent-se-disputent.jpg            => http://www.culture.gouv.fr/Wave/image/joconde/0009/m504101_95cn5864_p.jpg
+18b-combat-d-hersent-et-hermeline.jpg                => http://fc00.deviantart.net/fs71/f/2011/217/9/8/the_fox_vs_the_wolf__round_3_by_rko509-d45icep.jpg

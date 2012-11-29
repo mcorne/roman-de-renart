@@ -370,6 +370,14 @@ class Text
             $episode = $this->episodeBeingTranslated + $episode;
 
         } else {
+            list($year) = explode('/', $episode['url']);
+
+            if (! ctype_digit($year)) {
+                throw new Exception("bad URL, line: $lineNumber");
+            }
+
+            $episode['url'] = 'http://roman-de-renart.blogspot.com/' . $episode['url'];
+
             if (empty($episode['episode-title'])) {
                 throw new Exception("missing episode title, line: $lineNumber");
             }

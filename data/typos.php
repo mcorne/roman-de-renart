@@ -55,6 +55,7 @@ return array(
     'Renard'      => 'Renart',
     'renne'       => 'rêne',
     'reconnaitr'  => 'reconnaîtr',  // always with "î"
+    'térrible'    => 'terrible',
     'traîte'      => 'traître',
     'tranché'     => 'tranchée',    // if noun "tranchée"
     'vielle'      => 'vieille',     // if adjective "vieux, vieille" (old)
