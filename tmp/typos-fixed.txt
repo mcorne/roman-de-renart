@@ -2069,7 +2069,7 @@ elles
 elmes
 eloi
 elz
-embarre TODO: finish
+embatre !!!
 embat
 embatant
 embati
@@ -2245,7 +2245,7 @@ engleter
 engleterre
 englot
 engorge
-engouiez
+engoulez !!!
 engoule
 engoulee
 engouleront
@@ -2414,16 +2414,16 @@ envoisie
 envoisiement
 envoissiez
 enyvre
-eon
-eontre
-eovert
+con !!!
+contre !!!
+covert !!!
 epinart
 erart
 erbes
 erion
 ermeline
 ern
-ernpene
+empene !!!
 errament
 erroment
 esbaez
@@ -2496,7 +2496,7 @@ escorchiez
 escorpions
 escoue
 escouffle
-escoufie
+escoufle !!!
 escoufle
 escoufles
 escoufliax
@@ -2666,8 +2666,8 @@ esrachies
 esrage
 esragie
 esragiez
-esrnaie
-esrneu
+esmaie !!!
+esmeu !!!
 esroilliee
 essaiee
 essaier
@@ -2867,7 +2867,7 @@ foilles
 foilliez
 foilluz
 foinez
-foirnentie
+foimentie !!!
 folies
 foloie
 foloit
@@ -2927,7 +2927,7 @@ franchira
 frangiers
 frans
 frapez
-fraurnent
+fraument !!!
 frema
 freme
 fremee
@@ -3079,7 +3079,6 @@ glotonnie
 glouton
 gloutons
 glouz
-gnon
 goditoueut
 goloie
 gombaut
@@ -3096,7 +3095,7 @@ gorfolai
 gorgie
 gorpiex
 gorpill
-gorpilli
+gorpil li !!!
 gorpilz
 gostera
 goule
@@ -3123,7 +3122,7 @@ grans
 grantdisme
 grantment
 granz
-grariche
+granche !!!
 grarit
 grata
 gratant
@@ -3152,10 +3151,10 @@ grouce
 groucie
 grouge
 grues
-gtant
+grant !!!
 guabe
 guanche
-guar
+quar !!!
 guaranz
 guarison
 guariz
@@ -3189,7 +3188,6 @@ guillaume
 guilles
 guises
 guivres
-h
 habitoient
 habondoie
 hachie
@@ -3201,7 +3199,7 @@ haitiez
 haiz
 halape
 hanches
-hans
+hons !!
 hapa
 hardeillons
 hardelees
@@ -3268,8 +3266,8 @@ hermites
 hermoufle
 herons
 herrcier
-herrneline
-hersen
+hermeline !!!
+hersen TODO finish
 hersens
 hersent
 hersenz
