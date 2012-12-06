@@ -3267,7 +3267,7 @@ hermoufle
 herons
 herrcier
 hermeline !!!
-hersen TODO finish
+hersen
 hersens
 hersent
 hersenz
@@ -3342,7 +3342,7 @@ hurtevilain
 hurtez
 hurtoient
 huz
-hz
+liz !!!
 iave
 icele
 ices
@@ -3351,10 +3351,9 @@ ielz
 ieulz
 ignelement
 ignelepas
-ignella
+ignel la !!!
 igniax
 ii
-iiez
 iii
 ileques
 iles
@@ -3363,13 +3362,12 @@ illec
 illedenge
 illeques
 illeuc
-illi
-illieve
-illor
+il lieve !!!
+il lor !!!
 illuec
 iluecques
 in
-ioiaument
+loiaument !!!
 iraie
 irascue
 irascuz
@@ -3378,17 +3376,17 @@ ireus
 irie
 iriee
 irieement
-irieernent
+irieement !!!
 iromes
 isist
 isnele
 isnelement
-isnelernent
+isnelement !!!
 isniaux
 israel
 issus
 issuz
-itanr
+itant !!!
 itele
 itex
 itron
@@ -3404,12 +3402,10 @@ james
 janete
 jardins
 jarez
-jas
 jasque
 jaunes
 jehan
 jehen
-jei
 jel
 jenglent
 jenglerres
@@ -3503,7 +3499,7 @@ lanproies
 lanternes
 lapidar
 lardez
-lare
+larc !!!
 lares
 largement
 larges
@@ -3516,7 +3512,7 @@ lassera
 lassez
 latins
 laverent
-lceste
+iceste !!!
 leçons
 lechie
 lechierre
@@ -3535,7 +3531,6 @@ legistres
 lentement
 lenz
 lequel
-ler
 leriez
 lermes
 leron
@@ -3597,7 +3592,6 @@ lius
 liverrai
 livres
 livrez
-lm
 loassent
 lobee
 logent
@@ -3605,11 +3599,10 @@ logie
 logiez
 loher
 loiaument
-loiaurnent
 loiaux
 loiax
 lombardie
-lone
+lonc !!!
 longues
 loonice
 losengiers
@@ -3626,7 +3619,6 @@ luce
 luisans
 lurre
 lyepart
-lyois
 lyon
 lyons
 maçues
@@ -3650,7 +3642,7 @@ maintiegne
 maintient
 maires
 maistres
-maitalent
+maltalent !!!
 majestiere
 majetiere
 majetire
@@ -3663,7 +3655,6 @@ malchau
 malcrues
 maldahez
 malebranche
-maleiz
 malement
 maleoite
 males
@@ -3681,8 +3672,8 @@ malmis
 malmise
 malostrue
 malparliere
-malpertuis
-malt
+malpertuis 
+molt !!!
 maltalant
 malvez
 malvoisin
@@ -3765,9 +3756,7 @@ meillors
 meins
 meintenant
 meintes
-meisrnes
-meissenr
-melleure
+meismes !!!
 mellez
 mellin
 mellomes
@@ -3775,7 +3764,6 @@ melodies
 membrast
 membres
 mençonge
-men
 menaçai
 menaçant
 menacent
@@ -3838,10 +3826,8 @@ mesavient
 mesbailli
 mescere
 mescharra
-meschei
 mescherra
 mescherroit
-mescheu
 meschiece
 meschies
 meschiet
@@ -3856,7 +3842,6 @@ mescrieme
 mescroirez
 mesdisant
 mesdites
-mesenfanz
 mesetance
 mesface
 mesfacent
@@ -3892,9 +3877,7 @@ mestroier
 mesurez
 metroi
 metron
-meue
 meures
-meuz
 meviart
 mex
 midis
@@ -3972,7 +3955,6 @@ motes
 mouches
 moue
 moues
-mouffies
 mouffles
 mouflart
 moufle
@@ -4005,10 +3987,10 @@ naim
 nancille
 narines
 navrez
-nellairont
-nellera
+nel lairont !!!
+nel lera !!!
 nellere
-nellessera
+nel lessera !!!
 neporec
 neporquant
 nerci
@@ -4022,11 +4004,10 @@ nez
 nicholas
 nicolas
 nisune
-nment
 noçoier
 noblement
 nobles
-noella
+noel la !!!
 noiens
 noienz
 noiez
@@ -4049,14 +4030,12 @@ noviau
 noviaument
 noviaux
 noviax
-nst
-nt
 nues
 nuisanz
-nuisernenz
+nuisemenz
 nulement
 nulieu
-nullaidir
+nul laidir !!!
 nuncier
 nuz
 occidant
@@ -4080,9 +4059,7 @@ oisiax
 oisiez
 oisons
 oiz
-oleure
 oliviers
-omes
 omnipotens
 oncles
 ondeant
@@ -4090,7 +4067,6 @@ ondes
 ongles
 ongues
 onmage
-onme
 onniz
 onnor
 oomes
@@ -4137,12 +4113,11 @@ ostroi
 ostroia
 ostroie
 ostroiement
-otevien
 otoier
 otrage
 otrerent
 otroiee
-ott
+oïr !!!
 ouan
 oublees
 oubliance
@@ -4160,7 +4135,6 @@ ouverte
 ouvertes
 ouvrez
 ouvrir
-oveques
 overront
 overs
 overte
@@ -4193,7 +4167,6 @@ paour
 paradiz
 parait
 parar
-parcreu
 pardestraint
 pardoing
 pardoint
@@ -4239,7 +4212,7 @@ parmaine
 paroise
 parsonme
 partencie
-partielessier
+partie lessier !!!
 partire
 partisiez
 partiz
@@ -4271,7 +4244,7 @@ passerent
 passeroit
 passez
 passier
-pastis
+postis !!!
 pasturant
 pasturoit
 pater
@@ -4304,7 +4277,7 @@ pelerinages
 pelerins
 pelez
 pelices
-pelli
+pel li !!!
 penasse
 pendanz
 pendrez
@@ -4344,7 +4317,6 @@ perdue
 perdues
 perduz
 pereceus
-peri
 perisse
 periz
 perniez
@@ -4369,7 +4341,6 @@ petites
 petitpas
 petitporchaz
 petiz
-peue
 peuls
 peur
 peusson
@@ -4399,7 +4370,6 @@ pissoit
 piteus
 piteusement
 pitiez
-pl
 plaide
 plaider
 plaies
@@ -4480,7 +4450,6 @@ porchaciez
 porchas
 porchasacent
 poreuc
-porgeus
 porloingniez
 porpensa
 porpensant
@@ -4492,7 +4461,7 @@ porquerant
 porquert
 porquiert
 porquis
-porroienr
+porroient !!! TODO finish
 pors
 porsiut
 porsivoit
