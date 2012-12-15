@@ -110,3 +110,4 @@
 18a-hermeline-et-hersent-se-disputent.jpg            => http://www.culture.gouv.fr/Wave/image/joconde/0009/m504101_95cn5864_p.jpg
 18b-combat-d-hersent-et-hermeline.jpg                => http://fc00.deviantart.net/fs71/f/2011/217/9/8/the_fox_vs_the_wolf__round_3_by_rko509-d45icep.jpg
 19a-renart-a-faim.jpg                                => http://environnement.ecole.free.fr/images3/le%20renard%20et%20les%20raisins.jpg
+19b-chantecler-chante.jpg                            => http://expositions.bnf.fr/bestiaire/grand/07_03_bnf.htm
