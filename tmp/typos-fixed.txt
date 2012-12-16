@@ -4461,7 +4461,7 @@ porquerant
 porquert
 porquiert
 porquis
-porroient !!! TODO finish
+porroient
 pors
 porsiut
 porsivoit
@@ -4491,7 +4491,6 @@ portoit
 portons
 portrace
 portrete
-porveu
 postis
 potences
 pouces
@@ -4518,15 +4517,14 @@ pourseuz
 povres
 pox
 praeries
-praie
+proie !!!
 praieries
-prameis
 prames
 pramet
 prametez
 pramis
 prangne
-praz
+proz !!!
 precieuse
 precieuses
 preingnons
@@ -4564,14 +4562,14 @@ prieres
 prieur
 priez
 primaut
-primaux
+frimaux !!!
 prisai
 priseriez
 prisonnier
 prisonniers
 priveement
 privez
-probert
+frobert !!!
 prochainement
 prochainnement
 prochains
@@ -4596,20 +4594,15 @@ publicate
 puceles
 pue
 pugnais
-pugnes
 puiant
 puier
-puille
-puiseus
 puisie
 puissans
 puissanz
 pulens
-punes
 pure
 purs
 putains
-qaillous
 qanque
 qant
 qantes
@@ -4621,9 +4614,6 @@ qarriax
 qasse
 qasser
 qassez
-qat
-qatre
-qert
 qeue
 qex
 qoi
@@ -4723,7 +4713,6 @@ rebroche
 recanant
 receuz
 recevre
-rechai
 rechigneus
 rechine
 rechingne
@@ -4732,10 +4721,8 @@ rechingniez
 rechinier
 reclain
 reclainme
-reclainrne
 reclamant
 reclamoie
-reclinnere
 reclo
 reclosist
 reclot
@@ -4754,7 +4741,6 @@ reconneu
 reconnuz
 recouvre
 recreez
-recreuz
 recroie
 recroit
 recrut
@@ -4800,7 +4786,6 @@ refroidiez
 refurent
 refusez
 refust
-reg
 regarda
 regardant
 regardast
@@ -4862,7 +4847,7 @@ remuser
 renardiax
 renardier
 renars
-renartçmes
+renart, mes !!!
 renarz
 renchaoir
 rend
@@ -4918,9 +4903,8 @@ requier
 requiere
 requiert
 requis
-rernaindre
-rernaint
-rernestrent
+remaint !!!
+remestrent !!!
 resailli
 resaut
 rescorra
@@ -4953,7 +4937,6 @@ responnez
 responnoit
 resquest
 resqueue
-restoriens
 restroie
 resucitez
 retaste
@@ -5028,19 +5011,19 @@ richer
 riches
 richesce
 riens
-rnanburnir
-rnarchie
-rneillors
-rnesfis
-rnesnie
-rnesprist
-rniex
-rnisire
-rnist
-rnoillier
-rnorir
-rnortieus
-rnostre
+manburnir !!!
+marchie !!!
+meillors !!!
+mesfis !!!
+mesnie !!!
+mesprist !!!
+miex !!!
+misire !!!
+mist !!!
+moillier !!!
+morir !!!
+mortieus !!!
+mostre !!!
 roarz
 roberies
 robert
@@ -5050,7 +5033,7 @@ roches
 rogieus
 rohart
 roialtat
-roiaux
+roiaux TODO: finish from here !!!
 roigneus
 roignons
 roillera
