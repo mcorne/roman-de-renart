@@ -38,6 +38,7 @@ class Text
         'image-href',
         'section-original-title',
         'section-translated-title',
+        'vol-1-fixes',
     );
 
     /**
@@ -271,7 +272,7 @@ class Text
     public function makeTableOfContents($episodes)
     {
         $optgroupBeginPattern = '    <optgroup label="%s">';
-        $optionPattern        = '      <option value="%1$s" title="%2$s - %3$s" />%3$s';
+        $optionPattern        = '      <option value="%1$s" title="%2$s - %3$s (%4$d)" />%3$s';
         $optgroupEndPattern   = '    </optgroup>';
 
         $options = array();
@@ -292,7 +293,7 @@ class Text
                 list(,,, $pathname) = explode('/', $episode['url'], 4);
                 $pathname = "/$pathname";
                 // adds the episode title (select option)
-                $options[] = sprintf($optionPattern, $pathname, $episode['story-title'],  $episode['episode-title']);
+                $options[] = sprintf($optionPattern, $pathname, $episode['story-title'], $episode['episode-title'], $episode['episode-number']);
                 // captures the pathname of the last episode exlcuding the episode being translated if any
                 // this is used to populate a hidden HTML element used by a javascript function
                 // to set the select option when the blog is open without a pathname
