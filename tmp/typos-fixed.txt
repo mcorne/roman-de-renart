@@ -5033,7 +5033,7 @@ roches
 rogieus
 rohart
 roialtat
-roiaux TODO: finish from here !!!
+roiaux
 roigneus
 roignons
 roillera
@@ -5093,7 +5093,6 @@ rovast
 rovaux
 rovera
 rovoisons
-rrii
 rua
 rues
 ruez
@@ -5120,13 +5119,11 @@ saingnier
 saingniez
 sainne
 sains
-saintefiee
 saintement
 saintes
 saintuaires
 saintuere
 sainz
-sairernent
 saisi
 saisie
 saisissent
@@ -5150,7 +5147,7 @@ saouler
 saoulez
 saous
 sariez
-sarlieve
+sorlieve !!!
 sarmoner
 sarmonnant
 sarmonne
@@ -5203,8 +5200,6 @@ sejorna
 sejorne
 sejornent
 sejornez
-sella
-sellessiez
 selon
 semaingne
 semainne
@@ -5241,9 +5236,7 @@ serjanz
 sermonnant
 sermonner
 sermonnier
-sernainne
-sernera
-sernondre
+semainne !!!
 serors
 serpens
 serpenz
@@ -5271,15 +5264,12 @@ sifaitement
 siffle
 signes
 sil
-simoniaux
 simplement
-sin
 singes
 singne
 sinplement
 sires
 sisieme
-sm
 sodoiers
 sodomites
 soflent
@@ -5456,7 +5446,7 @@ tesmoingnent
 tesmoingneront
 tesmoingnier
 tesmoingniez
-tesmoinp
+tesmoing !!!
 tesmoinz
 tessons
 testes
@@ -5472,7 +5462,6 @@ tiers
 tieselin
 tieus
 tiex
-tif
 tigarz
 tigiers
 tigneus
@@ -5490,7 +5479,7 @@ toiz
 tolaite
 tolete
 tolue
-tombelles
+tombel les !!!
 tondist
 tonduz
 tonnant
@@ -5557,7 +5546,7 @@ trancherre
 tranchie
 tranchies
 trangloti
-trap
+trop !!!
 travailles
 travax
 traveille
@@ -5659,8 +5648,8 @@ tyberz
 tygiers
 tygre
 tymer
-ue
-ueilli
+que !!!
+ueil li !!!
 ullant
 ullent
 umelie
@@ -5679,7 +5668,7 @@ vaincues
 vaincuz
 vaines
 vaintera
-vairs
+voirs !!!
 valees
 valgris
 vallez
@@ -5693,20 +5682,19 @@ vantree
 vaselage
 vassaus
 vassax
-vaud
 vausel
 vax
 veables
 veastes
-vecques
+avecques !!!
 veee
 vegiles
 vegilles
 veilconme
 veillierent
 veingniez
-vele
-velr
+novele !!!
+velt !!!
 velue
 veluz
 venait
@@ -5744,7 +5732,7 @@ verger
 vergiez
 vergondez
 vergone
-veri
+verité !!!
 veritables
 veritez
 vermaus
@@ -5772,7 +5760,6 @@ vidions
 vieille
 vieles
 viellars
-viellecheor
 vielles
 viendroit
 viengniez
@@ -5819,12 +5806,12 @@ volaient
 volantiers
 volassent
 volast
-volen
+volentiers !!!
 volentez
 volerent
 voloirs
 volontas
-von
+avon !!!
 vostres
 vostrez
 vouliez
