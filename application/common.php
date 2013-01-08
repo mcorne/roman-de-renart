@@ -18,22 +18,6 @@ define('MAX_VERSES_TO_TRANSLATE', 60);
 define('PUNCTUATION', '!|,|\.|:|;|\?|«|»|—|“|”');
 
 /**
- * Makes a backup of a file
- *
- * @param string $filename the file name
- * @throws Exception
- */
-function backup_file($filename)
-{
-    $info = pathinfo($filename);
-    $backup = sprintf(__DIR__ . '/../backup/%s-%s.%s', $info['filename'], time(), $info['extension']);
-
-    if (! @copy($filename, $backup)) {
-        throw new Exception("cannot backup file $backup");
-    }
-}
-
-/**
  * Echos the command title
  *
  * @param string $command_title the command title
@@ -306,8 +290,6 @@ function write_csv($filename, $rows)
 /**
  * Writes a file
  *
- * The previous file content is backed up in the "backup" directory if the file content has changed.
- *
  * @param string $filename the file name
  * @param string $content  the file content
  * @throws Exception
@@ -327,10 +309,6 @@ function write_file($filename, $content)
 
     } else {
         $has_content_changed = true;
-
-        if ($is_file) {
-            backup_file($filename);
-        }
 
         if (! @file_put_contents($filename, $content)) {
             throw new Exception("cannot write $filename");

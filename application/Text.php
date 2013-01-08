@@ -77,21 +77,6 @@ class Text
     }
 
     /**
-     * Makes a backup of an episode
-     *
-     * @param string $file The file name of the episode to backup
-     * @throws Exception
-     */
-    public function backupFile($file)
-    {
-        $info = pathinfo($file);
-        $backup = sprintf(__DIR__ . '/../backup/%s-%s.%s', $info['filename'], time(), $info['extension']);
-
-        if (! @copy($file, $backup)) {
-            throw new Exception('cannot backup file');
-        }
-    }
-    /**
      * Converts a UTF-8 string into the output encoding
      *
      * Only applied in CGI mode.
@@ -582,6 +567,7 @@ class Text
         // removes the date in the episode being translated
         $html = preg_replace('~^ +<input id="rdr-translation-in-progress-date" type="hidden" value=".+?"/>$~m', '', $html);
         $html = preg_replace('~^\s*Generated.+?$~m', '', $html);
+        $html = preg_replace('~^\s*@copyright.+?$~m', '', $html);
 
         return $html;
     }
@@ -633,11 +619,6 @@ class Text
         if ($this->removeGeneratedDate($html) != $this->removeGeneratedDate($prevHtml)) {
             // the episode is different from the currently saved version
             echo "$number ";
-
-            if (file_exists($file)) {
-                // makes a backup of the previous version of the episode
-                $this->backupFile($file);
-            }
 
             $title = $this->setTitle($episode);
             // removes line breaks because Blogger replaces them with <br> for some reason which screws up the display
