@@ -113,3 +113,4 @@
 19b-chantecler-chante.jpg                            => http://expositions.bnf.fr/bestiaire/grand/07_03_bnf.htm
 19c-renart-dans-les-filets.jpg                       => http://2.bp.blogspot.com/_f98opUNuVXc/S9B2GmThw9I/AAAAAAAAO80/z7QdvJvqfp4/s400/Fox+cub.jpg
 19d-paysan-evanoui.jpg                               => http://www.mskgent.be/library/Permeke_liggende-boer-9DHB.jpg
+19e-renart-libere.jpg                                => http://www.drawingunlimited.com/images/Fox001.jpg
