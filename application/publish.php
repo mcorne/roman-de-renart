@@ -103,7 +103,7 @@ try {
 
     if (isset($options['c'])) {
         // updates the copyright
-        $html = $text->updateCopyright($episodes);
+        $html = $text->updateCopyright();
         echo "\n" . $text->saveWidget($html, 'copyright.html', 'copyright') . "\n";
     }
 

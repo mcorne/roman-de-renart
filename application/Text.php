@@ -734,10 +734,9 @@ class Text
      *
      * The HTML content of the copyright will have to be loaded manually in the corresponding blog widget.
      *
-     * @param array $episodes  The episodes details
-     * @return string          The copyright
+     * @return string The copyright
      */
-    public function updateCopyright($episodes)
+    public function updateCopyright()
     {
         $html = $this->readFile(__DIR__ . '/../widgets/copyright.html');
         $year = date('Y');
