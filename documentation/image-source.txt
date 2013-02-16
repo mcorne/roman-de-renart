@@ -116,3 +116,4 @@
 19e-renart-libere.jpg                                => http://www.drawingunlimited.com/images/Fox001.jpg
 19f-noiret-le-coq-s-echappe.jpg                      => http://www.meublepeint.be/ComodeFable13.jpg
 19g-deception-de-renart.jpg                          => http://www.ebooksgratuits.com/html/esope_fables_1/image019.jpg
+20a-ysengrin-pardonne-renart.jpg                     => http://4.bp.blogspot.com/_SC4qBxZtAvs/SsWuKrB-4uI/AAAAAAAADuw/sei2SaZBc4k/s1600-h/le+lion+le+loup+et+le+renard.jpg
