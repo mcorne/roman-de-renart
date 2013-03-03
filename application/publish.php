@@ -34,8 +34,8 @@ $help =
 -u name         Blogger user/email/login name.
 
 Notes:
-In logged on mode, the episode HTML is created/updated in the data directory.
-In logged off mode, the episode HTML is stored in data/temp.html.
+In logged on mode, the episode HTML is created/updated in the messages directory.
+In logged off mode, the episode HTML is stored in messages/temp.html.
 
 Examples:
 # publish episode(s) in Blogger
@@ -44,7 +44,7 @@ publish -u abc -p xyz
 # publish episodes 10 and 11 in Blogger
 publish -u abc -p xyz -n 10,11
 
-# create/update episode 10 in data/temp.html
+# create/update episode 10 in messages/temp.html
 publish -n 10
 ';
 
@@ -89,7 +89,7 @@ try {
         throw new Exception('missing user name or password');
 
     } else if (isset($options['n'])) {
-        // this is the logged off mode, makes an episode HTML and saves the content in data/temp.html
+        // this is the logged off mode, makes an episode HTML and saves the content in messages/temp.html
         $number = $options['n'];
 
         if (! isset($episodes[$number])) {
@@ -98,7 +98,6 @@ try {
 
         $html = $text->makeMessage($episodes[$number]);
         echo "\n" . $text->saveTempMessage($html, $number) . "\n";
-
     }
 
     if (isset($options['c'])) {
