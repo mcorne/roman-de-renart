@@ -385,7 +385,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 59	porpensoit	pensait			
 60	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 60	s'ele	si elle		si elle, comme elle	
-60	encor	encore		de même, encore, en oûtre	
+60	encor	encore		de même, encore, en outre	
 60	une	une			
 60	en	dans		en, dans, sur, on	
 60	avoit	avait			
@@ -507,7 +507,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 77	Si	puis		puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 77	feroit	ferait		ferait, frappait	
 77	il	ils		il, ils	
-77	encor	de même		de même, encore, en oûtre	
+77	encor	de même		de même, encore, en outre	
 77	demain	demain			
 77	,				
 78	S'il	s'il			
@@ -2161,7 +2161,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 324	,				
 325	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
 325	n'avoit	n'avait			
-325	pas	pas		pas, crois	
+325	pas	pas			
 325	son	son		son, air	
 325	chief	tête			
 325	covert	couvert			
@@ -2517,7 +2517,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 377	tel	telle		tel, tellement, quiconque, telle, cette	
 377	parole	parole		parole, parle	
 377	n'est	n'est			
-377	pas	pas		pas, crois	
+377	pas	pas			
 377	bele	belle			
 377	.				
 377	»				
@@ -2569,7 +2569,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 385	Ne	ne		ne, ni, et	
 385	m'est	m'est			
 385	or	donc		maintenant, donc, or, par, à présent, mais, là	
-385	pas	pas		pas, crois	
+385	pas	pas			
 385	honte	honte			
 385	nel	ne le			
 385	die	dire			
@@ -3159,7 +3159,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 474	estes	êtes		êtes, soyez	
 474	,				
 474	n'est	n'est			
-474	pas	pas		pas, crois	
+474	pas	pas			
 474	droiz	juste			
 475	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 475	vos	vous		vous, vos, votre	
@@ -3812,7 +3812,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 574	jel	je le			
 574	fis	ai fait			
 574	,				
-574	encor	de même		de même, encore, en oûtre	
+574	encor	de même		de même, encore, en outre	
 574	le	le		le, lui	
 574	ferai	ferai			
 574	,				
@@ -4215,8 +4215,8 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 632	Si	puis	?	puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 632	m'en	m'en	?		
 632	devez	devez	?		
-632	a	à	?	à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
-632	itant	là	?		
+632	a/a_itant	alors	?	à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
+632	itant/a_itant		?		
 632	croire	croire	?		
 632	,				
 633	Se	se	?	se, si, que, aussi vrai que, ainsi, sais	
@@ -4407,7 +4407,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 659	.				
 660	Il	il	?	il, ils	
 660	n'est	n'est	?		
-660	pas	pas	?	pas, crois	
+660	pas	pas	?		
 660	pereceus				
 660	ne	ne	?	ne, ni, et	
 660	lenz				
@@ -4809,7 +4809,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 716	Ce	ce	?	ce, ça, lui, cela, il, ceci	
 716	fu	fut	?	fut, était, il y a eu, furent	
 716	mortel	cruel	?		
-716	descovenue	malheur	?		
+716	descovenue	malentendu	?		
 716	.				
 717	N'ot	n'avait	?	n'avait, n'avait pas de, n'a eu	
 717	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
@@ -5207,7 +5207,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 777	:				
 778	Il	il	?	il, ils	
 778	n'ont				
-778	pas	pas	?	pas, crois	
+778	pas	pas	?		
 778	peor	peur	?	peur, pire	
 778	de	de	?	de, sur, avec, du, en	
 778	tel	tel	?	tel, tellement, quiconque, telle, cette	
@@ -5384,7 +5384,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 801	ne	ne	?	ne, ni, et	
 801	sauge				
 801	.				
-802	Encor	de même	?	de même, encore, en oûtre	
+802	Encor	de même	?	de même, encore, en outre	
 802	ançois	avant	?	avant, plutôt	
 802	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 802	il	il	?	il, ils	
@@ -5414,7 +5414,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 806	mist	mit	?	mit, mis, a mis	
 806	,				
 806	n'a	n'a pas	?	n'a pas, n'a, ou en	
-806	pas	pas	?	pas, crois	
+806	pas	pas	?		
 806	failli	raté	?	raté, failli	
 807	Qu'il	qu'il	?	qu'il, qu'ils, ce qu'il, quand il	
 807	n'en	n'en	?		
@@ -5442,7 +5442,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 810	ne	ne	?	ne, ni, et	
 810	fist	a fait	?	a fait, fit, agit	
 810	il	il	?	il, ils	
-810	pas	pas	?	pas, crois	
+810	pas	pas	?		
 810	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 810	fol				
 810	:				
@@ -5601,7 +5601,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 834	il	il	?	il, ils	
 834	ne	ne	?	ne, ni, et	
 834	volt	veut	?	veut, voulut, voulu	
-834	pas	pas	?	pas, crois	
+834	pas	pas	?		
 834	tant	tant	?	tant, jusqu'à, tellement, beaucoup, autant, assez	
 834	atendre	attendre	?		
 834	.				
@@ -5793,13 +5793,13 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 861	plus	plus	?		
 861	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 861	le	le	?	le, lui	
-861	pas	pas	?	pas, crois	
+861	pas	pas	?		
 862	Qui	qui	?	qui, celui qui, car, quiconque, que	
 862	passé	dépassé	?		
 862	ot	avait	?	avait, a eu, a, entend, eu, il y a eu, eut	
 862	maint	de nombreux	?	de nombreux, maints, beaucoup de, maintes	
 862	mauvés	sale	?	sale, mauvais, mal	
-862	pas	pas	?	pas, crois	
+862	pas	pas	?		
 862	,				
 863	Et	et	?		
 863	vint	vint	?	vint, arriva, vient, arrive	
@@ -6164,7 +6164,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 921	noveles	nouvelles	?		
 921	,				
 922	Je	je	?		
-922	quit				
+922	quit	crois	?		
 922	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 922	mout	très	?	très, beaucoup, plus, fort, tout, longtemps	
 922	vos	vous	?	vous, vos, votre	
@@ -6754,7 +6754,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1001	fust	fut	?	fut, serait, fût, était	
 1001	delivrez				
 1001	,				
-1002	Encor	de même	?	de même, encore, en oûtre	
+1002	Encor	de même	?	de même, encore, en outre	
 1002	en	en	?	en, dans, sur, on	
 1002	menjast	mangea	?		
 1002	il	il	?	il, ils	
@@ -8036,7 +8036,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1189	l'anel	l'anneau	?		
 1189	,				
 1189	n'a	n'a pas	?	n'a pas, n'a, ou en	
-1189	pas	pas	?	pas, crois	
+1189	pas	pas	?		
 1189	failli	raté	?	raté, failli	
 1189	.				
 1190	Et	et	?		
@@ -8168,7 +8168,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1207	fin	fin	?	fin, durée	
 1207	,				
 1208	Mes	mais	?	mais, mes, plus, encore, désormais, pourtant	
-1208	encor	de même	?	de même, encore, en oûtre	
+1208	encor	de même	?	de même, encore, en outre	
 1208	i	en	?	en, y, là	
 1208	a	à	?	à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
 1208	d'Ysengrin	d'Ysengrin	?		
@@ -9128,7 +9128,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1352	Con	que	?	que, comme, comment, car, lorsque	
 1352	cil	celui-ci	?	celui-ci, ce, ceux, celui-là, celui, eux, cette	
 1352	qui	qui	?	qui, celui qui, car, quiconque, que	
-1352	pas	pas	?	pas, crois	
+1352	pas	pas	?		
 1352	ne	ne	?	ne, ni, et	
 1352	s'aseüre	est rassuré	?		
 1352	,				
@@ -9208,7 +9208,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1364	ne	ne	?	ne, ni, et	
 1364	devrïez				
 1364	vos	vous	?	vous, vos, votre	
-1364	pas	pas	?	pas, crois	
+1364	pas	pas	?		
 1364	dire	dire	?	dire, parler	
 1364	.				
 1365	Mal	mal	?	mal, maudite, mauvais, méchanceté, terrible	
@@ -9926,7 +9926,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1471	mauvés	sale	?	sale, mauvais, mal	
 1471	tors	tours	?		
 1471	.				
-1472	Pas	pas	?	pas, crois	
+1472	Pas	pas	?		
 1472	avant	en avant	?	en avant, avant, devant	
 1472	autre	autre	?	autre, autres	
 1472	sanz	sans	?		
@@ -10042,7 +10042,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1489	,				
 1490	Ne	ne	?	ne, ni, et	
 1490	fuiez				
-1490	pas	pas	?	pas, crois	
+1490	pas	pas	?		
 1490	,				
 1490	n'aiez	n'ayez	?		
 1490	regart				
@@ -10207,7 +10207,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1513	Chantecler	Chantecler	?		
 1513	:				
 1513	«				
-1513	Pas	pas	?	pas, crois	
+1513	Pas	pas	?		
 1513	ne	ne	?	ne, ni, et	
 1513	te	te	?		
 1513	croi	crois	?		
@@ -10686,7 +10686,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1582	ne	ne	?	ne, ni, et	
 1582	me	me	?		
 1582	volt	veut	?	veut, voulut, voulu	
-1582	pas	pas	?	pas, crois	
+1582	pas	pas	?		
 1582	atendre	attendre	?		
 1582	.				
 1583	—				
@@ -10889,7 +10889,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1607	plus	plus	?		
 1607	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 1607	le	le	?	le, lui	
-1607	pas	pas	?	pas, crois	
+1607	pas	pas	?		
 1607	,				
 1608	Car	car	?		
 1608	li	lui	?	lui, le, les, il, la, li, ils, elle	
@@ -11676,7 +11676,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1720	dant	seigneur	?		
 1720	Tybert	Tibert	?		
 1720	qui	qui	?	qui, celui qui, car, quiconque, que	
-1720	pas	pas	?	pas, crois	
+1720	pas	pas	?		
 1720	n'estrive				
 1720	.				
 1721	S'il	s'il	?		
@@ -11835,7 +11835,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1743	il/fet_il	_EMPTY_	?		
 1743	,				
 1743	n'est	n'est	?		
-1743	pas	pas	?	pas, crois	
+1743	pas	pas	?		
 1743	engins				
 1743	,				
 1744	Vostre	votre	?		
@@ -12232,7 +12232,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1801	,				
 1802	Ne	ne	?	ne, ni, et	
 1802	fu	fut	?	fut, était, il y a eu, furent	
-1802	pas	pas	?	pas, crois	
+1802	pas	pas	?		
 1802	estordiz				
 1802	ne	ne	?	ne, ni, et	
 1802	yvres				
@@ -12457,9 +12457,9 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1835	Vers	envers	?	envers, vers, vert, contre	
 1835	lui	lui	?	lui, elle, le, celui	
 1835	s'adresce				
-1835	pas	pas	?	pas, crois	
+1835	pas	pas	?		
 1835	por	pour	?	pour, à cause de, par, à cause, vers	
-1835	pas	pas	?	pas, crois	
+1835	pas	pas	?		
 1836	Conme	comme	?		
 1836	cil	celui-ci	?	celui-ci, ce, ceux, celui-là, celui, eux, cette	
 1836	qui	qui	?	qui, celui qui, car, quiconque, que	
@@ -12595,7 +12595,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1853	?				
 1854	N'en	n'en	?		
 1854	doutez	doutez	?		
-1854	pas	pas	?	pas, crois	
+1854	pas	pas	?		
 1854	,				
 1854	ja	jamais	?	jamais, déjà, jadis, maintenant, vraiment	
 1854	Dex	Dieu	?		
@@ -12795,7 +12795,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1884	pris	pris	?	pris, appris, prisonnier, mis	
 1884	.				
 1885	N'a	n'a pas	?	n'a pas, n'a, ou en	
-1885	encor	de même	?	de même, encore, en oûtre	
+1885	encor	de même	?	de même, encore, en outre	
 1885	gueres	guère	?		
 1885	qu'il	qu'il	?	qu'il, qu'ils, ce qu'il, quand il	
 1885	cuida	pensa	?		
@@ -12965,7 +12965,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1912	coup				
 1912	ruer				
 1912	,				
-1913	Encor	de même	?	de même, encore, en oûtre	
+1913	Encor	de même	?	de même, encore, en outre	
 1913	port				
 1913	je	je	?		
 1913	sor	sur	?		
@@ -13019,7 +13019,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1919	Je	je	?		
 1919	nel	ne le	?		
 1919	di	dis	?	dis, allez, dit	
-1919	pas	pas	?	pas, crois	
+1919	pas	pas	?		
 1919	par	par	?	par, vraiment, à travers, pour, avec, à, en	
 1919	felonnie	félonie	?		
 1919	,				
@@ -13104,7 +13104,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1931	,				
 1932	Mes	mais	?	mais, mes, plus, encore, désormais, pourtant	
 1932	n'avra				
-1932	pas	pas	?	pas, crois	
+1932	pas	pas	?		
 1932	longue				
 1932	duree				
 1932	.				
@@ -13511,7 +13511,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 1991	Tybert	Tibert	?		
 1991	ne	ne	?	ne, ni, et	
 1991	fu	fut	?	fut, était, il y a eu, furent	
-1991	pas	pas	?	pas, crois	
+1991	pas	pas	?		
 1991	petit	petit	?	petit, peu	
 1991	liez	content	?		
 1991	.				
@@ -13582,7 +13582,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2001	Ne	ne	?	ne, ni, et	
 2001	la	la	?	la, là, entendit, nos	
 2001	port				
-2001	pas	pas	?	pas, crois	
+2001	pas	pas	?		
 2001	vilainement				
 2001	.				
 2002	Mout	très	?	très, beaucoup, plus, fort, tout, longtemps	
@@ -13870,7 +13870,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2042	Si	puis	?	puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 2042	ne	ne	?	ne, ni, et	
 2042	doit	doit	?	doit, doigt	
-2042	pas	pas	?	pas, crois	
+2042	pas	pas	?		
 2042	estre	être	?	être, personne	
 2042	mengie				
 2043	Devant	devant	?	devant, avant, au devant	
@@ -13961,7 +13961,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2056	Si	puis	?	puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 2056	ne	ne	?	ne, ni, et	
 2056	doit	doit	?	doit, doigt	
-2056	pas	pas	?	pas, crois	
+2056	pas	pas	?		
 2056	estre	être	?	être, personne	
 2056	mengiee				
 2057	Desoz	dessous	?		
@@ -14230,7 +14230,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2095	Ne	ne	?	ne, ni, et	
 2095	pouez	pouvez	?		
 2095	vos	vous	?	vous, vos, votre	
-2095	pas	pas	?	pas, crois	
+2095	pas	pas	?		
 2095	tant	tant	?	tant, jusqu'à, tellement, beaucoup, autant, assez	
 2095	atendre	attendre	?		
 2096	C'a	qu'a	?		
@@ -14247,7 +14247,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2097	doutance	crainte	?		
 2097	?				
 2098	N'estes	n'étes	?		
-2098	pas	pas	?	pas, crois	
+2098	pas	pas	?		
 2098	de	de	?	de, sur, avec, du, en	
 2098	bonne	bonne	?		
 2098	atendance				
@@ -14321,7 +14321,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2108	Mes	mais	?	mais, mes, plus, encore, désormais, pourtant	
 2108	tu	tu	?		
 2108	vendras				
-2108	encor	de même	?	de même, encore, en oûtre	
+2108	encor	de même	?	de même, encore, en outre	
 2108	ça	ici	?		
 2108	jus	en bas	?	en bas, dessous	
 2108	.				
@@ -14342,7 +14342,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2111	—				
 2111	Ne	ne	?	ne, ni, et	
 2111	savez	savez	?	savez, connaissez	
-2111	pas	pas	?	pas, crois	
+2111	pas	pas	?		
 2111	,				
 2111	ce	ce	?	ce, ça, lui, cela, il, ceci	
 2111	dit	dit	?		
@@ -14368,7 +14368,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2114	soi	lui	?	lui, soi	
 2114	.				
 2115	N'a	n'a pas	?	n'a pas, n'a, ou en	
-2115	encor	de même	?	de même, encore, en oûtre	
+2115	encor	de même	?	de même, encore, en outre	
 2115	gueres	guère	?		
 2115	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 2115	il	il	?	il, ils	
@@ -14542,7 +14542,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2138	Que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 2138	vos	vous	?	vous, vos, votre	
 2138	n'avez	n'avez	?		
-2138	encor	de même	?	de même, encore, en oûtre	
+2138	encor	de même	?	de même, encore, en outre	
 2138	mengié	mangé	?		
 2138	,				
 2139	Et	et	?		
@@ -15304,7 +15304,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2247	Tot	tout	?	tout, tous	
 2247	belement	bellement	?	bellement, tranquillement	
 2247	le	le	?	le, lui	
-2247	pas	pas	?	pas, crois	
+2247	pas	pas	?		
 2247	soué				
 2247	,				
 2248	Si	puis	?	puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
@@ -15401,7 +15401,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2262	.				
 2263	Ne	ne	?	ne, ni, et	
 2263	poon				
-2263	pas	pas	?	pas, crois	
+2263	pas	pas	?		
 2263	tot	tout	?	tout, tous	
 2263	fere	faire	?	faire, rendre	
 2263	ensemble	ensemble	?		
@@ -15655,7 +15655,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2298	pot	peut	?	peut, a pu	
 2298	avint	arriva	?		
 2298	,				
-2298	pas	pas	?	pas, crois	
+2298	pas	pas	?		
 2298	ne	ne	?	ne, ni, et	
 2298	failli	raté	?	raté, failli	
 2298	,				
@@ -16042,7 +16042,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2353	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 2353	ne	ne	?	ne, ni, et	
 2353	fu	fut	?	fut, était, il y a eu, furent	
-2353	pas	pas	?	pas, crois	
+2353	pas	pas	?		
 2353	gieus				
 2353	,				
 2354	Tronçonnee				
@@ -16130,7 +16130,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2366	Ce	ce	?	ce, ça, lui, cela, il, ceci	
 2366	n'ai	n'ai	?		
 2366	je	je	?		
-2366	pas	pas	?	pas, crois	
+2366	pas	pas	?		
 2366	fet	fait	?	fait, faits	
 2366	,				
 2366	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
@@ -16346,7 +16346,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2395	,				
 2395	si	puis	?	puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 2395	n'est	n'est	?		
-2395	pas	pas	?	pas, crois	
+2395	pas	pas	?		
 2395	gaberie				
 2395	,				
 2396	Foi	foi	?	foi, parole	
@@ -17655,7 +17655,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2583	qui	qui	?	qui, celui qui, car, quiconque, que	
 2583	ne	ne	?	ne, ni, et	
 2583	fu	fut	?	fut, était, il y a eu, furent	
-2583	pas	pas	?	pas, crois	
+2583	pas	pas	?		
 2583	yvres				
 2583	,				
 2584	S'eles	si elles	?		
@@ -17804,7 +17804,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2603	il	il	?	il, ils	
 2603	en	en	?	en, dans, sur, on	
 2603	a	à	?	à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
-2603	encor	de même	?	de même, encore, en oûtre	
+2603	encor	de même	?	de même, encore, en outre	
 2603	assez	beaucoup	?	beaucoup, suffisamment, assez, fort	
 2603	,				
 2604	Tant	tant	?	tant, jusqu'à, tellement, beaucoup, autant, assez	
@@ -17863,7 +17863,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2611	pance				
 2611	emplir				
 2611	,				
-2612	Encor	de même	?	de même, encore, en oûtre	
+2612	Encor	de même	?	de même, encore, en outre	
 2612	le	le	?	le, lui	
 2612	vos	vous	?	vous, vos, votre	
 2612	porré				
@@ -18229,7 +18229,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2665	.				
 2666	Ne	ne	?	ne, ni, et	
 2666	tieng				
-2666	pas	pas	?	pas, crois	
+2666	pas	pas	?		
 2666	celui	celui	?	celui, lui	
 2666	a	à	?	à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
 2666	eschar				
@@ -18307,7 +18307,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2676	,				
 2677	N'eüssent				
 2677	il	il	?	il, ils	
-2677	pas	pas	?	pas, crois	
+2677	pas	pas	?		
 2677	grenor	plus grand	?		
 2677	joie	joie	?		
 2677	.				
@@ -18668,7 +18668,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2724	Cil	celui-ci	?	celui-ci, ce, ceux, celui-là, celui, eux, cette	
 2724	qui	qui	?	qui, celui qui, car, quiconque, que	
 2724	n'a	n'a pas	?	n'a pas, n'a, ou en	
-2724	pas	pas	?	pas, crois	
+2724	pas	pas	?		
 2724	le	le	?	le, lui	
 2724	cervel				
 2724	plain	plein	?	plein, plaine	
@@ -18812,7 +18812,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2744	,				
 2745	Ne	ne	?	ne, ni, et	
 2745	peüssons				
-2745	pas	pas	?	pas, crois	
+2745	pas	pas	?		
 2745	estre	être	?	être, personne	
 2745	miex	mieux	?	mieux, d'avantage	
 2745	.				
@@ -19005,7 +19005,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2773	.				
 2774	Ne	ne	?	ne, ni, et	
 2774	voil	veux	?	veux, volonté	
-2774	pas	pas	?	pas, crois	
+2774	pas	pas	?		
 2774	lessier	laisser	?		
 2774	cest	ce	?	ce, cet, cette	
 2774	afaire				
@@ -19511,7 +19511,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2849	il	il	?	il, ils	
 2849	n'i	n'y	?		
 2849	donoit				
-2849	pas	pas	?	pas, crois	
+2849	pas	pas	?		
 2849	.II.	deux	?		
 2849	billes				
 2849	.				
@@ -20081,7 +20081,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2926	«				
 2926	Primaut				
 2926	,				
-2926	encor	de même	?	de même, encore, en oûtre	
+2926	encor	de même	?	de même, encore, en outre	
 2926	avrez	aurez	?		
 2926	grant	grand	?	grand, grande, bon	
 2926	joie	joie	?		
@@ -20401,7 +20401,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 2973	.				
 2974	Ne	ne	?	ne, ni, et	
 2974	cuidiez				
-2974	pas	pas	?	pas, crois	
+2974	pas	pas	?		
 2974	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 2974	ce	ce	?	ce, ça, lui, cela, il, ceci	
 2974	soit	soit	?		
@@ -20991,14 +20991,14 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3061	plus	plus	?		
 3061	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 3061	le	le	?	le, lui	
-3061	pas	pas	?	pas, crois	
+3061	pas	pas	?		
 3061	.				
 3062	Mes	mais	?	mais, mes, plus, encore, désormais, pourtant	
 3062	il	il	?	il, ils	
 3062	ne	ne	?	ne, ni, et	
 3062	le	le	?	le, lui	
 3062	veoient				
-3062	pas	pas	?	pas, crois	
+3062	pas	pas	?		
 3062	,				
 3063	Car	car	?		
 3063	la	la	?	la, là, entendit, nos	
@@ -21132,7 +21132,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3082	se	se	?	se, si, que, aussi vrai que, ainsi, sais	
 3082	Diex	Dieu	?		
 3082	bien	bien	?	bien, bon, béni	
-3082	encor	de même	?	de même, encore, en oûtre	
+3082	encor	de même	?	de même, encore, en outre	
 3082	me	me	?		
 3082	face	fasse	?	fasse, face	
 3083	Ceste	cette	?	cette, celle-ci	
@@ -21370,7 +21370,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3117	vos	vous	?	vous, vos, votre	
 3117	si	puis	?	puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 3117	grant	grand	?	grand, grande, bon	
-3117	pas	pas	?	pas, crois	
+3117	pas	pas	?		
 3117	?				
 3118	—				
 3118	Renart	Renart	?		
@@ -21379,7 +21379,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3118	ne	ne	?	ne, ni, et	
 3118	vos	vous	?	vous, vos, votre	
 3118	salu				
-3118	pas	pas	?	pas, crois	
+3118	pas	pas	?		
 3118	,				
 3119	Fet	fait	?	fait, faits	
 3119	Primaut				
@@ -21581,7 +21581,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3146	ne	ne	?	ne, ni, et	
 3146	me	me	?		
 3146	recort	souviens	?		
-3146	pas	pas	?	pas, crois	
+3146	pas	pas	?		
 3146	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 3146	j'aie				
 3147	Envers	vers	?	vers, envers	
@@ -21822,7 +21822,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3183	Mes	mais	?	mais, mes, plus, encore, désormais, pourtant	
 3183	non	non	?	non, nom	
 3183	ont	ont	?		
-3183	pas	pas	?	pas, crois	
+3183	pas	pas	?		
 3183	,				
 3183	si/si_con	ainsi que	?	ainsi que, alors que	
 3183	con/si_con	_EMPTY_	?		
@@ -21875,7 +21875,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3190	Or	maintenant	?	maintenant, donc, or, par, à présent, mais, là	
 3190	ne	ne	?	ne, ni, et	
 3190	soiez	soyez	?	soyez, coupé	
-3190	pas	pas	?	pas, crois	
+3190	pas	pas	?		
 3190	en	en	?	en, dans, sur, on	
 3190	esfroi	effroi	?		
 3191	Et	et	?		
@@ -22938,14 +22938,14 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3344	?				
 3345	Ne	ne	?	ne, ni, et	
 3345	m'alez	m'allez	?		
-3345	pas	pas	?	pas, crois	
+3345	pas	pas	?		
 3345	ci	ici	?	ici, il, ce	
 3345	sermonnant				
 3345	,				
 3346	Et	et	?		
 3346	ne	ne	?	ne, ni, et	
 3346	m'alez	m'allez	?		
-3346	pas	pas	?	pas, crois	
+3346	pas	pas	?		
 3346	ramponant				
 3346	:				
 3347	N'en	n'en	?		
@@ -23048,7 +23048,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3360	Ne	ne	?	ne, ni, et	
 3360	me	me	?		
 3360	portez	portez	?	portez, emporté	
-3360	pas	pas	?	pas, crois	
+3360	pas	pas	?		
 3360	bonne	bonne	?		
 3360	foi	foi	?	foi, parole	
 3360	,				
@@ -23083,7 +23083,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3365	droit	droit	?	droit, raison, directement	
 3365	ai	ai	?	ai, j'ai	
 3365	ge	je	?		
-3365	descovenue	malheur	?		
+3365	descovenue	malentendu	?		
 3365	,				
 3366	Trop	trop	?		
 3366	vos	vous	?	vous, vos, votre	
@@ -23201,7 +23201,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3383	Mes	mais	?	mais, mes, plus, encore, désormais, pourtant	
 3383	ne	ne	?	ne, ni, et	
 3383	set	sait	?		
-3383	pas	pas	?	pas, crois	
+3383	pas	pas	?		
 3383	c'a	qu'a	?		
 3383	l'oil				
 3383	li	lui	?	lui, le, les, il, la, li, ils, elle	
@@ -23216,7 +23216,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3384	.				
 3385	Ne	ne	?	ne, ni, et	
 3385	cuide	s'imagine	?	s'imagine, pense	
-3385	pas	pas	?	pas, crois	
+3385	pas	pas	?		
 3385	qu'en	qu'on	?	qu'on, que dans, qu'en	
 3385	tot	tout	?	tout, tous	
 3385	le	le	?	le, lui	
@@ -23591,7 +23591,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3438	De	de	?	de, sur, avec, du, en	
 3438	ce	ce	?	ce, ça, lui, cela, il, ceci	
 3438	n'avrez				
-3438	pas	pas	?	pas, crois	
+3438	pas	pas	?		
 3438	grant	grand	?	grand, grande, bon	
 3438	donmage	dommage	?		
 3438	,				
@@ -23893,7 +23893,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3486	Renart	Renart	?		
 3486	ne	ne	?	ne, ni, et	
 3486	fu	fut	?	fut, était, il y a eu, furent	
-3486	pas	pas	?	pas, crois	
+3486	pas	pas	?		
 3486	esbahiz	stupéfait	?		
 3486	,				
 3487	Certes	certainement	?	certainement, sérieusement, certes, vraiment, pour sûr	
@@ -23933,7 +23933,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3492	Qu'il	qu'il	?	qu'il, qu'ils, ce qu'il, quand il	
 3492	ne	ne	?	ne, ni, et	
 3492	volt	veut	?	veut, voulut, voulu	
-3492	pas	pas	?	pas, crois	
+3492	pas	pas	?		
 3492	estre	être	?	être, personne	
 3492	veüz	vu	?		
 3492	.				
@@ -24100,7 +24100,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3517	Car	car	?		
 3517	ele	elle	?		
 3517	n'est	n'est	?		
-3517	pas	pas	?	pas, crois	
+3517	pas	pas	?		
 3517	trop	trop	?		
 3517	chargie				
 3517	,				
@@ -24572,7 +24572,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3587	;				
 3588	Ne	ne	?	ne, ni, et	
 3588	soiez	soyez	?	soyez, coupé	
-3588	pas	pas	?	pas, crois	
+3588	pas	pas	?		
 3588	si	puis	?	puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 3588	adolez				
 3589	Por	pour	?	pour, à cause de, par, à cause, vers	
@@ -24642,19 +24642,19 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3598	Ne	ne	?	ne, ni, et	
 3598	m'en	m'en	?		
 3598	dites	dites	?		
-3598	pas	pas	?	pas, crois	
+3598	pas	pas	?		
 3598	desraison				
 3598	,				
 3599	Car	car	?		
 3599	ce	ce	?	ce, ça, lui, cela, il, ceci	
 3599	ne	ne	?	ne, ni, et	
 3599	seroit	serait	?		
-3599	pas	pas	?	pas, crois	
+3599	pas	pas	?		
 3599	savoir	savoir	?	savoir, sagesse, sage	
 3599	.				
 3600	N'en	n'en	?		
 3600	croistrïez				
-3600	pas	pas	?	pas, crois	
+3600	pas	pas	?		
 3600	vostre	votre	?		
 3600	avoir	avoir	?	avoir, bien, fortune, argent	
 3601	Ne	ne	?	ne, ni, et	
@@ -24895,7 +24895,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3636	.				
 3637	Ne	ne	?	ne, ni, et	
 3637	sui	suis	?		
-3637	pas	pas	?	pas, crois	
+3637	pas	pas	?		
 3637	sages	expérimenté	?	expérimenté, sagesse	
 3637	con	que	?	que, comme, comment, car, lorsque	
 3637	vos	vous	?	vous, vos, votre	
@@ -25534,7 +25534,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3728	saut	saute	?	saute, bond, garde, saut, aide, tour	
 3729	Et	et	?		
 3729	le	le	?	le, lui	
-3729	pas	pas	?	pas, crois	
+3729	pas	pas	?		
 3729	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 3729	point	point	?	point, pique	
 3729	n'i	n'y	?		
@@ -25922,7 +25922,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3782	?				
 3783	N'as	n'as	?		
 3783	tu	tu	?		
-3783	pas	pas	?	pas, crois	
+3783	pas	pas	?		
 3783	des	des	?	des, au sujet de, dès	
 3783	harens				
 3783	mengié	mangé	?		
@@ -25963,7 +25963,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3789	charreton				
 3789	!				
 3790	N'ont				
-3790	pas	pas	?	pas, crois	
+3790	pas	pas	?		
 3790	esté	été	?		
 3790	chier	cher	?		
 3790	li	lui	?	lui, le, les, il, la, li, ils, elle	
@@ -26250,7 +26250,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3832	boutons				
 3833	Ne	ne	?	ne, ni, et	
 3833	donroit	donnerait	?		
-3833	pas	pas	?	pas, crois	
+3833	pas	pas	?		
 3833	en	en	?	en, dans, sur, on	
 3833	son	son	?	son, air	
 3833	afere	affaire	?	affaire, occupation	
@@ -26297,7 +26297,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3839	.				
 3840	Ne	ne	?	ne, ni, et	
 3840	cuidiez				
-3840	pas	pas	?	pas, crois	
+3840	pas	pas	?		
 3840	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 3840	il	il	?	il, ils	
 3840	anuit	cette nuit	?	cette nuit, ennuit	
@@ -26567,7 +26567,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3878	Et	et	?		
 3878	sachiez	sachez	?		
 3878	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
-3878	pas	pas	?	pas, crois	
+3878	pas	pas	?		
 3878	ne	ne	?	ne, ni, et	
 3878	li	lui	?	lui, le, les, il, la, li, ils, elle	
 3878	grieve	fait souffrir	?	fait souffrir, écrase, gêne	
@@ -26940,7 +26940,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3936	Qu'il	qu'il	?	qu'il, qu'ils, ce qu'il, quand il	
 3936	ne	ne	?	ne, ni, et	
 3936	volt	veut	?	veut, voulut, voulu	
-3936	pas	pas	?	pas, crois	
+3936	pas	pas	?		
 3936	estre	être	?	être, personne	
 3936	sorpris	surpris	?		
 3936	,				
@@ -27175,7 +27175,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 3966	Il	il	?	il, ils	
 3966	nel	ne le	?		
 3966	disoit	disait	?	disait, parlait	
-3966	pas	pas	?	pas, crois	
+3966	pas	pas	?		
 3966	por	pour	?	pour, à cause de, par, à cause, vers	
 3966	son	son	?	son, air	
 3966	bien	bien	?	bien, bon, béni	
@@ -27704,7 +27704,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4039	Qui	qui	?	qui, celui qui, car, quiconque, que	
 4039	n'en	n'en	?		
 4039	a	à	?	à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
-4039	pas	pas	?	pas, crois	
+4039	pas	pas	?		
 4039	le	le	?	le, lui	
 4039	cuer	cœur	?	cœur, coeur	
 4039	dolent	malheureux	?	malheureux, triste	
@@ -27948,7 +27948,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4074	Et	et	?		
 4074	sachiez	sachez	?		
 4074	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
-4074	pas	pas	?	pas, crois	
+4074	pas	pas	?		
 4074	ne	ne	?	ne, ni, et	
 4074	se	se	?	se, si, que, aussi vrai que, ainsi, sais	
 4074	faint				
@@ -27979,7 +27979,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4078	volt	veut	?	veut, voulut, voulu	
 4078	li	lui	?	lui, le, les, il, la, li, ils, elle	
 4078	vilains	paysan	?	paysan, vil	
-4078	pas	pas	?	pas, crois	
+4078	pas	pas	?		
 4078	lessier	laisser	?		
 4078	,				
 4079	Ainz	avant	?	avant, plutôt, au contraire	
@@ -31249,7 +31249,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4564	ne	ne	?	ne, ni, et	
 4564	serïez				
 4564	vos	vous	?	vous, vos, votre	
-4564	pas	pas	?	pas, crois	
+4564	pas	pas	?		
 4564	quites	quitte	?		
 4564	.				
 4565	Chascun	chacun	?		
@@ -31283,7 +31283,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4568	.				
 4569	Ce	ce	?	ce, ça, lui, cela, il, ceci	
 4569	n'ert	ne sera	?		
-4569	pas	pas	?	pas, crois	
+4569	pas	pas	?		
 4569	fait	fait	?		
 4569	la	la	?	la, là, entendit, nos	
 4569	ou	où	?	où, ou	
@@ -31403,7 +31403,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4587	tant/a_tant	_EMPTY_	?		
 4587	estordre				
 4587	,				
-4588	Encor	de même	?	de même, encore, en oûtre	
+4588	Encor	de même	?	de même, encore, en outre	
 4588	s'i	s'y	?	s'y, s'il	
 4588	voudra	voudra	?		
 4588	il	il	?	il, ils	
@@ -31487,7 +31487,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4601	Je	je	?		
 4601	ne	ne	?	ne, ni, et	
 4601	cuit	pense	?	pense, crois	
-4601	pas	pas	?	pas, crois	
+4601	pas	pas	?		
 4601	,				
 4601	sauve				
 4601	sa	sa	?		
@@ -31945,7 +31945,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4671	Qui	qui	?	qui, celui qui, car, quiconque, que	
 4671	sot	sait	?	sait, sot, sache, se rendit compte	
 4671	les	les	?	les, celles de, à côté, légué, leur, héritage	
-4671	pas	pas	?	pas, crois	
+4671	pas	pas	?		
 4671	et	et	?		
 4671	les	les	?	les, celles de, à côté, légué, leur, héritage	
 4671	destroiz				
@@ -32625,7 +32625,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4770	premiers				
 4770	trais				
 4770	,				
-4771	Encor	de même	?	de même, encore, en oûtre	
+4771	Encor	de même	?	de même, encore, en outre	
 4771	n'est	n'est	?		
 4771	ore	là	?	là, donc, maintenant	
 4771	aconseüe				
@@ -32650,7 +32650,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4774	n'avroit	n'aurait	?		
 4775	L'autre	l'autre	?		
 4775	partie	côté	?	côté, partie	
-4775	encor	de même	?	de même, encore, en oûtre	
+4775	encor	de même	?	de même, encore, en outre	
 4775	atainte	atteinte	?		
 4775	.				
 4776	Nos	nous	?	nous, nos	
@@ -32686,12 +32686,12 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4780	ne	ne	?	ne, ni, et	
 4780	fist	a fait	?	a fait, fit, agit	
 4780	l'en	l'on	?	l'on, l'en, lui en	
-4780	pas	pas	?	pas, crois	
+4780	pas	pas	?		
 4780	Ronme	Rome	?		
 4780	.				
 4781	Ne	ne	?	ne, ni, et	
 4781	di	dis	?	dis, allez, dit	
-4781	pas	pas	?	pas, crois	
+4781	pas	pas	?		
 4781	por	pour	?	pour, à cause de, par, à cause, vers	
 4781	Renart	Renart	?		
 4781	tenser				
@@ -32811,7 +32811,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4799	.				
 4800	Maint	de nombreux	?	de nombreux, maints, beaucoup de, maintes	
 4800	mauvés	sale	?	sale, mauvais, mal	
-4800	pas	pas	?	pas, crois	
+4800	pas	pas	?		
 4800	a	à	?	à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
 4800	il	il	?	il, ils	
 4800	passez	passé	?		
@@ -32819,7 +32819,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4801	Si	puis	?	puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 4801	fera	fera	?	fera, sera	
 4801	il	il	?	il, ils	
-4801	encor	de même	?	de même, encore, en oûtre	
+4801	encor	de même	?	de même, encore, en outre	
 4801	cestui	ce	?		
 4801	,				
 4802	Se	se	?	se, si, que, aussi vrai que, ainsi, sais	
@@ -33150,11 +33150,11 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4850	.				
 4851	Renart	Renart	?		
 4851	n'est	n'est	?		
-4851	pas	pas	?	pas, crois	
+4851	pas	pas	?		
 4851	vaincuz				
 4851	encore	encore	?		
 4851	;				
-4852	Encor	de même	?	de même, encore, en oûtre	
+4852	Encor	de même	?	de même, encore, en outre	
 4852	vendra				
 4852	,				
 4852	ce	ce	?	ce, ça, lui, cela, il, ceci	
@@ -33928,7 +33928,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 4970	aversaires				
 4970	,				
 4971	N'a	n'a pas	?	n'a pas, n'a, ou en	
-4971	pas	pas	?	pas, crois	
+4971	pas	pas	?		
 4971	la	la	?	la, là, entendit, nos	
 4971	chose	chose	?		
 4971	en	en	?	en, dans, sur, on	
@@ -34653,7 +34653,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5078	,				
 5079	N'i	n'y	?		
 5079	va	va	?	va, donc	
-5079	pas	pas	?	pas, crois	
+5079	pas	pas	?		
 5079	corant	courant	?		
 5079	,				
 5079	mes	mais	?	mais, mes, plus, encore, désormais, pourtant	
@@ -34703,7 +34703,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5086	Et	et	?		
 5086	li	lui	?	lui, le, les, il, la, li, ils, elle	
 5086	formiz				
-5086	pas	pas	?	pas, crois	
+5086	pas	pas	?		
 5086	ne	ne	?	ne, ni, et	
 5086	s'i	s'y	?	s'y, s'il	
 5086	cele	cette	?	cette, celle, celle-ci	
@@ -35643,7 +35643,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5226	vos	vous	?	vous, vos, votre	
 5226	n'en	n'en	?		
 5226	porrez	pourrez	?		
-5226	pas	pas	?	pas, crois	
+5226	pas	pas	?		
 5226	issir	sortir	?		
 5227	Tresque				
 5227	vos	vous	?	vous, vos, votre	
@@ -35708,7 +35708,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5235	,				
 5235	Renart	Renart	?		
 5235	,				
-5236	Encor	de même	?	de même, encore, en oûtre	
+5236	Encor	de même	?	de même, encore, en outre	
 5236	pendrez				
 5236	a	à	?	à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
 5236	une	une	?		
@@ -36348,7 +36348,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5325	se	se	?	se, si, que, aussi vrai que, ainsi, sais	
 5325	deut	plaint	?		
 5325	,				
-5326	Encor	de même	?	de même, encore, en oûtre	
+5326	Encor	de même	?	de même, encore, en outre	
 5326	tendra				
 5326	Renart	Renart	?		
 5326	,				
@@ -36424,7 +36424,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5336	menacent				
 5336	.				
 5337	N'est	n'est	?		
-5337	pas	pas	?	pas, crois	
+5337	pas	pas	?		
 5337	remez				
 5337	li	lui	?	lui, le, les, il, la, li, ils, elle	
 5337	chaceïs				
@@ -36534,9 +36534,9 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5351	qu'en	qu'on	?	qu'on, que dans, qu'en	
 5351	chace				
 5351	,				
-5352	Encor	de même	?	de même, encore, en oûtre	
+5352	Encor	de même	?	de même, encore, en outre	
 5352	n'est	n'est	?		
-5352	pas	pas	?	pas, crois	
+5352	pas	pas	?		
 5352	remés	restés	?	restés, terminé	
 5352	la	la	?	la, là, entendit, nos	
 5352	chace				
@@ -36567,7 +36567,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5357	Brun	Brun	?		
 5357	ne	ne	?	ne, ni, et	
 5357	dit	dit	?		
-5357	pas	pas	?	pas, crois	
+5357	pas	pas	?		
 5357	:				
 5357	«				
 5357	Cul	cul	?		
@@ -38099,7 +38099,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5592	Renart	Renart	?		
 5592	ne	ne	?	ne, ni, et	
 5592	fu	fut	?	fut, était, il y a eu, furent	
-5592	pas	pas	?	pas, crois	
+5592	pas	pas	?		
 5592	lenz				
 5593	De	de	?	de, sur, avec, du, en	
 5593	coroucier	se mettre en colère	?	se mettre en colère, colère	
@@ -38454,7 +38454,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5644	Renart	Renart	?		
 5645	—				
 5645	N'a	n'a pas	?	n'a pas, n'a, ou en	
-5645	pas	pas	?	pas, crois	
+5645	pas	pas	?		
 5645	tant	tant	?	tant, jusqu'à, tellement, beaucoup, autant, assez	
 5645	mesfet	perdu	?		
 5645	con	que	?	que, comme, comment, car, lorsque	
@@ -38483,7 +38483,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5649	bien	bien	?	bien, bon, béni	
 5649	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 5649	n'est	n'est	?		
-5649	pas	pas	?	pas, crois	
+5649	pas	pas	?		
 5649	mors				
 5649	,				
 5650	L'alaine				
@@ -38616,7 +38616,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5668	Qu'il	qu'il	?	qu'il, qu'ils, ce qu'il, quand il	
 5668	ne	ne	?	ne, ni, et	
 5668	fist	a fait	?	a fait, fit, agit	
-5668	pas	pas	?	pas, crois	
+5668	pas	pas	?		
 5668	le	le	?	le, lui	
 5668	serement	serment	?		
 5668	.				
@@ -38796,7 +38796,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5697	Ysengrin	Ysengrin	?		
 5697	,				
 5697	qui	qui	?	qui, celui qui, car, quiconque, que	
-5697	pas	pas	?	pas, crois	
+5697	pas	pas	?		
 5697	ne	ne	?	ne, ni, et	
 5697	l'ainme				
 5697	,				
@@ -39314,7 +39314,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5774	l'abesson				
 5774	,				
 5775	Porra	pourra	?		
-5775	encor	de même	?	de même, encore, en oûtre	
+5775	encor	de même	?	de même, encore, en outre	
 5775	assez	beaucoup	?	beaucoup, suffisamment, assez, fort	
 5775	monter				
 5775	;				
@@ -39332,7 +39332,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5778	Qui	qui	?	qui, celui qui, car, quiconque, que	
 5778	nel	ne le	?		
 5778	porra	pourra	?		
-5778	pas	pas	?	pas, crois	
+5778	pas	pas	?		
 5778	abessier				
 5778	.				
 5779	Et	et	?		
@@ -39747,7 +39747,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5840	Ne	ne	?	ne, ni, et	
 5840	m'en	m'en	?		
 5840	tenez	tenez	?	tenez, maintenez	
-5840	pas	pas	?	pas, crois	
+5840	pas	pas	?		
 5840	a	à	?	à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
 5840	mentouse				
 5840	,				
@@ -39845,7 +39845,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5854	Ysengrin	Ysengrin	?		
 5854	ne	ne	?	ne, ni, et	
 5854	fust	fut	?	fut, serait, fût, était	
-5854	pas	pas	?	pas, crois	
+5854	pas	pas	?		
 5854	cous	cocu	?		
 5854	.				
 5855	«				
@@ -40055,7 +40055,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5887	Que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 5887	il	il	?	il, ils	
 5887	n'est	n'est	?		
-5887	pas	pas	?	pas, crois	
+5887	pas	pas	?		
 5887	venuz	venu	?	venu, arrivé	
 5887	a	à	?	à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
 5887	tort	tort	?	tort, arrive, blâme	
@@ -40181,7 +40181,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5905	je	je	?		
 5905	le	le	?	le, lui	
 5905	voille	veuille	?		
-5905	encor	de même	?	de même, encore, en oûtre	
+5905	encor	de même	?	de même, encore, en outre	
 5905	honnir				
 5905	,				
 5906	S'il	s'il	?		
@@ -40812,7 +40812,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 5999	;				
 6000	Gonbert				
 6000	n'ot	n'avait	?	n'avait, n'avait pas de, n'a eu	
-6000	pas	pas	?	pas, crois	
+6000	pas	pas	?		
 6000	isnel				
 6000	cheval				
 6000	,				
@@ -41160,7 +41160,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6053	Je	je	?		
 6053	nel	ne le	?		
 6053	di	dis	?	dis, allez, dit	
-6053	pas	pas	?	pas, crois	
+6053	pas	pas	?		
 6053	por	pour	?	pour, à cause de, par, à cause, vers	
 6053	la	la	?	la, là, entendit, nos	
 6053	haïne	haine	?		
@@ -41207,7 +41207,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6059	Ce	ce	?	ce, ça, lui, cela, il, ceci	
 6059	n'est	n'est	?		
 6059	or	maintenant	?	maintenant, donc, or, par, à présent, mais, là	
-6059	pas	pas	?	pas, crois	
+6059	pas	pas	?		
 6059	li	lui	?	lui, le, les, il, la, li, ils, elle	
 6059	premereins				
 6059	.				
@@ -41417,7 +41417,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6092	Il	il	?	il, ils	
 6092	ne	ne	?	ne, ni, et	
 6092	servirent	servirent	?		
-6092	pas	pas	?	pas, crois	
+6092	pas	pas	?		
 6092	de	de	?	de, sur, avec, du, en	
 6092	befe				
 6092	,				
@@ -43375,7 +43375,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6370	le	le	?	le, lui	
 6370	trot				
 6370	,				
-6371	Encor	de même	?	de même, encore, en oûtre	
+6371	Encor	de même	?	de même, encore, en outre	
 6371	quida				
 6371	chaoir	tombé	?		
 6371	es	es	?	es, dans les, et, battant, entre les	
@@ -43624,7 +43624,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6406	pouist				
 6406	escuser				
 6406	,				
-6407	Encor	de même	?	de même, encore, en oûtre	
+6407	Encor	de même	?	de même, encore, en outre	
 6407	fust	fut	?	fut, serait, fût, était	
 6407	sanz	sans	?		
 6407	li	lui	?	lui, le, les, il, la, li, ils, elle	
@@ -43958,7 +43958,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6454	,				
 6455	Ne	ne	?	ne, ni, et	
 6455	cuidiez				
-6455	pas	pas	?	pas, crois	
+6455	pas	pas	?		
 6455	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 6455	je	je	?		
 6455	vos	vous	?	vous, vos, votre	
@@ -44231,7 +44231,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6493	d'un	d'un	?	d'un, de même	
 6493	mui				
 6493	.				
-6494	Encor	de même	?	de même, encore, en oûtre	
+6494	Encor	de même	?	de même, encore, en outre	
 6494	n'a	n'a pas	?	n'a pas, n'a, ou en	
 6494	gueres	guère	?		
 6494	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
@@ -44936,7 +44936,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6593	ne	ne	?	ne, ni, et	
 6593	puis	puis	?	puis, depuis, ensuite, peux	
 6593	ge	je	?		
-6593	pas	pas	?	pas, crois	
+6593	pas	pas	?		
 6593	fere	faire	?	faire, rendre	
 6593	.				
 6594	Renart	Renart	?		
@@ -44948,7 +44948,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6595	Bien	bien	?	bien, bon, béni	
 6595	sai	sais	?	sais, connais	
 6595	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
-6595	pas	pas	?	pas, crois	
+6595	pas	pas	?		
 6595	ne	ne	?	ne, ni, et	
 6595	l'amerroie				
 6595	,				
@@ -45127,7 +45127,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6621	,				
 6622	Au	au	?	au, dans, du, de	
 6622	petit	petit	?	petit, peu	
-6622	pas	pas	?	pas, crois	
+6622	pas	pas	?		
 6622	et	et	?		
 6622	au	au	?	au, dans, du, de	
 6622	torner	tourner	?	tourner, retourner	
@@ -46800,7 +46800,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6867	,				
 6868	Ne	ne	?	ne, ni, et	
 6868	fet	fait	?	fait, faits	
-6868	pas	pas	?	pas, crois	
+6868	pas	pas	?		
 6868	chierre	chère	?	chère, figure	
 6868	de	de	?	de, sur, avec, du, en	
 6868	coart	peureux	?	peureux, lâche	
@@ -47015,7 +47015,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6899	fere	faire	?	faire, rendre	
 6899	lait	lait	?	lait, horrible	
 6899	,				
-6900	Encor	de même	?	de même, encore, en oûtre	
+6900	Encor	de même	?	de même, encore, en outre	
 6900	ne	ne	?	ne, ni, et	
 6900	l'aie				
 6900	je	je	?		
@@ -47259,7 +47259,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6933	Je	je	?		
 6933	ne	ne	?	ne, ni, et	
 6933	sui	suis	?		
-6933	pas	pas	?	pas, crois	
+6933	pas	pas	?		
 6933	de	de	?	de, sur, avec, du, en	
 6933	grant	grand	?	grand, grande, bon	
 6933	puissance	puissance	?		
@@ -47440,7 +47440,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 6961	,				
 6962	Ne	ne	?	ne, ni, et	
 6962	devez	devez	?		
-6962	pas	pas	?	pas, crois	
+6962	pas	pas	?		
 6962	por	pour	?	pour, à cause de, par, à cause, vers	
 6962	ce	ce	?	ce, ça, lui, cela, il, ceci	
 6962	traitier				
@@ -47820,7 +47820,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7020	loing	loin	?		
 7020	,				
 7020	que	que	?	que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
-7020	pas	pas	?	pas, crois	
+7020	pas	pas	?		
 7020	ne	ne	?	ne, ni, et	
 7020	l'aprochoit				
 7020	;				
@@ -48099,7 +48099,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7060	.I.	un	?		
 7060	mois	mois	?		
 7060	,				
-7061	Encor	de même	?	de même, encore, en oûtre	
+7061	Encor	de même	?	de même, encore, en outre	
 7061	avra	aura	?		
 7061	mestier	besoin	?	besoin, métier, utile, corporation	
 7061	mout	très	?	très, beaucoup, plus, fort, tout, longtemps	
@@ -50386,7 +50386,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7396	Si	puis	?	puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 7396	jeünez				
 7396	,				
-7396	pas	pas	?	pas, crois	
+7396	pas	pas	?		
 7396	ne	ne	?	ne, ni, et	
 7396	m'en	m'en	?		
 7396	poise	pèse	?	pèse, tourment	
@@ -50520,7 +50520,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7416	Qu'il	qu'il	?	qu'il, qu'ils, ce qu'il, quand il	
 7416	n'asausissent				
 7416	tot	tout	?	tout, tous	
-7416	encor	de même	?	de même, encore, en oûtre	
+7416	encor	de même	?	de même, encore, en outre	
 7416	,				
 7417	Mes	mais	?	mais, mes, plus, encore, désormais, pourtant	
 7417	ne	ne	?	ne, ni, et	
@@ -50758,7 +50758,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7454	Tel	tel	?	tel, tellement, quiconque, telle, cette	
 7454	gieu				
 7454	qui	qui	?	qui, celui qui, car, quiconque, que	
-7454	pas	pas	?	pas, crois	
+7454	pas	pas	?		
 7454	ne	ne	?	ne, ni, et	
 7454	li	lui	?	lui, le, les, il, la, li, ils, elle	
 7454	plesoit	plaisait	?		
@@ -51232,7 +51232,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7521	peliçon	pelisse			
 7521	,				
 7522	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
-7522	pas	pas		pas, crois	
+7522	pas	pas			
 7522	ne	ne		ne, ni, et	
 7522	li	lui		lui, le, les, il, la, li, ils, elle	
 7522	vaut	vaut			
@@ -51534,7 +51534,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7567	.				
 7568	Son	son		son, air	
 7568	petit	petit		petit, peu	
-7568	pas	pas		pas, crois	
+7568	pas	pas			
 7568	s'en	s'en		s'en, si on	
 7568	vet	va			
 7568	amblant	à l'amble			
@@ -51664,7 +51664,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7587	Je	je			
 7587	nel	ne le			
 7587	di	dis		dis, allez, dit	
-7587	pas	pas		pas, crois	
+7587	pas	pas			
 7587	por	par		pour, à cause de, par, à cause, vers	
 7587	lecherie	lubricité		débauche, gourmandise, lubricité	
 7587	,				
@@ -51751,7 +51751,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7599	eschaper	échapper			
 7599	vis	vif		vivant, vif, vil	
 7599	,				
-7600	Encor	encore		de même, encore, en oûtre	
+7600	Encor	encore		de même, encore, en outre	
 7600	sera	sera			
 7600	mout	beaucoup		très, beaucoup, plus, fort, tout, longtemps	
 7600	vos	votre		vous, vos, votre	
@@ -52153,7 +52153,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7659	;				
 7660	Ne	ne		ne, ni, et	
 7660	puet	peut			
-7660	pas	pas		pas, crois	
+7660	pas	pas			
 7660	son	son		son, air	
 7660	voloir	vouloir			
 7660	taisir	cacher			
@@ -52477,7 +52477,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7706	.				
 7707	Ne	ne		ne, ni, et	
 7707	viennent	arrivent		arrivent, viennent	
-7707	pas	pas		pas, crois	
+7707	pas	pas			
 7707	trop	trop			
 7707	belement	tranquillement		bellement, tranquillement	
 7707	,				
@@ -53455,7 +53455,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7851	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 7851	ce	ce		ce, ça, lui, cela, il, ceci	
 7851	n'est	n'est			
-7851	pas	pas		pas, crois	
+7851	pas	pas			
 7851	chose	chose			
 7851	avenable	possible			
 7851	,				
@@ -53586,7 +53586,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7870	.				
 7871	Son	son		son, air	
 7871	petit	petit		petit, peu	
-7871	pas	pas		pas, crois	
+7871	pas	pas			
 7871	s'en	s'en		s'en, si on	
 7871	vet	va			
 7871	tardant	hésitant			
@@ -53994,7 +53994,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 7932	plus	plus			
 7932	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
 7932	le	le		le, lui	
-7932	pas	pas		pas, crois	
+7932	pas	pas			
 7932	,				
 7933	Choisist	aperçoit			
 7933	Renart	Renart			
@@ -55120,7 +55120,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8091	aver	avoir			
 8092	Nel	ne le			
 8092	voudroie	voudrais			
-8092	pas	pas		pas, crois	
+8092	pas	pas			
 8092	resembler	ressembler			
 8092	.				
 8093	—				
@@ -56198,7 +56198,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8248	painne	peine			
 8248	.				
 8249	Ysengrin	Ysengrin			
-8249	pas	pas		pas, crois	
+8249	pas	pas			
 8249	ne	ne		ne, ni, et	
 8249	s'aseüre	est rassuré			
 8249	,				
@@ -56530,7 +56530,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8297	Je	je			
 8297	n'en	n'en			
 8297	sui	suis			
-8297	pas	pas		pas, crois	
+8297	pas	pas			
 8297	ore	maintenant		là, donc, maintenant	
 8297	aaisiez	à l'aise			
 8297	,				
@@ -56729,7 +56729,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8324	,				
 8324	ce	ce		ce, ça, lui, cela, il, ceci	
 8324	n'est	n'est			
-8324	pas	pas		pas, crois	
+8324	pas	pas			
 8324	avenant	acceptable			
 8324	;				
 8325	Si	si		puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
@@ -57403,7 +57403,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8420	,				
 8421	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
 8421	ele	elle			
-8421	pas	pas		pas, crois	
+8421	pas	pas			
 8421	tort	tort		tort, arrive, blâme	
 8421	n'en	n'en			
 8421	avoit	avait			
@@ -57563,7 +57563,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8444	Tu	tu			
 8444	en	en		en, dans, sur, on	
 8444	seras	seras			
-8444	encor	de même		de même, encore, en oûtre	
+8444	encor	de même		de même, encore, en outre	
 8444	dolenz	malheureux			
 8444	.				
 8444	»				
@@ -57634,7 +57634,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8455	furent	furent			
 8455	lié	content			
 8455	,				
-8455	pas	pas		pas, crois	
+8455	pas	pas			
 8455	nel	ne le			
 8455	connurent	reconnurent			
 8455	,				
@@ -57955,10 +57955,10 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8500	Tu	tu			
 8500	en	en		en, dans, sur, on	
 8500	seras	seras			
-8500	encor	encore		de même, encore, en oûtre	
+8500	encor	encore		de même, encore, en outre	
 8500	dolens	malheureux			
 8500	.				
-8501	Encor	de même		de même, encore, en oûtre	
+8501	Encor	de même		de même, encore, en outre	
 8501	en	en		en, dans, sur, on	
 8501	charras	tomberas			
 8501	en	en		en, dans, sur, on	
@@ -60620,7 +60620,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8908	ne	ne		ne, ni, et	
 8908	ne	ne		ne, ni, et	
 8908	li	lui		lui, le, les, il, la, li, ils, elle	
-8908	plest	plait		plait, plaît	
+8908	plest	plaît		plait, plaît	
 8909	A	à		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
 8909	tenir	tenir		tenir, contenir	
 8909	chemin	chemin			
@@ -60883,7 +60883,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8947	Qui	qui		qui, celui qui, car, quiconque, que	
 8947	ne	ne		ne, ni, et	
 8947	volt	veut		veut, voulut, voulu	
-8947	pas	pas		pas, crois	
+8947	pas	pas			
 8947	estre	être		être, personne	
 8947	seüz	aperçu		sureaux, aperçu	
 8947	,				
@@ -60897,7 +60897,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8949	S'en	s'en		s'en, si on	
 8949	va	va		va, donc	
 8949	le	le		le, lui	
-8949	pas	pas		pas, crois	
+8949	pas	pas			
 8949	sentant	reniflant			
 8949	le	le		le, lui	
 8949	vent	vent			
@@ -60935,7 +60935,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 8955	ne	ne		ne, ni, et	
 8955	me	me			
 8955	voil	veux		veux, volonté	
-8955	pas	pas		pas, crois	
+8955	pas	pas			
 8955	de	de		de, sur, avec, du, en	
 8955	ce	cela		ce, ça, lui, cela, il, ceci	
 8955	taire	taire			
@@ -61723,7 +61723,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9076	Et	et			
 9076	cil	celui-ci		celui-ci, ce, ceux, celui-là, celui, eux, cette	
 9076	qui	qui		qui, celui qui, car, quiconque, que	
-9076	pas	pas		pas, crois	
+9076	pas	pas			
 9076	apris	appris			
 9076	ne	ne		ne, ni, et	
 9076	fu	fut		fut, était, il y a eu, furent	
@@ -62271,7 +62271,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9155	.				
 9156	Toutevoies	toutefois			
 9156	n'est	n'est			
-9156	pas	pas		pas, crois	
+9156	pas	pas			
 9156	tant	tant		tant, jusqu'à, tellement, beaucoup, autant, assez	
 9156	os	osé		os, ose, osé	
 9157	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
@@ -62712,7 +62712,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9217	,				
 9218	N'en	n'en			
 9218	prandroie	prendrait			
-9218	pas	pas		pas, crois	
+9218	pas	pas			
 9218	tot	tout		tout, tous	
 9218	l'avoir	l'avoir			
 9219	L'empereor	l'empereur			
@@ -62746,7 +62746,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9223	me	me			
 9223	fai	fais			
 9223	ore	là		là, donc, maintenant	
-9223	pas	pas		pas, crois	
+9223	pas	pas			
 9223	du	du		du, de	
 9223	pis	pire			
 9224	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
@@ -62820,7 +62820,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9233	.				
 9234	Ne	ne		ne, ni, et	
 9234	devez	devez			
-9234	pas	pas		pas, crois	
+9234	pas	pas			
 9234	,				
 9234	se	se		se, si, que, aussi vrai que, ainsi, sais	
 9234	Diex	Dieu			
@@ -62971,7 +62971,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9255	,				
 9255	ne	ne		ne, ni, et	
 9255	plore	pleure			
-9255	pas	pas		pas, crois	
+9255	pas	pas			
 9255	!				
 9256	A	pour		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
 9256	ceste	cette		cette, celle-ci	
@@ -63134,7 +63134,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9280	Si	puis		puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 9280	ne	ne		ne, ni, et	
 9280	mentoit	mentait			
-9280	pas	pas		pas, crois	
+9280	pas	pas			
 9280	volentiers	volontiers			
 9280	.				
 9281	«				
@@ -63405,10 +63405,10 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9318	le	le		le, lui	
 9318	conjoit	félicite			
 9318	.				
-9319	Encor	de même		de même, encore, en oûtre	
+9319	Encor	de même		de même, encore, en outre	
 9319	n'a	n'a pas		n'a pas, n'a, ou en	
 9319	il	il		il, ils	
-9319	pas	pas		pas, crois	
+9319	pas	pas			
 9319	oublïé	oublié			
 9319	:				
 9320	«				
@@ -63518,7 +63518,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9334	qui	qui		qui, celui qui, car, quiconque, que	
 9334	ne	ne		ne, ni, et	
 9334	volt	veut		veut, voulut, voulu	
-9334	pas	pas		pas, crois	
+9334	pas	pas			
 9334	la	la		la, là, entendit, nos	
 9334	guerre	guerre			
 9334	,				
@@ -64204,7 +64204,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9431	;				
 9432	Ne	ne		ne, ni, et	
 9432	sui	suis			
-9432	pas	pas		pas, crois	
+9432	pas	pas			
 9432	por	à cause de		pour, à cause de, par, à cause, vers	
 9432	mort	mort		mort, tué	
 9432	en	en		en, dans, sur, on	
@@ -64436,7 +64436,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9467	ne	ne		ne, ni, et	
 9467	le	le		le, lui	
 9467	savïez	saviez			
-9467	pas	pas		pas, crois	
+9467	pas	pas			
 9467	.				
 9468	Par	par		par, vraiment, à travers, pour, avec, à, en	
 9468	la	la		la, là, entendit, nos	
@@ -64597,7 +64597,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9491	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
 9491	ne	ne		ne, ni, et	
 9491	l'ai	l'ai			
-9491	pas	pas		pas, crois	
+9491	pas	pas			
 9491	bien	bien		bien, bon, béni	
 9491	retenu	retenu			
 9491	,				
@@ -64949,7 +64949,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9542	,				
 9542	si	alors		puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
 9542	li	lui		lui, le, les, il, la, li, ils, elle	
-9542	plest	plait		plait, plaît	
+9542	plest	plaît		plait, plaît	
 9542	,				
 9543	Et	et			
 9543	dist	dit		dit, a dit, se dit, a parlé	
@@ -65022,7 +65022,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9551	.II.	deux			
 9551	blez	blés			
 9551	.				
-9552	Encor	encore		de même, encore, en oûtre	
+9552	Encor	encore		de même, encore, en outre	
 9552	se	se		se, si, que, aussi vrai que, ainsi, sais	
 9552	crient	craint		craint, craigne	
 9552	d'estre	d'être			
@@ -65056,7 +65056,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9556	qui	qui		qui, celui qui, car, quiconque, que	
 9556	plus	plus			
 9556	li	lui		lui, le, les, il, la, li, ils, elle	
-9556	plest	plait		plait, plaît	
+9556	plest	plaît		plait, plaît	
 9557	Et	et			
 9557	ou	où		où, ou	
 9557	il	il		il, ils	
@@ -65156,11 +65156,11 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9570	il	il		il, ils	
 9570	ne	ne		ne, ni, et	
 9570	dient	disent			
-9570	pas	pas		pas, crois	
+9570	pas	pas			
 9570	voir	vrai		vrai, vraiment, sûr, de vrai	
 9570	.				
 9571	N'a	n'a pas		n'a pas, n'a, ou en	
-9571	pas	pas		pas, crois	
+9571	pas	pas			
 9571	grant	grand		grand, grande, bon	
 9571	sapïence	sagesse			
 9571	enclose	enfermée			
@@ -65257,7 +65257,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9586	la	la		la, là, entendit, nos	
 9586	cort	cour			
 9586	mesire	messire			
-9586	Noble	noble			
+9586	Noble	Noble			
 9586	.				
 9587	Foi	foi		foi, parole	
 9587	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
@@ -65341,7 +65341,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9599	irez	fâché		fâché, en colère	
 9599	.				
 9600	N'est	n'est			
-9600	pas	pas		pas, crois	
+9600	pas	pas			
 9600	.III.	trois			
 9600	arpenz	arpents			
 9600	mesurez	mesurés			
@@ -65360,7 +65360,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9602	aparcevoir	appercevoir			
 9603	Mon	mon			
 9603	seingnor	seigneur			
-9603	Noble	noble			
+9603	Noble	Noble			
 9603	et	et			
 9603	Ysengrin	Ysengrin			
 9604	Qui	qui		qui, celui qui, car, quiconque, que	
@@ -65500,7 +65500,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9622	je	je			
 9622	n'ai	n'ai			
 9622	mie	pas		pas, rien, pas du tout, du tout, très, rien du tout	
-9622	encor	de même		de même, encore, en oûtre	
+9622	encor	de même		de même, encore, en outre	
 9622	atainte	atteinte			
 9623	Chose	chose			
 9623	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
@@ -65524,7 +65524,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9626	Renart	Renart			
 9626	,				
 9626	fet	fait		fait, faits	
-9626	Noble	noble			
+9626	Noble	Noble			
 9626	,				
 9626	par	par		par, vraiment, à travers, pour, avec, à, en	
 9626	la	la		la, là, entendit, nos	
@@ -65746,7 +65746,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9656	vertu	vertu		vertu, vigueur	
 9656	,				
 9657	Onques	jamais		jamais, déjà	
-9657	encor	en outre		de même, encore, en oûtre	
+9657	encor	en outre		de même, encore, en outre	
 9657	jor	jour		jour, journée, un jour	
 9657	de	de		de, sur, avec, du, en	
 9657	ma	ma			
@@ -65775,7 +65775,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9661	le	le		le, lui	
 9661	cuideroit	croirait			
 9661	il	il		il, ils	
-9661	pas	pas		pas, crois	
+9661	pas	pas			
 9661	.				
 9662	—				
 9662	Renart	Renart			
@@ -65807,7 +65807,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9666	Or	donc		maintenant, donc, or, par, à présent, mais, là	
 9666	n'i	n'y			
 9666	ait	ait		ait, a, soit	
-9666	pas	pas		pas, crois	
+9666	pas	pas			
 9666	descovenue	malentendu			
 9666	,				
 9667	Orendroit	à l'instant			
@@ -65888,7 +65888,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9677	Je	je			
 9677	ne	ne		ne, ni, et	
 9677	quit	crois			
-9677	pas	pas		pas, crois	
+9677	pas	pas			
 9677	qu'il	qu'il		qu'il, qu'ils, ce qu'il, quand il	
 9677	le	le		le, lui	
 9677	feïst	fit		fit, ferait, fisse	
@@ -65946,7 +65946,7 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9686	ire	colère		colère, courroux	
 9686	:				
 9687	N'est	n'est			
-9687	pas	pas		pas, crois	
+9687	pas	pas			
 9687	maniere	manière		manière, apparence	
 9687	de	de		de, sur, avec, du, en	
 9687	sage	sage		raisonnable, sage, instruit	
@@ -66056,3 +66056,687 @@ verse-number	original-word	translated-word	not-confirmed	translations	headword
 9702	soit	soit			
 9702	.				
 9702	»				
+9703	Aprés	après			
+9703	ce	ce		ce, ça, lui, cela, il, ceci	
+9703	mot	mot			
+9703	s'entrebesierent	s'embrassent			
+9704	Cil	eux		celui-ci, ce, ceux, celui-là, celui, eux, cette	
+9704	qui	qui		qui, celui qui, car, quiconque, que	
+9704	onques	jamais		jamais, déjà	
+9704	ne	ne		ne, ni, et	
+9704	s'entramerent	s'aimèrent			
+9704	,				
+9705	Ne	ni		ne, ni, et	
+9705	ja	jamais		jamais, déjà, jadis, maintenant, vraiment	
+9705	jor	jour		jour, journée, un jour	
+9705	ne	ne		ne, ni, et	
+9705	s'entrameront	s'aimeront			
+9705	.				
+9706	Dire	dire		dire, parler	
+9706	pueent	peuvent			
+9706	ce	ce		ce, ça, lui, cela, il, ceci	
+9706	qu'il	qu'il		qu'il, qu'ils, ce qu'il, quand il	
+9706	voudront	voudront			
+9706	,				
+9707	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
+9707	por	pour		pour, à cause de, par, à cause, vers	
+9707	ce	ce		ce, ça, lui, cela, il, ceci	
+9707	ne	ne		ne, ni, et	
+9707	remue	bouge			
+9707	droit	droit		droit, raison, directement	
+9707	.				
+9708	Pes	paix			
+9708	ont	ont			
+9708	fete	faite		faite, faire	
+9708	quele	quelle			
+9708	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9708	soit	soit			
+9708	;				
+9709	Devant	devant		devant, avant, au devant	
+9709	le	le		le, lui	
+9709	roi	roi			
+9709	l'ont	l'ont			
+9709	fianciee	promis			
+9709	,				
+9710	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
+9710	mout	très		très, beaucoup, plus, fort, tout, longtemps	
+9710	avra	aura			
+9710	corte	courte			
+9710	duree	durée			
+9710	,				
+9711	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9711	ne	ne		ne, ni, et	
+9711	puet	peut			
+9711	estre	être		être, personne	
+9711	a	à		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
+9711	nul	aucun		aucun, personne, nul	
+9711	fuer	prix			
+9712	Li	le		lui, le, les, il, la, li, ils, elle	
+9712	.I.	un			
+9712	n'ait	n'ait			
+9712	l'autre	l'autre			
+9712	contre	contre			
+9712	cuer	cœur		cœur, coeur	
+9712	,				
+9713	Ne	ni		ne, ni, et	
+9713	ja	jamais		jamais, déjà, jadis, maintenant, vraiment	
+9713	ne	ne		ne, ni, et	
+9713	seront	seront			
+9713	sanz	sans			
+9713	rancune	rancune			
+9713	.				
+9714	Ne	ne		ne, ni, et	
+9714	donroie	donnerai			
+9714	pas	pas			
+9714	une	une			
+9714	prune	prune			
+9715	En	dans		en, dans, sur, on	
+9715	cele	cette		cette, celle, celle-ci	
+9715	pes	paix			
+9715	,				
+9715	se	que		se, si, que, aussi vrai que, ainsi, sais	
+9715	Diex	Dieu			
+9715	me	me			
+9715	gart	garde			
+9715	,				
+9716	Voirs	vraiment			
+9716	est	est			
+9716	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9716	c'est	c'est			
+9716	la	la		la, là, entendit, nos	
+9716	pes	paix			
+9716	Renart	Renart			
+9717	Qui	qui		qui, celui qui, car, quiconque, que	
+9717	onc	jamais			
+9717	ne	ne		ne, ni, et	
+9717	fina	s'arrêta			
+9717	de	de		de, sur, avec, du, en	
+9717	trichier	tricher			
+9717	,				
+9718	Encor	encore		de même, encore, en outre	
+9718	ne	ne		ne, ni, et	
+9718	le	le		le, lui	
+9718	velt	veut			
+9718	pas	pas			
+9718	lessier	laisser			
+9718	.				
+9719	Einssi	ainsi			
+9719	ont	ont			
+9719	fete	faite		faite, faire	
+9719	pes	paix			
+9719	ensemble	ensemble			
+9719	,				
+9720	Renart	Renart			
+9720	,				
+9720	Ysengrin	Ysengrin			
+9720	,				
+9720	ce	ce		ce, ça, lui, cela, il, ceci	
+9720	me	me			
+9720	semble	semble			
+9720	.				
+9721	Aprés	après			
+9721	se	se		se, si, que, aussi vrai que, ainsi, sais	
+9721	sont	sont		sont, ont été	
+9721	mis	mis			
+9721	au	au		au, dans, du, de	
+9721	chemin	chemin			
+9722	Nobles	Noble			
+9722	avant	en avant		en avant, avant, devant	
+9722	et	et			
+9722	Ysengrin	Ysengrin			
+9722	,				
+9723	Et	et			
+9723	puis	puis		puis, depuis, ensuite, peux	
+9723	en	en		en, dans, sur, on	
+9723	aprés	après			
+9723	dant	seigneur			
+9723	Renart	Renart			
+9724	Qui	qui		qui, celui qui, car, quiconque, que	
+9724	mout	très		très, beaucoup, plus, fort, tout, longtemps	
+9724	par	par		par, vraiment, à travers, pour, avec, à, en	
+9724	est	est			
+9724	de	de		de, sur, avec, du, en	
+9724	male	mauvaise			
+9724	part	part		part, côté, sépare, intérêt, caractère	
+9724	.				
+9725	«				
+9725	Renart	Renart			
+9725	,				
+9725	dist	dit		dit, a dit, se dit, a parlé	
+9725	Noble	Noble			
+9725	,				
+9725	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9725	feron	feront			
+9725	?				
+9726	A	à		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
+9726	ton	ton		ton, voix	
+9726	conseil	conseil			
+9726	nos	nous		nous, nos	
+9726	maintendron	rangerons			
+9726	.				
+9727	A	à		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
+9727	cest	ce		ce, cet, cette	
+9727	point	point		point, pique	
+9727	seras	seras			
+9727	nostre	nos		nos, notre	
+9727	mestres	maître			
+9727	,				
+9728	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9728	bien	bien		bien, bon, béni	
+9728	sai	sais		sais, connais	
+9728	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9728	tu	tu			
+9728	sez	connais		savez, sais	
+9728	les	les		les, celles de, à côté, légué, leur, héritage	
+9728	estres	endroit			
+9729	De	de		de, sur, avec, du, en	
+9729	cest	ce		ce, cet, cette	
+9729	bois	bois			
+9729	et	et			
+9729	toutes	toutes			
+9729	les	les		les, celles de, à côté, légué, leur, héritage	
+9729	sentes	sentes			
+9729	.				
+9730	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
+9730	or	maintenant		maintenant, donc, or, par, à présent, mais, là	
+9730	gar	garde			
+9730	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9730	tu	tu			
+9730	ne	ne		ne, ni, et	
+9730	me	me			
+9730	mentes	mentes			
+9730	!				
+9731	Se	se		se, si, que, aussi vrai que, ainsi, sais	
+9731	tu	tu			
+9731	sez	connais		savez, sais	
+9731	nulieu	aucun lieu			
+9731	ci	ici		ici, il, ce	
+9731	entor	autour			
+9731	,				
+9732	Pré	pré			
+9732	ne	ni		ne, ni, et	
+9732	pasture	pâturage			
+9732	en	en		en, dans, sur, on	
+9732	destor	détour			
+9732	,				
+9733	Ou	où		où, ou	
+9733	nos	nous		nous, nos	
+9733	peüssons	pourrions			
+9733	trover	trouver			
+9733	proie	proie		proie, prie	
+9733	,				
+9734	Qar	donc		car, donc	
+9734	nos	nous		nous, nos	
+9734	i	y		en, y, là	
+9734	mainne	emmène		mène, démène	
+9734	droite	directe			
+9734	voie	voie		voie, voit, vois, chemin, guide, route, sentier	
+9734	;				
+9735	Se	se		se, si, que, aussi vrai que, ainsi, sais	
+9735	tu	tu			
+9735	le	le		le, lui	
+9735	sez	sais		savez, sais	
+9735	,				
+9735	se	se		se, si, que, aussi vrai que, ainsi, sais	
+9735	Diex	Dieu			
+9735	t'avoit	t'avait			
+9736	Chose	chose			
+9736	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9736	li	lui		lui, le, les, il, la, li, ils, elle	
+9736	ton	ton		ton, voix	
+9736	cuer	cœur		cœur, coeur	
+9736	covoit	convoite			
+9736	,				
+9737	Lors	alors			
+9737	m'avras	tu m'auras			
+9737	a	à		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
+9737	mon	mon			
+9737	gré	gré			
+9737	servi	servi			
+9737	.				
+9737	»				
+9738	Et	et			
+9738	dist	dit		dit, a dit, se dit, a parlé	
+9738	Renart	Renart			
+9738	:				
+9738	«				
+9738	Par	par		par, vraiment, à travers, pour, avec, à, en	
+9738	saint	saint			
+9738	Remi	Rémi			
+9738	,				
+9739	Je	je			
+9739	nel	ne le			
+9739	sai	sais		sais, connais	
+9739	pas	pas			
+9739	certainement	certainement			
+9740	En	en		en, dans, sur, on	
+9740	quel	quel		quelle, quel	
+9740	pasture	pâturage			
+9740	ne	ni		ne, ni, et	
+9740	conment	comment			
+9741	Nos	nous		nous, nos	
+9741	truisson	trouverions			
+9741	proie	proie		proie, prie	
+9741	qui	qui		qui, celui qui, car, quiconque, que	
+9741	riens	quelque chose		rien, chose, quelque chose	
+9741	vaille	vaille			
+9741	.				
+9742	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
+9742	de	de		de, sur, avec, du, en	
+9742	tant	tant		tant, jusqu'à, tellement, beaucoup, autant, assez	
+9742	me	me			
+9742	recort	souviens			
+9742	sanz	sans			
+9742	faille	manque			
+9743	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9743	il	il		il, ils	
+9743	a	à		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
+9743	ça	ici			
+9743	une	une			
+9743	valee	vallée			
+9744	Entre	entre		entre, ensemble	
+9744	.II.	deux			
+9744	mons	collines			
+9744	en	dans		en, dans, sur, on	
+9744	une	une			
+9744	pree	pré			
+9744	,				
+9745	Ou	où		où, ou	
+9745	l'en	l'on		l'on, l'en, lui en	
+9745	amainne	emmène			
+9745	sovent	souvent			
+9745	pestre	manger			
+9746	L'aumaille	bétail			
+9746	de	de		de, sur, avec, du, en	
+9746	cele	cette		cette, celle, celle-ci	
+9746	champestre	campagne			
+9747	Vile	village		village, maison	
+9747	qui	qui		qui, celui qui, car, quiconque, que	
+9747	est	est			
+9747	ici	ici			
+9747	delez	à côté de			
+9747	.				
+9748	Alons	allons			
+9748	cele	cette		cette, celle, celle-ci	
+9748	part	côté		part, côté, sépare, intérêt, caractère	
+9748	,				
+9748	se	si		se, si, que, aussi vrai que, ainsi, sais	
+9748	voulez	voulez			
+9748	,				
+9749	Por	pour		pour, à cause de, par, à cause, vers	
+9749	savoir	savoir		savoir, sagesse, sage	
+9749	et	et			
+9749	por	pour		pour, à cause de, par, à cause, vers	
+9749	esprover	vérifier			
+9749	,				
+9750	Se	si		se, si, que, aussi vrai que, ainsi, sais	
+9750	porrions	pourrions			
+9750	chose	chose			
+9750	trover	trouver			
+9751	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9751	peüssons	pourrions			
+9751	mengier	manger			
+9751	tuit	tous		tous, tout	
+9751	troi	trois			
+9751	.				
+9752	—				
+9752	Par	par		par, vraiment, à travers, pour, avec, à, en	
+9752	Dieu	Dieu			
+9752	,				
+9752	fet	fait		fait, faits	
+9752	Noble	Noble			
+9752	,				
+9752	je	je			
+9752	l'otroi	l'accepte		l'accepte, le concède	
+9752	.				
+9752	»				
+9753	A/a_itan	alors		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
+9753	itant/a_itan	_EMPTY_			
+9753	s'en	s'en		s'en, si on	
+9753	vont	vont		vont, mettent	
+9753	cele	cette		cette, celle, celle-ci	
+9753	part	côté		part, côté, sépare, intérêt, caractère	
+9754	Entre	ensemble		entre, ensemble	
+9754	seignor	seigneur			
+9754	Noble	Noble			
+9754	et	et			
+9754	Renart	Renart			
+9755	Et	et			
+9755	Ysengrin	Ysengrin			
+9755	son	son		son, air	
+9755	bon	bon			
+9755	ami	amis		amis, ami	
+9755	.				
+9756	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
+9756	se	si		se, si, que, aussi vrai que, ainsi, sais	
+9756	Diex	Dieu			
+9756	plest	plaît		plait, plaît	
+9756	et	et			
+9756	saint	saint			
+9756	Remi	Rémi			
+9756	,				
+9757	L'amor	l'amitié			
+9757	avra	aura			
+9757	corte	courte			
+9757	duree	duré			
+9757	;				
+9758	Si	puis		puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
+9758	s'en	s'en		s'en, si on	
+9758	vont	vont		vont, mettent	
+9758	la	la		la, là, entendit, nos	
+9758	voie	voie		voie, voit, vois, chemin, guide, route, sentier	
+9758	ferree	battue			
+9759	Et	et			
+9759	tant	tant		tant, jusqu'à, tellement, beaucoup, autant, assez	
+9759	ont	ont			
+9759	le	le		le, lui	
+9759	chemin	chemin			
+9759	tenu	tenu			
+9760	Qu'il	qu'il		qu'il, qu'ils, ce qu'il, quand il	
+9760	sont	sont		sont, ont été	
+9760	dedenz	dans		dans, dedans	
+9760	le	le		le, lui	
+9760	pré	pré			
+9760	venu	venu		venu, venus	
+9761	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9761	dant	seigneur			
+9761	Renart	Renart			
+9761	lor	leur			
+9761	avoit	avait			
+9761	dit	dit			
+9761	;				
+9762	Ysengrin	Ysengrin			
+9762	regarde	regarde		regarde, méfie	
+9762	,				
+9762	si	puis		puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
+9762	vit	vit			
+9763	El	dans le		dans le, autre chose, elle, au, en le, à le	
+9763	chief	bout			
+9763	del	de le		de le, dans le, du, de	
+9763	pré	pré			
+9763	mout	très		très, beaucoup, plus, fort, tout, longtemps	
+9763	bele	belle			
+9763	proie	proie		proie, prie	
+9763	.				
+9764	Or	alors		maintenant, donc, or, par, à présent, mais, là	
+9764	sachiez	sachez			
+9764	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9764	il	il		il, ils	
+9764	ot	avait		avait, a eu, a, entend, eu, il y a eu, eut	
+9764	grant	grand		grand, grande, bon	
+9764	joie	joie			
+9764	,				
+9765	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9765	mout	très		très, beaucoup, plus, fort, tout, longtemps	
+9765	estoit	était			
+9765	de	de		de, sur, avec, du, en	
+9765	fain	faim			
+9765	grevez	accablé			
+9765	.				
+9766	Or	donc		maintenant, donc, or, par, à présent, mais, là	
+9766	cuide	s'imagine		s'imagine, pense	
+9766	bien	bien		bien, bon, béni	
+9766	estre	être		être, personne	
+9766	arivez	arrivé			
+9767	En	en		en, dans, sur, on	
+9767	lieu	lieu			
+9767	ou	où		où, ou	
+9767	il	il		il, ils	
+9767	emplist	remplit			
+9767	sa	sa			
+9767	pance	panse			
+9767	.				
+9768	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
+9768	ja	jamais		jamais, déjà, jadis, maintenant, vraiment	
+9768	n'en	n'en			
+9768	soit	soit			
+9768	il	il		il, ils	
+9768	en	en		en, dans, sur, on	
+9768	beance	désir			
+9768	,				
+9769	Que	car		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9769	se	si		se, si, que, aussi vrai que, ainsi, sais	
+9769	l'estoire	l'histoire			
+9769	ne	ne		ne, ni, et	
+9769	nos	nous		nous, nos	
+9769	ment	ment			
+9769	,				
+9770	Je	je			
+9770	cuit	pense		pense, crois	
+9770	qu'il	qu'il		qu'il, qu'ils, ce qu'il, quand il	
+9770	ira	ira			
+9770	autrement	autrement			
+9770	.				
+9771	Lors	alors			
+9771	a	a		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
+9771	aresonné	adressé			
+9771	le	le		le, lui	
+9771	roi	roi			
+9771	:				
+9772	«				
+9772	Sire	sire		seigneur, sire, Sire, Seigneur	
+9772	,				
+9772	fet/fet_il	fait-il			
+9772	il/fet_il	_EMPTY_			
+9772	,				
+9772	foi	foi		foi, parole	
+9772	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9772	vos	vous		vous, vos, votre	
+9772	doi	dois			
+9772	,				
+9773	Nos	nous		nous, nos	
+9773	avon	avons		avons, aurons	
+9773	bien	bien		bien, bon, béni	
+9773	chemin	chemin			
+9773	tenu	tenu			
+9773	.				
+9774	Je	je			
+9774	cuit	pense		pense, crois	
+9774	bien	bien		bien, bon, béni	
+9774	nos	nous		nous, nos	
+9774	est	est			
+9774	avenu	arrivé			
+9774	,				
+9775	Qar	car		car, donc	
+9775	je	je			
+9775	voi	vois			
+9775	ici	ici			
+9775	,				
+9775	ce	ce		ce, ça, lui, cela, il, ceci	
+9775	me	me			
+9775	semble	semble			
+9775	,				
+9776	.I.	un			
+9776	tor	taureau			
+9776	et	et			
+9776	une	une			
+9776	vache	vache			
+9776	ensemble	ensemble			
+9777	Qui	qui		qui, celui qui, car, quiconque, que	
+9777	a	a		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
+9777	avec	avec			
+9777	lui	lui		lui, elle, le, celui	
+9777	son	son		son, air	
+9777	veel	veau			
+9777	,				
+9778	Laïs	là-bas			
+9778	el	dans le		dans le, autre chose, elle, au, en le, à le	
+9778	chief	bout			
+9778	de	de		de, sur, avec, du, en	
+9778	cest	ce		ce, cet, cette	
+9778	prael	petit pré			
+9778	.				
+9779	Ceste	cette		cette, celle-ci	
+9779	avron	aurons			
+9779	nos	nous		nous, nos	
+9779	,				
+9779	que	quoi		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9779	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9779	il	il		il, ils	
+9779	griet	déplaise			
+9779	,				
+9780	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
+9780	je	je			
+9780	vos	vous		vous, vos, votre	
+9780	lo	conseille			
+9780	,				
+9780	se	si		se, si, que, aussi vrai que, ainsi, sais	
+9780	il	il		il, ils	
+9780	vos	vous		vous, vos, votre	
+9780	siet	sied			
+9780	,				
+9781	Ainz	avant		avant, plutôt, au contraire	
+9781	que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9781	nos	nous		nous, nos	
+9781	aillons	aillons			
+9781	cele	cette		cette, celle, celle-ci	
+9781	part	côté		part, côté, sépare, intérêt, caractère	
+9781	,				
+9782	Que	que		que, car, pour que, pendant, lorsque, qui, alors que, quoi, à cause de	
+9782	vos	vous		vous, vos, votre	
+9782	i	y		en, y, là	
+9782	envoiez	envoyez			
+9782	Renart	Renart			
+9783	Por	pour		pour, à cause de, par, à cause, vers	
+9783	oïr	écouter		entendre, ouï	
+9783	et	et			
+9783	por	pour		pour, à cause de, par, à cause, vers	
+9783	espïer	épier			
+9783	,				
+9784	S'il	s'il			
+9784	i	y		en, y, là	
+9784	a	a		à, a, avec, pour, en, de, auprès de, vers, est, devant, par, à côté de	
+9784	mastin	mâtin			
+9784	ne	ne		ne, ni, et	
+9784	bovier	bouvier			
+9784	,				
+9785	Ne	ne		ne, ni, et	
+9785	chose	chose			
+9785	qui	qui		qui, celui qui, car, quiconque, que	
+9785	nos	nous		nous, nos	
+9785	puist	peut			
+9785	mal	mal		mal, maudite, mauvais, méchanceté, terrible	
+9785	fere	faire		faire, rendre	
+9785	.				
+9786	Bien	bien		bien, bon, béni	
+9786	portions	portions			
+9786	avoir	avoir		avoir, bien, fortune, argent	
+9786	contrere	préjudice			
+9786	,				
+9787	Se	se		se, si, que, aussi vrai que, ainsi, sais	
+9787	nos	nous		nous, nos	
+9787	issi	ainsi		ainsi, ici, sortit	
+9787	desporveü	improviste			
+9788	Estions	étions			
+9788	sor	sur			
+9788	eus	eux			
+9788	embatu	tombés			
+9788	.				
+9789	Mes	mais		mais, mes, plus, encore, désormais, pourtant	
+9789	il	il		il, ils	
+9789	est	est			
+9789	grelles	grêle			
+9789	et	et			
+9789	menuz	menu		menu, petits	
+9789	,				
+9790	Si	alors		puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
+9790	n'ert	ne sera			
+9790	mie	pas		pas, rien, pas du tout, du tout, très, rien du tout	
+9790	si/si_tost	aussitôt			
+9790	tost/si_tost	_EMPTY_			
+9790	veüz	vu			
+9791	Conme	comme			
+9791	nos	nous		nous, nos	
+9791	i	y		en, y, là	
+9791	esserions	serions			
+9791	.				
+9792	—				
+9792	Vos	vous		vous, vos, votre	
+9792	dites	dites			
+9792	bien	bien		bien, bon, béni	
+9792	,				
+9792	fet	fait		fait, faits	
+9792	li	le		lui, le, les, il, la, li, ils, elle	
+9792	lions	lion			
+9792	,				
+9793	Il	il		il, ils	
+9793	est	est			
+9793	sages	habile		expérimenté, sagesse	
+9793	et	et			
+9793	vezïez	rusé			
+9793	,				
+9794	Si	ainsi		puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
+9794	les	les		les, celles de, à côté, légué, leur, héritage	
+9794	avra	aura			
+9794	tost	vite		vite, aussitôt	
+9794	espïez	repéré			
+9794	.				
+9794	»				
+9795	A/a_tant	là-dessus		là-dessus, aussitôt, alors, sur ce, jusque là	
+9795	tant/a_tant	_EMPTY_			
+9795	en	en		en, dans, sur, on	
+9795	aresne	s'adresse			
+9795	Renart	Renart			
+9795	:				
+9796	«				
+9796	Renart	Renart			
+9796	,				
+9796	fet/fet_il	fait-il			
+9796	il/fet_il	_EMPTY_			
+9796	,				
+9796	se	que		se, si, que, aussi vrai que, ainsi, sais	
+9796	Diex	Dieu			
+9796	vos	vous		vous, vos, votre	
+9796	gart	garde			
+9796	,				
+9797	Sages	intelligent		expérimenté, sagesse	
+9797	estes	êtes		êtes, soyez	
+9797	et	et			
+9797	decevant	fourbe			
+9798	Et	et			
+9798	de	de		de, sur, avec, du, en	
+9798	toz	tout		tout, tous	
+9798	max	maux		maux, mauvais	
+9798	aparcevant	apercevant			
+9798	.				
+9799	Qar	donc		car, donc	
+9799	alez	allez		allez, partez	
+9799	et	et			
+9799	si	puis		puis, si, alors, ainsi, aussi, tant, donc, très, tellement, pourtant, ses, ainsi que, vraiment	
+9799	espïez	épiez			
+9800	Savoir	savoir		savoir, sagesse, sage	
+9800	se	si		se, si, que, aussi vrai que, ainsi, sais	
+9800	la	là		la, là, entendit, nos	
+9800	jus	en bas		en bas, dessous	
+9800	verrïez	verriez			
+9801	Vilain	paysan			
+9801	ne	ne		ne, ni, et	
+9801	bovier	bouvier			
+9801	deputaire	mauvais			
+9802	Dont	dont		dont, donc, d'où, donne, si, alors	
+9802	nos	nous		nous, nos	
+9802	peüst	pourrait			
+9802	venir	venir			
+9802	contraire	contrariété			
+9802	;				
+9803	Qar	car		car, donc	
+9803	por/por_noient	pour rien			
+9803	noient/por_noient	_EMPTY_			
+9803	i	y		en, y, là	
+9803	erion	irions			
+9803	,				
+9804	Se	se		se, si, que, aussi vrai que, ainsi, sais	
+9804	nostre	nos		nos, notre	
+9804	preu	profit			
+9804	n'i	n'y			
+9804	fesion	faisions			
+9804	.				
+9805	—				
+9805	Sire	seigneur		seigneur, sire, Sire, Seigneur	
+9805	,				
+9805	fet	fait		fait, faits	
+9805	Renart	Renart			
+9805	,				
+9805	volentiers	volontiers			
+9805	.				
+9805	»				
