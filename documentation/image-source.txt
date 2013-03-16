@@ -118,3 +118,4 @@
 19g-deception-de-renart.jpg                          => http://www.ebooksgratuits.com/html/esope_fables_1/image019.jpg
 20a-ysengrin-pardonne-renart.jpg                     => http://4.bp.blogspot.com/_SC4qBxZtAvs/SsWuKrB-4uI/AAAAAAAADuw/sei2SaZBc4k/s1600-h/le+lion+le+loup+et+le+renard.jpg
 20b-le-conseil-de-renart.jpg                         => http://www.musee-jean-de-la-fontaine.fr/UserFiles/fables/LION-LOUP-RENARD.jpg
+20c-le-paysan-tombe-a-l-eau.jpg                      => http://richardgwyn.files.wordpress.com/2012/10/drowning-man.jpg
