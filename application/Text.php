@@ -757,7 +757,8 @@ class Text
         $html = $this->readFile(__DIR__ . '/../widgets/introduction.html');
         $lastTranslatedVerseNumber = $episodes[999]['verse-number'] - 1;
 
-        return preg_replace('~<span id="mc_fait">\d+</span>~', "<span id=\"mc_fait\">$lastTranslatedVerseNumber</span>", $html);
+        // pattern allows for a negative number eg -1 in case of a previous bad run
+        return preg_replace('~<span id="mc_fait">-?\d+</span>~', "<span id=\"mc_fait\">$lastTranslatedVerseNumber</span>", $html);
     }
 
     /**
