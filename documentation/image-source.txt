@@ -122,3 +122,4 @@
 20d-renart-lapide-le-paysan.jpg                      => http://data.aquariders.net/articles/divers/sisl/hypofig2.gif
 20e-renart-raconte.jpg                               => http://ecx.images-amazon.com/images/I/51vFSIxTqvL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_SX385_SY500_CR,0,0,385,500_SH20_OU08_.jpg
 20f-le-lion-ecoute.jpg                               => http://www.3dvf.com/forum/static/images/vignette/1/144/137.jpg
+20g-noble-accepte-le-partage.jpg                     => http://4.bp.blogspot.com/_AcRpuLTXqPE/TFwb30oitsI/AAAAAAAABAA/rGiBm8CSWlE/s1600/lion+and+wolf.jpg
