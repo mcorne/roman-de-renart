@@ -126,3 +126,4 @@
 20h-vengeance-de-renart-et-ysengrin.jpg              => http://marmitalire.free.fr/couvertures/pecheloup.jpg
 21a-tibert-en-colere.jpg                             => http://us.123rf.com/400wm/400/400/sateda/sateda1110/sateda111000049/10918754-image-de-blancs-et-les-chats-noirs-en-colere.jpg
 21b-tibert-a-cheval.jpg                              => http://www.passion-estampes.com/litho/dali/dalinien/dali-cheval-de-course.jpg
+22a-combat-de-moutons.jpg                            => http://www.livegalerie.com/img/oeuvre/201305/web/139370.jpg?v=1369247653
