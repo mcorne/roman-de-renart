@@ -128,3 +128,5 @@
 21b-tibert-a-cheval.jpg                              => http://www.passion-estampes.com/litho/dali/dalinien/dali-cheval-de-course.jpg
 22a-combat-de-moutons.jpg                            => http://www.livegalerie.com/img/oeuvre/201305/web/139370.jpg?v=1369247653
 22b-loup-contre-mouton.jpg                           => http://1.bp.blogspot.com/-9AisCRH7Olo/UR9a3ZonDHI/AAAAAAAANEQ/-yVQuQthTrg/s1600/IMG_6821.JPG
+23a-le-paysan-et-le-jambon.jpg                       => http://japy-collection.fr/ressources/Personnages/personnages13.jpg
+23b-la-paysanne-et-le-jambon.jpg                     => http://www.culture.gouv.fr/Wave/image/joconde/0097/m503501_d0107619-000_p.jpg

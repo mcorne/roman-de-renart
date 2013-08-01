@@ -46,10 +46,13 @@ return array(
     "il l'ont"    => "ils l'ont",
     'interpel[^l]'=> 'interpell',
     'leurs'       => 'leur',        // if pronom "leur", http://grammaire.reverso.net/4_2_17_leur_leurs.shtml
+    "l'h"         => "le h",
     'lui-dit'     => 'lui dit',
     '(elle|eux|lui|nous|vous) même' => '$1-même',    // http://www.oodoc.com/t-noms-composes.php
+    'main fort'   => "main-forte",
     'mais,'       => 'mais',        // most cases, see http://www3.sympatico.ca/fol-ecrit/folie12.html
     'moment là'   => 'moment-là',
+    'notre'       => 'nôtre',       // as in "le nôtre", possessive pronoun
     'oeuf'        => 'œuf',
     'ons en là'   => 'ons-en là',   // as in "restons-en là"
     'ons nous en' => 'ons-nous-en', // as in "allons-nous-en"
@@ -80,5 +83,6 @@ return array(
     'tranché'     => 'tranchée',    // if noun "tranchée"
     'vénèr'       => 'vénér',       // "vénérons" but "vénère"
     'vielle'      => 'vieille',     // if adjective "vieux, vieille" (old)
+    'votre'       => 'vôtre',       // as in "le nôtre", possessive pronoun
     'z vous'      => 'z-vous',      // if imperative mood, see http://fr.wikipedia.org/wiki/Trait_d'union#Trait_d.27union_avec_pronom_personnel_ou_d.C3.A9monstratif
 );
