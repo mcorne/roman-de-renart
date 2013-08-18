@@ -130,3 +130,4 @@
 22b-loup-contre-mouton.jpg                           => http://1.bp.blogspot.com/-9AisCRH7Olo/UR9a3ZonDHI/AAAAAAAANEQ/-yVQuQthTrg/s1600/IMG_6821.JPG
 23a-le-paysan-et-le-jambon.jpg                       => http://japy-collection.fr/ressources/Personnages/personnages13.jpg
 23b-la-paysanne-et-le-jambon.jpg                     => http://www.culture.gouv.fr/Wave/image/joconde/0097/m503501_d0107619-000_p.jpg
+24a-renart-tiecelin-et-le-fromage.jpg                => http://classes.bnf.fr/renart/images/3/bes_434_371v.jpg
