@@ -131,3 +131,4 @@
 23a-le-paysan-et-le-jambon.jpg                       => http://japy-collection.fr/ressources/Personnages/personnages13.jpg
 23b-la-paysanne-et-le-jambon.jpg                     => http://www.culture.gouv.fr/Wave/image/joconde/0097/m503501_d0107619-000_p.jpg
 24a-renart-tiecelin-et-le-fromage.jpg                => http://classes.bnf.fr/renart/images/3/bes_434_371v.jpg
+24b-tiecelin-le-corbeau.jpg                          => http://3.bp.blogspot.com/-AeAd2bra1SI/Tr2JUpOlkMI/AAAAAAAAANI/x4b74sgdjT0/s400/corbeau.jpg
