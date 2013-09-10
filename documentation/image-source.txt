@@ -133,3 +133,4 @@
 24a-renart-tiecelin-et-le-fromage.jpg                => http://classes.bnf.fr/renart/images/3/bes_434_371v.jpg
 24b-tiecelin-le-corbeau.jpg                          => http://3.bp.blogspot.com/-AeAd2bra1SI/Tr2JUpOlkMI/AAAAAAAAANI/x4b74sgdjT0/s400/corbeau.jpg
 25a-ysengrin-tombe-dans-la-fosse.jpg                 => http://www.chinedesenfants.org/medias/images/dscn3038.jpg?fx=r_550_550
+25b-pretre-en-priere.jpg                             => http://www.franciscain.org/images/saint-francois_3.jpg
