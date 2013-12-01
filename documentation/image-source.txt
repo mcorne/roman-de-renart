@@ -135,3 +135,4 @@
 25a-ysengrin-tombe-dans-la-fosse.jpg                 => http://www.chinedesenfants.org/medias/images/dscn3038.jpg?fx=r_550_550
 25b-pretre-en-priere.jpg                             => http://www.franciscain.org/images/saint-francois_3.jpg
 26a-ysengrin-et-la-jument.jpg                        => http://brigitisis.b.r.pic.centerblog.net/o/9d2f8c0d.jpg
+26b-ruade-de-rainsant.jpg                            => http://environnement.ecole.free.fr/fables_de_la_fontaine/images/le%20cheval%20et%20le%20loup_.jpg
