@@ -192,7 +192,8 @@ class Text
         $translationInProgressIntro = empty($episode['translation-in-progress'])? '' : $this->addTranslationInProgressIntro();
 
         $linkToPreviousEpisode = isset($episode['previous-episode'])? $this->makeLinkToEpisode($episode['previous-episode']) : '';
-        $linkToNextEpisode     = isset($episode['next-episode'])?     $this->makeLinkToEpisode($episode['next-episode'])     : '';
+        $linkToNextEpisode     = (isset($episode['next-episode']) and empty($episode['next-episode']['translation-in-progress'])) ?
+            $this->makeLinkToEpisode($episode['next-episode'])     : '';
 
         empty($episode['top-margin']) and $episode['top-margin'] = 3;
         $topMargin = str_repeat('<br />', $episode['top-margin']);
@@ -273,7 +274,7 @@ class Text
                 $options[] = sprintf($optgroupBeginPattern, $episode['story-title']);
             }
 
-            if (! empty($episode['episode-title'])) {
+            if (! empty($episode['episode-title']) and empty($episode['translation-in-progress'])) {
                 // this is the begining of a story
                 list(,,, $pathname) = explode('/', $episode['url'], 4);
                 $pathname = "/$pathname";
