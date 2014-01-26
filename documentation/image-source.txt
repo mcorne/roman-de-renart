@@ -137,3 +137,4 @@
 26a-ysengrin-et-la-jument.jpg                        => http://brigitisis.b.r.pic.centerblog.net/o/9d2f8c0d.jpg
 26b-ruade-de-rainsant.jpg                            => http://environnement.ecole.free.fr/fables_de_la_fontaine/images/le%20cheval%20et%20le%20loup_.jpg
 27a-renart-et-mesange.gif                            => http://ekladata.com/Pc-VyboR4xa9Z3mT9yAgqSOXUHw.jpg
+27b-meute-de-chiens.gif                              => http://perlbal.hi-pi.com/blog-images/107887/gd/1267648676/meute.jpg
