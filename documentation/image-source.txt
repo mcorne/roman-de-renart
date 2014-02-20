@@ -138,3 +138,4 @@
 26b-ruade-de-rainsant.jpg                            => http://environnement.ecole.free.fr/fables_de_la_fontaine/images/le%20cheval%20et%20le%20loup_.jpg
 27a-renart-et-mesange.gif                            => http://ekladata.com/Pc-VyboR4xa9Z3mT9yAgqSOXUHw.jpg
 27b-meute-de-chiens.gif                              => http://perlbal.hi-pi.com/blog-images/107887/gd/1267648676/meute.jpg
+28a-renart-mange-la-corneille.jpg                    => http://t1.ftcdn.net/jpg/00/36/08/36/400_F_36083616_k4pNuWG9zJBfUPyWC1XXegTA7KDbYXU9.jpg
