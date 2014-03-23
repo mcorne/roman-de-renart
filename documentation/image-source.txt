@@ -142,3 +142,4 @@
 28b-ysengrin-bat-renart.jpg                          => http://i.dailymail.co.uk/i/pix/2013/01/18/article-2264622-090A4426000005DC-55_634x436.jpg
 28c-remords-d-ysengrin.jpg                           => http://grandiose.g.r.pic.centerblog.net/63174538.jpg
 28d-ysengrin-et-le-jambon.jpg                        => http://i1.wp.com/legende-et-conte.com/wp-content/uploads/2013/03/1-Roman-de-Renart-Ysengrin-.jpg?resize=280%2C354
+28e-grillon.jpg                                      => http://www.larousse.fr/encyclopedie/data/images/1001171-Grillon.jpg
