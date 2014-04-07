@@ -143,3 +143,5 @@
 28c-remords-d-ysengrin.jpg                           => http://grandiose.g.r.pic.centerblog.net/63174538.jpg
 28d-ysengrin-et-le-jambon.jpg                        => http://i1.wp.com/legende-et-conte.com/wp-content/uploads/2013/03/1-Roman-de-Renart-Ysengrin-.jpg?resize=280%2C354
 28e-grillon.jpg                                      => http://www.larousse.fr/encyclopedie/data/images/1001171-Grillon.jpg
+28f-renart-sur-le-toit-du-four.jpg                   => http://www.cuniculture.info/Docs/Phototheque/Peinture&Decor/Peintres-P/Pinkney-09.jpg
+29a-tete-de-renart.jpg                               => https://picasaweb.google.com/lh/photo/sZWwvdWSPqjNDj3JVuli-dMTjNZETYmyPJy0liipFm0?feat=directlink
