@@ -146,4 +146,5 @@
 28f-renart-sur-le-toit-du-four.jpg                   => http://www.cuniculture.info/Docs/Phototheque/Peinture&Decor/Peintres-P/Pinkney-09.jpg
 29a-tete-de-renart.jpg                               => https://picasaweb.google.com/lh/photo/sZWwvdWSPqjNDj3JVuli-dMTjNZETYmyPJy0liipFm0?feat=directlink
 29b-renart-saute-dans-le-puits.jpg                   => http://raoulette.illustrateur.org/files/2010/09/Renard-5.jpg
-29c-ysengrin-sur-le-puits.jpg                        => http://www.shanaweb.net/esope/gravures/du-renard-et-du-loup.png
+29c-ysengrin-sur-le-puits.jpg                        => http://www.musee-jean-de-la-fontaine.fr/UserFiles/fables/LOUP-ET-RENARD-1.jpg
+29d-renart-au-fond-du-puits.jpg                      => http://img4.wikia.nocookie.net/__cb20120209023530/vertigo/images/2/2a/Reynard.jpg
