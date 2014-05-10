@@ -148,3 +148,4 @@
 29b-renart-saute-dans-le-puits.jpg                   => http://raoulette.illustrateur.org/files/2010/09/Renard-5.jpg
 29c-ysengrin-sur-le-puits.jpg                        => http://www.musee-jean-de-la-fontaine.fr/UserFiles/fables/LOUP-ET-RENARD-1.jpg
 29d-renart-au-fond-du-puits.jpg                      => http://img4.wikia.nocookie.net/__cb20120209023530/vertigo/images/2/2a/Reynard.jpg
+29e-renart-et-ysengrin-dans-le-puits.jpg             => http://etc.usf.edu/clipart/72400/72446/72446_rey_ereswine_lg.gif
