@@ -95,6 +95,18 @@ class Text
         return $string;
     }
 
+    /**
+     * Fixes a verse
+     * @param string $verse
+     * @return string
+     */
+    public function fixVerse($verse)
+    {
+        $verse = preg_replace('~ ([?;!:»])~u', '&nbsp;$1', $verse);
+        $verse = preg_replace('~([«]) ~u', '$1&nbsp;', $verse);
+
+        return $verse;
+    }
 
     /**
      * Returns the URL of the gothic letter of the first letter of a verse
@@ -438,10 +450,10 @@ class Text
                 }
 
                 list($episode, $beingTranslated) = $this->parseEpisode($episode, $beingTranslated, $prevEpisode, $lineNumber);
-                $episodeBegining = false;
             }
 
-            $episode = $this->parseVerse($line, $episode, $beingTranslated, $lineNumber);
+            $episode = $this->parseVerse($line, $episode, $beingTranslated, $lineNumber, $episodeBegining);
+            $episodeBegining = false;
 
             if (! empty($line['is-last-verse'])) {
                 // this is the last verse of the episode
@@ -496,10 +508,11 @@ class Text
      * @param array  $episode         The episode details
      * @param bool   $beingTranslated True if this is the episode being translated, false otherwise
      * @param int    $lineNumber      The line number in the file being parsed
+     * @param bool   $episodeBegining True if this is the first vese, false otherwise
      * @throws Exception
      * @return array                  The episode details
      */
-    public function parseVerse($line, $episode, $beingTranslated, $lineNumber)
+    public function parseVerse($line, $episode, $beingTranslated, $lineNumber, $episodeBegining)
     {
         if (empty($line['verse-number'])) {
             throw new Exception("missing verse number, line: $lineNumber");
@@ -528,6 +541,11 @@ class Text
 
         // collects original and translated text
         $episode['original-text'][] = $indentation . $line['original-verse'];
+
+        if ($episodeBegining) {
+            $line['translated-verse'] = $this->fixVerse($line['translated-verse']);
+        }
+
         $episode['translated-text'][] = $line['translated-verse'];
 
         if (! empty($line['original-verse-to-confirm']) and ! empty($line['translated-verse-to-confirm'])) {
