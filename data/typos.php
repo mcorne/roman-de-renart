@@ -14,6 +14,7 @@
 return array(
     '?,'          => '?',           // interpolated clause (incise) or comma like, see http://fr.wikipedia.org/wiki/Point_d'interrogation#Usage
     '!,'          => '!',           // interpolated clause (incise) or comma like, see http://fr.wikipedia.org/wiki/Point_d%27exclamation#Typographie
+    'agit'        => 'agi',         // as in "a agi"
     'abim'        => 'abîm',
     'aigue'       => 'aiguë',
     'aigüe'       => 'aiguë',
@@ -65,6 +66,7 @@ return array(
     'puit'        => 'puits',
     'quand [aà]'  => 'quant',       // "quant" as in "en ce qui concerne", "pour ce qui est de"
     'quant [^aà]' => 'quand',       // "quand" as in "au moment où", "à quel moment"
+    'quelque'     => 'quel que',    // as in "quel que soit"
     "qu'est ce"   => "qu'est-ce",
     'quoiqu'      => 'quoi qu',     // as in "quoi que" (whatever), http://grammaire.reverso.net/2_1_81_quoique_quoi_que.shtml
     ' Saint'      => ' saint',      // as in " saint Jacques", http://www.saint-jacques.info/orthographe.htm
@@ -73,6 +75,7 @@ return array(
     'rève'        => 'rêve',
     'reconnaitr'  => 'reconnaîtr',  // always with "î"
     'Renard'      => 'Renart',
+    "(s'est fait \p{L})é" => "$1er",// as in "s'est fait attaquer"
     'sièger'      => 'siéger',      // as in "siégera"
     'sureté'      => 'sûreté',
     'térrible'    => 'terrible',

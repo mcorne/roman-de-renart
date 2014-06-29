@@ -151,3 +151,4 @@
 29e-renart-et-ysengrin-dans-le-puits.jpg             => http://etc.usf.edu/clipart/72400/72446/72446_rey_ereswine_lg.gif
 29f-ysengrin-fait-le-mort.jpg                        => http://www.gutenberg.org/files/30117/30117-h/images/page-30c.jpg
 30a-renart-mange-le-chapon.jpg                       => http://4.bp.blogspot.com/-NZHFBKzitRo/T_b1abGwskI/AAAAAAAAAuo/wuJDPKYZWc8/s1600/renard.jpg
+30b-les-pets-de-renart.gif                           => http://www.ecoute-mes-histoires.com/medias/images/renard-poussins.jpg
