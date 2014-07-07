@@ -152,3 +152,4 @@
 29f-ysengrin-fait-le-mort.jpg                        => http://www.gutenberg.org/files/30117/30117-h/images/page-30c.jpg
 30a-renart-mange-le-chapon.jpg                       => http://4.bp.blogspot.com/-NZHFBKzitRo/T_b1abGwskI/AAAAAAAAAuo/wuJDPKYZWc8/s1600/renard.jpg
 30b-les-pets-de-renart.gif                           => http://www.ecoute-mes-histoires.com/medias/images/renard-poussins.jpg
+30c-la-priere-de-renart.jpg                          => http://brigitisis.b.r.pic.centerblog.net/o/9d46243a.jpg
