@@ -154,3 +154,4 @@
 30b-les-pets-de-renart.gif                           => http://www.ecoute-mes-histoires.com/medias/images/renard-poussins.jpg
 30c-la-priere-de-renart.jpg                          => http://brigitisis.b.r.pic.centerblog.net/o/9d46243a.jpg
 30d-une-vie-de-moine.jpg                             => http://a400.idata.over-blog.com/2/72/00/88/gemmes/parodies-impe/francis-hayman-moine-entreprenant.jpg
+30e-le-sermon-du-milan.jpg                           => http://vanille63.v.a.pic.centerblog.net/o/bcb876d6.jpg
