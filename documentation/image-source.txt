@@ -156,3 +156,4 @@
 30d-une-vie-de-moine.jpg                             => http://a400.idata.over-blog.com/2/72/00/88/gemmes/parodies-impe/francis-hayman-moine-entreprenant.jpg
 30e-le-sermon-du-milan.jpg                           => http://vanille63.v.a.pic.centerblog.net/o/bcb876d6.jpg
 30f-renart-est-vexe.jpg                              => http://www.planetebd.com/dynamicImages/album/cover/large/17/61/album-cover-large-17611.jpg
+30g-renart-mange-le-milan.jpg                        => http://icwdm.org/handbook/damage/images/dam_id_img_32.jpg
