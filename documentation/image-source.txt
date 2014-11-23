@@ -157,4 +157,5 @@
 30e-le-sermon-du-milan.jpg                           => http://vanille63.v.a.pic.centerblog.net/o/bcb876d6.jpg
 30f-renart-est-vexe.jpg                              => http://www.planetebd.com/dynamicImages/album/cover/large/17/61/album-cover-large-17611.jpg
 30g-renart-mange-le-milan.jpg                        => http://icwdm.org/handbook/damage/images/dam_id_img_32.jpg
-31a-renart-repenti                                   => http://t3.gstatic.com/images?q=tbn:ANd9GcT5phOIA_aRxvL2UigvLdvkNiblMdinA_2NEtZ3H2YFAQAdZnbCfOEgAFYSgw
+31a-renart-repenti.jpg                               => http://t3.gstatic.com/images?q=tbn:ANd9GcT5phOIA_aRxvL2UigvLdvkNiblMdinA_2NEtZ3H2YFAQAdZnbCfOEgAFYSgw
+31b-renart-pelerin.jpg                               => http://upload.wikimedia.org/wikipedia/commons/b/b4/ReynaertCloseup.JPG
