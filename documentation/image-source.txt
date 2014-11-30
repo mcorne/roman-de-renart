@@ -159,3 +159,6 @@
 30g-renart-mange-le-milan.jpg                        => http://icwdm.org/handbook/damage/images/dam_id_img_32.jpg
 31a-renart-repenti.jpg                               => http://t3.gstatic.com/images?q=tbn:ANd9GcT5phOIA_aRxvL2UigvLdvkNiblMdinA_2NEtZ3H2YFAQAdZnbCfOEgAFYSgw
 31b-renart-pelerin.jpg                               => http://upload.wikimedia.org/wikipedia/commons/b/b4/ReynaertCloseup.JPG
+31c-trois-pelerins                                   => http://raf.dessins.free.fr/2bgal/img/dessins-cliparts%20animaux/tete%20d'ane.jpg
+                                                     => http://www.popstickers.fr/20/belier-02.jpg
+                                                     => http://raf.dessins.free.fr/2bgal/img/dessins-cliparts%20animaux/renard-tete.jpg
