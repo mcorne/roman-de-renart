@@ -162,3 +162,4 @@
 31c-trois-pelerins                                   => http://raf.dessins.free.fr/2bgal/img/dessins-cliparts%20animaux/tete%20d'ane.jpg
                                                      => http://www.popstickers.fr/20/belier-02.jpg
                                                      => http://raf.dessins.free.fr/2bgal/img/dessins-cliparts%20animaux/renard-tete.jpg
+31d-coup-de-belier.jpg                               => http://www.pyrenees-pireneus.com/Images/Pastoralisme/Ovins/Belier.jpg
