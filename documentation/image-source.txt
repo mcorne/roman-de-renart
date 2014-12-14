@@ -163,3 +163,4 @@
                                                      => http://www.popstickers.fr/20/belier-02.jpg
                                                      => http://raf.dessins.free.fr/2bgal/img/dessins-cliparts%20animaux/renard-tete.jpg
 31d-coup-de-belier.jpg                               => http://www.pyrenees-pireneus.com/Images/Pastoralisme/Ovins/Belier.jpg
+31e-l-attaque-des-loups.jpg                          => http://mamiejosiane.m.a.pic.centerblog.net/zdt5vh7o.jpg
