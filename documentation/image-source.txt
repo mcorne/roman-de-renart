@@ -164,3 +164,4 @@
                                                      => http://raf.dessins.free.fr/2bgal/img/dessins-cliparts%20animaux/renard-tete.jpg
 31d-coup-de-belier.jpg                               => http://www.pyrenees-pireneus.com/Images/Pastoralisme/Ovins/Belier.jpg
 31e-l-attaque-des-loups.jpg                          => http://mamiejosiane.m.a.pic.centerblog.net/zdt5vh7o.jpg
+32a-le-lion-et-le-blaireau.jpg                       => http://lelivrescolaire.fr/3382/2_Renart_accuse.html#Document=10994
