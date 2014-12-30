@@ -165,3 +165,4 @@
 31d-coup-de-belier.jpg                               => http://www.pyrenees-pireneus.com/Images/Pastoralisme/Ovins/Belier.jpg
 31e-l-attaque-des-loups.jpg                          => http://mamiejosiane.m.a.pic.centerblog.net/zdt5vh7o.jpg
 32a-le-lion-et-le-blaireau.jpg                       => http://lelivrescolaire.fr/3382/2_Renart_accuse.html#Document=10994
+32b-renart-a-genoux                                  => http://u.jimdo.com/www68/o/sa83aed69b8e10aca/img/ic468251ea1ccb5ac/1400364022/std/image.jpg
