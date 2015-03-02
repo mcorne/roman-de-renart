@@ -168,4 +168,5 @@
 32b-renart-a-genoux                                  => http://u.jimdo.com/www68/o/sa83aed69b8e10aca/img/ic468251ea1ccb5ac/1400364022/std/image.jpg
 32c-le-lion-accuse-renart                            => http://img2.encyclopedie-incomplete.com/local/cache-vignettes/L400xH219/Esope_13_Lion_Renard-2df97.jpg
 32d-la-plainte-de-tibert.jpg                         => http://perlbal.hi-pi.com/blog-images/115729/gd/1260570141/profil-de-chat-au-pastel.jpg
-32e-la-plainte-de-l-ours                             => http://auto.img.v4.skyrock.net/8467/50298467/pics/2502674801_small_1.jpg
+32e-la-plainte-de-l-ours.jpg                         => http://auto.img.v4.skyrock.net/8467/50298467/pics/2502674801_small_1.jpg
+32f-la-plainte-de-roonel.jpg                         => http://www.blogdogs.com/dog041.jpg
