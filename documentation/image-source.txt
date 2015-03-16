@@ -171,3 +171,4 @@
 32e-la-plainte-de-l-ours.jpg                         => http://auto.img.v4.skyrock.net/8467/50298467/pics/2502674801_small_1.jpg
 32f-la-plainte-de-roonel.jpg                         => http://www.blogdogs.com/dog041.jpg
 32g-la-plainte-du-lion.jpg                           => http://4.bp.blogspot.com/-uvBtro2BBBo/UIEGk_-HbhI/AAAAAAAAN5k/8GHcS7fAHe0/s640/3DE06lion+au+repos.jpg
+32h-explication-de-renart.gif                        => http://p7.storage.canalblog.com/73/48/408460/28348605.jpg
