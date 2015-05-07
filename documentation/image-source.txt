@@ -159,17 +159,18 @@
 30g-renart-mange-le-milan.jpg                        => http://icwdm.org/handbook/damage/images/dam_id_img_32.jpg
 31a-renart-repenti.jpg                               => http://t3.gstatic.com/images?q=tbn:ANd9GcT5phOIA_aRxvL2UigvLdvkNiblMdinA_2NEtZ3H2YFAQAdZnbCfOEgAFYSgw
 31b-renart-pelerin.jpg                               => http://upload.wikimedia.org/wikipedia/commons/b/b4/ReynaertCloseup.JPG
-31c-trois-pelerins                                   => http://raf.dessins.free.fr/2bgal/img/dessins-cliparts%20animaux/tete%20d'ane.jpg
+31c-trois-pelerins.jpg                               => http://raf.dessins.free.fr/2bgal/img/dessins-cliparts%20animaux/tete%20d'ane.jpg
                                                      => http://www.popstickers.fr/20/belier-02.jpg
                                                      => http://raf.dessins.free.fr/2bgal/img/dessins-cliparts%20animaux/renard-tete.jpg
 31d-coup-de-belier.jpg                               => http://www.pyrenees-pireneus.com/Images/Pastoralisme/Ovins/Belier.jpg
 31e-l-attaque-des-loups.jpg                          => http://mamiejosiane.m.a.pic.centerblog.net/zdt5vh7o.jpg
 32a-le-lion-et-le-blaireau.jpg                       => http://lelivrescolaire.fr/3382/2_Renart_accuse.html#Document=10994
-32b-renart-a-genoux                                  => http://u.jimdo.com/www68/o/sa83aed69b8e10aca/img/ic468251ea1ccb5ac/1400364022/std/image.jpg
+32b-renart-a-genoux.jpg                              => http://u.jimdo.com/www68/o/sa83aed69b8e10aca/img/ic468251ea1ccb5ac/1400364022/std/image.jpg
 32c-le-lion-accuse-renart                            => http://img2.encyclopedie-incomplete.com/local/cache-vignettes/L400xH219/Esope_13_Lion_Renard-2df97.jpg
 32d-la-plainte-de-tibert.jpg                         => http://perlbal.hi-pi.com/blog-images/115729/gd/1260570141/profil-de-chat-au-pastel.jpg
 32e-la-plainte-de-l-ours.jpg                         => http://auto.img.v4.skyrock.net/8467/50298467/pics/2502674801_small_1.jpg
 32f-la-plainte-de-roonel.jpg                         => http://www.blogdogs.com/dog041.jpg
 32g-la-plainte-du-lion.jpg                           => http://4.bp.blogspot.com/-uvBtro2BBBo/UIEGk_-HbhI/AAAAAAAAN5k/8GHcS7fAHe0/s640/3DE06lion+au+repos.jpg
 32h-explication-de-renart.gif                        => http://p7.storage.canalblog.com/73/48/408460/28348605.jpg
-32i-ysengrin-accuse                                  => https://img1.etsystatic.com/048/1/9995868/il_570xN.698939047_iuot.jpg
+32i-ysengrin-accuse.gif                              => https://img1.etsystatic.com/048/1/9995868/il_570xN.698939047_iuot.jpg
+32j-renart-s-explique.gif                            => http://4.bp.blogspot.com/-90FPPWRi-1A/TzgDKw3HyPI/AAAAAAAAAes/HZWdln9CbbU/s1600/Cheval%20et%20Renard.jpg
