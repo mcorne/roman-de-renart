@@ -639,11 +639,12 @@ class Text
             // the episode is different from the currently saved version
             echo "$number ";
 
+            $postPath = str_replace('http://roman-de-renart.blogspot.com', '', $url);
             $title = $this->setTitle($episode);
             // removes line breaks because Blogger replaces them with <br> for some reason which screws up the display
             // although messages are set to use HTML as it is and to use <br> for line feeds
             $content = str_replace("\n", ' ', $html);
-            $blog->savePost($title, $content, $url, $episode['story-title']);
+            $blog->patchPost($postPath, $title, $content, $episode['story-title']);
             $this->writeFile($file, $html);
             $isPublished = true;
 

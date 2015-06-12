@@ -5,13 +5,15 @@
  * Command line to publish episodes or update the table of contents
  *
  * @author    Michel Corne <mcorne@yahoo.com>
- * @copyright 2012 Michel Corne
+ * @copyright 2015 Michel Corne
  * @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
  * @link      http://roman-de-renart.blogspot.com/
  */
 
 require_once 'Blog.php';
 require_once 'Text.php';
+
+$blogId = '7459589619995061631';
 
 define('OPTION_A', '-c -i -t');
 
@@ -36,6 +38,9 @@ $help =
 Notes:
 In logged on mode, the episode HTML is created/updated in the messages directory.
 In logged off mode, the episode HTML is stored in messages/temp.html.
+
+You need to be authorized to be able to publish.
+Run "authorize -h" for more information.
 
 Examples:
 # publish episode(s) in Blogger
@@ -82,7 +87,7 @@ try {
         }
 
         $htmls = array_map(array($text, 'makeMessage'), $episodes);
-        $blog = new Blog($options['u'], $options['p'], 'Le Roman de Renart');
+        $blog = new Blog($blogId, $options['u'], $options['p']);
         echo "\n" . $text->saveMessages($htmls, $episodes, $blog) . "\n";
 
     } else if (isset($options['u']) or isset($options['p'])) {
