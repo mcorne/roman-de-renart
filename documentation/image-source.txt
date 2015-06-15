@@ -175,3 +175,4 @@
 32i-ysengrin-accuse.gif                              => https://img1.etsystatic.com/048/1/9995868/il_570xN.698939047_iuot.jpg
 32j-renart-s-explique.gif                            => http://4.bp.blogspot.com/-90FPPWRi-1A/TzgDKw3HyPI/AAAAAAAAAes/HZWdln9CbbU/s1600/Cheval%20et%20Renard.jpg
 32k-ysengrin-veut-la-guerre.jpg                      => http://img.over-blog-kiwi.com/600x600/0/56/82/00/201307/ob_0b08d42d31e34a09e00c0f467c64baeb_ysengrin.jpeg
+32l-preparatifs-du-combat.jpg                        => http://fscomps.fotosearch.com/compc/CSP/CSP992/k12546430.jpg

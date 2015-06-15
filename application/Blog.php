@@ -53,7 +53,15 @@ class Blog
             throw new Exception('cannot get curl info: ' . curl_error($ch));
         }
 
+        if ($info['http_code'] == 401) {
+            throw new Exception('Invalid tokens! Please run "authorize -h"');
+        }
+
         if ($info['http_code'] != 200) {
+            if (strpos($response, 'invalid_grant')) {
+                throw new Exception('Invalid authorization! Please run "authorize -h"');
+            }
+            
             $response = preg_replace('~\s+~', ' ', $response);
             throw new Exception('http error: ' . $response);
         }
