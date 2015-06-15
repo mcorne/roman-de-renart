@@ -213,13 +213,13 @@ class Blog
     public function readTokens()
     {
         if (! file_exists($this->tokensFilename) or ! $base64 = file_get_contents($this->tokensFilename)) {
-            throw new Exception('Tokens missing, please run: authorize -h');
+            throw new Exception('Tokens missing! Please run "authorize -h"');
         }
 
         $json = $this->decryptString($base64);
 
         if (! $tokens = json_decode($json, true)) {
-            throw new Exception('cannot json decode tokens');
+            throw new Exception('Cannot process tokens! Please enter a valid name and password');
         }
 
         return $tokens;
