@@ -1,18 +1,13 @@
 <?php
 /**
- * Roman de Renart
- *
- * Command line to authorize the publishing of episodes
+ * Command line to authorize the publishing of blog messages
  *
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2015 Michel Corne
  * @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
- * @link      http://roman-de-renart.blogspot.com/
  */
 
 require_once 'Blog.php';
-
-$blogId = '7459589619995061631';
 
 /**
  * The command help
@@ -49,7 +44,7 @@ try {
         throw new Exception('Missing user name or password');
     }
 
-    $blog = new Blog($blogId, $options['u'], $options['p']);
+    $blog = new Blog($options['u'], $options['p']);
 
     if (isset($options['c'])) {
         $blog->authorize($options['c']);

@@ -1,36 +1,77 @@
 <?php
 /**
- * Roman de Renart
- *
  * Processing of blog messages
  *
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2015 Michel Corne
  * @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
- * @link      http://roman-de-renart.blogspot.com/
  */
 
 class Blog
 {
+    /**
+     * The blog ID
+     *
+     * Tbe blog ID MUST BE DEFINED IN "blog_id.php" in the same directory
+     *
+     * @var string
+     * @see self::__construct()
+     */
     public $blogId;
+
+    /**
+     * The encryption key used to encrypt the client ID and secret in "credentials.php"
+     *
+     * @var string
+     */
     public $encryptionKey;
-    public $encryptionIv;
+
+    /**
+     * The encryption IV used by the encryption algorythm
+     *
+     * @var type
+     * @see self::decryptString() and self::encryptString()
+     */
+    public $encryptionIv = '7459589619995061';
+
+    /**
+     * Name of the temporary file where authorization tokens are stored
+     *
+     * @var string
+     */
     public $tokensFilename;
 
-    public function __construct($blogId, $user, $password)
+    /**
+     * Sets the encryption key and token storage file name
+     *
+     * @param string $user
+     * @param string $password
+     */
+    public function __construct($user, $password)
     {
-        $this->blogId = $blogId;
+        $this->blogId = require 'blog_id.php';
         $this->encryptionKey  = $this->setEncryptionKey($user, $password);
-        $this->encryptionIv   = $this->setEncryptionIv($blogId);
-        $this->tokensFilename = $this->getTokensFilename($blogId);
+        $this->tokensFilename = $this->getTokensFilename();
     }
 
+    /**
+     * Gets and stores the authorization tokens
+     *
+     * @param string $authorizationCode
+     */
     public function authorize($authorizationCode)
     {
         $tokens = $this->getTokens($authorizationCode);
         $this->writeTokens($tokens);
     }
 
+    /**
+     * Calls the Blogger API
+     *
+     * @param array $options
+     * @return array
+     * @throws Exception
+     */
     public function callBloggerApi(array $options)
     {
         $options += [
@@ -61,7 +102,7 @@ class Blog
             if (strpos($response, 'invalid_grant')) {
                 throw new Exception('Invalid authorization! Please run "authorize -h"');
             }
-            
+
             $response = preg_replace('~\s+~', ' ', $response);
             throw new Exception('http error: ' . $response);
         }
@@ -76,6 +117,13 @@ class Blog
         return $decoded;
     }
 
+    /**
+     * Decrypts a string
+     *
+     * @param string $base64
+     * @return string
+     * @throws Exception
+     */
     public function decryptString($base64)
     {
         if (! $encrypted = base64_decode($base64)) {
@@ -91,6 +139,13 @@ class Blog
         return $decrypted;
     }
 
+    /**
+     * Encrypts a string
+     *
+     * @param string $string
+     * @return string
+     * @throws Exception
+     */
     public function encryptString($string)
     {
         if (! $encrypted = mcrypt_encrypt(MCRYPT_RIJNDAEL_128, $this->encryptionKey, $string, MCRYPT_MODE_CBC, $this->encryptionIv)) {
@@ -104,6 +159,12 @@ class Blog
         return $base64;
     }
 
+    /**
+     * Reads and decrypts the credentials
+     *
+     * @return array
+     * @throws Exception
+     */
     public function getCredentials()
     {
         $filename = __DIR__ . '/credentials.php';
@@ -122,6 +183,15 @@ class Blog
         return $credentials;
     }
 
+    /**
+     * Returns a message post ID
+     *
+     * @param string $postPath
+     * @param string $tokenType
+     * @param string $accessToken
+     * @return string
+     * @throws Exception
+     */
     public function getPostId($postPath, $tokenType, $accessToken)
     {
         $header[] = sprintf('Authorization: %s %s', $tokenType, $accessToken);
@@ -144,6 +214,12 @@ class Blog
         return $response['id'];
     }
 
+    /**
+     * Returns the authorization tokens
+     *
+     * @param string $authorizationCode
+     * @return array
+     */
     public function getTokens($authorizationCode)
     {
         $credentials = $this->getCredentials();
@@ -175,14 +251,28 @@ class Blog
         return $tokens;
     }
 
-    public function getTokensFilename($blogId)
+    /**
+     * Returns the temporary token storage file name
+     *
+     * @return string
+     */
+    public function getTokensFilename()
     {
-        $filename = sprintf('%s/blogger-api-tokens-%s.txt', sys_get_temp_dir(), $blogId);
+        $filename = sprintf('%s/blogger-api-tokens-%s.txt', sys_get_temp_dir(), $this->blogId);
 
         return $filename;
     }
 
-    public function patchPost($postPath, $title, $content, $label)
+    /**
+     * Patches a message post
+     *
+     * @param string $postPath
+     * @param string $title
+     * @param string $content
+     * @param array $labels
+     * @throws Exception
+     */
+    public function patchPost($postPath, $title, $content, $labels = null)
     {
         $tokens = $this->readTokens();
 
@@ -197,9 +287,12 @@ class Blog
 
         $data = [
             'content' => $content,
-            'labels'  => [$label],
             'title'   => $title,
         ];
+
+        if ($labels) {
+            $data['labels'] = (array) $labels;
+        }
 
         if (! $json = json_encode($data)) {
             throw new Exception('cannot json encode post data');
@@ -218,6 +311,12 @@ class Blog
         $this->callBloggerApi($options);
     }
 
+    /**
+     * Returns the authorization tokens
+     *
+     * @return array
+     * @throws Exception
+     */
     public function readTokens()
     {
         if (! file_exists($this->tokensFilename) or ! $base64 = file_get_contents($this->tokensFilename)) {
@@ -233,13 +332,13 @@ class Blog
         return $tokens;
     }
 
-    public function setEncryptionIv($blogId)
-    {
-        $encryptionIv = $this->setStringTo16Bytes($blogId);
-
-        return $encryptionIv;
-    }
-
+    /**
+     * Sets the encryption key
+     *
+     * @param string $user
+     * @param string $password
+     * @return type
+     */
     public function setEncryptionKey($user, $password)
     {
         $encryptionKey = $this->setStringTo16Bytes($password . $user);
@@ -247,6 +346,12 @@ class Blog
         return $encryptionKey;
     }
 
+    /**
+     * Truncates or pads a string to 16 bits
+     *
+     * @param string $string
+     * @return string
+     */
     public function setStringTo16Bytes($string)
     {
         if (strlen($string) > 16) {
@@ -258,6 +363,12 @@ class Blog
         return $string;
     }
 
+    /**
+     * Writes the authorization tokens in the temporary file
+     *
+     * @param array $tokens
+     * @throws Exception
+     */
     public function writeTokens($tokens)
     {
         if (! $json = json_encode($tokens)) {

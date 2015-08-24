@@ -13,8 +13,6 @@
 require_once 'Blog.php';
 require_once 'Text.php';
 
-$blogId = '7459589619995061631';
-
 define('OPTION_A', '-c -i -t');
 
 /**
@@ -87,7 +85,7 @@ try {
         }
 
         $htmls = array_map(array($text, 'makeMessage'), $episodes);
-        $blog = new Blog($blogId, $options['u'], $options['p']);
+        $blog = new Blog($options['u'], $options['p']);
         echo "\n" . $text->saveMessages($htmls, $episodes, $blog) . "\n";
 
     } else if (isset($options['u']) or isset($options['p'])) {
