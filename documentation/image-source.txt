@@ -179,3 +179,4 @@
 32m-guerre-ou-paix.jpg                               => http://a4.mzstatic.com/eu/r30/Purple/v4/85/47/b4/8547b411-9424-819d-0781-406aa93ed356/screen480x480.jpeg
 32n-le-serment.jpg                                   => http://a142.idata.over-blog.com/1/39/36/89/P-kin/e-copie-1.jpg
 32o-ysengrin-est-assome.jpg                          => http://www.ferus.fr/wp-content/uploads/2009/12/img-010104-9.jpg
+32p-renart-mort.jpg                                  => http://www.rm-carter.com/_media/img/large/renard-mort-toile.jpg
