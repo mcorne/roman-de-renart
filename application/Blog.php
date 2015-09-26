@@ -29,7 +29,7 @@ class Blog
     /**
      * The encryption IV used by the encryption algorythm
      *
-     * @var type
+     * @var string
      * @see self::decryptString() and self::encryptString()
      */
     public $encryptionIv = '7459589619995061';
@@ -337,7 +337,7 @@ class Blog
      *
      * @param string $user
      * @param string $password
-     * @return type
+     * @return string
      */
     public function setEncryptionKey($user, $password)
     {

@@ -1,3 +1,4 @@
+#!php
 <?php
 /**
  * Roman de Renart
@@ -87,11 +88,9 @@ try {
         $htmls = array_map(array($text, 'makeMessage'), $episodes);
         $blog = new Blog($options['u'], $options['p']);
         echo "\n" . $text->saveMessages($htmls, $episodes, $blog) . "\n";
-
-    } else if (isset($options['u']) or isset($options['p'])) {
+    } elseif (isset($options['u']) or isset($options['p'])) {
         throw new Exception('missing user name or password');
-
-    } else if (isset($options['n'])) {
+    } elseif (isset($options['n'])) {
         // this is the logged off mode, makes an episode HTML and saves the content in messages/temp.html
         $number = $options['n'];
 
@@ -120,7 +119,6 @@ try {
         $html = $text->makeTableOfContents($episodes);
         echo "\n" . $text->saveWidget($html, 'table-of-contents.html', 'table of contents') . "\n";
     }
-
-} catch(Exception $e) {
+} catch (Exception $e) {
     echo($e->getMessage());
 }

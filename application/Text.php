@@ -136,7 +136,6 @@ class Text
         $verse = substr($verse, 1);
 
         return array($gothicLetter, $verse);
-
     }
 
     /**
@@ -149,7 +148,7 @@ class Text
     {
         $list = array();
 
-        foreach($episodes as $episode) {
+        foreach ($episodes as $episode) {
             $title = $this->setTitle($episode);
             $list[] = sprintf('%2s : %s', $episode['episode-number'], $title);
         }
@@ -277,7 +276,7 @@ class Text
         $prev_episode = null;
         $lastEpisodePathName = null;
 
-        foreach($episodes as $episode) {
+        foreach ($episodes as $episode) {
             if (empty($prev_episode) or $episode['story-title'] != $prev_episode['story-title']) {
                 // this is the beginning of a story
                 // adds the optgroup closing tag of the previous story (except for the first story)
@@ -288,7 +287,7 @@ class Text
 
             if (! empty($episode['episode-title']) and empty($episode['translation-in-progress'])) {
                 // this is the begining of a story
-                list(,,, $pathname) = explode('/', $episode['url'], 4);
+                list(, , , $pathname) = explode('/', $episode['url'], 4);
                 $pathname = "/$pathname";
                 // adds the episode title (select option)
                 $options[] = sprintf($optionPattern, $pathname, $episode['story-title'], $episode['episode-title'], $episode['episode-number']);
@@ -367,7 +366,6 @@ class Text
             // note: the episode currently being translated MUST NOT have a URL
             $beingTranslated = true;
             $episode = $this->episodeBeingTranslated + $episode;
-
         } else {
             list($year) = explode('/', $episode['url']);
 
@@ -402,7 +400,6 @@ class Text
             if (empty($episode['section-translated-title'])) {
                 throw new Exception("missing section translated title, line: $lineNumber");
             }
-
         } else {
             // this is a following episode, defaults titles as in previous episode
             empty($episode['story-title'])              and $episode['story-title']              = $prevEpisode['story-title'];
@@ -435,7 +432,7 @@ class Text
         $beingTranslated = false;
         $prevEpisode = null;
 
-        foreach($lines as $line) {
+        foreach ($lines as $line) {
             $line = $this->parseLine($line);
 
             if ($episodeBegining) {
@@ -491,7 +488,7 @@ class Text
         // splits the line by tabs
         $cells = explode("\t", $line);
 
-        foreach($cells as &$cell) {
+        foreach ($cells as &$cell) {
             // trims the enclosing quotes
             $cell = trim($cell, '" ');
             // fixes escaped quotes
@@ -551,8 +548,7 @@ class Text
         if (! empty($line['original-verse-to-confirm']) and ! empty($line['translated-verse-to-confirm'])) {
             // collects text part to confirm (to display as translation note)
             $episode['translation-notes'][] = array($line['verse-number'], $line['original-verse-to-confirm'], $line['translated-verse-to-confirm']);
-
-        } else if (! empty($line['original-verse-to-confirm']) or ! empty($line['translated-verse-to-confirm'])) {
+        } elseif (! empty($line['original-verse-to-confirm']) or ! empty($line['translated-verse-to-confirm'])) {
             throw new Exception("missing original or translation part to confirm, line: $lineNumber");
         }
 
@@ -606,7 +602,6 @@ class Text
         if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
             $result[] = 'The copyright is already up to date.';
             $result[] = "No changes were made to $file.";
-
         } else {
             $this->writeFile($path, $html);
             $result[] = 'The copyright was updated successfully.';
@@ -647,7 +642,6 @@ class Text
             $blog->patchPost($postPath, $title, $content, $episode['story-title']);
             $this->writeFile($file, $html);
             $isPublished = true;
-
         } else {
             $isPublished = false;
         }
@@ -667,13 +661,13 @@ class Text
     {
         $publishedCount = 0;
 
-        foreach($htmls as $number => $html) {
+        foreach ($htmls as $number => $html) {
             $publishedCount += $this->saveMessage($html, $episodes[$number], $blog, $number);
         }
 
         if ($publishedCount == 0) {
             $result = 'No episode has changed, no episode was published.';
-        } else if ($publishedCount == 1) {
+        } elseif ($publishedCount == 1) {
             $result = "\n" . 'The episode has changed, the episode was published successfully.';
         } else {
             $result = "\n" . "The $publishedCount episodes were published successfully.";
@@ -699,7 +693,6 @@ class Text
 
         if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
             $result = "The episode is already up to date in $temp.";
-
         } else {
             $this->writeFile(__DIR__ . "/../$temp", $html);
             $result = "The episode was saved successfully in $temp.";
@@ -725,7 +718,6 @@ class Text
         if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
             $result[] = "The $widget is already up to date.";
             $result[] = "No changes were made to $file.";
-
         } else {
             $this->writeFile($path, $html);
             $result[] = "The $widget was updated successfully.";

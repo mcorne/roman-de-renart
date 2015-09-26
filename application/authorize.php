@@ -1,3 +1,4 @@
+#!php
 <?php
 /**
  * Command line to authorize the publishing of blog messages
@@ -49,15 +50,12 @@ try {
     if (isset($options['c'])) {
         $blog->authorize($options['c']);
         echo "You are authorized to publish for an hour or so";
-
     } elseif (isset($options['g'])) {
         $credentials = $blog->getCredentials();
         echo "\n" . $credentials['auth_screen_url'] . "\n";
-
     } else {
         throw new Exception('Option c or g missing');
     }
-
-} catch(Exception $e) {
+} catch (Exception $e) {
     echo($e->getMessage());
 }

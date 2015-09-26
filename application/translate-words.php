@@ -22,7 +22,7 @@ function add_translations($lexicon)
 {
     $fixed = array();
 
-    foreach($lexicon as $original => $translations) {
+    foreach ($lexicon as $original => $translations) {
         // counts the frequency of the translations of a word
         $translations = array_count_values($translations);
         // sorts the translations (most frequent first)
@@ -51,7 +51,7 @@ function calculate_stats($words)
     $word_count = 0;
     $translated_count = 0;
 
-    foreach($words as $word) {
+    foreach ($words as $word) {
         if (! isset($punctuation[$word['original-word']])) {
             $word_count++;
         }
@@ -70,27 +70,27 @@ function calculate_stats($words)
  * Main function to translate words
  */
  function exec_translate_words()
-{
-    echo_command_title('translating words');
+ {
+     echo_command_title('translating words');
 
-    $words_filename = __DIR__ . "/../data/words.csv";
-    $words = read_csv($words_filename);
-    $words = parse_words($words);
+     $words_filename = __DIR__ . "/../data/words.csv";
+     $words = read_csv($words_filename);
+     $words = parse_words($words);
 
-    $lexicon = make_lexicon($words);
-    $lexicon = add_translations($lexicon);
+     $lexicon = make_lexicon($words);
+     $lexicon = add_translations($lexicon);
 
-    $combined_words = get_combined_words($lexicon);
-    $words = set_combined_words($words, $combined_words);
-    $words = translate_words($words, $lexicon);
+     $combined_words = get_combined_words($lexicon);
+     $words = set_combined_words($words, $combined_words);
+     $words = translate_words($words, $lexicon);
 
-    list($translated_count, $word_count, $ratio) = calculate_stats($words);
+     list($translated_count, $word_count, $ratio) = calculate_stats($words);
 
-    $has_content_changed = write_csv($words_filename, $words);
+     $has_content_changed = write_csv($words_filename, $words);
 
-    echo "$translated_count / $word_count words ($ratio %) ";
-    echo_has_content_changed($has_content_changed);
-}
+     echo "$translated_count / $word_count words ($ratio %) ";
+     echo_has_content_changed($has_content_changed);
+ }
 
 /**
  * Returns the list of combined words indexed by the first word of a combined word
@@ -102,10 +102,10 @@ function get_combined_words($lexicon)
 {
     $combined_words = array();
 
-    foreach(array_keys($lexicon) as $word) {
+    foreach (array_keys($lexicon) as $word) {
         $values = explode('/', $word);
 
-        if (count($values) == 2){
+        if (count($values) == 2) {
             // this is a combined word, ex. "si/si_con" or "com/si_con"
             list($original, $combined_as_string) = $values;
             $combined_as_array = explode('_', $combined_as_string);
@@ -133,7 +133,7 @@ function get_combined_words($lexicon)
  */
 function is_combined_word($combined_word, $words, $index)
 {
-    foreach($combined_word as $sub_index => $word) {
+    foreach ($combined_word as $sub_index => $word) {
         if ($sub_index == 0) {
             continue;
         }
@@ -158,7 +158,7 @@ function make_lexicon($words)
 {
     $lexicon = array();
 
-    foreach($words as $word) {
+    foreach ($words as $word) {
         if (! empty($word['translated-word'])) {
             $original = $word['original_word_lower_case'];
             $lexicon[$original][] = $word['translated-word'];
@@ -174,8 +174,9 @@ function make_lexicon($words)
  * @param array $words the words of the text
  * @return array       the words of the text
  */
-function parse_words($words) {
-    foreach($words as &$word) {
+function parse_words($words)
+{
+    foreach ($words as &$word) {
         if ($word['not-confirmed'] == '?') {
             // this is an unconfirmed translation, discards the "combined word" if any
             list($word['original-word']) = explode('/', $word['original-word']);
@@ -200,7 +201,7 @@ function parse_words($words) {
  */
 function search_combined_word($combined_words, $words, $index)
 {
-    foreach($combined_words as $combined_word) {
+    foreach ($combined_words as $combined_word) {
         if (is_combined_word($combined_word['array'], $words, $index)) {
             return $combined_word;
         }
@@ -221,7 +222,7 @@ function set_combined_word($combined_word, $words, $index)
 {
     $count = count($combined_word['array']);
 
-    while($count--) {
+    while ($count--) {
         $combined = '/' . $combined_word['string'];
         $words[$index]['original-word']            .= $combined;
         $words[$index]['original_word_lower_case'] .= $combined;
@@ -240,7 +241,7 @@ function set_combined_word($combined_word, $words, $index)
  */
 function set_combined_words($words, $combined_words)
 {
-    foreach(array_keys($words) as $index) {
+    foreach (array_keys($words) as $index) {
         $original = $words[$index]['original_word_lower_case'];
 
         if (isset($combined_words[$original])) {
@@ -268,7 +269,7 @@ function set_combined_words($words, $combined_words)
  */
 function translate_words($words, $lexicon)
 {
-    foreach($words as &$word) {
+    foreach ($words as &$word) {
         $original = $word['original_word_lower_case'];
         unset($word['original_word_lower_case']);
 

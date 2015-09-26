@@ -1,7 +1,5 @@
 <?php
 /**
- * Roman de Renart
- *
  * Processing of blog messages
  *
  * @author    Michel Corne <mcorne@yahoo.com>

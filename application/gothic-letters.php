@@ -10,7 +10,7 @@
  * @link      http://roman-de-renart.blogspot.com/
  */
 
-return array (
+return [
     'A' => 'http://lh3.ggpht.com/_N-YOXCVv408/Sk9WBhp9lRI/AAAAAAAAA7c/OQPQo-kwiM4/s800/A.gif',
     'B' => 'http://lh3.ggpht.com/_N-YOXCVv408/Sk9WBj9hLqI/AAAAAAAAA7g/QPz42DguEyQ/s800/B.gif',
     'C' => 'http://lh4.ggpht.com/_N-YOXCVv408/Sk9WBo-G6yI/AAAAAAAAA7k/g_12u7DDbP0/s800/C.gif',
@@ -37,4 +37,4 @@ return array (
     'X' => 'http://lh3.ggpht.com/_N-YOXCVv408/Sk9Wi_REkoI/AAAAAAAAA84/Me81zEh1u_A/s800/X.gif',
     'Y' => 'http://lh6.ggpht.com/_N-YOXCVv408/Sk9Wi3cfUZI/AAAAAAAAA88/PNedfyvQ6_0/s800/Y.gif',
     'Z' => 'http://lh5.ggpht.com/_N-YOXCVv408/Sk9Wxw36CNI/AAAAAAAAA9A/rBz9zIxKzy0/s800/Z.gif',
-);
+];

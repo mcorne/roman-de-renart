@@ -26,25 +26,20 @@ function collect_verses_translation($words, $first_verse_number, $last_verse_num
     $punctuation = get_punctuation();
     $verses = array();
 
-    foreach($words as $word) {
+    foreach ($words as $word) {
         $verse_number = $word['verse-number'];
         $original = $word['original-word'];
 
         if ($verse_number < $first_verse_number) {
             continue;
-
-        } else if ($verse_number > $last_verse_number) {
+        } elseif ($verse_number > $last_verse_number) {
             throw new Exception("unexpected verse $verse_number beyond last verse $last_verse_number");
-
-        } else if (isset($punctuation[$original])) {
+        } elseif (isset($punctuation[$original])) {
             $verses[$verse_number][] = $original;
-
-        } else if (empty($word['translated-word'])) {
+        } elseif (empty($word['translated-word'])) {
             throw new Exception("missing translation verse $verse_number for word $original");
-
-        } else if ($word['translated-word'] == '_EMPTY_') {
+        } elseif ($word['translated-word'] == '_EMPTY_') {
             continue;
-
         } else {
             $verses[$verse_number][] = $word['translated-word'];
         }
@@ -57,25 +52,25 @@ function collect_verses_translation($words, $first_verse_number, $last_verse_num
  * Main function to update the translation of the verses
  */
  function exec_update_verses_translation()
-{
-    echo_command_title('updating verses translation');
+ {
+     echo_command_title('updating verses translation');
 
-    $filename = __DIR__ . '/../data/verses.csv';
-    $verses = read_csv($filename, 'verse-number');
-    $first_verse_number = get_number_first_verse_to_translate($verses);
-    $last_verse_number = get_number_last_verse_to_translate($verses);
-    validate_verse_number_range($verses, $first_verse_number, $last_verse_number);
+     $filename = __DIR__ . '/../data/verses.csv';
+     $verses = read_csv($filename, 'verse-number');
+     $first_verse_number = get_number_first_verse_to_translate($verses);
+     $last_verse_number = get_number_last_verse_to_translate($verses);
+     validate_verse_number_range($verses, $first_verse_number, $last_verse_number);
 
-    $words = read_csv(__DIR__ . "/../data/words.csv");
-    $verses_translation = collect_verses_translation($words, $first_verse_number, $last_verse_number);
-    validate_verse_number_sequence($verses_translation, $first_verse_number, $last_verse_number);
-    $verses = fix_verses_translation($verses, $verses_translation);
+     $words = read_csv(__DIR__ . "/../data/words.csv");
+     $verses_translation = collect_verses_translation($words, $first_verse_number, $last_verse_number);
+     validate_verse_number_sequence($verses_translation, $first_verse_number, $last_verse_number);
+     $verses = fix_verses_translation($verses, $verses_translation);
 
-    $has_content_changed = write_csv($filename, $verses);
+     $has_content_changed = write_csv($filename, $verses);
 
-    echo count($verses_translation). " verses added ";
-    echo_has_content_changed($has_content_changed);
-}
+     echo count($verses_translation). " verses added ";
+     echo_has_content_changed($has_content_changed);
+ }
 
 /**
  * Fixes the newly translated verses and adds the translation to the verses of the text
@@ -87,7 +82,7 @@ function collect_verses_translation($words, $first_verse_number, $last_verse_num
  */
 function fix_verses_translation($verses, $verses_translation)
 {
-    foreach($verses_translation as $number => $verse){
+    foreach ($verses_translation as $number => $verse) {
         // concatenates the words of the verse
         $verse = implode(' ', $verse);
         // removes spaces before the comma and period characters
@@ -116,7 +111,7 @@ function fix_verses_translation($verses, $verses_translation)
  */
 function get_number_first_verse_to_translate($verses)
 {
-    foreach($verses as $number => $verse) {
+    foreach ($verses as $number => $verse) {
         if (empty($verse['translated-verse'])) {
             return $number;
         }

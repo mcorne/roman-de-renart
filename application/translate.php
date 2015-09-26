@@ -1,3 +1,4 @@
+#!php
 <?php
 /**
  * Roman de Renart
@@ -43,8 +44,8 @@ try {
         unset($options['a']);
     }
 
-    foreach(array_keys($options) as $option) {
-        switch($option) {
+    foreach (array_keys($options) as $option) {
+        switch ($option) {
             case 't':
                 require_once 'translate-words.php';
                 exec_translate_words();
@@ -61,7 +62,6 @@ try {
                 break;
         }
     }
-
-} catch(Exception $e) {
+} catch (Exception $e) {
     echo "\nerror! " . $e->getMessage();
 }

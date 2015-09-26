@@ -80,7 +80,7 @@ function get_number_last_verse_to_translate($verses)
 {
     $prev_number = null;
 
-    foreach($verses as $number => $verse) {
+    foreach ($verses as $number => $verse) {
         if ($verse['translated-verse'] == '...') {
             if (is_null($prev_number)) {
                 throw new Exception('there is nothing to translate');
@@ -123,7 +123,7 @@ function index_rows($rows, $column_header)
 {
     $indexed_rows = array();
 
-    foreach($rows as $row) {
+    foreach ($rows as $row) {
         if (! isset($row[$column_header])) {
             throw new Exception("missing column $column_header");
         }
@@ -159,7 +159,7 @@ function read_csv($filename, $column_header = null)
     $columns_count = count($column_headers);
 
     $rows = array();
-    foreach($lines as $line) {
+    foreach ($lines as $line) {
         $cells = read_line($line);
         $cells = array_pad($cells, $columns_count, null);
         $rows[] = array_combine($column_headers, $cells);
@@ -199,7 +199,7 @@ function read_line($line)
     // splits the line by tabs
     $cells = explode("\t", $line);
 
-    foreach($cells as &$cell) {
+    foreach ($cells as &$cell) {
         // trims the enclosing quotes
         $cell = trim($cell, '" ');
         // unescapes quotes
@@ -250,7 +250,7 @@ function validate_verse_number_range($verses, $first_verse_number, $last_verse_n
         throw new Exception("unexpected first verse {$verse['verse-number']} instead of $first_verse_number");
     }
 
-    foreach($verses as $number => $verse) {
+    foreach ($verses as $number => $verse) {
         if (! empty($verse['translated-verse'])) {
             throw new Exception("not expecting translation in verse $number");
         }
@@ -279,7 +279,7 @@ function write_csv($filename, $rows)
     $row_defaults = array_fill_keys($column_headers, null);
 
     $lines = array();
-    foreach(array_keys($rows) as $key) {
+    foreach (array_keys($rows) as $key) {
         $cells = array_merge($row_defaults, $rows[$key]);
         $lines[] = write_line($cells);
     }
@@ -306,7 +306,6 @@ function write_file($filename, $content)
 
     if ($is_file and read_file($filename) == $content) {
         $has_content_changed = false;
-
     } else {
         $has_content_changed = true;
 
@@ -326,7 +325,7 @@ function write_file($filename, $content)
  */
 function write_line($cells)
 {
-    foreach($cells as &$cell) {
+    foreach ($cells as &$cell) {
         if (! is_numeric($cell)) {
             // escapes quotes
             $cell = str_replace('"', '""', $cell);
