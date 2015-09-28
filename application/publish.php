@@ -90,7 +90,9 @@ try {
         echo "\n" . $text->saveMessages($htmls, $episodes, $blog) . "\n";
     } elseif (isset($options['u']) or isset($options['p'])) {
         throw new Exception('missing user name or password');
-    } elseif (isset($options['n'])) {
+    }
+
+    if (isset($options['n'])) {
         // this is the logged off mode, makes an episode HTML and saves the content in messages/temp.html
         $number = $options['n'];
 

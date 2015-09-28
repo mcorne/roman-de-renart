@@ -32,15 +32,22 @@ function collect_verses_translation($words, $first_verse_number, $last_verse_num
 
         if ($verse_number < $first_verse_number) {
             continue;
-        } elseif ($verse_number > $last_verse_number) {
+        }
+
+        if ($verse_number > $last_verse_number) {
             throw new Exception("unexpected verse $verse_number beyond last verse $last_verse_number");
-        } elseif (isset($punctuation[$original])) {
+        }
+
+        if (isset($punctuation[$original])) {
             $verses[$verse_number][] = $original;
-        } elseif (empty($word['translated-word'])) {
-            throw new Exception("missing translation verse $verse_number for word $original");
-        } elseif ($word['translated-word'] == '_EMPTY_') {
             continue;
-        } else {
+        }
+
+        if (empty($word['translated-word'])) {
+            throw new Exception("missing translation verse $verse_number for word $original");
+        }
+
+        if ($word['translated-word'] != '_EMPTY_') {
             $verses[$verse_number][] = $word['translated-word'];
         }
     }
