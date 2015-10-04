@@ -1,4 +1,4 @@
-#!php
+#!/usr/bin/php
 <?php
 /**
  * Command line to authorize the publishing of blog messages
