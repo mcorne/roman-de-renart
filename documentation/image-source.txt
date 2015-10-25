@@ -182,5 +182,6 @@
 32p-renart-mort.jpg                                  => http://www.rm-carter.com/_media/img/large/renard-mort-toile.jpg
 32q-bernard-le-mouton.gif                            => http://p3.storage.canalblog.com/32/40/59566/55081364_p.jpg
 32r-renart-moine.jpg                                 => http://media.cultura.com/media/catalog/product/cache/1/image/500x500/0dc2d03fe217f8c83829496872af24a0/b/i/bibliocollege-le-roman-de-renart-tea-9782011606051_0.gif?t=1427530825
-32s-champ-laboure.jpg                                => http://www.idixa.net/Imag1/iVoix/ChampLaboureAuSoleilLevant_K446.jpg
+33a-champ-laboure.jpg                                => http://www.idixa.net/Imag1/iVoix/ChampLaboureAuSoleilLevant_K446.jpg
 33b-ble-mur.jpg                                      => http://mariecha.centerblog.net/3036-epi-de-ble?ii=1
+33c-renart-vexe.jpg                                  => https://decoatouslesetagesleblog.files.wordpress.com/2014/09/renard-en-colere-katieillustration-etsy.jpg
