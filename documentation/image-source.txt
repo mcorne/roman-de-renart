@@ -186,3 +186,4 @@
 33b-ble-mur.jpg                                      => http://mariecha.centerblog.net/3036-epi-de-ble?ii=1
 33c-renart-vexe.jpg                                  => https://decoatouslesetagesleblog.files.wordpress.com/2014/09/renard-en-colere-katieillustration-etsy.jpg
 33d-la-peau-du-cerf.jpg                              => http://www.maison-thuret.com/675/peau-de-cerf-d-europe.jpg
+33e-la-crete-du-coq.jpg                              => http://comps.canstockphoto.fr/can-stock-photo_csp17030839.jpg
