@@ -188,3 +188,4 @@
 33d-la-peau-du-cerf.jpg                              => http://www.maison-thuret.com/675/peau-de-cerf-d-europe.jpg
 33e-la-crete-du-coq.jpg                              => http://comps.canstockphoto.fr/can-stock-photo_csp17030839.jpg
 33f-ysengrin-noble-renart.jpg                        => http://data-cache.abuledu.org/256/le-lion-le-loup-et-le-renard-519cea67.jpg
+33g-la-barbe-du-loup.jpg                             => http://www.renata-novakova-daumas.com/tete_loup.jpg
