@@ -189,3 +189,4 @@
 33e-la-crete-du-coq.jpg                              => http://comps.canstockphoto.fr/can-stock-photo_csp17030839.jpg
 33f-ysengrin-noble-renart.jpg                        => http://data-cache.abuledu.org/256/le-lion-le-loup-et-le-renard-519cea67.jpg
 33g-la-barbe-du-loup.jpg                             => http://www.renata-novakova-daumas.com/tete_loup.jpg
+34a-le-boeuf-rougel.jpg                              => http://fr.muzeo.com/sites/default/files/styles/image_basse_def/public/oeuvres/dessin/classique/un_boeuf__couchee__esquisse94333_0.jpg?itok=PZeDQKYH
