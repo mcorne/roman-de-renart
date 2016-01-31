@@ -190,3 +190,4 @@
 33f-ysengrin-noble-renart.jpg                        => http://data-cache.abuledu.org/256/le-lion-le-loup-et-le-renard-519cea67.jpg
 33g-la-barbe-du-loup.jpg                             => http://www.renata-novakova-daumas.com/tete_loup.jpg
 34a-le-boeuf-rougel.jpg                              => http://fr.muzeo.com/sites/default/files/styles/image_basse_def/public/oeuvres/dessin/classique/un_boeuf__couchee__esquisse94333_0.jpg?itok=PZeDQKYH
+34b-le-plan-de-brun.jpg                              => https://pixabay.com/static/uploads/photo/2015/11/02/21/04/black-bear-1019046_960_720.jpg
