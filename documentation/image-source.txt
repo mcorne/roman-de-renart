@@ -191,3 +191,4 @@
 33g-la-barbe-du-loup.jpg                             => http://www.renata-novakova-daumas.com/tete_loup.jpg
 34a-le-boeuf-rougel.jpg                              => http://fr.muzeo.com/sites/default/files/styles/image_basse_def/public/oeuvres/dessin/classique/un_boeuf__couchee__esquisse94333_0.jpg?itok=PZeDQKYH
 34b-le-plan-de-brun.jpg                              => https://pixabay.com/static/uploads/photo/2015/11/02/21/04/black-bear-1019046_960_720.jpg
+34c-la-supplique-du-paysan.jpg                       => http://www.pierrelesieur.fr/PL_media/images/78_Attelage_de_b%C5%93ufs_1960_22x33_066.jpg
