@@ -6,6 +6,7 @@ How to publish a new episode
 ------------------------------------------------------------
 
 Set the options:
+
 - charset = UTF-8
 - cell separator = tab (tabulation)
 - text delimiter = " (double-quote)
@@ -35,8 +36,9 @@ Note that at this point, this message becomes the entry point of the blog, so th
 -----------------------------------
 
 The episode information must be updated in the first line of the episode:
+
 - add the story title in the "story-title" cell if this is the first episode of a story (leave blank otherwise)
-- add the episode title in the "episode-title" cell, this should ideally be the same title that was used to create the blog message 
+- add the episode title in the "episode-title" cell, this should ideally be the same title that was used to create the blog message
 - add the url of the new blog message in the "url" cell
 - add the url to the episode image in the "image-src" cell, see below.
 - add the url to the original image in the "image-href" cell, see below.
@@ -45,6 +47,7 @@ The episode information must be updated in the first line of the episode:
 - save and close the file, do not change the CSV format settings and extension
 
 How to find the url's of the episode image:
+
 - open the album "Diaporama du roman de Renart":
   https://picasaweb.google.com/109570780620280936353/DiaporamaDuRomanDeRenart
 - select the image
@@ -70,7 +73,7 @@ Note that this step may be done later.
 - run the command line: publish -u <login> -p <password> -a
 - copy & paste the content of "widgets/introduction.html" to the corresponding blog widget  if it was updated
 - copy & paste the content of "widgets/table-of-contents.html" to the corresponding blog widget  if it was updated
-- copy & paste the content of "widgets/copyright.html" to the corresponding blog widget, 
+- copy & paste the content of "widgets/copyright.html" to the corresponding blog widget,
   this should only be necessary once every year when publishing the first episode of a year
-  
+
 Note: update the project follow-up in google docs.

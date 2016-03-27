@@ -14,7 +14,7 @@ How to publish the image of a new episode
 
 - save the original image scan to the album "Illustrations originales du roman de Renart" (add the photo):
   https://picasaweb.google.com/109570780620280936353/IllustrationsOriginalesDuRomanDeRenart
-- add a caption for this image with the following information as available: 
+- add a caption for this image with the following information as available:
   author, book title , image title, publisher, year
 
 Note that there is no need to save an image already available on the internet to this album.
@@ -28,7 +28,7 @@ Note that there is no need to save an image already available on the internet to
 - give the image an explicit name, prefix the name with the story number, and the episode letter for sorting purposes
 - save the image locally in the "images" directory as .jpg
 
-Note that this is the image that will be played in the slideshow and published along with the text of the episode. 
+Note that this is the image that will be played in the slideshow and published along with the text of the episode.
 
 
 4. Save the edited image to picasaweb
@@ -40,13 +40,14 @@ Note that this is the image that will be played in the slideshow and published a
 - add a caption (actions / caption)
 
 Adding a caption:
+
 - copy & paste the caption of the previous image to use as model
 - update the story title if this is a new story
 - change the episode title to the actual episode title
-- select a few lines of the translated episode that relates to the image, copy & paste those lines in place of the "model" lines 
+- select a few lines of the translated episode that relates to the image, copy & paste those lines in place of the "model" lines
 
 
 5. Save the image source URL
 ----------------------------
 
-- add the image source URL in documentation/image-sources.txt
+Add the image source URL in documentation/image-sources.txt

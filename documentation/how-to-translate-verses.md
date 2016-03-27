@@ -2,11 +2,13 @@ How to translate verses
 -----------------------
 
 Note that the episode being translated must be defined in "verses.csv":
+
 - the episode number must be present in the "episode-number" cell in the first line of this episode
 - the letter "x" must be present in the "is-last-verse" cell in the last line of this episode
 - the "url" cell of this episode MUST be blank
 
-Note that the episode being translated is 
+Note that the episode being translated is
+
 - published in the blog message: http://roman-de-renart.blogspot.fr/2009/02/episode-en-cours-de-traduction.html
 - saved in the file in the "messages" directory: 999-episode-en-cours-de-traduction.html
 
@@ -15,6 +17,7 @@ Note that the episode being translated is
 ------------------------------------------------------------
 
 Set the options:
+
 - charset = UTF-8
 - cell separator = tab (tabulation)
 - text delimiter = " (double-quote)
@@ -32,7 +35,7 @@ Set the options:
 3. Add and translate the words of those verses to "word.csv" automatically
 --------------------------------------------------------------------------
 
-- in the "application" directory, run the command line: translate -a
+In the "application" directory, run the command line: translate -a
 
 Note: the option "-a" is equivalent to the options "-w -t".
 
@@ -41,6 +44,7 @@ Note: the option "-a" is equivalent to the options "-w -t".
 -----------------------------------------------------------
 
 Set the options:
+
 - charset = UTF-8
 - cell separator = tab (tabulation)
 - text delimiter = " (double-quote)
@@ -49,7 +53,7 @@ Set the options:
 Note: this will prevent the cells containing only the punctuation character "," (comma)
 to be interpreted as a (French) empty number, and converted to "0".
 
-  
+
 5. Verify and fix the translation of the added words
 ----------------------------------------------------
 
@@ -60,6 +64,7 @@ to be interpreted as a (French) empty number, and converted to "0".
 - save and close the file, do not change the CSV format settings and extension
 
 Combined words:
+
 - combined words should be handled as follows in order to be translated together, for example "par + mi" = "à travers"
 par/par_mi  à travers
 mi/par_mi   _EMPTY_
@@ -68,6 +73,7 @@ mi/par_mi   _EMPTY_
 - the following words, "mi/par_mi" in this example, are flagged with the keyword "_EMPTY_".
 
 Tips:
+
 - leverage other translations from the "translations" column
 - use the "www.micmap.org/dicfro" dictionaries: Van Daele, Romant de Renart (FHS), Moyen français (DMF), etc...
 
@@ -76,9 +82,10 @@ Tips:
 -------------------------------------------------
 
 - in the "application" directory, run the command line: translate -t
-- this will the automatically update the translation of words not translated yet 
+- this will the automatically update the translation of words not translated yet
 
-Notes: 
+Notes:
+
 - the automatic translation process has only been implemented since 2012/8 (verse 7457)
 - the translation of words has been done/initialized for verses 1-608
 - the translation of words has not been verified yet for verses 609-7456
@@ -87,7 +94,7 @@ Notes:
 7. Update the translation of verses
 -----------------------------------
 
-- in the "application" directory, run the command line: translate -u
+In the "application" directory, run the command line: translate -u
 
 Note: this will add the translation of the verses (those selected as explained in paragraph 2.) to "verses.csv".
 
