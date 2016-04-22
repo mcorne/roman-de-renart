@@ -49,7 +49,7 @@ try {
 
     if (isset($options['c'])) {
         $blog->authorize($options['c']);
-        echo "You are authorized to publish for an hour or so";
+        echo "You are authorized to publish for an hour or so.";
     } elseif (isset($options['g'])) {
         $credentials = $blog->getCredentials();
         echo "\n" . $credentials['auth_screen_url'] . "\n";
