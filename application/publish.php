@@ -33,6 +33,7 @@ $help =
 -p password     Blogger account Password.
 -t              Update the table of contents widget.
 -u name         Blogger user/email/login name.
+-v              Verification mode only: no publishing, no file changes.
 
 Notes:
 In logged on mode, the episode HTML is created/updated in the messages directory.
@@ -50,10 +51,13 @@ publish -u abc -p xyz -n 10,11
 
 # create/update episode 10 in messages/temp.html
 publish -n 10
+
+# list the episodes that have changed and need to be published
+publish -v
 ';
 
 try {
-    if (! $options = getopt("haciln:p:tu:")) {
+    if (! $options = getopt("haciln:p:tu:v")) {
         throw new Exception('invalid or missing option(s)');
     }
 
@@ -78,7 +82,16 @@ try {
         exit;
     }
 
-    if (isset($options['u']) and isset($options['p'])) {
+    if ($verification_only = isset($options['v'])) {
+        // this is the verification mode, there will be no publishing and no file changes
+        if (isset($options['n'])) {
+            $numbers = explode(',', $options['n']);
+            $episodes = array_intersect_key($episodes, array_flip($numbers));
+        }
+
+        $htmls = array_map(array($text, 'makeMessage'), $episodes);
+        echo "\n" . $text->saveMessages($htmls, $episodes) . "\n";
+    } elseif (isset($options['u']) and isset($options['p'])) {
         // this is the logged on mode, publishes one more episodes in Blogger and saves them in local files
         if (isset($options['n'])) {
             $numbers = explode(',', $options['n']);
@@ -107,19 +120,19 @@ try {
     if (isset($options['c'])) {
         // updates the copyright
         $html = $text->updateCopyright();
-        echo "\n" . $text->saveWidget($html, 'copyright.html', 'copyright') . "\n";
+        echo "\n" . $text->saveWidget($html, 'copyright.html', 'copyright', $verification_only) . "\n";
     }
 
     if (isset($options['i'])) {
         // updates the introduction with the number of the last translated verse
         $html = $text->updateIntroduction($episodes);
-        echo "\n" . $text->saveWidget($html, 'introduction.html', 'introduction') . "\n";
+        echo "\n" . $text->saveWidget($html, 'introduction.html', 'introduction', $verification_only) . "\n";
     }
 
     if (isset($options['t'])) {
         // creates the table of contents
         $html = $text->makeTableOfContents($episodes);
-        echo "\n" . $text->saveWidget($html, 'table-of-contents.html', 'table of contents') . "\n";
+        echo "\n" . $text->saveWidget($html, 'table-of-contents.html', 'table of contents', $verification_only) . "\n";
     }
 } catch (Exception $e) {
     echo($e->getMessage());

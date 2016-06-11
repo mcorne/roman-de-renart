@@ -588,76 +588,55 @@ class Text
     }
 
     /**
-     * Saves the HTML content of the copyright
-     *
-     * @param string $html The HTML content of the copyright
-     * @return string      The result of the action to be displayed to the output
-     */
-    public function saveCopyright($html)
-    {
-        $file = 'widgets/copyright.html';
-        $path = __DIR__ . "/../$file";
-        $prevHtml = $this->readFile($path);
-
-        if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
-            $result[] = 'The copyright is already up to date.';
-            $result[] = "No changes were made to $file.";
-        } else {
-            $this->writeFile($path, $html);
-            $result[] = 'The copyright was updated successfully.';
-            $result[] = "Please, COPY & PASTE the content of $file";
-            $result[] = 'into the corresponding blog widget.';
-        }
-
-        return implode("\n", $result);
-    }
-
-    /**
      * Saves an episode in a blog message (publishes an episode)
      *
      * The episode is also saved in a file.
      * The blog message is published only if the HTML content of the episode has changed.
      *
-     * @param string $html    The HTML content of the episode
-     * @param array  $episode The episode details
-     * @param Blog   $blog    The Blog object
-     * @param int    $number  The episode number
-     * @return boolean        True if the episode has changed and was saved in the blog, false otherwise
+     * @param string    $html    The HTML content of the episode
+     * @param array     $episode The episode details
+     * @param Blog|null $blog    The Blog object
+     * @param int       $number  The episode number
+     * @return boolean           True if the episode has changed, false otherwise
      */
-    public function saveMessage($html, $episode, Blog $blog, $number)
+    public function saveMessage($html, $episode, $blog, $number)
     {
         $url = $episode['url'];
         $file = __DIR__ . "/../messages/$number-" . basename($url);
         $prevHtml = file_exists($file)? $this->readFile($file) : null;
 
-        if ($this->removeGeneratedDate($html) != $this->removeGeneratedDate($prevHtml)) {
-            // the episode is different from the currently saved version
-            echo "$number ";
-
-            $postPath = str_replace('http://roman-de-renart.blogspot.com', '', $url);
-            $title = $this->setTitle($episode);
-            // removes line breaks because Blogger replaces them with <br> for some reason which screws up the display
-            // although messages are set to use HTML as it is and to use <br> for line feeds
-            $content = str_replace("\n", ' ', $html);
-            $blog->patchPost($postPath, $title, $content, $episode['story-title']);
-            $this->writeFile($file, $html);
-            $isPublished = true;
-        } else {
-            $isPublished = false;
+        if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
+            // the episode is the same as the currently saved version, no change
+            return false;
         }
 
-        return $isPublished;
+        echo "$number ";
+
+        if (! $blog) {
+            // this is the verification mode, no publishing
+            return true;
+        }
+
+        $postPath = str_replace('http://roman-de-renart.blogspot.com', '', $url);
+        $title = $this->setTitle($episode);
+        // removes line breaks because Blogger replaces them with <br> for some reason which screws up the display
+        // although messages are set to use HTML as it is and to use <br> for line feeds
+        $content = str_replace("\n", ' ', $html);
+        $blog->patchPost($postPath, $title, $content, $episode['story-title']);
+        $this->writeFile($file, $html);
+
+        return true;
     }
 
     /**
      * Saves the episodes in the blog (publishes the episodes)
      *
-     * @param array $htmls    The HTML contents of the episodes
-     * @param array $episodes The episodes details
-     * @param Blog  $blog     The BLog object
-     * @return string         The result of the action to be displayed to the output
+     * @param array     $htmls    The HTML contents of the episodes
+     * @param array     $episodes The episodes details
+     * @param Blog|null $blog     The Blog object
+     * @return string   The result of the action to be displayed to the output
      */
-    public function saveMessages($htmls, $episodes, Blog $blog)
+    public function saveMessages($htmls, $episodes, $blog = null)
     {
         $publishedCount = 0;
 
@@ -665,12 +644,22 @@ class Text
             $publishedCount += $this->saveMessage($html, $episodes[$number], $blog, $number);
         }
 
-        if ($publishedCount == 0) {
-            $result = 'No episode has changed, no episode was published.';
-        } elseif ($publishedCount == 1) {
-            $result = "\n" . 'The episode has changed, the episode was published successfully.';
+        if ($blog) {
+            if ($publishedCount == 0) {
+                $result = 'No episode has changed, no episode was published.';
+            } elseif ($publishedCount == 1) {
+                $result = "\n" . 'The episode has changed and was published successfully.';
+            } else {
+                $result = "\n" . "The $publishedCount episodes have changed and were published successfully.";
+            }
         } else {
-            $result = "\n" . "The $publishedCount episodes were published successfully.";
+            if ($publishedCount == 0) {
+                $result = 'No episode has changed, no episode needs to be published.';
+            } elseif ($publishedCount == 1) {
+                $result = "\n" . 'The episode has changed and need to be published.';
+            } else {
+                $result = "\n" . "The $publishedCount episodes have changed and will need to be published.";
+            }
         }
 
         return $result;
@@ -707,9 +696,10 @@ class Text
      * @param  string $html     The HTML content of the widget
      * @param  string $basename The file base name
      * @param  string $widget   The widget name
+     * @param  bool   $verification_only
      * @return string      The result of the action to be displayed to the output
      */
-    public function saveWidget($html, $basename, $widget)
+    public function saveWidget($html, $basename, $widget, $verification_only)
     {
         $file = "widgets/$basename";
         $path = __DIR__ . "/../$file";
@@ -717,12 +707,18 @@ class Text
 
         if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
             $result[] = "The $widget is already up to date.";
-            $result[] = "No changes were made to $file.";
-        } else {
+
+            if (! $verification_only) {
+                $result[] = "No changes were made to $file.";
+            }
+        } elseif (! $verification_only) {
             $this->writeFile($path, $html);
+
             $result[] = "The $widget was updated successfully.";
             $result[] = "Please, COPY & PASTE the content of $file";
             $result[] = 'into the corresponding blog widget.';
+        } else {
+            $result[] = "The $widget has changed and will need to be published.";
         }
 
         return implode("\n", $result);
