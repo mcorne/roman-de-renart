@@ -31,20 +31,13 @@ Note that there is no need to save an image already available on the internet to
 Note that this is the image that will be played in the slideshow and published along with the text of the episode.
 
 
-4. Save the edited image to picasaweb
--------------------------------------
+4. Save the edited image to Google Photos
+-----------------------------------------
 
 - save the original image scan to the album "Diaporama du roman de Renart" (add the photo):
-  https://picasaweb.google.com/109570780620280936353/DiaporamaDuRomanDeRenart
-- sort the album (organize /sort photos by filename / done)
-- add a caption (actions / caption)
-
-Adding a caption:
-
-- copy & paste the caption of the previous image to use as model
-- update the story title if this is a new story
-- change the episode title to the actual episode title
-- select a few lines of the translated episode that relates to the image, copy & paste those lines in place of the "model" lines
+  https://photos.google.com/share/AF1QipNEzDz6arGabVttJKQER3zbTzPnwGexUQ5DtiCSrMK8kZIQXJ78P5kVgsw5F5YA9g?key=RXc1VThhTDVLbnA5bm1feXFOdGpJSmdEUHlLSnl3
+- add the info/description, eg "Le paysan Liétart - Le paysan se moque de Renart"
+- modify/sort the album by moving the new image right before the last image that is the "work in progress" image
 
 
 5. Save the image source URL

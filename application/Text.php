@@ -433,7 +433,7 @@ class Text
         $prevEpisode = null;
 
         foreach ($lines as $line) {
-            $line = $this->parseLine($line);
+            $line = $this->parseLine($line, $lineNumber);
 
             if ($episodeBegining) {
                 // this the  begining of an episode
@@ -480,10 +480,11 @@ class Text
     /**
      * Parses a line of the CSV file containing the text
      *
-     * @param string $line The line to parse
-     * @return array       The line details with the column headers as keys
+     * @param string $line       The line to parse
+     * @param int    $lineNumber The line number
+     * @return array             The line details with the column headers as keys
      */
-    public function parseLine($line)
+    public function parseLine($line, $lineNumber)
     {
         // splits the line by tabs
         $cells = explode("\t", $line);
@@ -493,6 +494,10 @@ class Text
             $cell = trim($cell, '" ');
             // fixes escaped quotes
             $cell = str_replace('""', '"', $cell);
+        }
+
+        if (count($this->columnHeaders) != count($cells)) {
+            throw new Exception("column header and cell counts do not match, line: $lineNumber");
         }
 
         return array_combine($this->columnHeaders, $cells);

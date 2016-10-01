@@ -26,8 +26,10 @@ Set the options:
 3. Create the blog message
 --------------------------
 
-- decide of a title for the episode
-- create an empty blog message with this title
+- enter a title for the episode
+- upload the image, choose the medium size
+- display the HTML, copy and paste the href URL and the src URL info in the notepad for later use
+- publish the blog message
 
 Note that at this point, this message becomes the entry point of the blog, so the (current) publishing should ideally be done quickly.
 
@@ -40,22 +42,11 @@ The episode information must be updated in the first line of the episode:
 - add the story title in the "story-title" cell if this is the first episode of a story (leave blank otherwise)
 - add the episode title in the "episode-title" cell, this should ideally be the same title that was used to create the blog message
 - add the url of the new blog message in the "url" cell
-- add the url to the episode image in the "image-src" cell, see below.
-- add the url to the original image in the "image-href" cell, see below.
+- add the url to the episode image in the "image-src" cell, this is src URL captured previously.
+- add the url to the original image in the "image-href" cell, this is href URL captured previously.
 - check the section original title in the "section-original-title" cell if this is the first episode of a section in the book (leave blank otherwise)
 - check the section translated title in the "section-translated-title" cell if this is the first episode of a section in the book (leave blank otherwise)
 - save and close the file, do not change the CSV format settings and extension
-
-How to find the url's of the episode image:
-
-- open the album "Diaporama du roman de Renart":
-  https://picasaweb.google.com/109570780620280936353/DiaporamaDuRomanDeRenart
-- select the image
-- click on "link to this photo"
-- "select size" = "small 288px"
-- check "image only (no link)"
-- copy & paste the content of the "embed image" box into the "image-src" cell (see above)
-- copy & paste the content of the "link" box into the "image-href" cell (see above)
 
 
 5. Update the next episode to translate (recommended)
