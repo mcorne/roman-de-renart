@@ -9,12 +9,12 @@ How to publish the image of a new episode
 - verify if possible that the picture has no copyright restriction
 
 
-2. Save the original image scan to picasaweb (optional)
+2. Save the original image scan to Google Photos (optional)
 -------------------------------------------------------
 
-- save the original image scan to the album "Illustrations originales du roman de Renart" (add the photo):
-  https://picasaweb.google.com/109570780620280936353/IllustrationsOriginalesDuRomanDeRenart
-- add a caption for this image with the following information as available:
+- upload the original image scan into the album "Illustrations originales du roman de Renart":
+  https://photos.google.com/album/AF1QipMQu8edk38Et-3F78F1hbYlVojCdyLnl-ZbHv5W
+- add an info/desciption for this image with the following information as available:
   author, book title , image title, publisher, year
 
 Note that there is no need to save an image already available on the internet to this album.
@@ -28,19 +28,10 @@ Note that there is no need to save an image already available on the internet to
 - give the image an explicit name, prefix the name with the story number, and the episode letter for sorting purposes
 - save the image locally in the "images" directory as .jpg
 
-Note that this is the image that will be played in the slideshow and published along with the text of the episode.
+Note that this is the image that will be published along with the text of the episode.
 
 
-4. Save the edited image to Google Photos
------------------------------------------
-
-- save the original image scan to the album "Diaporama du roman de Renart" (add the photo):
-  https://photos.google.com/share/AF1QipNEzDz6arGabVttJKQER3zbTzPnwGexUQ5DtiCSrMK8kZIQXJ78P5kVgsw5F5YA9g?key=RXc1VThhTDVLbnA5bm1feXFOdGpJSmdEUHlLSnl3
-- add the info/description, eg "Le paysan Liétart - Le paysan se moque de Renart"
-- modify/sort the album by moving the new image right before the last image that is the "work in progress" image
-
-
-5. Save the image source URL
+4. Save the image source URL
 ----------------------------
 
 Add the image source URL in documentation/image-sources.txt

@@ -28,7 +28,8 @@ Set the options:
 
 - enter a title for the episode
 - upload the image, choose the medium size
-- display the HTML, copy and paste the href URL and the src URL info in the notepad for later use
+- display the HTML, copy the src URL to be pasted later,
+  note that it is important to pick the right size as the "s320" URL segment will be used to reduce the image size automatically
 - publish the blog message
 
 Note that at this point, this message becomes the entry point of the blog, so the (current) publishing should ideally be done quickly.
@@ -43,7 +44,6 @@ The episode information must be updated in the first line of the episode:
 - add the episode title in the "episode-title" cell, this should ideally be the same title that was used to create the blog message
 - add the url of the new blog message in the "url" cell
 - add the url to the episode image in the "image-src" cell, this is src URL captured previously.
-- add the url to the original image in the "image-href" cell, this is href URL captured previously.
 - check the section original title in the "section-original-title" cell if this is the first episode of a section in the book (leave blank otherwise)
 - check the section translated title in the "section-translated-title" cell if this is the first episode of a section in the book (leave blank otherwise)
 - save and close the file, do not change the CSV format settings and extension

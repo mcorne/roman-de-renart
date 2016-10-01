@@ -49,8 +49,7 @@ class Text
     public $episodeBeingTranslated = array(
         'episode-number'          => 999,
         'episode-title'           => 'Épisode en cours de traduction',
-        'image-href'              => 'https://picasaweb.google.com/lh/photo/ei2R58YpwqJaUOQJc4RbTNMTjNZETYmyPJy0liipFm0?feat=directlink',
-        'image-src'               => 'https://lh3.googleusercontent.com/-2k2gqmMVAro/SoUkxGZ5YOI/AAAAAAAABgM/gWBO4GYkYxg/s288/99a-construction.jpg',
+        'image-src'               => 'https://3.bp.blogspot.com/-Jf4A6NUdnDU/V-_0BpPycPI/AAAAAAAAH2I/yPrVTGIdeA4IDCzcoMod5h81cvIHC-X2QCLcB/s320/99a-construction.jpg',
         'translation-in-progress' => true,
         'url'                     => 'http://roman-de-renart.blogspot.com/2009/02/episode-en-cours-de-traduction.html',
     );
@@ -381,8 +380,15 @@ class Text
             if (empty($episode['image-src'])) {
                 throw new Exception("missing image source, line: $lineNumber");
             }
+
+            $image_src = $episode['image-src'];
+
+            // fixes image source to 250 px, note that this works only for Google Photos
+            $episode['image-src'] = str_replace('/s320/', '/s250/', $image_src);
+
             if (empty($episode['image-href'])) {
-                throw new Exception("missing image href, line: $lineNumber");
+                // defaults the image href to the max size, note that this works only for Google Photos
+                $episode['image-href'] = str_replace('/s320/', '/s1600/', $image_src);
             }
             if (! empty($prevEpisode) and $episode['episode-number'] != ($prevEpisode['episode-number'] + 1)) {
                 throw new Exception("bad episode number, line: $lineNumber");
@@ -768,6 +774,12 @@ class Text
     public function updateIntroduction($episodes)
     {
         $html = $this->readFile(__DIR__ . '/../widgets/introduction.html');
+
+        if (! isset($episodes[999])) {
+            // the last episode was excluded due to the "-n" option, do not update the introduction
+            return $html;
+        }
+
         $lastTranslatedVerseNumber = $episodes[999]['verse-number'] - 1;
 
         // pattern allows for a negative number eg -1 in case of a previous bad run
