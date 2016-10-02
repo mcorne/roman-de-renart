@@ -51,7 +51,7 @@ class Text
         'episode-title'           => 'Épisode en cours de traduction',
         'image-src'               => 'https://3.bp.blogspot.com/-Jf4A6NUdnDU/V-_0BpPycPI/AAAAAAAAH2I/yPrVTGIdeA4IDCzcoMod5h81cvIHC-X2QCLcB/s320/99a-construction.jpg',
         'translation-in-progress' => true,
-        'url'                     => 'http://roman-de-renart.blogspot.com/2009/02/episode-en-cours-de-traduction.html',
+        'url'                     => 'https://roman-de-renart.blogspot.com/2009/02/episode-en-cours-de-traduction.html',
     );
 
     /**
@@ -126,15 +126,16 @@ class Text
         // removes punctuation characters before the first character
         $verse = preg_replace('~^(« |— |“)~', '', $verse);
 
-        $firstLetter = $verse[0];
-        if (! isset($gothicLetters[$firstLetter])) {
-            throw new Exception('no gothic letter for episode: ' . $episodeNumber);
+        $latinLetter = mb_strtoupper($verse[0], 'UTF-8');
+
+        if (! isset($gothicLetters[$latinLetter])) {
+            throw new Exception("no gothic letter for letter $latinLetter in episode: $episodeNumber");
         }
 
-        $gothicLetter = $gothicLetters[$firstLetter];
+        $gothicLetter = $gothicLetters[$latinLetter];
         $verse = substr($verse, 1);
 
-        return array($gothicLetter, $verse);
+        return array($gothicLetter, $latinLetter, $verse);
     }
 
     /**
@@ -212,7 +213,7 @@ class Text
         $firstOriginalVerse   = array_shift($episode['original-text']);
         array_shift($episode['verse-numbers']);
 
-        list($gothicLetter, $firstOriginalVerse) = $this->getGothicLetter($firstOriginalVerse, $episode['episode-number']);
+        list($gothicLetter, $latinLetter, $firstOriginalVerse) = $this->getGothicLetter($firstOriginalVerse, $episode['episode-number']);
 
         $translationNotes = isset($episode['translation-notes'])? $this->makeTranslationNotes($episode['translation-notes']) : '';
 
@@ -227,6 +228,7 @@ class Text
             $episode['image-src'],
             $topMargin,
             $firstTranslatedVerse,
+            $latinLetter,
             $gothicLetter,
             $topMargin,
             $firstOriginalVerse,
@@ -372,7 +374,7 @@ class Text
                 throw new Exception("bad URL, line: $lineNumber");
             }
 
-            $episode['url'] = 'http://roman-de-renart.blogspot.com/' . $episode['url'];
+            $episode['url'] = 'https://roman-de-renart.blogspot.com/' . $episode['url'];
 
             if (empty($episode['episode-title'])) {
                 throw new Exception("missing episode title, line: $lineNumber");
@@ -628,7 +630,7 @@ class Text
             return true;
         }
 
-        $postPath = str_replace('http://roman-de-renart.blogspot.com', '', $url);
+        $postPath = str_replace('https://roman-de-renart.blogspot.com', '', $url);
         $title = $this->setTitle($episode);
         // removes line breaks because Blogger replaces them with <br> for some reason which screws up the display
         // although messages are set to use HTML as it is and to use <br> for line feeds
