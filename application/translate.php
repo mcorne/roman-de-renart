@@ -8,7 +8,7 @@
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2012 Michel Corne
  * @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
- * @link      http://roman-de-renart.blogspot.com/
+ * @link      https://roman-de-renart.blogspot.com/
  */
 
 require_once 'common.php';

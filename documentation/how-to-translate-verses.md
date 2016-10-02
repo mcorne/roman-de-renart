@@ -9,7 +9,7 @@ Note that the episode being translated must be defined in "verses.csv":
 
 Note that the episode being translated is
 
-- published in the blog message: http://roman-de-renart.blogspot.fr/2009/02/episode-en-cours-de-traduction.html
+- published in the blog message: https://roman-de-renart.blogspot.fr/2009/02/episode-en-cours-de-traduction.html
 - saved in the file in the "messages" directory: 999-episode-en-cours-de-traduction.html
 
 
