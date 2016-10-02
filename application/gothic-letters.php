@@ -1,12 +1,13 @@
 <?php
 /**
- * Roman de Renart
+ * Roman de Renart.
  *
  * Links to gothic letters images
  *
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2012 Michel Corne
  * @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
+ *
  * @link      https://roman-de-renart.blogspot.com/
  */
 

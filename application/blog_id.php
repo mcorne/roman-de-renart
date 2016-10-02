@@ -1,6 +1,6 @@
 <?php
 /**
- * The blog ID
+ * The blog ID.
  *
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2015 Michel Corne

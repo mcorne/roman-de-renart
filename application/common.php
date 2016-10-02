@@ -1,15 +1,15 @@
 <?php
 /**
- * Roman de Renart
+ * Roman de Renart.
  *
  * Common functions
  *
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2012 Michel Corne
  * @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
+ *
  * @link      https://roman-de-renart.blogspot.com/
  */
-
 define('INDEX_ROWS', 1);
 
 define('MAX_VERSES_TO_TRANSLATE', 160);
@@ -18,7 +18,7 @@ define('MAX_VERSES_TO_TRANSLATE', 160);
 define('PUNCTUATION', '!|,|\.|:|;|\?|«|»|—|“|”');
 
 /**
- * Echos the command title
+ * Echos the command title.
  *
  * @param string $command_title the command title
  */
@@ -29,21 +29,22 @@ function echo_command_title($command_title)
 }
 
 /**
- * Echos a message stating if the content has changed or not
+ * Echos a message stating if the content has changed or not.
  *
  * @param bool $has_content_changed true if the content has changed, false otherwise
  */
 function echo_has_content_changed($has_content_changed)
 {
-    echo $has_content_changed? '(content has changed)' : '(content has not changed)';
+    echo $has_content_changed ? '(content has changed)' : '(content has not changed)';
     echo "\n";
 }
 
 /**
- * Fixes a file content line endings to the Unix line ending
+ * Fixes a file content line endings to the Unix line ending.
  *
- * @param string  $content the file content
- * @return string          the file content with Unix style line endings
+ * @param string $content the file content
+ *
+ * @return string the file content with Unix style line endings
  */
 function fix_line_endings($content)
 {
@@ -56,25 +57,28 @@ function fix_line_endings($content)
 }
 
 /**
- * Returns the column headers from the first row of a CSV file
+ * Returns the column headers from the first row of a CSV file.
  *
  * @param array $rows the array of rows
- * @return array      the list of column headers
+ *
+ * @return array the list of column headers
  */
 function get_column_headers($rows)
 {
-    $first_row = current($rows);
+    $first_row    = current($rows);
     $column_names = array_keys($first_row);
 
     return array_combine($column_names, $column_names);
 }
 
 /**
- * Returns the number of the last verse to translate
+ * Returns the number of the last verse to translate.
  *
  * @param array $verses the verses of the text
+ *
  * @throws Exception
- * @return int          the verse number
+ *
+ * @return int the verse number
  */
 function get_number_last_verse_to_translate($verses)
 {
@@ -96,7 +100,7 @@ function get_number_last_verse_to_translate($verses)
 }
 
 /**
- * Returns the list of punctuation characters
+ * Returns the list of punctuation characters.
  *
  * @return array the punctuation characters
  */
@@ -109,15 +113,17 @@ function get_punctuation()
 }
 
 /**
- * Indexes an array of rows with one of the keys
+ * Indexes an array of rows with one of the keys.
  *
  * The key is meant to be a column file header.
  *
  * @param array  $rows          the array of rows, each row being an associative array,
  *                              one of the keys must be set to the column name
  * @param string $column_header the name of the key or column header
+ *
  * @throws Exception
- * @return array                the associative array of rows
+ *
+ * @return array the associative array of rows
  */
 function index_rows($rows, $column_header)
 {
@@ -139,29 +145,30 @@ function index_rows($rows, $column_header)
 }
 
 /**
- * Reads a CSV file
+ * Reads a CSV file.
  *
  * @param string $filename      the file name
  * @param string $column_header the name of the key or column header to index with, or null for no indexing
- * @return                      the array of rows, each row being an associative array containing the cell values
- *                              with the column headers as keys
+ *
+ * @return the array of rows, each row being an associative array containing the cell values
+ *             with the column headers as keys
  */
 function read_csv($filename, $column_header = null)
 {
     $content = read_file($filename);
 
     $content = fix_line_endings($content);
-    $lines = explode("\n", $content); // TODO: handle line feeds within a cell
-    $lines = array_filter($lines);
+    $lines   = explode("\n", $content); // TODO: handle line feeds within a cell
+    $lines   = array_filter($lines);
 
-    $first_line = array_shift($lines);
+    $first_line     = array_shift($lines);
     $column_headers = read_line($first_line);
-    $columns_count = count($column_headers);
+    $columns_count  = count($column_headers);
 
     $rows = array();
     foreach ($lines as $line) {
-        $cells = read_line($line);
-        $cells = array_pad($cells, $columns_count, null);
+        $cells  = read_line($line);
+        $cells  = array_pad($cells, $columns_count, null);
         $rows[] = array_combine($column_headers, $cells);
     }
 
@@ -173,11 +180,13 @@ function read_csv($filename, $column_header = null)
 }
 
 /**
- * Reads a file
+ * Reads a file.
  *
  * @param string $filename the file name
+ *
  * @throws Exception
- * @return string          the file content
+ *
+ * @return string the file content
  */
 function read_file($filename)
 {
@@ -189,9 +198,10 @@ function read_file($filename)
 }
 
 /**
- * Reads a TAB separated line content
+ * Reads a TAB separated line content.
  *
  * @param string $line the line
+ *
  * @return array an array of cell values
  */
 function read_line($line)
@@ -210,13 +220,15 @@ function read_line($line)
 }
 
 /**
- * Validates the range of verse numbers
+ * Validates the range of verse numbers.
  *
  * @param array $verses             the verses of the text
  * @param int   $first_verse_number the number of the first verse
  * @param int   $last_verse_number  the number of the last verse
+ *
  * @throws Exception
- * @return array                    the verses within the range
+ *
+ * @return array the verses within the range
  */
 function validate_verse_number_range($verses, $first_verse_number, $last_verse_number)
 {
@@ -239,13 +251,13 @@ function validate_verse_number_range($verses, $first_verse_number, $last_verse_n
     }
 
     if ($count > MAX_VERSES_TO_TRANSLATE) {
-        throw new Exception(sprintf("verses range (%s - %s) greater than %s",
+        throw new Exception(sprintf('verses range (%s - %s) greater than %s',
             $first_verse_number, $last_verse_number, MAX_VERSES_TO_TRANSLATE));
     }
 
     $offset = $first_verse_number - 1; // offset expected to be equal to verse number - 1
     $verses = array_slice($verses, $offset, $count, true);
-    $verse = current($verses);
+    $verse  = current($verses);
     if ($verse['verse-number'] != $first_verse_number) {
         throw new Exception("unexpected first verse {$verse['verse-number']} instead of $first_verse_number");
     }
@@ -260,13 +272,15 @@ function validate_verse_number_range($verses, $first_verse_number, $last_verse_n
 }
 
 /**
- * Writes a CSV file
+ * Writes a CSV file.
  *
  * @param string $filename the file name
  * @param array  $rows     the array of rows, each row being an associative array
+ *
  * @throws Exception
- * @return boolean         true if the file content has changed (and the file was actually written),
- *                         false otherwise
+ *
+ * @return bool true if the file content has changed (and the file was actually written),
+ *              false otherwise
  */
 function write_csv($filename, $rows)
 {
@@ -280,7 +294,7 @@ function write_csv($filename, $rows)
 
     $lines = array();
     foreach (array_keys($rows) as $key) {
-        $cells = array_merge($row_defaults, $rows[$key]);
+        $cells   = array_merge($row_defaults, $rows[$key]);
         $lines[] = write_line($cells);
     }
 
@@ -288,13 +302,15 @@ function write_csv($filename, $rows)
 }
 
 /**
- * Writes a file
+ * Writes a file.
  *
  * @param string $filename the file name
  * @param string $content  the file content
+ *
  * @throws Exception
- * @return boolean         true if the file content has changed (and the file was actually written),
- *                         false otherwise
+ *
+ * @return bool true if the file content has changed (and the file was actually written),
+ *              false otherwise
  */
 function write_file($filename, $content)
 {
@@ -318,10 +334,11 @@ function write_file($filename, $content)
 }
 
 /**
- * Writes a TAB separated line content
+ * Writes a TAB separated line content.
  *
- * @param array   $cells the row cells
- * @return string        the line
+ * @param array $cells the row cells
+ *
+ * @return string the line
  */
 function write_line($cells)
 {

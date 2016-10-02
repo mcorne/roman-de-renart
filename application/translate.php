@@ -1,22 +1,22 @@
 #!/usr/bin/php
 <?php
 /**
- * Roman de Renart
+ * Roman de Renart.
  *
  * Command line to translate verses
  *
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2012 Michel Corne
  * @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
+ *
  * @link      https://roman-de-renart.blogspot.com/
  */
-
 require_once 'common.php';
 
 define('OPTION_A', '-w -t');
 
 /**
- * The command help
+ * The command help.
  */
 $help =
 'Usage:
@@ -26,9 +26,8 @@ $help =
 -w    Add the words of the verses to translate.
 ';
 
-
 try {
-    if (! $options = getopt("hatuw")) {
+    if (! $options = getopt('hatuw')) {
         throw new Exception('invalid or missing option(s)');
     }
 
@@ -39,7 +38,7 @@ try {
 
     if (isset($options['a'])) {
         // this is the (combined) option A, adds the options
-        preg_match_all('~\w~', (string)OPTION_A, $matches);
+        preg_match_all('~\w~', (string) OPTION_A, $matches);
         $options += array_fill_keys($matches[0], false);
         unset($options['a']);
     }

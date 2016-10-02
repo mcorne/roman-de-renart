@@ -1,21 +1,21 @@
 <?php
 /**
- * Roman de Renart
+ * Roman de Renart.
  *
  * Processing of the text
  *
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2012 Michel Corne
  * @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
+ *
  * @link      https://roman-de-renart.blogspot.com/
  */
-
 require_once 'Blog.php';
 
 class Text
 {
     /**
-     * Columns headers of the CSV file containing the text
+     * Columns headers of the CSV file containing the text.
      *
      * The order and names of the columns must be kept in synch with the column headers in data/verses.csv.
      *
@@ -42,7 +42,7 @@ class Text
     );
 
     /**
-     * Default titles and links of the episode being translated
+     * Default titles and links of the episode being translated.
      *
      * @var array
      */
@@ -55,7 +55,7 @@ class Text
     );
 
     /**
-     * Constructor
+     * Constructor.
      */
     public function __construct()
     {
@@ -63,40 +63,43 @@ class Text
     }
 
     /**
-     * Creates the HTML translation in progress intro for the episode being translated
+     * Creates the HTML translation in progress intro for the episode being translated.
      *
      * @return string The HTML intro
      */
     public function addTranslationInProgressIntro()
     {
         $template = $this->loadTemplate('translation-in-progress-intro.html');
-        $date = $this->makeMessageDate();
+        $date     = $this->makeMessageDate();
 
         return sprintf($template, $date);
     }
 
     /**
-     * Converts a UTF-8 string into the output encoding
+     * Converts a UTF-8 string into the output encoding.
      *
      * Only applied in CGI mode.
      * Uses CP850 for MS-DOS.
      *
-     * @param  string $string The string to convert
-     * @return string         The converted string
+     * @param string $string The string to convert
+     *
+     * @return string The converted string
      */
     public function convertUtf8ToOutputEncoding($string)
     {
         if (PHP_SAPI == 'cli') {
             $encoding = stripos(PHP_OS, 'win') !== false ? 'CP850' : iconv_get_encoding('output_encoding');
-            $string = iconv('UTF-8', $encoding, $string);
+            $string   = iconv('UTF-8', $encoding, $string);
         }
 
         return $string;
     }
 
     /**
-     * Fixes a verse
+     * Fixes a verse.
+     *
      * @param string $verse
+     *
      * @return string
      */
     public function fixVerse($verse)
@@ -108,12 +111,14 @@ class Text
     }
 
     /**
-     * Returns the URL of the gothic letter of the first letter of a verse
+     * Returns the URL of the gothic letter of the first letter of a verse.
      *
-     * @param string  $verse         The verse
-     * @param int     $episodeNumber The episode number
+     * @param string $verse         The verse
+     * @param int    $episodeNumber The episode number
+     *
      * @throws Exception
-     * @return array                 The URL of the gothic letter, and the verse excluding the first letter
+     *
+     * @return array The URL of the gothic letter, and the verse excluding the first letter
      */
     public function getGothicLetter($verse, $episodeNumber)
     {
@@ -133,23 +138,24 @@ class Text
         }
 
         $gothicLetter = $gothicLetters[$latinLetter];
-        $verse = substr($verse, 1);
+        $verse        = substr($verse, 1);
 
         return array($gothicLetter, $latinLetter, $verse);
     }
 
     /**
-     * Returns the list of the episodes in a readable output format
+     * Returns the list of the episodes in a readable output format.
      *
      * @param array $episodes The episodes details
-     * @return string         The list of episodes
+     *
+     * @return string The list of episodes
      */
     public function listEpisodes($episodes)
     {
         $list = array();
 
         foreach ($episodes as $episode) {
-            $title = $this->setTitle($episode);
+            $title  = $this->setTitle($episode);
             $list[] = sprintf('%2s : %s', $episode['episode-number'], $title);
         }
 
@@ -159,10 +165,11 @@ class Text
     }
 
     /**
-     * Loads an HTML template
+     * Loads an HTML template.
      *
      * @param string $basename The base name of the template
-     * @return string          The HTML content of the template excluding the docblock
+     *
+     * @return string The HTML content of the template excluding the docblock
      */
     public function loadTemplate($basename)
     {
@@ -174,10 +181,11 @@ class Text
     }
 
     /**
-     * Returns the link to an episode
+     * Returns the link to an episode.
      *
      * @param array $episode The episode details
-     * @return string        The link to the episode
+     *
+     * @return string The link to the episode
      */
     public function makeLinkToEpisode($episode)
     {
@@ -187,10 +195,11 @@ class Text
     }
 
     /**
-     * Creates the HTML of a blog message containing an episode
+     * Creates the HTML of a blog message containing an episode.
      *
      * @param array $episode The episode details
-     * @return string        The HTML content of the episode
+     *
+     * @return string The HTML content of the episode
      */
     public function makeMessage($episode)
     {
@@ -200,14 +209,14 @@ class Text
             $template = $this->loadTemplate('episode.html');
         }
 
-        $translationInProgressIntro = empty($episode['translation-in-progress'])? '' : $this->addTranslationInProgressIntro();
+        $translationInProgressIntro = empty($episode['translation-in-progress']) ? '' : $this->addTranslationInProgressIntro();
 
-        $linkToPreviousEpisode = isset($episode['previous-episode'])? $this->makeLinkToEpisode($episode['previous-episode']) : '';
+        $linkToPreviousEpisode = isset($episode['previous-episode']) ? $this->makeLinkToEpisode($episode['previous-episode']) : '';
         $linkToNextEpisode     = (isset($episode['next-episode']) and empty($episode['next-episode']['translation-in-progress'])) ?
-            $this->makeLinkToEpisode($episode['next-episode'])     : '';
+            $this->makeLinkToEpisode($episode['next-episode']) : '';
 
         empty($episode['top-margin']) and $episode['top-margin'] = 3;
-        $topMargin = str_repeat('<br />', $episode['top-margin']);
+        $topMargin                                               = str_repeat('<br />', $episode['top-margin']);
 
         $firstTranslatedVerse = array_shift($episode['translated-text']);
         $firstOriginalVerse   = array_shift($episode['original-text']);
@@ -215,7 +224,7 @@ class Text
 
         list($gothicLetter, $latinLetter, $firstOriginalVerse) = $this->getGothicLetter($firstOriginalVerse, $episode['episode-number']);
 
-        $translationNotes = isset($episode['translation-notes'])? $this->makeTranslationNotes($episode['translation-notes']) : '';
+        $translationNotes = isset($episode['translation-notes']) ? $this->makeTranslationNotes($episode['translation-notes']) : '';
 
         $html = sprintf($template,
             $this->setTitle($episode),
@@ -246,7 +255,7 @@ class Text
     }
 
     /**
-     * Formats the current date as in a blog message
+     * Formats the current date as in a blog message.
      *
      * @return string The date
      */
@@ -254,18 +263,19 @@ class Text
     {
         setlocale(LC_TIME, 'fr_FR', 'fra');
         $format = stripos(PHP_OS, 'win') !== false ? '%A %#d %B %Y' : '%A %e %B %Y';
-        $date = strftime($format);
+        $date   = strftime($format);
 
         return mb_convert_encoding($date, 'UTF-8');
     }
 
     /**
-     * Creates the HTML of the table of contents aka list of episodes
+     * Creates the HTML of the table of contents aka list of episodes.
      *
      * The HTML content of the table of contents will have to be loaded manually in the corresponding blog widget.
      *
      * @param array $episodes The episodes details
-     * @return string         The table of contents
+     *
+     * @return string The table of contents
      */
     public function makeTableOfContents($episodes)
     {
@@ -273,8 +283,8 @@ class Text
         $optionPattern        = '      <option value="%1$s" title="%2$s - %3$s (%4$d)" />%3$s';
         $optgroupEndPattern   = '    </optgroup>';
 
-        $options = array();
-        $prev_episode = null;
+        $options             = array();
+        $prev_episode        = null;
         $lastEpisodePathName = null;
 
         foreach ($episodes as $episode) {
@@ -289,7 +299,7 @@ class Text
             if (! empty($episode['episode-title']) and empty($episode['translation-in-progress'])) {
                 // this is the begining of a story
                 list(, , , $pathname) = explode('/', $episode['url'], 4);
-                $pathname = "/$pathname";
+                $pathname             = "/$pathname";
                 // adds the episode title (select option)
                 $options[] = sprintf($optionPattern, $pathname, $episode['story-title'], $episode['episode-title'], $episode['episode-number']);
                 // captures the pathname of the last episode exlcuding the episode being translated if any
@@ -313,10 +323,11 @@ class Text
     }
 
     /**
-     * Creates the HTML of a translation note
+     * Creates the HTML of a translation note.
      *
      * @param array $note The note details
-     * @return string     The HTML content of a note
+     *
+     * @return string The HTML content of a note
      */
     public function makeTranslationNote($note)
     {
@@ -326,10 +337,11 @@ class Text
     }
 
     /**
-     * Creates the HTML of the translations notes
+     * Creates the HTML of the translations notes.
      *
      * @param array $notes The notes details
-     * @return string      The translation notes
+     *
+     * @return string The translation notes
      */
     public function makeTranslationNotes($notes)
     {
@@ -346,15 +358,17 @@ class Text
     }
 
     /**
-     * Parses and validates the episode details
+     * Parses and validates the episode details.
      *
      * @param array $episode         The episode details
      * @param bool  $beingTranslated True if this is the episode being translated, false otherwise
      * @param array $prevEpisode     The previous episode details
      * @param int   $lineNumber      The line number in the file being parsed
+     *
      * @throws Exception
-     * @return array                 The episode details,
-     *                               and the possibly updated flag indicating if the episode is being translated or not
+     *
+     * @return array The episode details,
+     *               and the possibly updated flag indicating if the episode is being translated or not
      */
     public function parseEpisode($episode, $beingTranslated, $prevEpisode, $lineNumber)
     {
@@ -366,7 +380,7 @@ class Text
             // there is no episode URL yet, this is the episode currently being translated
             // note: the episode currently being translated MUST NOT have a URL
             $beingTranslated = true;
-            $episode = $this->episodeBeingTranslated + $episode;
+            $episode         = $this->episodeBeingTranslated + $episode;
         } else {
             list($year) = explode('/', $episode['url']);
 
@@ -410,8 +424,8 @@ class Text
             }
         } else {
             // this is a following episode, defaults titles as in previous episode
-            empty($episode['story-title'])              and $episode['story-title']              = $prevEpisode['story-title'];
-            empty($episode['section-original-title'])   and $episode['section-original-title']   = $prevEpisode['section-original-title'];
+            empty($episode['story-title']) and $episode['story-title']                           = $prevEpisode['story-title'];
+            empty($episode['section-original-title']) and $episode['section-original-title']     = $prevEpisode['section-original-title'];
             empty($episode['section-translated-title']) and $episode['section-translated-title'] = $prevEpisode['section-translated-title'];
         }
 
@@ -419,7 +433,7 @@ class Text
     }
 
     /**
-     * Parses the CVS file containing the text
+     * Parses the CVS file containing the text.
      *
      * @return array The episodes details
      */
@@ -434,11 +448,11 @@ class Text
         // skips the column headers
         $lines = array_slice($lines, 1);
 
-        $episodes = array();
-        $lineNumber = 2;
+        $episodes        = array();
+        $lineNumber      = 2;
         $episodeBegining = true;
         $beingTranslated = false;
-        $prevEpisode = null;
+        $prevEpisode     = null;
 
         foreach ($lines as $line) {
             $line = $this->parseLine($line, $lineNumber);
@@ -457,7 +471,7 @@ class Text
                 list($episode, $beingTranslated) = $this->parseEpisode($episode, $beingTranslated, $prevEpisode, $lineNumber);
             }
 
-            $episode = $this->parseVerse($line, $episode, $beingTranslated, $lineNumber, $episodeBegining);
+            $episode         = $this->parseVerse($line, $episode, $beingTranslated, $lineNumber, $episodeBegining);
             $episodeBegining = false;
 
             if (! empty($line['is-last-verse'])) {
@@ -469,13 +483,13 @@ class Text
                     $episode['previous-episode'] = $prevEpisode;
                 }
 
-                $number = $episode['episode-number'];
+                $number            = $episode['episode-number'];
                 $episodes[$number] = $episode;
-                $prevEpisode = $episode;
-                $episodeBegining = true;
+                $prevEpisode       = $episode;
+                $episodeBegining   = true;
             }
 
-            $lineNumber++;
+            ++$lineNumber;
         }
 
         if ($episodeBegining) {
@@ -486,11 +500,12 @@ class Text
     }
 
     /**
-     * Parses a line of the CSV file containing the text
+     * Parses a line of the CSV file containing the text.
      *
      * @param string $line       The line to parse
      * @param int    $lineNumber The line number
-     * @return array             The line details with the column headers as keys
+     *
+     * @return array The line details with the column headers as keys
      */
     public function parseLine($line, $lineNumber)
     {
@@ -512,15 +527,17 @@ class Text
     }
 
     /**
-     * Parses and validates a verse
+     * Parses and validates a verse.
      *
      * @param string $line            The line containing the verse number, original text, translated text,
      * @param array  $episode         The episode details
      * @param bool   $beingTranslated True if this is the episode being translated, false otherwise
      * @param int    $lineNumber      The line number in the file being parsed
      * @param bool   $episodeBegining True if this is the first vese, false otherwise
+     *
      * @throws Exception
-     * @return array                  The episode details
+     *
+     * @return array The episode details
      */
     public function parseVerse($line, $episode, $beingTranslated, $lineNumber, $episodeBegining)
     {
@@ -569,11 +586,13 @@ class Text
     }
 
     /**
-     * Reads a file
+     * Reads a file.
      *
      * @param string $file The file name
+     *
      * @throws Exception
-     * @return string      The file content
+     *
+     * @return string The file content
      */
     public function readFile($file)
     {
@@ -585,10 +604,11 @@ class Text
     }
 
     /**
-     * Removes the generated date from a docblock for comparison purposes
+     * Removes the generated date from a docblock for comparison purposes.
      *
      * @param string $html The HTML content of an episode
-     * @return string      The HTML content without the generated date
+     *
+     * @return string The HTML content without the generated date
      */
     public function removeGeneratedDate($html)
     {
@@ -601,7 +621,7 @@ class Text
     }
 
     /**
-     * Saves an episode in a blog message (publishes an episode)
+     * Saves an episode in a blog message (publishes an episode).
      *
      * The episode is also saved in a file.
      * The blog message is published only if the HTML content of the episode has changed.
@@ -610,13 +630,14 @@ class Text
      * @param array     $episode The episode details
      * @param Blog|null $blog    The Blog object
      * @param int       $number  The episode number
-     * @return boolean           True if the episode has changed, false otherwise
+     *
+     * @return bool True if the episode has changed, false otherwise
      */
     public function saveMessage($html, $episode, $blog, $number)
     {
-        $url = $episode['url'];
-        $file = __DIR__ . "/../messages/$number-" . basename($url);
-        $prevHtml = file_exists($file)? $this->readFile($file) : null;
+        $url      = $episode['url'];
+        $file     = __DIR__ . "/../messages/$number-" . basename($url);
+        $prevHtml = file_exists($file) ? $this->readFile($file) : null;
 
         if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
             // the episode is the same as the currently saved version, no change
@@ -631,7 +652,7 @@ class Text
         }
 
         $postPath = str_replace('https://roman-de-renart.blogspot.com', '', $url);
-        $title = $this->setTitle($episode);
+        $title    = $this->setTitle($episode);
         // removes line breaks because Blogger replaces them with <br> for some reason which screws up the display
         // although messages are set to use HTML as it is and to use <br> for line feeds
         $content = str_replace("\n", ' ', $html);
@@ -642,12 +663,13 @@ class Text
     }
 
     /**
-     * Saves the episodes in the blog (publishes the episodes)
+     * Saves the episodes in the blog (publishes the episodes).
      *
      * @param array     $htmls    The HTML contents of the episodes
      * @param array     $episodes The episodes details
      * @param Blog|null $blog     The Blog object
-     * @return string   The result of the action to be displayed to the output
+     *
+     * @return string The result of the action to be displayed to the output
      */
     public function saveMessages($htmls, $episodes, $blog = null)
     {
@@ -679,19 +701,20 @@ class Text
     }
 
     /**
-     * Saves the HTML content of an episode into a temporary file
+     * Saves the HTML content of an episode into a temporary file.
      *
      * The episode is saved in messages/temp.html that is used for checking changes before commiting them to the blog.
      *
      * @param string $html   The HTML content of the episode
      * @param int    $number The episode number
-     * @return string        The result of the action to be displayed to the output
+     *
+     * @return string The result of the action to be displayed to the output
      */
     public function saveTempMessage($html, $number)
     {
-        $temp = 'messages/temp.html';
-        $file = __DIR__ . "/../$temp";
-        $prevHtml = file_exists($file)? $this->readFile($file) : null;
+        $temp     = 'messages/temp.html';
+        $file     = __DIR__ . "/../$temp";
+        $prevHtml = file_exists($file) ? $this->readFile($file) : null;
 
         if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
             $result = "The episode is already up to date in $temp.";
@@ -704,19 +727,20 @@ class Text
     }
 
     /**
-     * Saves the HTML content of a widget
+     * Saves the HTML content of a widget.
      *
-     * @param  string $html     The HTML content of the widget
-     * @param  string $basename The file base name
-     * @param  string $widget   The widget name
-     * @param  bool   $verification_only
-     * @return string      The result of the action to be displayed to the output
+     * @param string $html              The HTML content of the widget
+     * @param string $basename          The file base name
+     * @param string $widget            The widget name
+     * @param bool   $verification_only
+     *
+     * @return string The result of the action to be displayed to the output
      */
     public function saveWidget($html, $basename, $widget, $verification_only)
     {
-        $file = "widgets/$basename";
-        $path = __DIR__ . "/../$file";
-        $prevHtml = file_exists($path)? $this->readFile($path) : null;
+        $file     = "widgets/$basename";
+        $path     = __DIR__ . "/../$file";
+        $prevHtml = file_exists($path) ? $this->readFile($path) : null;
 
         if ($this->removeGeneratedDate($html) == $this->removeGeneratedDate($prevHtml)) {
             $result[] = "The $widget is already up to date.";
@@ -738,12 +762,13 @@ class Text
     }
 
     /**
-     * Sets the title of the episode
+     * Sets the title of the episode.
      *
      * The title is made of the story title and the episode title.
      *
      * @param array $episode The episode details
-     * @return string        The episode title
+     *
+     * @return string The episode title
      */
     public function setTitle($episode)
     {
@@ -751,7 +776,7 @@ class Text
     }
 
     /**
-     * Updates the HTML of the copyright widget with the current year
+     * Updates the HTML of the copyright widget with the current year.
      *
      * The HTML content of the copyright will have to be loaded manually in the corresponding blog widget.
      *
@@ -766,12 +791,13 @@ class Text
     }
 
     /**
-     * Updates the HTML of the introduction widget with the number of the last translated verse
+     * Updates the HTML of the introduction widget with the number of the last translated verse.
      *
      * The HTML content of the introduction will have to be loaded manually in the corresponding blog widget.
      *
-     * @param array $episodes  The episodes details
-     * @return string          The introduction
+     * @param array $episodes The episodes details
+     *
+     * @return string The introduction
      */
     public function updateIntroduction($episodes)
     {
@@ -789,10 +815,11 @@ class Text
     }
 
     /**
-     * Writes into a file
+     * Writes into a file.
      *
      * @param string $file    The file name
      * @param string $content The file content
+     *
      * @throws Exception
      */
     public function writeFile($file, $content)

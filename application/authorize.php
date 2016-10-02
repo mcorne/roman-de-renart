@@ -1,17 +1,16 @@
 #!/usr/bin/php
 <?php
 /**
- * Command line to authorize the publishing of blog messages
+ * Command line to authorize the publishing of blog messages.
  *
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2015 Michel Corne
  * @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
  */
-
 require_once 'Blog.php';
 
 /**
- * The command help
+ * The command help.
  */
 $help =
 'Usage:
@@ -32,7 +31,7 @@ authorize -u abc -p xyz -c uvw
 ';
 
 try {
-    if (! $options = getopt("hc:gp:u:")) {
+    if (! $options = getopt('hc:gp:u:')) {
         throw new Exception('Invalid or missing option(s)');
     }
 
@@ -49,7 +48,7 @@ try {
 
     if (isset($options['c'])) {
         $blog->authorize($options['c']);
-        echo "You are authorized to publish for an hour or so.";
+        echo 'You are authorized to publish for an hour or so.';
     } elseif (isset($options['g'])) {
         $credentials = $blog->getCredentials();
         echo "\n" . $credentials['auth_screen_url'] . "\n";
@@ -57,5 +56,5 @@ try {
         throw new Exception('Option c or g missing');
     }
 } catch (Exception $e) {
-    echo($e->getMessage());
+    echo $e->getMessage();
 }

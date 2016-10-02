@@ -1,6 +1,6 @@
 <?php
 /**
- * Processing of blog messages
+ * Processing of blog messages.
  *
  * @author    Michel Corne <mcorne@yahoo.com>
  * @copyright 2015 Michel Corne
