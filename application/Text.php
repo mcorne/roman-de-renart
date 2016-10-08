@@ -38,7 +38,8 @@ class Text
         'image-href',
         'section-original-title',
         'section-translated-title',
-        'vol-1-fixes',
+        'vol-1-fixes (fhs)',
+        'vol-2-fixes (mc)',
     );
 
     /**

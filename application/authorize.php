@@ -27,7 +27,7 @@ authorize -u abc -p xyz -g
 
 # get the authorization tokens to work for an hour or so
 authorize -u abc -p xyz -c uvw
-# the tokens are saved in the computer, they are needed to publish episodes
+# the tokens are saved in the computer, they are needed to publish
 ';
 
 try {
