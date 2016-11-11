@@ -130,7 +130,7 @@ class Text
         }
 
         // removes punctuation characters before the first character
-        $verse = preg_replace('~^(« |— |“)~', '', $verse);
+        $verse = preg_replace('~^(« |— |“|\.)~', '', $verse);
 
         $latinLetter = mb_strtoupper($verse[0], 'UTF-8');
 
