@@ -119,3 +119,11 @@ Recommendation: fix the translation of words in "words.csv" to reflect possible 
 -----------------------------------------------------------
 
 - run the command line: update -u <login> -p <password>
+
+
+11. Add new keywords "keywords.php" in the "data" directory
+-----------------------------------------------------------
+
+- Add new character names or animals etc. as keywords
+
+Keywords are used as message labels. Labels are displayed in the blog label widget.

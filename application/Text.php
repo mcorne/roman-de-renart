@@ -97,6 +97,40 @@ class Text
     }
 
     /**
+     *
+     * @staticvar array $keyword_patterns
+     * @param string $title
+     * @param array $lines
+     * @return array
+     */
+    public function extractKeywords($title, $lines)
+    {
+        static $keyword_patterns;
+
+        if (! isset($keyword_patterns)) {
+            $keyword_patterns = require __DIR__ . "/../data/keywords.php";
+        }
+
+        $text = $title . ' ' . implode(' ', $lines);
+
+        $keywords = [];
+
+        foreach ($keyword_patterns as $keyword => $pattern) {
+            if (preg_match($pattern, $text)) {
+                $keywords[] = $keyword;
+            }
+        }
+
+        // sorting seems to be necessary to get a maximum number of labels posted !
+        sort($keywords);
+        // Blogger seems to have a limitation on the number of labels that can be posted per message
+        // note that only a few messages are affected
+        $keywords = array_slice($keywords, 0, 19);
+
+        return $keywords;
+    }
+
+    /**
      * Fixes a verse.
      *
      * @param string $verse
@@ -175,7 +209,7 @@ class Text
     public function loadTemplate($basename)
     {
         $html = $this->readFile(__DIR__ . "/../templates/$basename");
-        // removes docblock
+        // removes template (first) docblock
         $html = preg_replace('~^<!--.+?-->\s*~s', '', $html);
 
         return trim($html);
@@ -227,6 +261,8 @@ class Text
 
         $translationNotes = isset($episode['translation-notes']) ? $this->makeTranslationNotes($episode['translation-notes']) : '';
 
+        $keywords = implode(', ', $episode['keywords']);
+
         $html = sprintf($template,
             $this->setTitle($episode),
             date('c'), // generation date
@@ -249,7 +285,8 @@ class Text
             $episode['section-original-title'],
             $linkToPreviousEpisode,
             $linkToNextEpisode,
-            $translationNotes
+            $translationNotes,
+            $keywords
         );
 
         return $html;
@@ -484,10 +521,12 @@ class Text
                     $episode['previous-episode'] = $prevEpisode;
                 }
 
-                $number            = $episode['episode-number'];
-                $episodes[$number] = $episode;
-                $prevEpisode       = $episode;
-                $episodeBegining   = true;
+                $episode['keywords'] = $this->extractKeywords($episode['episode-title'], $episode['translated-text']);
+
+                $number              = $episode['episode-number'];
+                $episodes[$number]   = $episode;
+                $prevEpisode         = $episode;
+                $episodeBegining     = true;
             }
 
             ++$lineNumber;
@@ -657,7 +696,7 @@ class Text
         // removes line breaks because Blogger replaces them with <br> for some reason which screws up the display
         // although messages are set to use HTML as it is and to use <br> for line feeds
         $content = str_replace("\n", ' ', $html);
-        $blog->patchPost($postPath, $title, $content, $episode['story-title']);
+        $blog->patchPost($postPath, $title, $content, $episode['keywords']);
         $this->writeFile($file, $html);
 
         return true;
