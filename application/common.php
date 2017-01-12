@@ -85,7 +85,7 @@ function get_number_last_verse_to_translate($verses)
     $prev_number = null;
 
     foreach ($verses as $number => $verse) {
-        if ($verse['translated-verse'] == '...') {
+        if ($verse['translated-verse'] == '...' or $verse['translated-verse'] == '…') {
             if (is_null($prev_number)) {
                 throw new Exception('there is nothing to translate');
             }
