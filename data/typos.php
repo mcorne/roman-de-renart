@@ -61,6 +61,7 @@ return array(
     'piége'       => 'piège',
     'plait'       => 'plaît',
     'Poincet'     => 'Poncet',
+    'pourvoir'    => 'pouvoir',
     'préfèr'      => 'préfér',      // as in "préférons" but "préfère"
     'puis,'       => 'puis',        // most cases, see http://www3.sympatico.ca/fol-ecrit/folie12.html
     'puit'        => 'puits',
