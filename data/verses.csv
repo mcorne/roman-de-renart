@@ -18970,7 +18970,7 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 18969	N'avez gueres en vostre terre	vous avez peu de barons sur vos terres,															
 18970	Baron miex sache mener guerre	qui sachent mieux que lui mener une guerre															
 18971	Encontre touz ses anemis,	contre tous ses ennemis,															
-18972	Ne qui plus s'en soit entremis,	ou qui en est menées plus que lui.															
+18972	Ne qui plus s'en soit entremis,	ou qui en ait menées plus que lui.															
 18973	Si vos porroit avoir mestier,	Il pourrait vous être fort utile,															
 18974	Se guerre voulïez traitier.	si vous aviez vous-même à partir en guerre.															
 18975	Se besoing vos venoit, ce cuit,	Car, si besoin était, je crois															
@@ -19095,40 +19095,40 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 19094	Onques ne vi ne roi ne conte	Je n'ai jamais vu de roi ou de comte,															
 19095	Qui de Renart s'entremeïst	qui ait voulu s'occuper de Renart,															
 19096	Qu'en la fin mal ne l'en preïst.	pour qui ça ne se soit pas mal terminer.															
-19097	Deable vos ont fet mesage	diable vous ont fait messager															
-19098	Qui avez empris cest voiage	qui avez entrepris ce voyage															
-19099	A porter a Renart barat.	à porter à Renart ruse.															
-19100	Membre vos de Tybert le chat	rappelez vous de Tibert le chat															
-19101	A qui il fist prandre mal mors,	à qui il a fait prendre mal morceau,															
-19102	Et de Belin et de Brun l'ors	et de Belin et de Brun l'ours															
+19097	Deable vos ont fet mesage	Le diable a fait de vous un messager,															
+19098	Qui avez empris cest voiage	vous poussant à entreprendre ce voyage,															
+19099	A porter a Renart barat.	pour porter un cadeau empoisonné à Renart.	barat	cadeau empoisonné													
+19100	Membre vos de Tybert le chat	Rappelez-vous de Tibert le chat,															
+19101	A qui il fist prandre mal mors,	à qui il a fait prendre un mauvais morceau,															
+19102	Et de Belin et de Brun l'ors	et de Belin, et de Brun l'ours															
 19103	A qui il fist perdre la pel	à qui il a fait perdre la peau															
 19104	Des oreilles dusc'au musel.	des oreilles jusqu'au museau.															
-19105	Por la char bieu ne savez vos	pour la chair Dieu ne savez vous															
-19106	C'onques nul bien ne fist le rous,	que jamais aucun bien ne a fait le roux,															
-19107	Cil qui tant set de put estrace,	celui-ci qui tant sait de sale race,															
-19108	Et or cuidiez que bien vos face !	et donc croyez que bien vous fasse !															
-19109	Si m'aït Diex, mout me merveil	que m'aide Dieu, beaucoup me étonne															
-19110	Ou vos avez pris tel conseil.	où vous avez pris tel conseil.															
-19111	Bien sai, se vos me creïez,	bien sais, si vous me croyez,															
-19112	Que ja cele part n'irïez.	que jamais cette part n'iriez.															
-19113	— Dame, fet il, par saint Mandé,	— dame, fait-il, par saint Mandé,						x									
-19114	Puis que li rois l'a conmandé,	puis que le roi l'a ordonné,															
-19115	Et por le cors saint Boniface,	et pour le relique saint Boniface,															
-19116	Dont n'est ce droiz que je i aille ?	donc n'est ce juste que je y aille ?															
-19117	Ne fust pas droiz, se Dex m'aït,	ni fut pas juste, que Dieu m'aide,															
-19118	Que je l'eüsse escondit	que je l'aurais excuse															
-19119	Chose que li peüsse fere.	chose que lui pourrais faire.															
-19120	Et puis c'ai enpris cest afere	et puis ce ai entrepris cette affaire															
-19121	Voirs est que li conseuls est pris.	vrai est que le décision est pris.															
-19122	Si ai a ceste foiz mespris,	si ai à cette fois mal agi,															
-19123	Une autre foiz me garderé,	une autre fois me garderai,															
-19124	Mes cest mesage forniré	mais ce message fournirai															
-19125	Quant il li vient a volenté,	quand il lui vient à volonté,															
-19126	Et puis que je l'ai creanté	et puis que je l'ai promis															
-19127	Que ja por home nel leré.	que jamais pour homme ne le abandonnerai.															
-19128	— Sire, dist ele, or m'en teré,	— seigneur, dit-elle, maintenant m'en tairai,															
-19129	Car bien voi que riens n'i feroie	car bien vois que rien n'y ferais															
-19130	Et que pas ne vos retendroie. »	et que pas ne vous retiendrai. »				x											
+19105	Por la char bieu ne savez vos	Pour l'amour de Dieu, ne savez-vous donc pas	Por la char bieu	Pour l'amour de Dieu													
+19106	C'onques nul bien ne fist le rous,	que le rouquin n'a jamais rien fait de bien,															
+19107	Cil qui tant set de put estrace,	lui qui s'y connaît tant en sale coups,	Cil qui tant set de put estrace	lui qui s'y connaît tant en sale coups													
+19108	Et or cuidiez que bien vos face !	et vous croyez vraiment qu'il vous en fera !															
+19109	Si m'aït Diex, mout me merveil	Que Dieu m'aide, je me demande vraiment															
+19110	Ou vos avez pris tel conseil.	comment vous avez pu suivre un tel conseil.															
+19111	Bien sai, se vos me creïez,	Je sais pourtant que si vous m'écoutiez un peu,															
+19112	Que ja cele part n'irïez.	jamais vous n'iriez là-bas.															
+19113	— Dame, fet il, par saint Mandé,	— Femme, fait-il, par saint Mandé,	Dame	Femme				x									
+19114	Puis que li rois l'a conmandé,	et par les reliques de saint Boniface,															
+19115	Et por le cors saint Boniface,	parce que le roi me l'a ordonné,															
+19116	Dont n'est ce droiz que je i aille ?	n'est-il pas normal que je y aille ?															
+19117	Ne fust pas droiz, se Dex m'aït,	Il n'aurait pas été correct, que Dieu m'aide,															
+19118	Que je l'eüsse escondit	de refuser quelque chose															
+19119	Chose que li peüsse fere.	que je pourrais faire pour lui.															
+19120	Et puis c'ai enpris cest afere	Et, puisque j'ai entrepris ce voyage,															
+19121	Voirs est que li conseuls est pris.	c'est que la décision est bel et bien prise.															
+19122	Si ai a ceste foiz mespris,	Si c'est une erreur de le faire,	Si ai a ceste foiz mespris	Si c'est une erreur de le faire													
+19123	Une autre foiz me garderé,	je me garderai de la faire une autre fois,															
+19124	Mes cest mesage forniré	mais je délivrerai ce message															
+19125	Quant il li vient a volenté,	conformément à sa volonté,															
+19126	Et puis que je l'ai creanté	et comme je l'ai promis,															
+19127	Que ja por home nel leré.	je n'abandonnerai pour aucune raison au mode.															
+19128	— Sire, dist ele, or m'en teré,	— Seigneur, dit-elle, alors je n'ai rien à ajouter,															
+19129	Car bien voi que riens n'i feroie	car je vois bien vois que rien n'y ferait,															
+19130	Et que pas ne vos retendroie. »	et que je ne parviendrai pas à vous retenir. »				x											
 19131	A tant laisierent le plaidier,							x									
 19132	Li lit sont fet, si vont couchier																
 19133	Jusque au matin a l'ajornee.																
