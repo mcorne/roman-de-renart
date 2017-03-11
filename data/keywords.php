@@ -42,7 +42,7 @@ return [
     'Primaut'        => '~Primaut~u',
     'Rainsant'       => '~Rainsant~u',
     'Renart'         => '~Renart~u',
-    'Roonel'         => '~Roonel~u',
+    'Ronel'          => '~Ronel~u',
     'Rougel'         => '~Rougel~u',
     'Tibert'         => '~Tibert~u',
     'Tiécelin'       => '~Tiécelin~u',
