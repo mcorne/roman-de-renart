@@ -479,7 +479,7 @@ class Text
     {
         $file = '/../data/verses.csv';
 
-        if (! $lines = @file(__DIR__ . $file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES)) {
+        if (! $lines = file(__DIR__ . $file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES)) {
             throw new Exception("cannot read file: $file");
         }
 
@@ -636,7 +636,7 @@ class Text
      */
     public function readFile($file)
     {
-        if (! $content = @file_get_contents($file)) {
+        if (! $content = file_get_contents($file)) {
             throw new Exception("cannot read file: $file");
         }
 

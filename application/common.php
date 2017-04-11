@@ -190,7 +190,7 @@ function read_csv($filename, $column_header = null)
  */
 function read_file($filename)
 {
-    if (! $content = @file_get_contents($filename)) {
+    if (! $content = file_get_contents($filename)) {
         throw new Exception("cannot read $filename");
     }
 

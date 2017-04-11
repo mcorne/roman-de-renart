@@ -61,6 +61,6 @@ try {
                 break;
         }
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     echo "\nerror! " . $e->getMessage();
 }

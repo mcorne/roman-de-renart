@@ -55,6 +55,6 @@ try {
     } else {
         throw new Exception('Option c or g missing');
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     echo $e->getMessage();
 }

@@ -134,6 +134,6 @@ try {
         $html = $text->makeTableOfContents($episodes);
         echo "\n" . $text->saveWidget($html, 'table-of-contents.html', 'table of contents', $verification_only) . "\n";
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     echo $e->getMessage();
 }
