@@ -77,7 +77,9 @@ return array(
     'reconnaitr'  => 'reconnaîtr',  // always with "î"
     'Renard'      => 'Renart',
     "(s'est fait \p{L})é" => "$1er",// as in "s'est fait attaquer"
+    'sans faute'  => 'sans-faute',
     'sièger'      => 'siéger',      // as in "siégera"
+    'sur le champ'=> 'sur-le-champ',
     'sureté'      => 'sûreté',
     'térrible'    => 'terrible',
     'train'       => 'traîn',
