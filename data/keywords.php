@@ -44,6 +44,7 @@ return [
     'Renart'         => '~Renart~u',
     'Ronel'          => '~Ronel~u',
     'Rougel'         => '~Rougel~u',
+    'Rovel'          => '~Rovel~u',
     'Tibert'         => '~Tibert~u',
     'Tiécelin'       => '~Tiécelin~u',
     'Timer'          => '~Timer~u',
