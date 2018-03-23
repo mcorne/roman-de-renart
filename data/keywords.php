@@ -30,6 +30,7 @@ return [
     'Liétart'        => '~Liétart~u',
     'Malebranche'    => '~Malebranche~u',
     'Maupertuis'     => '~Maupertuis~u',
+    'Morant'         => '~Morant~u',
     'Mouflard'       => '~Mouflard~u',
     'Musard'         => '~Musard~u',
     'Noble'          => '~Noble~u',
