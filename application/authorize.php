@@ -8,6 +8,7 @@
  * @license   http://www.opensource.org/licenses/gpl-3.0.html GNU GPL v3
  */
 require_once 'Blog.php';
+require_once 'common.php';
 
 /**
  * The command help.
@@ -34,6 +35,8 @@ try {
     if (! $options = getopt('hc:gp:u:')) {
         throw new Exception('Invalid or missing option(s)');
     }
+
+    $options += read_password_file();
 
     if (isset($options['h'])) {
         // displays the command usage (help)

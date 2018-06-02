@@ -220,6 +220,26 @@ function read_line($line)
 }
 
 /**
+ *
+ * @return array
+ */
+function read_password_file()
+{
+    $filename = __DIR__ . '/password.php';
+
+    if (! file_exists($filename)) {
+        return array();
+    }
+
+    $options = require $filename;
+
+    $options['u'] = openssl_decrypt($options['u'], 'AES-128-ECB', '1234567812345678');
+    $options['p'] = openssl_decrypt($options['p'], 'AES-128-ECB', '1234567812345678');
+
+    return $options;
+}
+
+/**
  * Validates the range of verse numbers.
  *
  * @param array $verses             the verses of the text

@@ -123,23 +123,17 @@ class Blog
     /**
      * Decrypts a string.
      *
-     * @param string $base64
+     * @param string $encrypted
      *
      * @return string
      *
      * @throws Exception
      */
-    public function decryptString($base64)
+    public function decryptString($encrypted)
     {
-        if (! $encrypted = base64_decode($base64)) {
-            throw new Exception('cannot base64 decode string');
-        }
-
-        if (! $decrypted = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, $this->encryptionKey, $encrypted, MCRYPT_MODE_CBC, $this->encryptionIv)) {
+        if (! $decrypted = openssl_decrypt($encrypted, 'AES-128-CBC', $this->encryptionKey, 0, $this->encryptionIv)) {
             throw new Exception('cannot decrypt string');
         }
-
-        $decrypted = rtrim($decrypted, "\0");
 
         return $decrypted;
     }
@@ -155,16 +149,12 @@ class Blog
      */
     public function encryptString($string)
     {
-        if (! $encrypted = mcrypt_encrypt(MCRYPT_RIJNDAEL_128, $this->encryptionKey, $string, MCRYPT_MODE_CBC, $this->encryptionIv)) {
+        if (! $encrypted = openssl_encrypt($string, 'AES-128-CBC', $this->encryptionKey, 0, $this->encryptionIv)) {
             throw new Exception('cannot encrypt string');
         }
 
-        if (! $base64 = base64_encode($encrypted)) {
-            throw new Exception('cannot base64 encode string');
+        return $encrypted;
         }
-
-        return $base64;
-    }
 
     /**
      * Reads and decrypts the credentials.

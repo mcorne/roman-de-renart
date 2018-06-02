@@ -12,6 +12,7 @@
  * @link      https://roman-de-renart.blogspot.com/
  */
 require_once 'Blog.php';
+require_once 'common.php';
 require_once 'Text.php';
 
 define('OPTION_A', '-c -i -t');
@@ -60,6 +61,8 @@ try {
     if (! $options = getopt('haciln:p:tu:v')) {
         throw new Exception('invalid or missing option(s)');
     }
+
+    $options += read_password_file();
 
     if (isset($options['h'])) {
         // displays the command usage (help)
