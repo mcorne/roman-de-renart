@@ -15,6 +15,7 @@ return [
     'Chanteclin'     => '~Chanteclin~u',
     'Cointereau'     => '~Cointereau~u',
     'Constant'       => '~Constant~u',
+    'Couard'         => '~Couard~u',
     'Coupée'         => '~Coupée~u',
     'Drouin'         => '~Drouin~u',
     'Épinard'        => '~Épinard~u',
