@@ -22483,8 +22483,8 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 22482	Vos avez bien dit, par saint Pere.	par le Saint- Père, voilà qui est bien parlé.															
 22483	Einssi ert il, foi que vos doi ;	Il en sera ainsi, faites-moi confiance,															
 22484	Trestoz mes honmes manderé	je vais convoquer tous mes hommes															
-22485	Par non, que n'en lesseré un,	un par un, sans en oublier un seul,															
-22486	Tuit seront mandé en conmun. »	ils viendront tous ensemble. »															
+22485	Par non, que n'en lesseré un,	nominativement, sans en oublier un seul,															
+22486	Tuit seront mandé en conmun. »	ils devront venir tous ensemble. »															
 22487	Tantost fet escrire ses briés	Il fait rédiger les convocations sur-le-champ,															
 22488	Qui que soit biax ne qui soit griés,	et les fait envoyer à tous ses barons,															
 22489	Ses envoie par ses barons.	que ça ne plaise ou non.															
@@ -22494,25 +22494,25 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 22493	Le heriçon, le leu, le chien,	le hérisson, ni le loup, ni le chien,															
 22494	Tuit i vindrent sanz nul de tien.	tous viennent sans discuter.															
 22495	Bernart l'arceprestres i vint	Bernard l'archiprêtre vient															
-22496	Et Baucent que par la main tint ;	avec Baucent, qui le tient par la main,															
-22497	Si vint li tors sire Bruiant,	arrivent ensuite seigneur Bruyant le taureau,															
+22496	Et Baucent que par la main tint ;	avec Baucent, main dans la main.															
+22497	Si vint li tors sire Bruiant,	Arrivent ensuite seigneur Bruyant le taureau,															
 22498	Brun li ors et sire Ferrant	Brun l'ours, seigneur Ferrant															
 22499	Le roncins et Tyberz li chaz,	le cheval, Tibert le chat,															
 22500	Et mesire Pelez li raz,	messire Pelé le rat,															
 22501	Et Brichemer et Ysengrin,	Brichemer, Ysengrin,															
 22502	Et dant Rousiaus et dant Belin.	seigneur Roussel et seigneur Belin.															
 22503	Et Roonel laschie le frain,	Ronel arrive à toute allure,															
-22504	Et il est Coarz main a main.	main dans la main avec Couard.															
-22505	Si est venuz dant Chantecler	Arrive ensuite Seigneur Chantecler															
-22506	Li cos qui est fort bacheler,	le coq,  un vaillant jeune homme,															
-22507	Li singes i vint de sa part,	le singe vient de son côté,															
+22504	Et il est Coarz main a main.	côte à côte avec Couard.															
+22505	Si est venuz dant Chantecler	Puis arrivent Seigneur Chantecler															
+22506	Li cos qui est fort bacheler,	le coq, un tout jeune homme,															
+22507	Li singes i vint de sa part,	le singe à ses côtés,															
 22508	Hardiz li connins et Rouart	ainsi que Hardi le lapin et Rouard															
 22509	Li corbiax frere Tiecelin.	le corbeau, le frère de Tiécelin.															
-22510	Tant en i vient par le chemin	Ils sont tellement sur le chemin															
-22511	Qu'il n'i paroit que gonfanons.	qu'on voit une nuée d’étendards.															
+22510	Tant en i vient par le chemin	Ils sont si nombreux sur le chemin															
+22511	Qu'il n'i paroit que gonfanons.	qu'on ne voit qu’une nuée d’étendards.															
 22512	Frobert i vint li gresillons	Frobert le grillon arrive à sont tour,															
 22513	A grant destroit, a grant estrif ;	en se débattant avec difficulté.	A grant destroit, a grant estrif	en se débattant avec difficulté													
-22514	Trestuit i vindrent fors Tardif.	Isl sont tous là sauf Tardif.															
+22514	Trestuit i vindrent fors Tardif.	Ils sont tous là sauf Tardif.															
 22515	Li rois est apuiez as estres,	Le roi est accoudé sur le rebord															
 22516	Si regarda par les fenestres,	d’une fenêtre et les observent															
 22517	Vit venir penons et ensaingnes.	avec leurs bannières et leurs étendards.															
@@ -22522,9 +22522,9 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 22521	Vers toz honmes par lor puissance ;	de ses ennemis grâce à leur force.															
 22522	De ce n'ai je nu le doutance,	Je n'en doute pas un instant,															
 22523	Bien seront li paien vaincu.	les païens seront bel et bien vaincus.															
-22524	Mout avront les gens Dieu vertu ;	Mes soldats sont animés par la force de Dieu															
-22525	Et son chevalier, ce m'est vis,	et de son chevalier, j’en suis sûr.															
-22526	Ainz mes tant ensemble n'en vis,	Ni moi, ni personne d’autre à mon avis,															
+22524	Mout avront les gens Dieu vertu ;	Grâce à Dieu, il y a tant de soldats															
+22525	Et son chevalier, ce m'est vis,	et de chevaliers qu’à mon avis,															
+22526	Ainz mes tant ensemble n'en vis,	personne, y compris moi,															
 22527	Non fist nul honme a mon cuidier. »	n'en a jamais vu autant ensemble. »															
 22528	Et cil se prannent a logier	Tous s'installent															
 22529	Es prez qui erent biax et lons,	dans les grands prés alentour,															
@@ -22534,14 +22534,14 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 22533	Et li haut barons avec lui.	accompagné des grands barons.															
 22534	Li rois mout bien les recoilli	Le roi les accueille à bras ouverts,															
 22535	Et lor fist grant joie et grant feste,	dans la joie et la bonne humeur,															
-22536	A toz lor a conté son estre,	leur donne de ses nouvelles,															
-22537	Et dist : « Seignors, a vos trestoz	puis leur dit : « Seigneurs, sachez bien tous															
-22538	Me plaing des paiens a estrouz	que je suis très ennuyé par ces païens															
+22536	A toz lor a conté son estre,	prend des nouvelles de chacun,															
+22537	Et dist : « Seignors, a vos trestoz	puis leur dit : « Seigneurs, sachez tous															
+22538	Me plaing des paiens a estrouz	que je suis très ennuyé à cause des païens															
 22539	Que je voi en ma terre entrez.	qui sont entrés sur mes terres.															
 22540	Mes chastiax et mes fermetez	Leurs soldats prennent de force															
 22541	Pranent a force de lor gent.	mes châteaux et mes forteresses.															
 22542	Sachiez ce ne m'est bel ne gent	Sachez que ça ne me plaît pas du tout															
-22543	Que il sont tant par vos soufert.	car ils nous causent beaucoup de tort.	Que il sont tant par vos soufert	car ils nous causent beaucoup de tort													
+22543	Que il sont tant par vos soufert.	qu’ils aient fait tant de mal sous vos yeux.	Que il sont tant par vos soufert	qu’ils aient fait tant de mal sous vos yeux													
 22544	Li chameus malement nos sert	Leurs chameaux nous portent malheur															
 22545	Qui nos amainne ces paiens.	en nous amenant tous ces païens.															
 22546	Mes nos avons des crestïens,	Mais nous avons là tant de chrétiens,															
@@ -22568,14 +22568,14 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 22567	Mesire Rousiaus saut avant,	Messire Roussel fait un bond en avant,															
 22568	Et dist oiant tote la gent :	et déclare haut et fort :															
 22569	« Seignors, seignors, n'atendez pas	« Seigneurs, seigneurs, n'attendez pas															
-22570	Tardif, qar il ne vendra pas,	Tardif, il ne viendra pas,															
-22571	Que il est mors, n'en doutez mie. »	car il est mort, sachez-le bien. »															
+22570	Tardif, qar il ne vendra pas,	Tardif car il ne viendra pas,															
+22571	Que il est mors, n'en doutez mie. »	sachez qu’il est mort. »															
 22572	Li rois a la parole aïe,	Le roi est bien triste															
-22573	S'en fu dolent et si li dist :	en entendant cela, alors il demande :															
+22573	S'en fu dolent et si li dist :	en entendant cela, alors il lui demande :															
 22574	« Rousel, di moi, se Diex t'aïst,	« Roussel, dis-moi, que Dieu soit avec toi,															
 22575	En quel lieu fu mort et conment.	où et comme a-t-il trouvé la mort ?															
 22576	— Sire, fait il, se Diex m'ament,	— Seigneur, fait-il, que Dieu me préserve,															
-22577	Je sai bien que il fu ocis,	je vous l’affirme, il s’est fait tué,															
+22577	Je sai bien que il fu ocis,	je vous affirme qu’il s’est fait tué,															
 22578	Et si le vi, je vos plevis,	je l’ai vu, je vous le garantis,															
 22579	Tout mort, et si vi bien la plaie. »	raide mort, j’ai bien vu sa plaie. »															
 22580	Li rois l'oï, mout s'en esmaie,	Le roi est affligé d’entendre cela,															
@@ -22588,19 +22588,19 @@ verse-number	original-verse	translated-verse	original-verse-to-confirm	translate
 22587	Puis que perdu l'avez par mort,	Maintenant que vous l'avez perdu,															
 22588	Querez qui le gonfanon port,	vous devez trouver quelqu'un à qui donner															
 22589	A qui que le doiez baillier ;	le gonfanon pour le porter,															
-22590	Il vos covient gonfanonnier.	car il vous faut absolument un porte-étendard.															
+22590	Il vos covient gonfanonnier.	car il vous faut un nouveau porte-étendard.															
 22591	— Voirs est, dist li rois, par mon chief,	— C'est bien vrai, lui répond le roi, ma foi,															
 22592	Or gardez que ne vos soit grief,	assurez-vous que le vassal choisi	Or gardez que ne vos soit grief	assurez-vous que le vassal choisi													
 22593	De quel vassal nos le ferons.	soit le bon.	De quel vassal nos le ferons	soit le bon													
-22594	— Sire, bon conseil i metrons. »	— Seigneur, nous prendrons la bonne décision. »															
+22594	— Sire, bon conseil i metrons. »	— Sire, nous prendrons la bonne décision. »															
 22595	Fait chascun de la seue part.	Chacun acquiesce de son côté.	Fait chascun de la seue part	Chacun acquiesce de son côté													
-22596	A tant es vos les filz Renart,	Voilà alors les fils de Renart,															
+22596	A tant es vos les filz Renart,	Voici qu’arrivent les fils de Renart,															
 22597	Tuit .III. sont el palés monté	tous trois montent au palais,															
 22598	Si ont le roi haut salué	et salue le roi comme il faut															
 22599	Que mout sont de bele parole.	car ils ont été bien éduqués.															
 22600	Li rois les conjot et acole,	Le roi les accueille et les embrasse															
-22601	Conme celui qui est cortois,	avec élégance,															
-22602	Li rois les a assis touz trois	les fait asseoir tous les trois															
+22601	Conme celui qui est cortois,	avec courtoisie,															
+22602	Li rois les a assis touz trois	puis les fait asseoir tous les trois															
 22603	Et dist que mout sont bel et gent.	en les complimentant.															
 22604	Maintenant conmande a sa gent	Il rappelle ensuite à ses hommes															
 22605	Que entre eus gonfanonnier facent	de choisir le nouveau porte-étendard															
