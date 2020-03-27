@@ -656,6 +656,7 @@ class Text
         $html = preg_replace('~^ +<input id="rdr-translation-in-progress-date" type="hidden" value=".+?"/>$~m', '', $html);
         $html = preg_replace('~^\s*Generated.+?$~m', '', $html);
         $html = preg_replace('~^\s*@copyright.+?$~m', '', $html);
+        $html = str_replace("\r\n", "\n", $html);
 
         return $html;
     }
