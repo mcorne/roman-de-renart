@@ -1,4 +1,4 @@
-à 	original-verse	translated-verse	original-verse-to-confirm	translated-verse-to-confirm	episode-number	is-last-verse	top-margin	indentation	story-title	episode-title	url	image-src	image-href	section-original-title	section-translated-title	vol-1-fixes (fhs)	vol-2-fixes (mc)
+verse-number	original-verse	translated-verse	original-verse-to-confirm	translated-verse-to-confirm	episode-number	is-last-verse	top-margin	indentation	story-title	episode-title	url	image-src	image-href	section-original-title	section-translated-title	vol-1-fixes (fhs)	vol-2-fixes (mc)
 1	Seigneurs, oï avez maint conte	Messieurs, vous avez entendu maintes histoires			0			x	Prologue	Le livre	2009/02/prologue-le-livre.html	https://2.bp.blogspot.com/-i_6eODNdyJg/V-_SlRyD9-I/AAAAAAAAHpI/uN4XUAiEGhMl3V2nwmtxHtcETuK8zrNaQCLcB/s320/01a-renart-contre-ysengrin.jpg		Les enfances Renart (1)	Les exploits de jeunesse de Renart		
 2	Que maint conteres vos aconte,	que de nombreux conteurs vous ont rapportées :															
 3	Conment Paris ravi Helayne,	comment Pâris ravit Hélène,															
@@ -26304,14 +26304,14 @@
 26303	Encore en est toz corrouciez. »	il ne l'a toujours pas digéré. »															
 26304	Lors s'est Tybert en piez dreciez,	Tibert se dresse alors sur ses pattes,															
 26305	Puis que li rois por lui parole.	en entendant le roi parler de son cas,															
-26306	Vers Renart a la teste mole ;	il lève la tête mollement vers Renard,															
+26306	Vers Renart a la teste mole ;	il lève la tête mollement vers Renar,															
 26307	Mout durement le redouta	car il le craint beaucoup															
 26308	Por l'escharpel ou le bouta,	depuis qu'il l'a lui-même poussé dans un piège.															
 26309	Ne ja, se li rois s'en teüst,	Il n'aurait d'ailleurs jamais pris la parole															
-26310	La parole n'en esmeüst,	si le roi n'avait rien dit,															
-26311	Que j'ai oï et escouté	car après avoir bien écouté															
-26312	C'on a tant sachié et bouté	comme l'accusation s'est fait malmener	C'on a tant sachié et bouté	comme l'accusation s'est fait malmener													
-26313	Que Renart s'en va au deseure.	Renart va finir par prendre le dessus.															
+26310	La parole n'en esmeüst,	si le roi n'avait rien dit.															
+26311	Que j'ai oï et escouté	Car après avoir bien écouté															
+26312	C'on a tant sachié et bouté	l'accusation se faire malmener,	C'on a tant sachié et bouté	l'accusation se faire malmener													
+26313	Que Renart s'en va au deseure.	Renart va finir par avoir le dessus.															
 26314	Bon taire feïst a cele eure.	Il aurait préféré garder le silence,															
 26315	En piez est en mi la meson,	mais maintenant qu'il est debout au milieu de la salle,															
 26316	Si a conmencié sa reson.	il commence alors son discours.															
@@ -26360,7 +26360,7 @@
 26359	Tybert a mout vers moi mespris.	Tibert a certes très mal agi envers moi,															
 26360	S'il m'avoit fet encore pis,	mais même s'il avait fait pire,															
 26361	Si le voussisiez bien a certes,	puisque vous le voulez vraiment,															
-26362	S'en soufferroie ge les pertes.	j'en accepte les conséquences. 															
+26362	S'en soufferroie ge les pertes.	j'en accepte les conséquences.															
 26363	Biau sire, vostre loement	Mon cher roi, je m'en tiendrai															
 26364	Vueil ge fere mout bonement	tout simplement à votre recommandation,															
 26365	Et ce que cist baron m'en prient.	ainsi que tous les barons m'en prient.															
@@ -26429,124 +26429,124 @@
 26428	Tot sanz orgueil et sanz desroi ;	en toute humilité et sans provocation,															
 26429	Si soit la pes sanz contredit. »	et que la paix soit faite sans discussion. »															
 26430	Dist Brun : « Platiaus, bien avez dit. »	Brun : « Plateau, voilà qui est bien dit. »															
-26431	Ce dist li singes Cointeriaus :							x									
-26432	« Cist jugemenz est trop isniaux.																
-26433	Que direz vos dont de la reste																
-26434	Que Renart sor Ysengrin giete ?																
-26435	Je di par droit que premerains																
-26436	Li escondie cil as sainz,																
-26437	Que traïson, c'est lede chose,																
-26438	Mout est hardiz qui faire l'ose.																
-26439	— Par mes ieulz, ce dist li lieparz,							x									
-26440	Miex me contieng que cist esgarz																
-26441	Et je le lo tres bien ainsi. »																
-26442	Dist Grimbert : « Et je autresi. »																
-26443	A ce dit se tienent li troi																
-26444	Et li dui sivent lor ostroi.																
-26445	Ce dist li cers : « Gardons aprés,							x									
-26446	— Si m'aïst Diex, il se va pres,																
-26447	Puis que nos somes ci ensemble,																
-26448	Que je ne di ce que moi senble —																
-26449	Conment Renart doit amender																
-26450	La mesfaiture Chantecler. »																
-26451	Respont Grimbert : « Dites le, sire,																
-26452	Autresi l'avez vos a dire.																
-26453	— Dont di ge por bien et por droit																
-26454	Que tot sanz respit orendroit																
-26455	Devroit estre Renart desfait																
-26456	Por l'omicide qu'il a fait.																
-26457	As forches en doit penduz estre																
-26458	Au meins ou perdre le pié destre																
-26459	Que connut a la felonnie.																
-26460	Aprés le clain nel noia mie,																
-26461	Mout me semble qu'il s'est mesfaiz.																
-26462	Ensorquetot il a la pais,																
-26463	Que li rois a juree, enfraite. »																
-26464	Li singes a la langue traite,																
-26465	Si li fait moe par derriere,																
-26466	Puis parole en tel maniere :																
-26467	« Danz Brichemer, loez le vos ?																
-26468	— Oïl, voir, Cointerel, et vos ?																
-26469	— Or me semble que soiez yvres.																
-26470	Qui me donroit .IIM. livres,																
-26471	Ne diroie ge tel parole																
-26472	Devant le roi, que ele est fole,																
-26473	Qu'en jugera si haut baron																
-26474	A pendre con autre larron,																
-26475	Nis mesmement serjant le roi.																
-26476	Ja qui devant lui tel desroi																
-26477	Dira, ja gré ne l'en savra																
-26478	Ne ja miex ne l'en amera.																
-26479	Dont n'aï ge que Renart dist																
-26480	Que por le roi vengier le fist,																
-26481	En quel servise fu ledengiez ?																
-26482	Droiz est que miex l'entengiez.																
-26483	Bien me semble que ce soit droiz																
-26484	Ce que Renart fist por li rois,																
-26485	Puis qu'en son servise le fist.																
-26486	Se plus grant merveille feïst,																
-26487	Dont on li deüst fere anui,																
-26488	Doit li sires prendre sor lui ;																
-26489	Si ne jugiez mes del desroi.																
-26490	Li jugemenz iert sor le roi.																
-26491	Bien me senbleroit a droiture																
-26492	Que por ceste mesaventure																
-26493	Por Chantecler qui mout est preuz																
-26494	Et por la pes metre entr'eus deus,																
-26495	Que Renart l'en feïst homage																
-26496	En l'onorance del damage ;																
-26497	Li pIes me senble ainsi plus biax.																
-26498	— Dant Cointerel, ce dist Platiax																
-26499	Vos alez auques pres de bien,																
-26500	Mes ce ne loe ge de rien																
-26501	Que se li rois a son serjant																
-26502	.I. petitet maliciant,																
-26503	S'aucuns n'a son aaisement																
-26504	De faire son conmandement,																
-26505	Que li vassaus por ce l'ocie																
-26506	Par le pooir de sa mesnie.																
-26507	Mes s'aucun li fait deshonor,																
-26508	Mostrer le doit a son seignor.																
-26509	Li sires preigne la venjance																
-26510	A son gré de la mesestance.																
-26511	Issi me semble la droiture. »																
-26512	Grimbert qui de ce n'avoit cure																
-26513	Et ot esté a bone escole																
-26514	Li a rescoussé la parole :																
-26515	« Avoi, dist il, sire Platel,																
-26516	.I. poi nos prestez le batel																
-26517	Et vostre parole avalez.																
-26518	De tant selonc l'araisonez																
-26519	Que nului ne doit on tuer.																
-26520	Amors de seignors puet muer,																
-26521	Mes on dist, si le savez bien,																
-26522	Qui moi honore, et mon chien.																
-26523	Or por les sainz qui sont a Rome,																
-26524	G'iere serjanz a .I. riche home,																
-26525	Sa terre m'avra conmandee																
-26526	Qui par moi soit tres bien gardee,																
-26527	Et se nus i fait mesprison,																
-26528	Ne remaigne sanz venjoison,																
-26529	Puis me fera aucun laidure																
-26530	Qui de m'amor n'avera cure,																
-26531	Moi et mon seignor despira																
-26532	Et moi noient ne prisera,																
-26533	Je porrai vengier le medire.																
-26534	Puis si leré mon seignor dire,																
-26535	Dont sui ge por noient assis.																
-26536	N'est sages han, ce m'est avis,																
-26537	A la pais garder de la terre																
-26538	Et a l'onor mon seignor querre.																
-26539	Qui me dit honte ne mesfait,																
-26540	Mon seignor meïsmes le fait.																
-26541	Et Chantecler neu noia mie																
-26542	Que li vilains par felonnie																
-26543	Et Coupee tot sanz respit																
-26544	N'eüssent le roi en despit. »																
-26545	Dist Brichemer : « De ce le vi :																
-26546	Ne trait noient chascuns a lui.																
-26547	Li sires son talant fera,																
-26548	Por son home nel lessera. »					x											
+26431	Ce dist li singes Cointeriaus :	ce dit le singe Cointereau :						x									
+26432	« Cist jugemenz est trop isniaux.	« ce jugement est trop rapide.															
+26433	Que direz vos dont de la reste	que direz vous donc de la reste															
+26434	Que Renart sor Ysengrin giete ?	que Renart sur Ysengrin jette ?															
+26435	Je di par droit que premerains	je dis par droit que premier															
+26436	Li escondie cil as sainz,	le refuse celui-ci aux saint,															
+26437	Que traïson, c'est lede chose,	que trahison, c'est vilaine chose,															
+26438	Mout est hardiz qui faire l'ose.	très est hardis qui faire l'ose.															
+26439	— Par mes ieulz, ce dist li lieparz,	— par mais yeux, ce dit le léopard,						x									
+26440	Miex me contieng que cist esgarz	mieux me contient que ce jugement															
+26441	Et je le lo tres bien ainsi. »	et je le conseille très bien ainsi. »															
+26442	Dist Grimbert : « Et je autresi. »	dit Grimbert : « et moi aussi. »															
+26443	A ce dit se tienent li troi	à ce dit se tiennent le trois															
+26444	Et li dui sivent lor ostroi.	et les deux suivent leur accord.															
+26445	Ce dist li cers : « Gardons aprés,	ce dit le cerfs : « regardons après,						x									
+26446	— Si m'aïst Diex, il se va pres,	— puis m’aide Dieu, il se va près,															
+26447	Puis que nos somes ci ensemble,	puis que nous sommes ici ensemble,															
+26448	Que je ne di ce que moi senble —	que je ne dis ce que moi semble —															
+26449	Conment Renart doit amender	comment Renart doit réparer															
+26450	La mesfaiture Chantecler. »	la méfait Chantecler. »															
+26451	Respont Grimbert : « Dites le, sire,	répond Grimbert : « dites le, seigneur,															
+26452	Autresi l'avez vos a dire.	aussi l'avez vous à dire.															
+26453	— Dont di ge por bien et por droit	— dont dis je pour bien et pour droit															
+26454	Que tot sanz respit orendroit	que tout sans répit à l'instant															
+26455	Devroit estre Renart desfait	devrait être Renart terminé															
+26456	Por l'omicide qu'il a fait.	pour l’homicide qu'il à fait.															
+26457	As forches en doit penduz estre	aux gibet en doit pendu être															
+26458	Au meins ou perdre le pié destre	au moins ou perdre le pied droite															
+26459	Que connut a la felonnie.	que a reconnu à la félonie.															
+26460	Aprés le clain nel noia mie,	après le plainte ne le nia plus,															
+26461	Mout me semble qu'il s'est mesfaiz.	très me semble qu'il s'est coupable.															
+26462	Ensorquetot il a la pais,	surtout il a la paix,															
+26463	Que li rois a juree, enfraite. »	que le roi a jurée, enfreinte. »															
+26464	Li singes a la langue traite,	le singe a la langue tiré,															
+26465	Si li fait moe par derriere,	puis lui fait grimace par derrière,															
+26466	Puis parole en tel maniere :	puis parole en tel manière :															
+26467	« Danz Brichemer, loez le vos ?	« seigneur Brichemer, approuvez le vous ?															
+26468	— Oïl, voir, Cointerel, et vos ?	— oui, vrai, Cointereau, et vous ?															
+26469	— Or me semble que soiez yvres.	— maintenant me semble que soyez ivre.															
+26470	Qui me donroit .IIM. livres,	qui me donnerait deux mille livres,															
+26471	Ne diroie ge tel parole	ne dirais je tel parole															
+26472	Devant le roi, que ele est fole,	devant le roi, car elle est folle,															
+26473	Qu'en jugera si haut baron	qu'on jugera si haut baron															
+26474	A pendre con autre larron,	à pendre comme autre larron,															
+26475	Nis mesmement serjant le roi.	pas même pareillement serviteur le roi.															
+26476	Ja qui devant lui tel desroi	jamais qui devant lui tel désordre															
+26477	Dira, ja gré ne l'en savra	dira, jamais gré ne l'on saura															
+26478	Ne ja miex ne l'en amera.	ni jamais mieux ne l'on aimera.															
+26479	Dont n'aï ge que Renart dist	dont n'ai je que Renart dit															
+26480	Que por le roi vengier le fist,	que pour le roi venger le a fait,															
+26481	En quel servise fu ledengiez ?	en quel service fut insulté ?															
+26482	Droiz est que miex l'entengiez.	juste est que mieux l'entendiez.															
+26483	Bien me semble que ce soit droiz	bien me semble que ce soit juste															
+26484	Ce que Renart fist por li rois,	ce que Renart a fait pour le roi,															
+26485	Puis qu'en son servise le fist.	puis qu'en son service le a fait.															
+26486	Se plus grant merveille feïst,	si plus grand étonne fit,															
+26487	Dont on li deüst fere anui,	dont on lui devrait faire ennui,															
+26488	Doit li sires prendre sor lui ;	doit le seigneur prendre sur lui ;															
+26489	Si ne jugiez mes del desroi.	si ne jugé mais de le désordre.															
+26490	Li jugemenz iert sor le roi.	le jugement était sur le roi.															
+26491	Bien me senbleroit a droiture	bien me semblerait à raison															
+26492	Que por ceste mesaventure	que pour cette mésaventure															
+26493	Por Chantecler qui mout est preuz	pour Chantecler qui très est bon															
+26494	Et por la pes metre entr'eus deus,	et pour la paix mettre entre eux deux,															
+26495	Que Renart l'en feïst homage	que Renart l'on fit hommage															
+26496	En l'onorance del damage ;	en l'honneur de le dommage ;															
+26497	Li pIes me senble ainsi plus biax.	le affaire me semble ainsi plus beau.															
+26498	— Dant Cointerel, ce dist Platiax	— seigneur Cointereau, ce dit Plateau															
+26499	Vos alez auques pres de bien,	vous allez assez près de bien,															
+26500	Mes ce ne loe ge de rien	mais ce ne conseille je de chose															
+26501	Que se li rois a son serjant	que se lui roi à son serviteur															
+26502	.I. petitet maliciant,	un petit peu mauvais,															
+26503	S'aucuns n'a son aaisement	si aucun n'a pas son libre usage															
+26504	De faire son conmandement,	de faire son commandement,															
+26505	Que li vassaus por ce l'ocie	que le vassal pour ce tue															
+26506	Par le pooir de sa mesnie.	par le pouvoir de sa famille.															
+26507	Mes s'aucun li fait deshonor,	mais si aucun lui fait déshonneur,															
+26508	Mostrer le doit a son seignor.	montrer le doit à son seigneur.															
+26509	Li sires preigne la venjance	le seigneur prenne la vengeance															
+26510	A son gré de la mesestance.	à son gré de la malheur.															
+26511	Issi me semble la droiture. »	ainsi me semble la raison. »															
+26512	Grimbert qui de ce n'avoit cure	Grimbert qui de ce n'avait soin															
+26513	Et ot esté a bone escole	et avait été à bonne école															
+26514	Li a rescoussé la parole :	lui à repris la parole :															
+26515	« Avoi, dist il, sire Platel,	« eh là !, dit-il, seigneur Plateau,															
+26516	.I. poi nos prestez le batel	un peu nous prêtez le parole															
+26517	Et vostre parole avalez.	et votre parole ravaler.															
+26518	De tant selonc l'araisonez	de tant selon discours															
+26519	Que nului ne doit on tuer.	que personne ne doit on tuer.															
+26520	Amors de seignors puet muer,	amour de seigneurs peut bouger,															
+26521	Mes on dist, si le savez bien,	mais on dit, puis le savez bien,															
+26522	Qui moi honore, et mon chien.	qui moi honore, et mon chien.															
+26523	Or por les sainz qui sont a Rome,	maintenant pour les saint qui sont à Rome,															
+26524	G'iere serjanz a .I. riche home,	j'étais serviteur à un riche homme,															
+26525	Sa terre m'avra conmandee	sa terre m'aura commandée															
+26526	Qui par moi soit tres bien gardee,	qui par moi soit très bien gardée,															
+26527	Et se nus i fait mesprison,	et si aucun y fait injustice,															
+26528	Ne remaigne sanz venjoison,	ne reste sans vengeance,															
+26529	Puis me fera aucun laidure	puis me fera aucun tort															
+26530	Qui de m'amor n'avera cure,	qui de mon amour n'aura soin,															
+26531	Moi et mon seignor despira	moi et mon seigneur méprisera															
+26532	Et moi noient ne prisera,	et moi rien ne estimera,															
+26533	Je porrai vengier le medire.	je pourrais venger le medire.															
+26534	Puis si leré mon seignor dire,	puis alors laisserai mon seigneur dire,															
+26535	Dont sui ge por noient assis.	dont suis je pour rien assis.															
+26536	N'est sages han, ce m'est avis,	n'est intelligent homme, il me semble,															
+26537	A la pais garder de la terre	à la paix garder de la terre															
+26538	Et a l'onor mon seignor querre.	et à l'honneur mon seigneur chercher.															
+26539	Qui me dit honte ne mesfait,	qui me dit honte ne méfait,															
+26540	Mon seignor meïsmes le fait.	mon seigneur même le fait.															
+26541	Et Chantecler neu noia mie	et Chantecler ne nia pas															
+26542	Que li vilains par felonnie	que le paysan par félonie															
+26543	Et Coupee tot sanz respit	et Coupée tout sans répit															
+26544	N'eüssent le roi en despit. »	n'eussent le roi en mépris. »															
+26545	Dist Brichemer : « De ce le vi :	dit Brichemer : « de ce le ai vu :															
+26546	Ne trait noient chascuns a lui.	ne retire rien chacun à lui.															
+26547	Li sires son talant fera,	le seigneur son désir fera,															
+26548	Por son home nel lessera. »	pour son homme ne le laisserai. »				x											
 26549	Grimbert respont : « Voir dites, sire,							x									
 26550	Mes vos avez bien oï dire																
 26551	La truie fet sovent les maus																
