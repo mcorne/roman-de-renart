@@ -1,2 +1,11 @@
+# Install PHP on Linux
 sudo apt install php
 sudo apt install php-mbstring
+sudo apt install php-curl
+
+# Setup ~/.config on Linux (affects all projects)
+[user]
+        name = Michel Corne
+        email = mcorne@yahoo.com
+[credential]
+        helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
