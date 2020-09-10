@@ -532,7 +532,7 @@ class Text
             ++$lineNumber;
         }
 
-        if ($episodeBegining) {
+        if ($episodeBegining and $lineNumber < count($lines)) {
             throw new Exception("missing episode end, line: $lineNumber");
         }
 
